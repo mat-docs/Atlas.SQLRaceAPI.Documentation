@@ -1,0 +1,462 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface ILapCollection
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface ILapCollection
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MESL.SqlRace.Domain.Collections.ILapCollection">
+  
+  
+  <h1 id="MESL_SqlRace_Domain_Collections_ILapCollection" data-uid="MESL.SqlRace.Domain.Collections.ILapCollection" class="text-break">Interface ILapCollection
+  </h1>
+  <div class="markdown level0 summary"><p>The lap collection is responsible for managing the collection of laps for a session i.e. modifying end times
+for laps as they are added, and for ensuring that changes get persisted.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Collections.Generic.IList&lt;MESL.SqlRace.Domain.Lap&gt;.IndexOf(MESL.SqlRace.Domain.Lap)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.IList&lt;MESL.SqlRace.Domain.Lap&gt;.Insert(System.Int32, MESL.SqlRace.Domain.Lap)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.IList&lt;MESL.SqlRace.Domain.Lap&gt;.RemoveAt(System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.IList&lt;MESL.SqlRace.Domain.Lap&gt;.Item[System.Int32]</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.ICollection&lt;MESL.SqlRace.Domain.Lap&gt;.Add(MESL.SqlRace.Domain.Lap)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.ICollection&lt;MESL.SqlRace.Domain.Lap&gt;.Clear()</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.ICollection&lt;MESL.SqlRace.Domain.Lap&gt;.Contains(MESL.SqlRace.Domain.Lap)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.ICollection&lt;MESL.SqlRace.Domain.Lap&gt;.CopyTo(MESL.SqlRace.Domain.Lap[], System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.ICollection&lt;MESL.SqlRace.Domain.Lap&gt;.Remove(MESL.SqlRace.Domain.Lap)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.ICollection&lt;MESL.SqlRace.Domain.Lap&gt;.Count</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.ICollection&lt;MESL.SqlRace.Domain.Lap&gt;.IsReadOnly</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.IEnumerable&lt;MESL.SqlRace.Domain.Lap&gt;.GetEnumerator()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.Collections.html">MESL.SqlRace.Domain.Collections</a></h6>
+  <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
+  <h5 id="MESL_SqlRace_Domain_Collections_ILapCollection_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ILapCollection : IList&lt;Lap&gt;, ICollection&lt;Lap&gt;, IEnumerable&lt;Lap&gt;, IEnumerable</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="MESL_SqlRace_Domain_Collections_ILapCollection_Constants_" data-uid="MESL.SqlRace.Domain.Collections.ILapCollection.Constants*"></a>
+  <h4 id="MESL_SqlRace_Domain_Collections_ILapCollection_Constants" data-uid="MESL.SqlRace.Domain.Collections.ILapCollection.Constants">Constants</h4>
+  <div class="markdown level1 summary"><p>Gets the collection lap constants.
+Items containing binary data will not contain their data, however the data can be retrieved by calling GetBinaryData.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SessionDataItemsCollection&lt;LapConstant&gt; Constants { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Collections.SessionDataItemsCollection-1.html">SessionDataItemsCollection</a>&lt;<a class="xref" href="MESL.SqlRace.Domain.LapConstant.html">LapConstant</a>&gt;</td>
+        <td><p>The lap items.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_Collections_ILapCollection_DebouncePeriod_" data-uid="MESL.SqlRace.Domain.Collections.ILapCollection.DebouncePeriod*"></a>
+  <h4 id="MESL_SqlRace_Domain_Collections_ILapCollection_DebouncePeriod" data-uid="MESL.SqlRace.Domain.Collections.ILapCollection.DebouncePeriod">DebouncePeriod</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the de-bounce period for a lap.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">long DebouncePeriod { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>The de-bounce period.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_Collections_ILapCollection_FastestLap_" data-uid="MESL.SqlRace.Domain.Collections.ILapCollection.FastestLap*"></a>
+  <h4 id="MESL_SqlRace_Domain_Collections_ILapCollection_FastestLap" data-uid="MESL.SqlRace.Domain.Collections.ILapCollection.FastestLap">FastestLap</h4>
+  <div class="markdown level1 summary"><p>Gets the fastest lap in the collection. This is the lap with the shortest
+lap time where CountForFastestLap is true.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Lap FastestLap { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Lap.html">Lap</a></td>
+        <td><p>The fastest lap, or null if there is no suitable match.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_Collections_ILapCollection_LapItems_" data-uid="MESL.SqlRace.Domain.Collections.ILapCollection.LapItems*"></a>
+  <h4 id="MESL_SqlRace_Domain_Collections_ILapCollection_LapItems" data-uid="MESL.SqlRace.Domain.Collections.ILapCollection.LapItems">LapItems</h4>
+  <div class="markdown level1 summary"><p>Gets the collection lap data items.
+Items containing binary data will not contain their data, however the data can be retrieved by calling GetBinaryData.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SessionDataItemsCollection&lt;LapDataItem&gt; LapItems { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Collections.SessionDataItemsCollection-1.html">SessionDataItemsCollection</a>&lt;<a class="xref" href="MESL.SqlRace.Domain.LapDataItem.html">LapDataItem</a>&gt;</td>
+        <td><p>The lap items.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_Collections_ILapCollection_Maps_" data-uid="MESL.SqlRace.Domain.Collections.ILapCollection.Maps*"></a>
+  <h4 id="MESL_SqlRace_Domain_Collections_ILapCollection_Maps" data-uid="MESL.SqlRace.Domain.Collections.ILapCollection.Maps">Maps</h4>
+  <div class="markdown level1 summary"><p>Gets the collection lap maps.
+Items containing binary data will not contain their data, however the data can be retrieved by calling PopulateDataPoints.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">MapCollection&lt;LapMapBase&gt; Maps { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Collections.MapCollection-1.html">MapCollection</a>&lt;<a class="xref" href="MESL.SqlRace.Domain.LapMapBase.html">LapMapBase</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="MESL_SqlRace_Domain_Collections_ILapCollection_Overwrite_" data-uid="MESL.SqlRace.Domain.Collections.ILapCollection.Overwrite*"></a>
+  <h4 id="MESL_SqlRace_Domain_Collections_ILapCollection_Overwrite_MESL_SqlRace_Domain_Lap_System_Predicate_MESL_SqlRace_Domain_Lap__" data-uid="MESL.SqlRace.Domain.Collections.ILapCollection.Overwrite(MESL.SqlRace.Domain.Lap,System.Predicate{MESL.SqlRace.Domain.Lap})">Overwrite(Lap, Predicate&lt;Lap&gt;)</h4>
+  <div class="markdown level1 summary"><p>Overwrites first matching item with the specified item, else adds item to collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool Overwrite(Lap item, Predicate&lt;Lap&gt; func)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Lap.html">Lap</a></td>
+        <td><span class="parametername">item</span></td>
+        <td><p>The new item.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Predicate</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.Lap.html">Lap</a>&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td><p>The predicate func.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if item was overwritten</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_Collections_ILapCollection_RemoveAll_" data-uid="MESL.SqlRace.Domain.Collections.ILapCollection.RemoveAll*"></a>
+  <h4 id="MESL_SqlRace_Domain_Collections_ILapCollection_RemoveAll_System_Predicate_MESL_SqlRace_Domain_Lap__" data-uid="MESL.SqlRace.Domain.Collections.ILapCollection.RemoveAll(System.Predicate{MESL.SqlRace.Domain.Lap})">RemoveAll(Predicate&lt;Lap&gt;)</h4>
+  <div class="markdown level1 summary"><p>Removes all items matching predicate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool RemoveAll(Predicate&lt;Lap&gt; func)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Predicate</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.Lap.html">Lap</a>&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td><p>The predicate func.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if items were removed</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_Collections_ILapCollection_Update_" data-uid="MESL.SqlRace.Domain.Collections.ILapCollection.Update*"></a>
+  <h4 id="MESL_SqlRace_Domain_Collections_ILapCollection_Update_MESL_SqlRace_Domain_Lap_" data-uid="MESL.SqlRace.Domain.Collections.ILapCollection.Update(MESL.SqlRace.Domain.Lap)">Update(Lap)</h4>
+  <div class="markdown level1 summary"><p>Updates the specified lap, overwriting it&apos;s data with that in the passed lap instance. The
+lap instance passed must have been previously persisted to the session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Update(Lap lap)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Lap.html">Lap</a></td>
+        <td><span class="parametername">lap</span></td>
+        <td><p>The lap to update.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="MESL_SqlRace_Domain_Collections_ILapCollection_ItemAdded" data-uid="MESL.SqlRace.Domain.Collections.ILapCollection.ItemAdded">ItemAdded</h4>
+  <div class="markdown level1 summary"><p>Event fired when an item is added to the collection</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;ItemEventArgs&gt; ItemAdded</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.Collections.ItemEventArgs.html">ItemEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Extensions.LapExtensions.html#MESL_SqlRace_Domain_Extensions_LapExtensions_FindLap_MESL_SqlRace_Domain_Collections_ILapCollection_System_Int64_">LapExtensions.FindLap(ILapCollection, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Extensions.LapExtensions.html#MESL_SqlRace_Domain_Extensions_LapExtensions_IsInLastLap_MESL_SqlRace_Domain_Collections_ILapCollection_System_Int64_">LapExtensions.IsInLastLap(ILapCollection, Int64)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

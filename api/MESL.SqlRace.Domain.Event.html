@@ -1,0 +1,712 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Event
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Event
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MESL.SqlRace.Domain.Event">
+  
+  
+  <h1 id="MESL_SqlRace_Domain_Event" data-uid="MESL.SqlRace.Domain.Event" class="text-break">Class Event
+  </h1>
+  <div class="markdown level0 summary"><p>Domain entity representing an Event.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="MESL.SqlRace.Domain.EntityBase.html">EntityBase</a></div>
+    <div class="level2"><span class="xref">Event</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IDisposable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.html">MESL.SqlRace.Domain</a></h6>
+  <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
+  <h5 id="MESL_SqlRace_Domain_Event_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Event : EntityBase, IDisposable</code></pre>
+  </div>
+  <h5 id="MESL_SqlRace_Domain_Event_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>Class is marked to be serializable only for the purposes of Remoting.
+Events are used to mark specific moments in time by storing an arbitrary number of raw data (sensor samples).
+Before using an event an <a class="xref" href="MESL.SqlRace.Domain.EventDefinition.html">EventDefinition</a> needs to be created first to describe how the raw data
+should be converted to an engineering value.</p>
+</div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="MESL_SqlRace_Domain_Event__ctor_" data-uid="MESL.SqlRace.Domain.Event.#ctor*"></a>
+  <h4 id="MESL_SqlRace_Domain_Event__ctor_System_Int32_System_String_System_Int64_System_Collections_Generic_IEnumerable_System_Double__" data-uid="MESL.SqlRace.Domain.Event.#ctor(System.Int32,System.String,System.Int64,System.Collections.Generic.IEnumerable{System.Double})">Event(Int32, String, Int64, IEnumerable&lt;Double&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initialises a new instance of the <a class="xref" href="MESL.SqlRace.Domain.Event.html">Event</a> class
+Creates a new Event object with the required property values to create an Event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Event(int eventDefinitionKey, string groupName, long timeStamp, IEnumerable&lt;double&gt; rawData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">eventDefinitionKey</span></td>
+        <td><p>The event definition key (i.e. as supplied by the client).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">groupName</span></td>
+        <td><p>Name of the group with which this event is associated.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timeStamp</span></td>
+        <td><p>The time stamp.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><span class="parametername">rawData</span></td>
+        <td><p>The raw data for the event.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_Event__ctor_" data-uid="MESL.SqlRace.Domain.Event.#ctor*"></a>
+  <h4 id="MESL_SqlRace_Domain_Event__ctor_System_Int32_System_String_System_Int64_System_Collections_Generic_IEnumerable_System_Double__System_Boolean_" data-uid="MESL.SqlRace.Domain.Event.#ctor(System.Int32,System.String,System.Int64,System.Collections.Generic.IEnumerable{System.Double},System.Boolean)">Event(Int32, String, Int64, IEnumerable&lt;Double&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Initialises a new instance of the <a class="xref" href="MESL.SqlRace.Domain.Event.html">Event</a> class
+Creates a new Event object with the required property values to create an Event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Support for editable events will be removed in future version.&quot;)]
+public Event(int eventDefinitionKey, string groupName, long timeStamp, IEnumerable&lt;double&gt; rawData, bool editable)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">eventDefinitionKey</span></td>
+        <td><p>The event definition key (i.e. as supplied by the client).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">groupName</span></td>
+        <td><p>Name of the group with which this event is associated.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timeStamp</span></td>
+        <td><p>The time stamp.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><span class="parametername">rawData</span></td>
+        <td><p>The raw data for the event.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">editable</span></td>
+        <td><p>If set to <code>true</code> [is editable].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_Event__ctor_" data-uid="MESL.SqlRace.Domain.Event.#ctor*"></a>
+  <h4 id="MESL_SqlRace_Domain_Event__ctor_System_Int32_System_String_System_Int64_System_Collections_Generic_IEnumerable_System_Double__System_Boolean_System_String_" data-uid="MESL.SqlRace.Domain.Event.#ctor(System.Int32,System.String,System.Int64,System.Collections.Generic.IEnumerable{System.Double},System.Boolean,System.String)">Event(Int32, String, Int64, IEnumerable&lt;Double&gt;, Boolean, String)</h4>
+  <div class="markdown level1 summary"><p>Initialises a new instance of the <a class="xref" href="MESL.SqlRace.Domain.Event.html">Event</a> class
+Creates a new Event object with the required property values to create an Event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Support for editable events will be removed in future version.&quot;)]
+public Event(int eventDefinitionKey, string groupName, long timeStamp, IEnumerable&lt;double&gt; rawData, bool editable, string statusText)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">eventDefinitionKey</span></td>
+        <td><p>The event definition key (i.e. as supplied by the client).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">groupName</span></td>
+        <td><p>Name of the group with which this event is associated.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timeStamp</span></td>
+        <td><p>The time stamp.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><span class="parametername">rawData</span></td>
+        <td><p>The raw data for the event.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">editable</span></td>
+        <td><p>If set to <code>true</code> [is editable].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">statusText</span></td>
+        <td><p>The status text.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_Event__ctor_" data-uid="MESL.SqlRace.Domain.Event.#ctor*"></a>
+  <h4 id="MESL_SqlRace_Domain_Event__ctor_System_Int32_System_String_System_Int64_System_Collections_Generic_IEnumerable_System_Double__System_String_" data-uid="MESL.SqlRace.Domain.Event.#ctor(System.Int32,System.String,System.Int64,System.Collections.Generic.IEnumerable{System.Double},System.String)">Event(Int32, String, Int64, IEnumerable&lt;Double&gt;, String)</h4>
+  <div class="markdown level1 summary"><p>Initialises a new instance of the <a class="xref" href="MESL.SqlRace.Domain.Event.html">Event</a> class
+Creates a new Event object with the required property values to create an Event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Event(int eventDefinitionKey, string groupName, long timeStamp, IEnumerable&lt;double&gt; rawData, string statusText)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">eventDefinitionKey</span></td>
+        <td><p>The event definition key (i.e. as supplied by the client).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">groupName</span></td>
+        <td><p>Name of the group with which this event is associated.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timeStamp</span></td>
+        <td><p>The time stamp.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><span class="parametername">rawData</span></td>
+        <td><p>The raw data for the event.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">statusText</span></td>
+        <td><p>The status text.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="MESL_SqlRace_Domain_Event_ConvertedData_" data-uid="MESL.SqlRace.Domain.Event.ConvertedData*"></a>
+  <h4 id="MESL_SqlRace_Domain_Event_ConvertedData" data-uid="MESL.SqlRace.Domain.Event.ConvertedData">ConvertedData</h4>
+  <div class="markdown level1 summary"><p>Converted Data</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IList&lt;double&gt; ConvertedData { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_Event_EventDefinitionKey_" data-uid="MESL.SqlRace.Domain.Event.EventDefinitionKey*"></a>
+  <h4 id="MESL_SqlRace_Domain_Event_EventDefinitionKey" data-uid="MESL.SqlRace.Domain.Event.EventDefinitionKey">EventDefinitionKey</h4>
+  <div class="markdown level1 summary"><p>Gets the key (supplied by the client)
+of the event definition to be used for converting data in the event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int EventDefinitionKey { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The event definition id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_Event_GroupName_" data-uid="MESL.SqlRace.Domain.Event.GroupName*"></a>
+  <h4 id="MESL_SqlRace_Domain_Event_GroupName" data-uid="MESL.SqlRace.Domain.Event.GroupName">GroupName</h4>
+  <div class="markdown level1 summary"><p>Gets the name of the group.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GroupName { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_Event_IsEditable_" data-uid="MESL.SqlRace.Domain.Event.IsEditable*"></a>
+  <h4 id="MESL_SqlRace_Domain_Event_IsEditable" data-uid="MESL.SqlRace.Domain.Event.IsEditable">IsEditable</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether this instance is editable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsEditable { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_Event_Key_" data-uid="MESL.SqlRace.Domain.Event.Key*"></a>
+  <h4 id="MESL_SqlRace_Domain_Event_Key" data-uid="MESL.SqlRace.Domain.Event.Key">Key</h4>
+  <div class="markdown level1 summary"><p>Gets the Key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Key { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_Event_RawData_" data-uid="MESL.SqlRace.Domain.Event.RawData*"></a>
+  <h4 id="MESL_SqlRace_Domain_Event_RawData" data-uid="MESL.SqlRace.Domain.Event.RawData">RawData</h4>
+  <div class="markdown level1 summary"><p>Gets a read only collection of the raw data for the event. The position in the list of data must
+correspond to the position of the corresponding conversion function in the event
+definition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ReadOnlyCollection&lt;double&gt; RawData { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ReadOnlyCollection</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><p>The raw data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_Event_StatusText_" data-uid="MESL.SqlRace.Domain.Event.StatusText*"></a>
+  <h4 id="MESL_SqlRace_Domain_Event_StatusText" data-uid="MESL.SqlRace.Domain.Event.StatusText">StatusText</h4>
+  <div class="markdown level1 summary"><p>Gets the status text.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string StatusText { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_Event_TimeStamp_" data-uid="MESL.SqlRace.Domain.Event.TimeStamp*"></a>
+  <h4 id="MESL_SqlRace_Domain_Event_TimeStamp" data-uid="MESL.SqlRace.Domain.Event.TimeStamp">TimeStamp</h4>
+  <div class="markdown level1 summary"><p>Gets the timestamp marking the event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long TimeStamp { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_Event_UniqueEventKey_" data-uid="MESL.SqlRace.Domain.Event.UniqueEventKey*"></a>
+  <h4 id="MESL_SqlRace_Domain_Event_UniqueEventKey" data-uid="MESL.SqlRace.Domain.Event.UniqueEventKey">UniqueEventKey</h4>
+  <div class="markdown level1 summary"><p>Unique Guid for this Event Instance</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Guid UniqueEventKey { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="MESL_SqlRace_Domain_Event_Dispose_" data-uid="MESL.SqlRace.Domain.Event.Dispose*"></a>
+  <h4 id="MESL_SqlRace_Domain_Event_Dispose" data-uid="MESL.SqlRace.Domain.Event.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"><p>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+  
+  
+  <a id="MESL_SqlRace_Domain_Event_GetConvertedData_" data-uid="MESL.SqlRace.Domain.Event.GetConvertedData*"></a>
+  <h4 id="MESL_SqlRace_Domain_Event_GetConvertedData_System_Int32_" data-uid="MESL.SqlRace.Domain.Event.GetConvertedData(System.Int32)">GetConvertedData(Int32)</h4>
+  <div class="markdown level1 summary"><p>Gets converted data for the event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double GetConvertedData(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>index of the ConvertedData to retrieve</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The converted data, calculated by applying the relevant conversion functions.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="MESL_SqlRace_Domain_Event_GetConvertedData_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The index in the list of data corresponds to the position of the corresponding raw data.</p>
+</div>
+  
+  
+  <a id="MESL_SqlRace_Domain_Event_ToString_" data-uid="MESL.SqlRace.Domain.Event.ToString*"></a>
+  <h4 id="MESL_SqlRace_Domain_Event_ToString" data-uid="MESL.SqlRace.Domain.Event.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Returns a <span class="xref">System.String</span> that represents this instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A <span class="xref">System.String</span> that represents this instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.ToString()</span></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

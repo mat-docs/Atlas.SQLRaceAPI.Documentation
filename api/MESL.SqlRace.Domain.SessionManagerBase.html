@@ -1,0 +1,3376 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class SessionManagerBase
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class SessionManagerBase
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MESL.SqlRace.Domain.SessionManagerBase">
+  
+  
+  <h1 id="MESL_SqlRace_Domain_SessionManagerBase" data-uid="MESL.SqlRace.Domain.SessionManagerBase" class="text-break">Class SessionManagerBase
+  </h1>
+  <div class="markdown level0 summary"><p>Abstract base class for SessionManager, to facilitate testing.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">SessionManagerBase</span></div>
+      <div class="level2"><a class="xref" href="MESL.SqlRace.Domain.SessionManager.html">SessionManager</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.html">MESL.SqlRace.Domain</a></h6>
+  <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
+  <h5 id="MESL_SqlRace_Domain_SessionManagerBase_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class SessionManagerBase</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase__ctor_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.#ctor*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase__ctor" data-uid="MESL.SqlRace.Domain.SessionManagerBase.#ctor">SessionManagerBase()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SessionManagerBase()</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_Append_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.Append*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_Append_MESL_SqlRace_Domain_ConnectionInformationBase_MAT_OCS_Core_SessionKey_System_String_System_DateTime_System_String_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.Append(MESL.SqlRace.Domain.ConnectionInformationBase,MAT.OCS.Core.SessionKey,System.String,System.DateTime,System.String)">Append(ConnectionInformationBase, SessionKey, String, DateTime, String)</h4>
+  <div class="markdown level1 summary"><p>Opens an existing session in a state allowing more data to be added to the session. If
+the specified session does not yet exist, then a new session is created.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract IClientSession Append(ConnectionInformationBase connectionInformation, SessionKey key, string identifier, DateTime dateRecorded, string sessionType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConnectionInformationBase.html">ConnectionInformationBase</a></td>
+        <td><span class="parametername">connectionInformation</span></td>
+        <td><p>The connection information.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The session  key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>The identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">dateRecorded</span></td>
+        <td><p>The date recorded.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sessionType</span></td>
+        <td><p>Type of the session.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.IClientSession.html">IClientSession</a></td>
+        <td><p>Session to append.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_Append_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.Append*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_Append_MESL_SqlRace_Domain_ConnectionInformationBase_MAT_OCS_Core_SessionKey_System_String_System_DateTime_System_String_System_UInt32_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.Append(MESL.SqlRace.Domain.ConnectionInformationBase,MAT.OCS.Core.SessionKey,System.String,System.DateTime,System.String,System.UInt32)">Append(ConnectionInformationBase, SessionKey, String, DateTime, String, UInt32)</h4>
+  <div class="markdown level1 summary"><p>Opens an existing session in a state allowing more data to be added to the session. If
+the specified session does not yet exist, then a new session is created.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract IClientSession Append(ConnectionInformationBase connectionInformation, SessionKey key, string identifier, DateTime dateRecorded, string sessionType, uint teamId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConnectionInformationBase.html">ConnectionInformationBase</a></td>
+        <td><span class="parametername">connectionInformation</span></td>
+        <td><p>The connection information.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>The identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">dateRecorded</span></td>
+        <td><p>The date recorded.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sessionType</span></td>
+        <td><p>Type of the session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">teamId</span></td>
+        <td><p>The team id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.IClientSession.html">IClientSession</a></td>
+        <td><p>Session to append.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_CleanupZombieLiveSessions_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.CleanupZombieLiveSessions*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_CleanupZombieLiveSessions" data-uid="MESL.SqlRace.Domain.SessionManagerBase.CleanupZombieLiveSessions">CleanupZombieLiveSessions()</h4>
+  <div class="markdown level1 summary"><p>Cleanups the zombie live sessions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract int CleanupZombieLiveSessions()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_ClearAuditEntries_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.ClearAuditEntries*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_ClearAuditEntries_System_String_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.ClearAuditEntries(System.String)">ClearAuditEntries(String)</h4>
+  <div class="markdown level1 summary"><p>Clears all audit entries in the specified database.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void ClearAuditEntries(string connectionString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_Close_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.Close*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_Close_MESL_SqlRace_Domain_IClientSession_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.Close(MESL.SqlRace.Domain.IClientSession)">Close(IClientSession)</h4>
+  <div class="markdown level1 summary"><p>Closes the specified client session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void Close(IClientSession clientSession)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.IClientSession.html">IClientSession</a></td>
+        <td><span class="parametername">clientSession</span></td>
+        <td><p>The client session.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_CreateCompositeSession_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.CreateCompositeSession*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_CreateCompositeSession_System_String_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.CreateCompositeSession(System.String)">CreateCompositeSession(String)</h4>
+  <div class="markdown level1 summary"><p>Create a new instance of a CompositeSession</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract ICompositeSession CreateCompositeSession(string compositesessionidentifier)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">compositesessionidentifier</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ICompositeSession.html">ICompositeSession</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_CreateSession_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.CreateSession*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_CreateSession_MESL_SqlRace_Domain_ConnectionInformationBase_MAT_OCS_Core_SessionKey_System_String_System_DateTime_System_String_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.CreateSession(MESL.SqlRace.Domain.ConnectionInformationBase,MAT.OCS.Core.SessionKey,System.String,System.DateTime,System.String)">CreateSession(ConnectionInformationBase, SessionKey, String, DateTime, String)</h4>
+  <div class="markdown level1 summary"><p>Creates the session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract IClientSession CreateSession(ConnectionInformationBase connectionInformation, SessionKey key, string identifier, DateTime dateRecorded, string sessionType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConnectionInformationBase.html">ConnectionInformationBase</a></td>
+        <td><span class="parametername">connectionInformation</span></td>
+        <td><p>The connection information.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>The description.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">dateRecorded</span></td>
+        <td><p>The date recorded.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sessionType</span></td>
+        <td><p>Type of the session.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.IClientSession.html">IClientSession</a></td>
+        <td><p>Session that was created.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Authentication.AuthenticationException</span></td>
+        <td><p>Thrown if the SQL Race licence does not allow session creation or there is an issue with the licence (expired, not configured etc).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_CreateSession_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.CreateSession*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_CreateSession_System_String_MAT_OCS_Core_SessionKey_System_String_System_DateTime_System_String_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.CreateSession(System.String,MAT.OCS.Core.SessionKey,System.String,System.DateTime,System.String)">CreateSession(String, SessionKey, String, DateTime, String)</h4>
+  <div class="markdown level1 summary"><p>Creates the session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract IClientSession CreateSession(string connectionString, SessionKey key, string identifier, DateTime dateRecorded, string sessionType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>The description.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">dateRecorded</span></td>
+        <td><p>The date recorded.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sessionType</span></td>
+        <td><p>Type of the session.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.IClientSession.html">IClientSession</a></td>
+        <td><p>Session that was created.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Authentication.AuthenticationException</span></td>
+        <td><p>Thrown if the SQL Race licence does not allow session creation or there is an issue with the licence (expired, not configured etc).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_CreateSessionWithTeamId_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.CreateSessionWithTeamId*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_CreateSessionWithTeamId_MESL_SqlRace_Domain_ConnectionInformationBase_MAT_OCS_Core_SessionKey_System_String_System_DateTime_System_UInt32_System_String_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.CreateSessionWithTeamId(MESL.SqlRace.Domain.ConnectionInformationBase,MAT.OCS.Core.SessionKey,System.String,System.DateTime,System.UInt32,System.String)">CreateSessionWithTeamId(ConnectionInformationBase, SessionKey, String, DateTime, UInt32, String)</h4>
+  <div class="markdown level1 summary"><p>Create a session with a teamId.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract IClientSession CreateSessionWithTeamId(ConnectionInformationBase connectionInformation, SessionKey key, string identifier, DateTime dateRecorded, uint teamId, string sessionType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConnectionInformationBase.html">ConnectionInformationBase</a></td>
+        <td><span class="parametername">connectionInformation</span></td>
+        <td><p>The connection information.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>GUID key that uniquely identifies a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>Identifier of the session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">dateRecorded</span></td>
+        <td><p>Date and time the session was recorded.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">teamId</span></td>
+        <td><p>TeamID that this session will be associated with.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sessionType</span></td>
+        <td><p>Type of the session.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.IClientSession.html">IClientSession</a></td>
+        <td><p><a class="xref" href="MESL.SqlRace.Domain.Session.html">Session</a> that was created.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Authentication.AuthenticationException</span></td>
+        <td><p>Thrown if the SQL Race licence does not allow session creation or there is an issue with the licence (expired, not configured etc).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_CreateSessionWithTeamId_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.CreateSessionWithTeamId*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_CreateSessionWithTeamId_System_String_MAT_OCS_Core_SessionKey_System_String_System_DateTime_System_UInt32_System_String_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.CreateSessionWithTeamId(System.String,MAT.OCS.Core.SessionKey,System.String,System.DateTime,System.UInt32,System.String)">CreateSessionWithTeamId(String, SessionKey, String, DateTime, UInt32, String)</h4>
+  <div class="markdown level1 summary"><p>Someone should take this overloaded method with the &apos;teamId&apos; argument and save it in the session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract IClientSession CreateSessionWithTeamId(string connectionString, SessionKey key, string identifier, DateTime dateRecorded, uint teamId, string sessionType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>Connection string the SQL Race database.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>GUID key that uniquely identifies a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>Identifier of the session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">dateRecorded</span></td>
+        <td><p>Date and time the session was recorded.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">teamId</span></td>
+        <td><p>TeamID that this session will be associated with.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sessionType</span></td>
+        <td><p>The session type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.IClientSession.html">IClientSession</a></td>
+        <td><p>Session that was created.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Authentication.AuthenticationException</span></td>
+        <td><p>Thrown if the SQL Race licence does not allow session creation or there is an issue with the licence (expired, not configured etc).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_Delete_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.Delete*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_Delete_MAT_OCS_Core_SessionKey_MESL_SqlRace_Domain_ConnectionInformationBase_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.Delete(MAT.OCS.Core.SessionKey,MESL.SqlRace.Domain.ConnectionInformationBase)">Delete(SessionKey, ConnectionInformationBase)</h4>
+  <div class="markdown level1 summary"><p>Logically deletes an existing session from the system (i.e. the session will remain in the database
+until it is removed).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void Delete(SessionKey key, ConnectionInformationBase connectionInformation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConnectionInformationBase.html">ConnectionInformationBase</a></td>
+        <td><span class="parametername">connectionInformation</span></td>
+        <td><p>Connection string to the SQL Race database.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_Delete_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.Delete*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_Delete_MAT_OCS_Core_SessionKey_System_String_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.Delete(MAT.OCS.Core.SessionKey,System.String)">Delete(SessionKey, String)</h4>
+  <div class="markdown level1 summary"><p>Deletes an existing session from the system.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void Delete(SessionKey key, string connectionString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>Connection string to the SQL Race database.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_ExportSession_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.ExportSession*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_ExportSession_System_String_MAT_OCS_Core_SessionKey_System_String_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.ExportSession(System.String,MAT.OCS.Core.SessionKey,System.String)">ExportSession(String, SessionKey, String)</h4>
+  <div class="markdown level1 summary"><p>Exports the session to the specified file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void ExportSession(string connectionString, SessionKey sessionKey, string filePath)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string for the database with the session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">sessionKey</span></td>
+        <td><p>The session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">filePath</span></td>
+        <td><p>The file path to export to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_ExportSession_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.ExportSession*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_ExportSession_System_String_MAT_OCS_Core_SessionKey_System_String_System_Collections_Generic_IReadOnlyList_System_String__System_Collections_Generic_IReadOnlyList_System_Int32__System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_String_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.ExportSession(System.String,MAT.OCS.Core.SessionKey,System.String,System.Collections.Generic.IReadOnlyList{System.String},System.Collections.Generic.IReadOnlyList{System.Int32},System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.String)">ExportSession(String, SessionKey, String, IReadOnlyList&lt;String&gt;, IReadOnlyList&lt;Int32&gt;, Boolean, Boolean, Boolean, Boolean, Boolean, String)</h4>
+  <div class="markdown level1 summary"><p>Exports a session with a list of specific parameter identifiers</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract FragmentedMemoryStream ExportSession(string connectionString, SessionKey sessionKey, string filePath, IReadOnlyList&lt;string&gt; parametersToExport, IReadOnlyList&lt;int&gt; lapsToExport, bool exportEvents, bool exportErrors, bool exportMarkers, bool exportSessionConstants, bool useActiveTeam, string sessionIdentifier)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string for the database with the session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">sessionKey</span></td>
+        <td><p>The session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">filePath</span></td>
+        <td><p>The file path to export to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">parametersToExport</span></td>
+        <td><p>List of parameter identifiers to export.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">lapsToExport</span></td>
+        <td><p>List of laps to export.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">exportEvents</span></td>
+        <td><p>Export Events.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">exportErrors</span></td>
+        <td><p>Export Errors.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">exportMarkers</span></td>
+        <td><p>Export Markers.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">exportSessionConstants</span></td>
+        <td><p>Export Session Constants.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">useActiveTeam</span></td>
+        <td><p>Use active team to export the session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sessionIdentifier</span></td>
+        <td><p>The identifier for the session</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">MESL.SqlRace.Common.FragmentedMemoryStream</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_ExportSessionWithNullTeamId_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.ExportSessionWithNullTeamId*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_ExportSessionWithNullTeamId_System_String_MAT_OCS_Core_SessionKey_System_String_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.ExportSessionWithNullTeamId(System.String,MAT.OCS.Core.SessionKey,System.String)">ExportSessionWithNullTeamId(String, SessionKey, String)</h4>
+  <div class="markdown level1 summary"><p>Exports the session to the specified file using UnknownTeamId.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void ExportSessionWithNullTeamId(string connectionString, SessionKey sessionKey, string filePath)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string for the database with the session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">sessionKey</span></td>
+        <td><p>The session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">filePath</span></td>
+        <td><p>The file path to export to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_Find_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.Find*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_Find_System_String_System_Nullable_System_Int32__System_Collections_Generic_IList_MESL_SqlRace_Domain_SessionState__System_Nullable_System_Boolean__" data-uid="MESL.SqlRace.Domain.SessionManagerBase.Find(System.String,System.Nullable{System.Int32},System.Collections.Generic.IList{MESL.SqlRace.Domain.SessionState},System.Nullable{System.Boolean})">Find(String, Nullable&lt;Int32&gt;, IList&lt;SessionState&gt;, Nullable&lt;Boolean&gt;)</h4>
+  <div class="markdown level1 summary"><p>Finds sessions within SQL Race with a maximum number returned.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract IList&lt;SessionSummary&gt; Find(string connectionString, int? maxCount, IList&lt;SessionState&gt; sessionStates, bool? sessionsWithNoChannelData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">maxCount</span></td>
+        <td><p>The maximum number of sessions to return.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.SessionState.html">SessionState</a>&gt;</td>
+        <td><span class="parametername">sessionStates</span></td>
+        <td><p>The session states being retrieved.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">sessionsWithNoChannelData</span></td>
+        <td><p>If set to <code>true</code> sessions with no channel data are returned. Default is <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.SessionSummary.html">SessionSummary</a>&gt;</td>
+        <td><p>A list of <a class="xref" href="MESL.SqlRace.Domain.SessionSummary.html">SessionSummary</a> items.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="MESL_SqlRace_Domain_SessionManagerBase_Find_System_String_System_Nullable_System_Int32__System_Collections_Generic_IList_MESL_SqlRace_Domain_SessionState__System_Nullable_System_Boolean___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Sessions that are live and not in SQL Race Server are excluded if <code data-dev-comment-type="paramref" class="paramref">sessionStates</code>is not passed.
+Sessions that have no data are excluded by default, set <code data-dev-comment-type="paramref" class="paramref">sessionsWithNoChannelData</code> to <code>true</code> to return these sessions.</p>
+</div>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_FindBySessionItems_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.FindBySessionItems*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_FindBySessionItems_System_Collections_Generic_IList_MESL_SqlRace_Domain_SessionDataItem__MESL_SqlRace_Domain_ConnectionInformationBase_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.FindBySessionItems(System.Collections.Generic.IList{MESL.SqlRace.Domain.SessionDataItem},MESL.SqlRace.Domain.ConnectionInformationBase)">FindBySessionItems(IList&lt;SessionDataItem&gt;, ConnectionInformationBase)</h4>
+  <div class="markdown level1 summary"><p>Finds the by session items.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract IList&lt;SessionSummary&gt; FindBySessionItems(IList&lt;SessionDataItem&gt; sessionItems, ConnectionInformationBase connectionInformation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.SessionDataItem.html">SessionDataItem</a>&gt;</td>
+        <td><span class="parametername">sessionItems</span></td>
+        <td><p>The session items.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConnectionInformationBase.html">ConnectionInformationBase</a></td>
+        <td><span class="parametername">connectionInformation</span></td>
+        <td><p>The connection information.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.SessionSummary.html">SessionSummary</a>&gt;</td>
+        <td><p>Returns list of sessions.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_FindBySessionItems_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.FindBySessionItems*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_FindBySessionItems_System_Collections_Generic_IList_MESL_SqlRace_Domain_SessionDataItem__System_String_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.FindBySessionItems(System.Collections.Generic.IList{MESL.SqlRace.Domain.SessionDataItem},System.String)">FindBySessionItems(IList&lt;SessionDataItem&gt;, String)</h4>
+  <div class="markdown level1 summary"><p>Returns a list of sessions that match the search criteria.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract IList&lt;SessionSummary&gt; FindBySessionItems(IList&lt;SessionDataItem&gt; sessionItems, string connectionString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.SessionDataItem.html">SessionDataItem</a>&gt;</td>
+        <td><span class="parametername">sessionItems</span></td>
+        <td><p>The session items.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.SessionSummary.html">SessionSummary</a>&gt;</td>
+        <td><p>A List of SessionSummary objects.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="MESL_SqlRace_Domain_SessionManagerBase_FindBySessionItems_System_Collections_Generic_IList_MESL_SqlRace_Domain_SessionDataItem__System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If no sessionItems are passed, then all sessions in the system are returned.</p>
+</div>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_FindBySessionState_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.FindBySessionState*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_FindBySessionState_MESL_SqlRace_Domain_SessionState_MESL_SqlRace_Domain_ConnectionInformationBase_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.FindBySessionState(MESL.SqlRace.Domain.SessionState,MESL.SqlRace.Domain.ConnectionInformationBase)">FindBySessionState(SessionState, ConnectionInformationBase)</h4>
+  <div class="markdown level1 summary"><p>Finds the sessions by their state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract IList&lt;SessionSummary&gt; FindBySessionState(SessionState sessionState, ConnectionInformationBase connectionInformation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionState.html">SessionState</a></td>
+        <td><span class="parametername">sessionState</span></td>
+        <td><p>The required session state.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConnectionInformationBase.html">ConnectionInformationBase</a></td>
+        <td><span class="parametername">connectionInformation</span></td>
+        <td><p>The connection information.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.SessionSummary.html">SessionSummary</a>&gt;</td>
+        <td><p>A list of <a class="xref" href="MESL.SqlRace.Domain.SessionSummary.html">SessionSummary</a> items matching the session state.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_FindBySessionState_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.FindBySessionState*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_FindBySessionState_MESL_SqlRace_Domain_SessionState_System_String_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.FindBySessionState(MESL.SqlRace.Domain.SessionState,System.String)">FindBySessionState(SessionState, String)</h4>
+  <div class="markdown level1 summary"><p>Finds the sessions by their state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract IList&lt;SessionSummary&gt; FindBySessionState(SessionState sessionState, string connectionString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionState.html">SessionState</a></td>
+        <td><span class="parametername">sessionState</span></td>
+        <td><p>The required session state.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.SessionSummary.html">SessionSummary</a>&gt;</td>
+        <td><p>A list of <a class="xref" href="MESL.SqlRace.Domain.SessionSummary.html">SessionSummary</a> items matching the session state.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_FindDeletedSessions_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.FindDeletedSessions*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_FindDeletedSessions_MESL_SqlRace_Domain_ConnectionInformationBase_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.FindDeletedSessions(MESL.SqlRace.Domain.ConnectionInformationBase)">FindDeletedSessions(ConnectionInformationBase)</h4>
+  <div class="markdown level1 summary"><p>Finds the logically deleted sessions in the database.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract IList&lt;SessionSummary&gt; FindDeletedSessions(ConnectionInformationBase connectionInformation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConnectionInformationBase.html">ConnectionInformationBase</a></td>
+        <td><span class="parametername">connectionInformation</span></td>
+        <td><p>The connection information.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.SessionSummary.html">SessionSummary</a>&gt;</td>
+        <td><p>Returns all logically deleted sessions.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_FindDeletedSessions_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.FindDeletedSessions*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_FindDeletedSessions_System_String_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.FindDeletedSessions(System.String)">FindDeletedSessions(String)</h4>
+  <div class="markdown level1 summary"><p>Finds the logically deleted sessions in the database.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract IList&lt;SessionSummary&gt; FindDeletedSessions(string connectionString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.SessionSummary.html">SessionSummary</a>&gt;</td>
+        <td><p>Returns all logically deleted sessions.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_GetActiveSessions_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.GetActiveSessions*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_GetActiveSessions_System_Predicate_MESL_SqlRace_Domain_Session__" data-uid="MESL.SqlRace.Domain.SessionManagerBase.GetActiveSessions(System.Predicate{MESL.SqlRace.Domain.Session})">GetActiveSessions(Predicate&lt;Session&gt;)</h4>
+  <div class="markdown level1 summary"><p>Get a list of sessions matching the criteria passed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract IDictionary&lt;SessionKey, Session&gt; GetActiveSessions(Predicate&lt;Session&gt; matching)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Predicate</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.Session.html">Session</a>&gt;</td>
+        <td><span class="parametername">matching</span></td>
+        <td><p>eg (x =&gt; x.Key == SomeGuid)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a>, <a class="xref" href="MESL.SqlRace.Domain.Session.html">Session</a>&gt;</td>
+        <td><p>A list of sessions</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_GetAuditEntries_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.GetAuditEntries*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_GetAuditEntries_System_String_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.GetAuditEntries(System.String)">GetAuditEntries(String)</h4>
+  <div class="markdown level1 summary"><p>Gets the audit entries for the specified session key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract IList&lt;AuditEntry&gt; GetAuditEntries(string connectionString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.AuditEntry.html">AuditEntry</a>&gt;</td>
+        <td><p>List of audit entries.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_GetAuditEntries_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.GetAuditEntries*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_GetAuditEntries_System_String_MAT_OCS_Core_SessionKey_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.GetAuditEntries(System.String,MAT.OCS.Core.SessionKey)">GetAuditEntries(String, SessionKey)</h4>
+  <div class="markdown level1 summary"><p>Gets the audit entries for the specified session key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract IList&lt;AuditEntry&gt; GetAuditEntries(string connectionString, SessionKey sessionKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">sessionKey</span></td>
+        <td><p>The session key.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.AuditEntry.html">AuditEntry</a>&gt;</td>
+        <td><p>List of audit entries.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_GetServerEndPoint_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.GetServerEndPoint*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_GetServerEndPoint_MESL_SqlRace_Domain_ConnectionContextBase_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.GetServerEndPoint(MESL.SqlRace.Domain.ConnectionContextBase)">GetServerEndPoint(ConnectionContextBase)</h4>
+  <div class="markdown level1 summary"><p>Gets the server end point.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract IPEndPoint GetServerEndPoint(ConnectionContextBase connectionContext)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConnectionContextBase.html">ConnectionContextBase</a></td>
+        <td><span class="parametername">connectionContext</span></td>
+        <td><p>The connection context.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Net.IPEndPoint</span></td>
+        <td><p>The IP end point, or null if not available</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_GetSessionDataItemNames_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.GetSessionDataItemNames*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_GetSessionDataItemNames_MESL_SqlRace_Domain_ConnectionInformationBase_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.GetSessionDataItemNames(MESL.SqlRace.Domain.ConnectionInformationBase)">GetSessionDataItemNames(ConnectionInformationBase)</h4>
+  <div class="markdown level1 summary"><p>Returns a list of all session data item names.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract IList&lt;string&gt; GetSessionDataItemNames(ConnectionInformationBase connectionInformation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConnectionInformationBase.html">ConnectionInformationBase</a></td>
+        <td><span class="parametername">connectionInformation</span></td>
+        <td><p>The connection information.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><p>A list of string values for session data item names.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_GetSessionDataItemNames_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.GetSessionDataItemNames*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_GetSessionDataItemNames_System_String_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.GetSessionDataItemNames(System.String)">GetSessionDataItemNames(String)</h4>
+  <div class="markdown level1 summary"><p>Returns a list of all session data item names.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract IList&lt;string&gt; GetSessionDataItemNames(string connectionString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><p>A list of string values for session data item names.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_ImportSession_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.ImportSession*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_ImportSession_System_String_System_String_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.ImportSession(System.String,System.String)">ImportSession(String, String)</h4>
+  <div class="markdown level1 summary"><p>Imports a session to the database defined by the passed connection string
+from the specified file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract SessionKey ImportSession(string connectionString, string filePath)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">filePath</span></td>
+        <td><p>The file path for the session file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><p>GUID of imported session.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="MESL_SqlRace_Domain_SessionManagerBase_ImportSession_System_String_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method creates a session with the key that of original session. Use method ImportSession(string connectionString, string filePath, GUID key) to create session with new key.</p>
+</div>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_ImportSession_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.ImportSession*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_ImportSession_System_String_System_String_MAT_OCS_Core_SessionKey_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.ImportSession(System.String,System.String,MAT.OCS.Core.SessionKey)">ImportSession(String, String, SessionKey)</h4>
+  <div class="markdown level1 summary"><p>Imports a session with the specified key to the database defined by the passed connection string
+from the specified file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void ImportSession(string connectionString, string filePath, SessionKey key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">filePath</span></td>
+        <td><p>The file path for the session file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The new session key for the imported session.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="MESL_SqlRace_Domain_SessionManagerBase_ImportSession_System_String_System_String_MAT_OCS_Core_SessionKey__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method creates a session with the key that of original session. Use.</p>
+</div>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_IsAvailable_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.IsAvailable*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_IsAvailable_MESL_SqlRace_Domain_ConnectionInformationBase_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.IsAvailable(MESL.SqlRace.Domain.ConnectionInformationBase)">IsAvailable(ConnectionInformationBase)</h4>
+  <div class="markdown level1 summary"><p>Checks if the connection information supplied refers to an active connection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract bool IsAvailable(ConnectionInformationBase connectionInformation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConnectionInformationBase.html">ConnectionInformationBase</a></td>
+        <td><span class="parametername">connectionInformation</span></td>
+        <td><p>Connection information.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if active. False otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_IsAvailable_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.IsAvailable*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_IsAvailable_System_String_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.IsAvailable(System.String)">IsAvailable(String)</h4>
+  <div class="markdown level1 summary"><p>Checks if the connection information supplied refers to an available connection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract bool IsAvailable(string connectionString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if available. False otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_Load_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.Load*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_Load_MAT_OCS_Core_SessionKey_MESL_SqlRace_Domain_ConnectionInformationBase_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.Load(MAT.OCS.Core.SessionKey,MESL.SqlRace.Domain.ConnectionInformationBase)">Load(SessionKey, ConnectionInformationBase)</h4>
+  <div class="markdown level1 summary"><p>Loads an existing session from the system.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract IClientSession Load(SessionKey key, ConnectionInformationBase connectionInformation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConnectionInformationBase.html">ConnectionInformationBase</a></td>
+        <td><span class="parametername">connectionInformation</span></td>
+        <td><p>The connection information.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.IClientSession.html">IClientSession</a></td>
+        <td><p>A Session object with all the details of an existing session.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Authentication.AuthenticationException</span></td>
+        <td><p>Thrown if the SQL Race licence does not allow session loading or there is an issue with the licence (expired, not configured etc).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_Load_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.Load*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_Load_MAT_OCS_Core_SessionKey_MESL_SqlRace_Domain_ConnectionInformationBase_System_Collections_Generic_IEnumerable_System_String__" data-uid="MESL.SqlRace.Domain.SessionManagerBase.Load(MAT.OCS.Core.SessionKey,MESL.SqlRace.Domain.ConnectionInformationBase,System.Collections.Generic.IEnumerable{System.String})">Load(SessionKey, ConnectionInformationBase, IEnumerable&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>OBSOLETE: Loads an existing session from the system, but without loading any of the session&apos;s child items.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;SessionManagerBase.Load(SessionKey, ConnectionInformationBase, IEnumerable&lt;string&gt;) will be removed in a future version&quot;)]
+public abstract IClientSession Load(SessionKey key, ConnectionInformationBase connectionInformation, IEnumerable&lt;string&gt; parameterIdentifiers)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConnectionInformationBase.html">ConnectionInformationBase</a></td>
+        <td><span class="parametername">connectionInformation</span></td>
+        <td><p>The connection information.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">parameterIdentifiers</span></td>
+        <td><p>The parameter identifiers for parameters to load.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.IClientSession.html">IClientSession</a></td>
+        <td><p>Session that was loaded.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Authentication.AuthenticationException</span></td>
+        <td><p>Thrown if the SQL Race licence does not allow session loading or there is an issue with the licence (expired, not configured etc).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_Load_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.Load*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_Load_MAT_OCS_Core_SessionKey_MESL_SqlRace_Domain_ConnectionInformationBase_System_Collections_Generic_IEnumerable_System_String__MESL_SqlRace_Domain_SessionChildItemsToLoad_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.Load(MAT.OCS.Core.SessionKey,MESL.SqlRace.Domain.ConnectionInformationBase,System.Collections.Generic.IEnumerable{System.String},MESL.SqlRace.Domain.SessionChildItemsToLoad)">Load(SessionKey, ConnectionInformationBase, IEnumerable&lt;String&gt;, SessionChildItemsToLoad)</h4>
+  <div class="markdown level1 summary"><p>Loads an existing session from the system, but only loads the session&apos;s child items requested.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;SessionManagerBase.Load(SessionKey, ConnectionInformationBase, IEnumerable&lt;string&gt;, SessionChildItemsToLoad) will be removed in a future version&quot;)]
+public abstract IClientSession Load(SessionKey key, ConnectionInformationBase connectionInformation, IEnumerable&lt;string&gt; parameterIdentifiers, SessionChildItemsToLoad childItemsToLoad)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConnectionInformationBase.html">ConnectionInformationBase</a></td>
+        <td><span class="parametername">connectionInformation</span></td>
+        <td><p>The connection information.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">parameterIdentifiers</span></td>
+        <td><p>The parameter identifiers for parameters to load.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionChildItemsToLoad.html">SessionChildItemsToLoad</a></td>
+        <td><span class="parametername">childItemsToLoad</span></td>
+        <td><p>The child items to load into the session.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.IClientSession.html">IClientSession</a></td>
+        <td><p>Session that was loaded.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Authentication.AuthenticationException</span></td>
+        <td><p>Thrown if the SQL Race licence does not allow session loading or there is an issue with the licence (expired, not configured etc).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_Load_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.Load*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_Load_MAT_OCS_Core_SessionKey_System_String_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.Load(MAT.OCS.Core.SessionKey,System.String)">Load(SessionKey, String)</h4>
+  <div class="markdown level1 summary"><p>Loads an existing session from the system.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract IClientSession Load(SessionKey key, string connectionString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>Connection string to the SQL Race database.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.IClientSession.html">IClientSession</a></td>
+        <td><p>A Session object with all the details of an existing session.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Authentication.AuthenticationException</span></td>
+        <td><p>Thrown if the SQL Race licence does not allow session loading or there is an issue with the licence (expired, not configured etc).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_Load_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.Load*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_Load_MAT_OCS_Core_SessionKey_System_String_System_Collections_Generic_IEnumerable_System_String__" data-uid="MESL.SqlRace.Domain.SessionManagerBase.Load(MAT.OCS.Core.SessionKey,System.String,System.Collections.Generic.IEnumerable{System.String})">Load(SessionKey, String, IEnumerable&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Loads an existing session from the system, but without loading any of the session&apos;s child items.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;SessionManagerBase.Load(SessionKey, string, IEnumerable&lt;string&gt;) will be removed in a future version&quot;)]
+public abstract IClientSession Load(SessionKey key, string connectionString, IEnumerable&lt;string&gt; parameterIdentifiers)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>Connection string to the SQL Race database.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">parameterIdentifiers</span></td>
+        <td><p>The parameter identifiers for parameters to load.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.IClientSession.html">IClientSession</a></td>
+        <td><p>Session that was loaded.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Authentication.AuthenticationException</span></td>
+        <td><p>Thrown if the SQL Race licence does not allow session loading or there is an issue with the licence (expired, not configured etc).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_Load_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.Load*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_Load_MAT_OCS_Core_SessionKey_System_String_System_Collections_Generic_IEnumerable_System_String__MESL_SqlRace_Domain_SessionChildItemsToLoad_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.Load(MAT.OCS.Core.SessionKey,System.String,System.Collections.Generic.IEnumerable{System.String},MESL.SqlRace.Domain.SessionChildItemsToLoad)">Load(SessionKey, String, IEnumerable&lt;String&gt;, SessionChildItemsToLoad)</h4>
+  <div class="markdown level1 summary"><p>Loads an existing session from the system, but only loads the session&apos;s child items requested.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;SessionManagerBase.Load(SessionKey, string, IEnumerable&lt;string&gt;) will be removed in a future version&quot;)]
+public abstract IClientSession Load(SessionKey key, string connectionString, IEnumerable&lt;string&gt; parameterIdentifiers, SessionChildItemsToLoad childItemsToLoad)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>Connection string to the SQL Race database.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">parameterIdentifiers</span></td>
+        <td><p>The parameter identifiers for parameters to load.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionChildItemsToLoad.html">SessionChildItemsToLoad</a></td>
+        <td><span class="parametername">childItemsToLoad</span></td>
+        <td><p>The child items to load into the session.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.IClientSession.html">IClientSession</a></td>
+        <td><p>Session that was loaded.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Authentication.AuthenticationException</span></td>
+        <td><p>Thrown if the SQL Race licence does not allow session loading or there is an issue with the licence (expired, not configured etc).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_LoadAssociatesForSession_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.LoadAssociatesForSession*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_LoadAssociatesForSession_MAT_OCS_Core_SessionKey_MESL_SqlRace_Domain_ConnectionInformationBase_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.LoadAssociatesForSession(MAT.OCS.Core.SessionKey,MESL.SqlRace.Domain.ConnectionInformationBase)">LoadAssociatesForSession(SessionKey, ConnectionInformationBase)</h4>
+  <div class="markdown level1 summary"><p>Loads the associate sessions for a session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract IList&lt;SessionSummary&gt; LoadAssociatesForSession(SessionKey key, ConnectionInformationBase connectionInformation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConnectionInformationBase.html">ConnectionInformationBase</a></td>
+        <td><span class="parametername">connectionInformation</span></td>
+        <td><p>The connection information.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.SessionSummary.html">SessionSummary</a>&gt;</td>
+        <td><p>Returns collection of summaries for associated sessions.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_LoadAssociatesForSession_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.LoadAssociatesForSession*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_LoadAssociatesForSession_MAT_OCS_Core_SessionKey_System_String_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.LoadAssociatesForSession(MAT.OCS.Core.SessionKey,System.String)">LoadAssociatesForSession(SessionKey, String)</h4>
+  <div class="markdown level1 summary"><p>Loads the associate sessions for a session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract IList&lt;SessionSummary&gt; LoadAssociatesForSession(SessionKey key, string connectionString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.SessionSummary.html">SessionSummary</a>&gt;</td>
+        <td><p>Returns collection of summaries for associated sessions.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_LoadLightweight_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.LoadLightweight*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_LoadLightweight_MAT_OCS_Core_SessionKey_MESL_SqlRace_Domain_ConnectionInformationBase_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.LoadLightweight(MAT.OCS.Core.SessionKey,MESL.SqlRace.Domain.ConnectionInformationBase)">LoadLightweight(SessionKey, ConnectionInformationBase)</h4>
+  <div class="markdown level1 summary"><p>Loads an existing session from the system, but without loading any of the session&apos;s child items.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract IClientSession LoadLightweight(SessionKey key, ConnectionInformationBase connectionInformation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConnectionInformationBase.html">ConnectionInformationBase</a></td>
+        <td><span class="parametername">connectionInformation</span></td>
+        <td><p>The connection information.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.IClientSession.html">IClientSession</a></td>
+        <td><p>Session that was loaded.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Authentication.AuthenticationException</span></td>
+        <td><p>Thrown if the SQL Race licence does not allow session loading or there is an issue with the licence (expired, not configured etc).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_LoadLightweight_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.LoadLightweight*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_LoadLightweight_MAT_OCS_Core_SessionKey_MESL_SqlRace_Domain_ConnectionInformationBase_System_Collections_Generic_IEnumerable_MAT_OCS_Core_SessionKey__" data-uid="MESL.SqlRace.Domain.SessionManagerBase.LoadLightweight(MAT.OCS.Core.SessionKey,MESL.SqlRace.Domain.ConnectionInformationBase,System.Collections.Generic.IEnumerable{MAT.OCS.Core.SessionKey})">LoadLightweight(SessionKey, ConnectionInformationBase, IEnumerable&lt;SessionKey&gt;)</h4>
+  <div class="markdown level1 summary"><p>Loads an existing session from the system, but without loading any of the session&apos;s child items.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract IClientSession LoadLightweight(SessionKey key, ConnectionInformationBase connectionInformation, IEnumerable&lt;SessionKey&gt; additionalSessionKeys)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConnectionInformationBase.html">ConnectionInformationBase</a></td>
+        <td><span class="parametername">connectionInformation</span></td>
+        <td><p>The connection information.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a>&gt;</td>
+        <td><span class="parametername">additionalSessionKeys</span></td>
+        <td><p>Associated sessions to load</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.IClientSession.html">IClientSession</a></td>
+        <td><p>Session that was loaded.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Authentication.AuthenticationException</span></td>
+        <td><p>Thrown if the SQL Race licence does not allow session loading or there is an issue with the licence (expired, not configured etc).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_LoadLightweight_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.LoadLightweight*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_LoadLightweight_MAT_OCS_Core_SessionKey_MESL_SqlRace_Domain_ConnectionInformationBase_System_Collections_Generic_IEnumerable_System_String__" data-uid="MESL.SqlRace.Domain.SessionManagerBase.LoadLightweight(MAT.OCS.Core.SessionKey,MESL.SqlRace.Domain.ConnectionInformationBase,System.Collections.Generic.IEnumerable{System.String})">LoadLightweight(SessionKey, ConnectionInformationBase, IEnumerable&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Loads an existing session from the system, but without loading any of the session&apos;s child items.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;SessionManagerBase.LoadLightweight(SessionKey, ConnectionInformationBase, IEnumerable&lt;string&gt;) will be removed in a future version&quot;)]
+public abstract IClientSession LoadLightweight(SessionKey key, ConnectionInformationBase connectionInformation, IEnumerable&lt;string&gt; parameterIdentifiers)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConnectionInformationBase.html">ConnectionInformationBase</a></td>
+        <td><span class="parametername">connectionInformation</span></td>
+        <td><p>The connection information.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">parameterIdentifiers</span></td>
+        <td><p>The parameter identifiers for parameters to load.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.IClientSession.html">IClientSession</a></td>
+        <td><p>Session that was loaded.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Authentication.AuthenticationException</span></td>
+        <td><p>Thrown if the SQL Race licence does not allow session loading or there is an issue with the licence (expired, not configured etc).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_LoadLightweight_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.LoadLightweight*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_LoadLightweight_MAT_OCS_Core_SessionKey_MESL_SqlRace_Domain_ConnectionInformationBase_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_MAT_OCS_Core_SessionKey__" data-uid="MESL.SqlRace.Domain.SessionManagerBase.LoadLightweight(MAT.OCS.Core.SessionKey,MESL.SqlRace.Domain.ConnectionInformationBase,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{MAT.OCS.Core.SessionKey})">LoadLightweight(SessionKey, ConnectionInformationBase, IEnumerable&lt;String&gt;, IEnumerable&lt;SessionKey&gt;)</h4>
+  <div class="markdown level1 summary"><p>Loads an existing session from the system, but without loading any of the session&apos;s child items.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;SessionManagerBase.LoadLightweight(SessionKey, ConnectionInformationBase, IEnumerable&lt;string&gt;, IEnumerable&lt;SessionKey&gt;) will be removed in a future version&quot;)]
+public abstract IClientSession LoadLightweight(SessionKey key, ConnectionInformationBase connectionInformation, IEnumerable&lt;string&gt; parameterIdentifiers, IEnumerable&lt;SessionKey&gt; additionalSessionKeys)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConnectionInformationBase.html">ConnectionInformationBase</a></td>
+        <td><span class="parametername">connectionInformation</span></td>
+        <td><p>The connection information.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">parameterIdentifiers</span></td>
+        <td><p>The parameter identifiers for parameters to load.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a>&gt;</td>
+        <td><span class="parametername">additionalSessionKeys</span></td>
+        <td><p>Associated sessions to load</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.IClientSession.html">IClientSession</a></td>
+        <td><p>Session that was loaded.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Authentication.AuthenticationException</span></td>
+        <td><p>Thrown if the SQL Race licence does not allow session loading or there is an issue with the licence (expired, not configured etc).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_LoadLightweight_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.LoadLightweight*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_LoadLightweight_MAT_OCS_Core_SessionKey_System_String_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.LoadLightweight(MAT.OCS.Core.SessionKey,System.String)">LoadLightweight(SessionKey, String)</h4>
+  <div class="markdown level1 summary"><p>Loads an existing session from the system, but without loading any of the session&apos;s child items.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract IClientSession LoadLightweight(SessionKey key, string connectionString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>Connection string to the SQL Race database.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.IClientSession.html">IClientSession</a></td>
+        <td><p>Session that was loaded.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Authentication.AuthenticationException</span></td>
+        <td><p>Thrown if the SQL Race licence does not allow session loading or there is an issue with the licence (expired, not configured etc).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_LoadLightweight_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.LoadLightweight*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_LoadLightweight_MAT_OCS_Core_SessionKey_System_String_System_Collections_Generic_IEnumerable_MAT_OCS_Core_SessionKey__" data-uid="MESL.SqlRace.Domain.SessionManagerBase.LoadLightweight(MAT.OCS.Core.SessionKey,System.String,System.Collections.Generic.IEnumerable{MAT.OCS.Core.SessionKey})">LoadLightweight(SessionKey, String, IEnumerable&lt;SessionKey&gt;)</h4>
+  <div class="markdown level1 summary"><p>Loads an existing session from the system, but without loading any of the session&apos;s child items.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract IClientSession LoadLightweight(SessionKey key, string connectionString, IEnumerable&lt;SessionKey&gt; additionalSessionKeys)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>Connection string to the SQL Race database.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a>&gt;</td>
+        <td><span class="parametername">additionalSessionKeys</span></td>
+        <td><p>Associated sessions to load</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.IClientSession.html">IClientSession</a></td>
+        <td><p>Session that was loaded.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Authentication.AuthenticationException</span></td>
+        <td><p>Thrown if the SQL Race licence does not allow session loading or there is an issue with the licence (expired, not configured etc).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_LoadLightweight_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.LoadLightweight*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_LoadLightweight_MAT_OCS_Core_SessionKey_System_String_System_Collections_Generic_IEnumerable_System_String__" data-uid="MESL.SqlRace.Domain.SessionManagerBase.LoadLightweight(MAT.OCS.Core.SessionKey,System.String,System.Collections.Generic.IEnumerable{System.String})">LoadLightweight(SessionKey, String, IEnumerable&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Loads an existing session from the system, but without loading any of the session&apos;s child items.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;SessionManagerBase.LoadLightweight(SessionKey, string, IEnumerable&lt;string&gt;) will be removed in a future version&quot;)]
+public abstract IClientSession LoadLightweight(SessionKey key, string connectionString, IEnumerable&lt;string&gt; parameterIdentifiers)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>Connection string to the SQL Race database.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">parameterIdentifiers</span></td>
+        <td><p>The parameter identifiers for parameters to load.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.IClientSession.html">IClientSession</a></td>
+        <td><p>Session that was loaded.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Authentication.AuthenticationException</span></td>
+        <td><p>Thrown if the SQL Race licence does not allow session loading or there is an issue with the licence (expired, not configured etc).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_LoadLightweight_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.LoadLightweight*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_LoadLightweight_MAT_OCS_Core_SessionKey_System_String_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_MAT_OCS_Core_SessionKey__" data-uid="MESL.SqlRace.Domain.SessionManagerBase.LoadLightweight(MAT.OCS.Core.SessionKey,System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{MAT.OCS.Core.SessionKey})">LoadLightweight(SessionKey, String, IEnumerable&lt;String&gt;, IEnumerable&lt;SessionKey&gt;)</h4>
+  <div class="markdown level1 summary"><p>Loads an existing session from the system, but without loading any of the session&apos;s child items.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;SessionManagerBase.LoadLightweight(SessionKey, string, IEnumerable&lt;string&gt;, IEnumerable&lt;SessionKey&gt;) will be removed in a future version&quot;)]
+public abstract IClientSession LoadLightweight(SessionKey key, string connectionString, IEnumerable&lt;string&gt; parameterIdentifiers, IEnumerable&lt;SessionKey&gt; additionalSessionKeys)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>Connection string to the SQL Race database.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">parameterIdentifiers</span></td>
+        <td><p>The parameter identifiers for parameters to load.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a>&gt;</td>
+        <td><span class="parametername">additionalSessionKeys</span></td>
+        <td><p>Associated sessions to load</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.IClientSession.html">IClientSession</a></td>
+        <td><p>Session that was loaded.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Authentication.AuthenticationException</span></td>
+        <td><p>Thrown if the SQL Race licence does not allow session loading or there is an issue with the licence (expired, not configured etc).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_Poll_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.Poll*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_Poll_System_String_System_Collections_Generic_IList_MESL_SqlRace_Domain_SessionState__System_Nullable_System_Boolean__System_Threading_CancellationToken_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.Poll(System.String,System.Collections.Generic.IList{MESL.SqlRace.Domain.SessionState},System.Nullable{System.Boolean},System.Threading.CancellationToken)">Poll(String, IList&lt;SessionState&gt;, Nullable&lt;Boolean&gt;, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Polls SQL Race for sessions, sessions are returned in an Enumerable which can be used to stream new sessions.
+When you ask for the next element in the returned Enumerable, it will block while it waits for the next session.  This can be already in the database or put in the databse at a future point. It will then give you the new session. 
+This will continue until you cancel using the cancellation token</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract IEnumerable&lt;SessionSummary&gt; Poll(string connectionString, IList&lt;SessionState&gt; sessionStates, bool? sessionsWithNoChannelData, CancellationToken token)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.SessionState.html">SessionState</a>&gt;</td>
+        <td><span class="parametername">sessionStates</span></td>
+        <td><p>The session states being retrieved.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">sessionsWithNoChannelData</span></td>
+        <td><p>If set to <code>true</code> sessions with no channel data are returned. Default is <code>false</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>Used to cancel the polling</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.SessionSummary.html">SessionSummary</a>&gt;</td>
+        <td><p>A list of <a class="xref" href="MESL.SqlRace.Domain.SessionSummary.html">SessionSummary</a> items.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="MESL_SqlRace_Domain_SessionManagerBase_Poll_System_String_System_Collections_Generic_IList_MESL_SqlRace_Domain_SessionState__System_Nullable_System_Boolean__System_Threading_CancellationToken__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Sessions that are live and not in SQL Race Server are excluded if <code data-dev-comment-type="paramref" class="paramref">sessionStates</code>is not passed.
+Sessions that have no data are excluded by default, set <code data-dev-comment-type="paramref" class="paramref">sessionsWithNoChannelData</code> to <code>true</code> to return these sessions.</p>
+</div>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_ReindexFolder_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.ReindexFolder*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_ReindexFolder_System_String_System_String_System_Threading_CancellationToken_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.ReindexFolder(System.String,System.String,System.Threading.CancellationToken)">ReindexFolder(String, String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Deletes the cached record of files in the given path and re-indexes the folder.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract Task ReindexFolder(string path, string connectionString, CancellationToken token)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td><p>The path to re-index.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>Connection string to the SQL Race database.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The token to cancel the operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><p>The task performning the re-index operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_Remove_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.Remove*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_Remove_MAT_OCS_Core_SessionKey_MESL_SqlRace_Domain_ConnectionInformationBase_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.Remove(MAT.OCS.Core.SessionKey,MESL.SqlRace.Domain.ConnectionInformationBase)">Remove(SessionKey, ConnectionInformationBase)</h4>
+  <div class="markdown level1 summary"><p>Removes an existing session from the system.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void Remove(SessionKey key, ConnectionInformationBase connectionInformation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConnectionInformationBase.html">ConnectionInformationBase</a></td>
+        <td><span class="parametername">connectionInformation</span></td>
+        <td><p>Connection string to the SQL Race database.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_Remove_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.Remove*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_Remove_MAT_OCS_Core_SessionKey_System_String_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.Remove(MAT.OCS.Core.SessionKey,System.String)">Remove(SessionKey, String)</h4>
+  <div class="markdown level1 summary"><p>Removes an existing session from the system.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void Remove(SessionKey key, string connectionString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>Connection string to the SQL Race database.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_Undelete_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.Undelete*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_Undelete_MAT_OCS_Core_SessionKey_MESL_SqlRace_Domain_ConnectionInformationBase_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.Undelete(MAT.OCS.Core.SessionKey,MESL.SqlRace.Domain.ConnectionInformationBase)">Undelete(SessionKey, ConnectionInformationBase)</h4>
+  <div class="markdown level1 summary"><p>Undeletes an existing session from the system.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void Undelete(SessionKey key, ConnectionInformationBase connectionInformation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConnectionInformationBase.html">ConnectionInformationBase</a></td>
+        <td><span class="parametername">connectionInformation</span></td>
+        <td><p>The connection information.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_SessionManagerBase_Undelete_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.Undelete*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_Undelete_MAT_OCS_Core_SessionKey_System_String_" data-uid="MESL.SqlRace.Domain.SessionManagerBase.Undelete(MAT.OCS.Core.SessionKey,System.String)">Undelete(SessionKey, String)</h4>
+  <div class="markdown level1 summary"><p>Undeletes an existing session from the system.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void Undelete(SessionKey key, string connectionString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>Connection string to the SQL Race database.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_AsyncErrorOccurred" data-uid="MESL.SqlRace.Domain.SessionManagerBase.AsyncErrorOccurred">AsyncErrorOccurred</h4>
+  <div class="markdown level1 summary"><p>Event fired when an error has been detected on a background process.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract event EventHandler&lt;AsyncEventArgs&gt; AsyncErrorOccurred</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.AsyncEventArgs.html">AsyncEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_LoggerEventOccurred" data-uid="MESL.SqlRace.Domain.SessionManagerBase.LoggerEventOccurred">LoggerEventOccurred</h4>
+  <div class="markdown level1 summary"><p>Occurs when [logger event occurred].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract event EventHandler&lt;LoggerEventArgs&gt; LoggerEventOccurred</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<span class="xref">MESL.SqlRace.Common.LoggerEventArgs</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_MessagingErrorOccurred" data-uid="MESL.SqlRace.Domain.SessionManagerBase.MessagingErrorOccurred">MessagingErrorOccurred</h4>
+  <div class="markdown level1 summary"><p>Event fired when an error has been detected on a remote connection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract event EventHandler&lt;MessagingErrorEventArgs&gt; MessagingErrorOccurred</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<span class="xref">MESL.SqlRace.Messaging.Interface.MessagingErrorEventArgs</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="MESL_SqlRace_Domain_SessionManagerBase_SessionEventOccurred" data-uid="MESL.SqlRace.Domain.SessionManagerBase.SessionEventOccurred">SessionEventOccurred</h4>
+  <div class="markdown level1 summary"><p>Event fired for various event on a session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract event EventHandler&lt;SessionEventArgs&gt; SessionEventOccurred</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.SessionEventArgs.html">SessionEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

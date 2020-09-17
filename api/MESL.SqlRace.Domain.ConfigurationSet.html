@@ -1,0 +1,976 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ConfigurationSet
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ConfigurationSet
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MESL.SqlRace.Domain.ConfigurationSet">
+  
+  
+  <h1 id="MESL_SqlRace_Domain_ConfigurationSet" data-uid="MESL.SqlRace.Domain.ConfigurationSet" class="text-break">Class ConfigurationSet
+  </h1>
+  <div class="markdown level0 summary"><p>Represents a configuration set.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ConfigurationSet</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IDisposable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.html">MESL.SqlRace.Domain</a></h6>
+  <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
+  <h5 id="MESL_SqlRace_Domain_ConfigurationSet_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ConfigurationSet : IDisposable</code></pre>
+  </div>
+  <h5 id="MESL_SqlRace_Domain_ConfigurationSet_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>
+    Configuration can be created independently and shared across multiple sessions (non session specific) using
+    the <a class="xref" href="MESL.SqlRace.Domain.ConfigurationSetManager.html">ConfigurationSetManager</a>. This will improve session creation and load time.
+</p>
+<p>
+    Configuration can also be added to a session so that it is session specific (not shared) using
+<a class="xref" href="MESL.SqlRace.Domain.Session.html#MESL_SqlRace_Domain_Session_CreateConfiguration">CreateConfiguration()</a>. This way is now deprecated, should not be used.
+</p>
+<p>
+    A configuration set is made up of the following entities:
+<ul><li>Parameters</li><li>Channels</li><li>Conversions (rational, table and text conversions)</li><li>Application groups</li><li>Parameter groups</li><li>Error definitions</li><li>Event definitions</li></ul>
+</p>
+</div>
+  <h5 id="MESL_SqlRace_Domain_ConfigurationSet_examples"><strong>Examples</strong></h5>
+  <p>The following is an example of using the <a class="xref" href="MESL.SqlRace.Domain.ConfigurationSetManager.html">ConfigurationSetManager</a> to create a
+<code>ConfigurationSet2</code> to add a simple shared configuration set:</p>
+<pre><code>// Local database connection string
+string connectionString = @&quot;Data Source=.\sqlexpress;Initial Catalog=SQLRACE01;Integrated Security=SSPI&quot;;
+
+// Initialise SQL Race
+Core.Initialize();
+
+// Create simple configuration Set
+ConfigurationSetManager configSetManager = ConfigurationSetManager.CreateConfigurationSetManager();
+ConfigurationSet2 configSet = configSetManager.Create(connectionString, &quot;Configuration set name&quot;, &quot;Configuration set description&quot;);
+configSet.AddParameter(new Parameter(&quot;Identifier&quot;, &quot;Name&quot;, &quot;Description&quot;, 1000, 0, 1000, 0, 0, 0xFF, 0, &quot;RationalConversion&quot;, 1));
+configSet.AddChannel(new Channel(1, &quot;Name&quot;, 100, DataType.Unsigned8Bit, ChannelDataSourceType.Periodic));
+configSet.AddConversion(new RationalConversion(&quot;RationalConversion&quot;, &quot;units&quot;, &quot;format&quot;, 0, 1, 0, 0, 0, 1));
+try
+{
+  configSet.Commit();
+} 
+catch (ConfiguraitonSetAlreadyExistsException ex)
+{
+  // ConfigurationSet can be committed only once. It cannot be updated - new ConfigurationSet should be created instead
+  Log.Warn($&quot;Commit of a ConfigurationSet {configurationSet.Identifier} failed. The config set already exists&quot;); 
+}</code></pre>
+
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSet_Disposed" data-uid="MESL.SqlRace.Domain.ConfigurationSet.Disposed">Disposed</h4>
+  <div class="markdown level1 summary"><p>The disposed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool Disposed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSet_ChannelsToLoad_" data-uid="MESL.SqlRace.Domain.ConfigurationSet.ChannelsToLoad*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSet_ChannelsToLoad" data-uid="MESL.SqlRace.Domain.ConfigurationSet.ChannelsToLoad">ChannelsToLoad</h4>
+  <div class="markdown level1 summary"><p>The subset of parameters to to actually load</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IList&lt;IChannel&gt; ChannelsToLoad { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.IChannel.html">IChannel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSet_Description_" data-uid="MESL.SqlRace.Domain.ConfigurationSet.Description*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSet_Description" data-uid="MESL.SqlRace.Domain.ConfigurationSet.Description">Description</h4>
+  <div class="markdown level1 summary"><p>Gets the configuration set description</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Description { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSet_Identifier_" data-uid="MESL.SqlRace.Domain.ConfigurationSet.Identifier*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSet_Identifier" data-uid="MESL.SqlRace.Domain.ConfigurationSet.Identifier">Identifier</h4>
+  <div class="markdown level1 summary"><p>Gets the identifier.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Identifier { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSet_IsCommitted_" data-uid="MESL.SqlRace.Domain.ConfigurationSet.IsCommitted*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSet_IsCommitted" data-uid="MESL.SqlRace.Domain.ConfigurationSet.IsCommitted">IsCommitted</h4>
+  <div class="markdown level1 summary"><p>Whether the config has been committed yet.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsCommitted { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSet_IsTransient_" data-uid="MESL.SqlRace.Domain.ConfigurationSet.IsTransient*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSet_IsTransient" data-uid="MESL.SqlRace.Domain.ConfigurationSet.IsTransient">IsTransient</h4>
+  <div class="markdown level1 summary"><p>Is the configuration set transient</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsTransient { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSet_Metadata_" data-uid="MESL.SqlRace.Domain.ConfigurationSet.Metadata*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSet_Metadata" data-uid="MESL.SqlRace.Domain.ConfigurationSet.Metadata">Metadata</h4>
+  <div class="markdown level1 summary"><p>The <a class="xref" href="MESL.SqlRace.Domain.Repositories.Configuration.ConfigurationSetMetaData.html">ConfigurationSetMetaData</a> for this configuration set</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConfigurationSetMetaData Metadata { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Repositories.Configuration.ConfigurationSetMetaData.html">ConfigurationSetMetaData</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSet_OwnerId_" data-uid="MESL.SqlRace.Domain.ConfigurationSet.OwnerId*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSet_OwnerId" data-uid="MESL.SqlRace.Domain.ConfigurationSet.OwnerId">OwnerId</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the owner identifier.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint OwnerId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><p>The owner identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSet_ParametersToLoad_" data-uid="MESL.SqlRace.Domain.ConfigurationSet.ParametersToLoad*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSet_ParametersToLoad" data-uid="MESL.SqlRace.Domain.ConfigurationSet.ParametersToLoad">ParametersToLoad</h4>
+  <div class="markdown level1 summary"><p>The subset of parameters to to actually load</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IList&lt;ParameterBase&gt; ParametersToLoad { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.ParameterBase.html">ParameterBase</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSet_AddChannel_" data-uid="MESL.SqlRace.Domain.ConfigurationSet.AddChannel*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSet_AddChannel_MESL_SqlRace_Domain_IChannel_" data-uid="MESL.SqlRace.Domain.ConfigurationSet.AddChannel(MESL.SqlRace.Domain.IChannel)">AddChannel(IChannel)</h4>
+  <div class="markdown level1 summary"><p>Adds channel to the configuration set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddChannel(IChannel channel)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.IChannel.html">IChannel</a></td>
+        <td><span class="parametername">channel</span></td>
+        <td><p>Channel to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSet_AddChannels_" data-uid="MESL.SqlRace.Domain.ConfigurationSet.AddChannels*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSet_AddChannels_System_Collections_Generic_IEnumerable_MESL_SqlRace_Domain_IChannel__" data-uid="MESL.SqlRace.Domain.ConfigurationSet.AddChannels(System.Collections.Generic.IEnumerable{MESL.SqlRace.Domain.IChannel})">AddChannels(IEnumerable&lt;IChannel&gt;)</h4>
+  <div class="markdown level1 summary"><p>Adds channels to the configuration set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddChannels(IEnumerable&lt;IChannel&gt; channels)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.IChannel.html">IChannel</a>&gt;</td>
+        <td><span class="parametername">channels</span></td>
+        <td><p>List of channels.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSet_AddConversion_" data-uid="MESL.SqlRace.Domain.ConfigurationSet.AddConversion*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSet_AddConversion_MESL_SqlRace_Domain_ConversionBase_" data-uid="MESL.SqlRace.Domain.ConfigurationSet.AddConversion(MESL.SqlRace.Domain.ConversionBase)">AddConversion(ConversionBase)</h4>
+  <div class="markdown level1 summary"><p>Adds conversion to the configuration set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddConversion(ConversionBase conversion)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConversionBase.html">ConversionBase</a></td>
+        <td><span class="parametername">conversion</span></td>
+        <td><p>Conversion to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSet_AddConversions_" data-uid="MESL.SqlRace.Domain.ConfigurationSet.AddConversions*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSet_AddConversions_System_Collections_Generic_IEnumerable_MESL_SqlRace_Domain_ConversionBase__" data-uid="MESL.SqlRace.Domain.ConfigurationSet.AddConversions(System.Collections.Generic.IEnumerable{MESL.SqlRace.Domain.ConversionBase})">AddConversions(IEnumerable&lt;ConversionBase&gt;)</h4>
+  <div class="markdown level1 summary"><p>Adds conversions to the configuration set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddConversions(IEnumerable&lt;ConversionBase&gt; conversions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.ConversionBase.html">ConversionBase</a>&gt;</td>
+        <td><span class="parametername">conversions</span></td>
+        <td><p>List of conversions.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSet_AddErrorDefinition_" data-uid="MESL.SqlRace.Domain.ConfigurationSet.AddErrorDefinition*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSet_AddErrorDefinition_MESL_SqlRace_Domain_ErrorDefinition_" data-uid="MESL.SqlRace.Domain.ConfigurationSet.AddErrorDefinition(MESL.SqlRace.Domain.ErrorDefinition)">AddErrorDefinition(ErrorDefinition)</h4>
+  <div class="markdown level1 summary"><p>Adds Error definition to the configuration set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddErrorDefinition(ErrorDefinition errorDefinition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ErrorDefinition.html">ErrorDefinition</a></td>
+        <td><span class="parametername">errorDefinition</span></td>
+        <td><p>Error definitions.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSet_AddErrorDefinitions_" data-uid="MESL.SqlRace.Domain.ConfigurationSet.AddErrorDefinitions*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSet_AddErrorDefinitions_System_Collections_Generic_IEnumerable_MESL_SqlRace_Domain_ErrorDefinition__" data-uid="MESL.SqlRace.Domain.ConfigurationSet.AddErrorDefinitions(System.Collections.Generic.IEnumerable{MESL.SqlRace.Domain.ErrorDefinition})">AddErrorDefinitions(IEnumerable&lt;ErrorDefinition&gt;)</h4>
+  <div class="markdown level1 summary"><p>Adds Error definitions to the configuration set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddErrorDefinitions(IEnumerable&lt;ErrorDefinition&gt; errorDefinitionItems)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.ErrorDefinition.html">ErrorDefinition</a>&gt;</td>
+        <td><span class="parametername">errorDefinitionItems</span></td>
+        <td><p>List of Error definitions.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSet_AddEventDefinition_" data-uid="MESL.SqlRace.Domain.ConfigurationSet.AddEventDefinition*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSet_AddEventDefinition_MESL_SqlRace_Domain_EventDefinition_" data-uid="MESL.SqlRace.Domain.ConfigurationSet.AddEventDefinition(MESL.SqlRace.Domain.EventDefinition)">AddEventDefinition(EventDefinition)</h4>
+  <div class="markdown level1 summary"><p>Adds event definitions to the configuration set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddEventDefinition(EventDefinition eventDefinition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.EventDefinition.html">EventDefinition</a></td>
+        <td><span class="parametername">eventDefinition</span></td>
+        <td><p>Event definition.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSet_AddEventDefinitions_" data-uid="MESL.SqlRace.Domain.ConfigurationSet.AddEventDefinitions*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSet_AddEventDefinitions_System_Collections_Generic_IEnumerable_MESL_SqlRace_Domain_EventDefinition__" data-uid="MESL.SqlRace.Domain.ConfigurationSet.AddEventDefinitions(System.Collections.Generic.IEnumerable{MESL.SqlRace.Domain.EventDefinition})">AddEventDefinitions(IEnumerable&lt;EventDefinition&gt;)</h4>
+  <div class="markdown level1 summary"><p>Adds event definitions to the configuration set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddEventDefinitions(IEnumerable&lt;EventDefinition&gt; definitions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.EventDefinition.html">EventDefinition</a>&gt;</td>
+        <td><span class="parametername">definitions</span></td>
+        <td><p>List of event definitions.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSet_AddGroup_" data-uid="MESL.SqlRace.Domain.ConfigurationSet.AddGroup*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSet_AddGroup_MESL_SqlRace_Domain_ApplicationGroup_" data-uid="MESL.SqlRace.Domain.ConfigurationSet.AddGroup(MESL.SqlRace.Domain.ApplicationGroup)">AddGroup(ApplicationGroup)</h4>
+  <div class="markdown level1 summary"><p>Adds application group to the configuration set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddGroup(ApplicationGroup applicationGroup)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ApplicationGroup.html">ApplicationGroup</a></td>
+        <td><span class="parametername">applicationGroup</span></td>
+        <td><p>Application group to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSet_AddGroups_" data-uid="MESL.SqlRace.Domain.ConfigurationSet.AddGroups*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSet_AddGroups_System_Collections_Generic_IEnumerable_MESL_SqlRace_Domain_ApplicationGroup__" data-uid="MESL.SqlRace.Domain.ConfigurationSet.AddGroups(System.Collections.Generic.IEnumerable{MESL.SqlRace.Domain.ApplicationGroup})">AddGroups(IEnumerable&lt;ApplicationGroup&gt;)</h4>
+  <div class="markdown level1 summary"><p>Adds application groups to the configuration set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddGroups(IEnumerable&lt;ApplicationGroup&gt; appGroups)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.ApplicationGroup.html">ApplicationGroup</a>&gt;</td>
+        <td><span class="parametername">appGroups</span></td>
+        <td><p>List of application groups.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSet_AddParameter_" data-uid="MESL.SqlRace.Domain.ConfigurationSet.AddParameter*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSet_AddParameter_MESL_SqlRace_Domain_ParameterBase_" data-uid="MESL.SqlRace.Domain.ConfigurationSet.AddParameter(MESL.SqlRace.Domain.ParameterBase)">AddParameter(ParameterBase)</h4>
+  <div class="markdown level1 summary"><p>Adds parameter to the configuration set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddParameter(ParameterBase parameter)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ParameterBase.html">ParameterBase</a></td>
+        <td><span class="parametername">parameter</span></td>
+        <td><p>Parameter to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSet_AddParameterGroup_" data-uid="MESL.SqlRace.Domain.ConfigurationSet.AddParameterGroup*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSet_AddParameterGroup_MESL_SqlRace_Domain_ParameterGroup_" data-uid="MESL.SqlRace.Domain.ConfigurationSet.AddParameterGroup(MESL.SqlRace.Domain.ParameterGroup)">AddParameterGroup(ParameterGroup)</h4>
+  <div class="markdown level1 summary"><p>Adds parameter group to the configuration set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddParameterGroup(ParameterGroup parameterGroup)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ParameterGroup.html">ParameterGroup</a></td>
+        <td><span class="parametername">parameterGroup</span></td>
+        <td><p>Parameter group.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSet_AddParameterGroups_" data-uid="MESL.SqlRace.Domain.ConfigurationSet.AddParameterGroups*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSet_AddParameterGroups_System_Collections_Generic_IEnumerable_MESL_SqlRace_Domain_ParameterGroup__" data-uid="MESL.SqlRace.Domain.ConfigurationSet.AddParameterGroups(System.Collections.Generic.IEnumerable{MESL.SqlRace.Domain.ParameterGroup})">AddParameterGroups(IEnumerable&lt;ParameterGroup&gt;)</h4>
+  <div class="markdown level1 summary"><p>Adds parameter groups to the configuration set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddParameterGroups(IEnumerable&lt;ParameterGroup&gt; parameterGroups)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.ParameterGroup.html">ParameterGroup</a>&gt;</td>
+        <td><span class="parametername">parameterGroups</span></td>
+        <td><p>List of parameter groups.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSet_AddParameters_" data-uid="MESL.SqlRace.Domain.ConfigurationSet.AddParameters*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSet_AddParameters_System_Collections_Generic_IEnumerable_MESL_SqlRace_Domain_ParameterBase__" data-uid="MESL.SqlRace.Domain.ConfigurationSet.AddParameters(System.Collections.Generic.IEnumerable{MESL.SqlRace.Domain.ParameterBase})">AddParameters(IEnumerable&lt;ParameterBase&gt;)</h4>
+  <div class="markdown level1 summary"><p>Adds parameters to the configuration set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddParameters(IEnumerable&lt;ParameterBase&gt; parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.ParameterBase.html">ParameterBase</a>&gt;</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>List of parameters.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSet_Commit_" data-uid="MESL.SqlRace.Domain.ConfigurationSet.Commit*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSet_Commit_MESL_SqlRace_Domain_Repositories_Configuration_ParameterChannelGroupMapper_" data-uid="MESL.SqlRace.Domain.ConfigurationSet.Commit(MESL.SqlRace.Domain.Repositories.Configuration.ParameterChannelGroupMapper)">Commit(ParameterChannelGroupMapper)</h4>
+  <div class="markdown level1 summary"><p>Commits the configuration set to the Database.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Commit(ParameterChannelGroupMapper parameterChannelGroupMapper = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Repositories.Configuration.ParameterChannelGroupMapper.html">ParameterChannelGroupMapper</a></td>
+        <td><span class="parametername">parameterChannelGroupMapper</span></td>
+        <td><p>The parameter channel group mapper.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ApplicationException</span></td>
+        <td><p>Thrown if the configuration set already exists in SQL Race by identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSet_Dispose_" data-uid="MESL.SqlRace.Domain.ConfigurationSet.Dispose*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSet_Dispose" data-uid="MESL.SqlRace.Domain.ConfigurationSet.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"><p>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSet_GetChannelsForParameter_" data-uid="MESL.SqlRace.Domain.ConfigurationSet.GetChannelsForParameter*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSet_GetChannelsForParameter_MESL_SqlRace_Domain_ChannelBasedParameter_System_Linq_ILookup_System_String_MESL_SqlRace_Domain_IChannel__" data-uid="MESL.SqlRace.Domain.ConfigurationSet.GetChannelsForParameter(MESL.SqlRace.Domain.ChannelBasedParameter,System.Linq.ILookup{System.String,MESL.SqlRace.Domain.IChannel})">GetChannelsForParameter(ChannelBasedParameter, ILookup&lt;String, IChannel&gt;)</h4>
+  <div class="markdown level1 summary"><p>Made protected to facilitate testing</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual List&lt;IChannel&gt; GetChannelsForParameter(ChannelBasedParameter parameter, ILookup&lt;string, IChannel&gt; lookupByKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ChannelBasedParameter.html">ChannelBasedParameter</a></td>
+        <td><span class="parametername">parameter</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Linq.ILookup</span>&lt;<span class="xref">System.String</span>, <a class="xref" href="MESL.SqlRace.Domain.IChannel.html">IChannel</a>&gt;</td>
+        <td><span class="parametername">lookupByKey</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.IChannel.html">IChannel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSet_ToString_" data-uid="MESL.SqlRace.Domain.ConfigurationSet.ToString*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSet_ToString" data-uid="MESL.SqlRace.Domain.ConfigurationSet.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Returns a <span class="xref">System.String</span> that represents the current <span class="xref">System.Object</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A <span class="xref">System.String</span> that represents the current <span class="xref">System.Object</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.ToString()</span></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.PersistableHashCode.html#MESL_SqlRace_Domain_PersistableHashCode_GetPersistableHashCode_MESL_SqlRace_Domain_ConfigurationSet_">PersistableHashCode.GetPersistableHashCode(ConfigurationSet)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

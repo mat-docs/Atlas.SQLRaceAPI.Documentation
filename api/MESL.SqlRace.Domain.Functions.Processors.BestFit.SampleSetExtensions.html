@@ -1,0 +1,426 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class SampleSetExtensions
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class SampleSetExtensions
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MESL.SqlRace.Domain.Functions.Processors.BestFit.SampleSetExtensions">
+  
+  
+  <h1 id="MESL_SqlRace_Domain_Functions_Processors_BestFit_SampleSetExtensions" data-uid="MESL.SqlRace.Domain.Functions.Processors.BestFit.SampleSetExtensions" class="text-break">Class SampleSetExtensions
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">SampleSetExtensions</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.Functions.Processors.BestFit.html">MESL.SqlRace.Domain.Functions.Processors.BestFit</a></h6>
+  <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
+  <h5 id="MESL_SqlRace_Domain_Functions_Processors_BestFit_SampleSetExtensions_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class SampleSetExtensions</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="MESL_SqlRace_Domain_Functions_Processors_BestFit_SampleSetExtensions_Crop_" data-uid="MESL.SqlRace.Domain.Functions.Processors.BestFit.SampleSetExtensions.Crop*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_Processors_BestFit_SampleSetExtensions_Crop_System_Collections_Generic_IEnumerable_MESL_SqlRace_Domain_Functions_Processors_BestFit_Point__System_Double_System_Double_System_Double_System_Double_" data-uid="MESL.SqlRace.Domain.Functions.Processors.BestFit.SampleSetExtensions.Crop(System.Collections.Generic.IEnumerable{MESL.SqlRace.Domain.Functions.Processors.BestFit.Point},System.Double,System.Double,System.Double,System.Double)">Crop(IEnumerable&lt;Point&gt;, Double, Double, Double, Double)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;Point&gt; Crop(this IEnumerable&lt;Point&gt; source, double xLowerBound, double xUpperBound, double yLowerBound, double yUpperBound)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.Functions.Processors.BestFit.Point.html">Point</a>&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">xLowerBound</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">xUpperBound</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">yLowerBound</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">yUpperBound</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.Functions.Processors.BestFit.Point.html">Point</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_Functions_Processors_BestFit_SampleSetExtensions_GroupAndReduce_" data-uid="MESL.SqlRace.Domain.Functions.Processors.BestFit.SampleSetExtensions.GroupAndReduce*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_Processors_BestFit_SampleSetExtensions_GroupAndReduce_System_Collections_Generic_IEnumerable_MESL_SqlRace_Domain_Functions_Processors_BestFit_Point__System_Func_System_Collections_Generic_IEnumerable_System_Double__System_Double__" data-uid="MESL.SqlRace.Domain.Functions.Processors.BestFit.SampleSetExtensions.GroupAndReduce(System.Collections.Generic.IEnumerable{MESL.SqlRace.Domain.Functions.Processors.BestFit.Point},System.Func{System.Collections.Generic.IEnumerable{System.Double},System.Double})">GroupAndReduce(IEnumerable&lt;Point&gt;, Func&lt;IEnumerable&lt;Double&gt;, Double&gt;)</h4>
+  <div class="markdown level1 summary"><p>Groups a sample by X and for each group returns a value based on the reducer function (e.g. Min or Max) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;Point&gt; GroupAndReduce(this IEnumerable&lt;Point&gt; sample, Func&lt;IEnumerable&lt;double&gt;, double&gt; reducer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.Functions.Processors.BestFit.Point.html">Point</a>&gt;</td>
+        <td><span class="parametername">sample</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Double</span>&gt;, <span class="xref">System.Double</span>&gt;</td>
+        <td><span class="parametername">reducer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.Functions.Processors.BestFit.Point.html">Point</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_Functions_Processors_BestFit_SampleSetExtensions_RemoveOutliers_" data-uid="MESL.SqlRace.Domain.Functions.Processors.BestFit.SampleSetExtensions.RemoveOutliers*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_Processors_BestFit_SampleSetExtensions_RemoveOutliers_System_Collections_Generic_IEnumerable_MESL_SqlRace_Domain_Functions_Processors_BestFit_Point__System_Double_" data-uid="MESL.SqlRace.Domain.Functions.Processors.BestFit.SampleSetExtensions.RemoveOutliers(System.Collections.Generic.IEnumerable{MESL.SqlRace.Domain.Functions.Processors.BestFit.Point},System.Double)">RemoveOutliers(IEnumerable&lt;Point&gt;, Double)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;Point&gt; RemoveOutliers(this IEnumerable&lt;Point&gt; source, double confidence)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.Functions.Processors.BestFit.Point.html">Point</a>&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">confidence</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.Functions.Processors.BestFit.Point.html">Point</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.NotImplementedException</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_Functions_Processors_BestFit_SampleSetExtensions_SliceX_" data-uid="MESL.SqlRace.Domain.Functions.Processors.BestFit.SampleSetExtensions.SliceX*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_Processors_BestFit_SampleSetExtensions_SliceX_System_Collections_Generic_IEnumerable_MESL_SqlRace_Domain_Functions_Processors_BestFit_Point__System_Double_System_Double_" data-uid="MESL.SqlRace.Domain.Functions.Processors.BestFit.SampleSetExtensions.SliceX(System.Collections.Generic.IEnumerable{MESL.SqlRace.Domain.Functions.Processors.BestFit.Point},System.Double,System.Double)">SliceX(IEnumerable&lt;Point&gt;, Double, Double)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;Point&gt; SliceX(this IEnumerable&lt;Point&gt; source, double lowerBound, double upperBound)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.Functions.Processors.BestFit.Point.html">Point</a>&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">lowerBound</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">upperBound</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.Functions.Processors.BestFit.Point.html">Point</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_Functions_Processors_BestFit_SampleSetExtensions_SliceY_" data-uid="MESL.SqlRace.Domain.Functions.Processors.BestFit.SampleSetExtensions.SliceY*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_Processors_BestFit_SampleSetExtensions_SliceY_System_Collections_Generic_IEnumerable_MESL_SqlRace_Domain_Functions_Processors_BestFit_Point__System_Double_System_Double_" data-uid="MESL.SqlRace.Domain.Functions.Processors.BestFit.SampleSetExtensions.SliceY(System.Collections.Generic.IEnumerable{MESL.SqlRace.Domain.Functions.Processors.BestFit.Point},System.Double,System.Double)">SliceY(IEnumerable&lt;Point&gt;, Double, Double)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;Point&gt; SliceY(this IEnumerable&lt;Point&gt; source, double lowerBound, double upperBound)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.Functions.Processors.BestFit.Point.html">Point</a>&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">lowerBound</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">upperBound</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.Functions.Processors.BestFit.Point.html">Point</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

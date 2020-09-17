@@ -1,0 +1,1361 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ConfigurationSetManager
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ConfigurationSetManager
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager">
+  
+  
+  <h1 id="MESL_SqlRace_Domain_ConfigurationSetManager" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager" class="text-break">Class ConfigurationSetManager
+  </h1>
+  <div class="markdown level0 summary"><p>Responsible for creating, deleting and checking for the existence of configuration sets.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ConfigurationSetManager</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.html">MESL.SqlRace.Domain</a></h6>
+  <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
+  <h5 id="MESL_SqlRace_Domain_ConfigurationSetManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ConfigurationSetManager : IConfigurationSetManager</code></pre>
+  </div>
+  <h5 id="MESL_SqlRace_Domain_ConfigurationSetManager_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>Then <code>ConfigurationSetManager</code> will return a <a class="xref" href="MESL.SqlRace.Domain.ConfigurationSet.html">ConfigurationSet</a> instance when the Create method
+is called which can then be used to add new configuration items.</p>
+</div>
+  <h5 id="MESL_SqlRace_Domain_ConfigurationSetManager_examples"><strong>Examples</strong></h5>
+  <p>The following is an example of using the <code>ConfigurationSetManager</code> to create a <a class="xref" href="MESL.SqlRace.Domain.ConfigurationSet.html">ConfigurationSet</a>
+to add a simple shared configuration set:</p>
+<pre><code>// Local database connection string
+string connectionString = @&quot;Data Source=.\sqlexpress;Initial Catalog=SQLRACE01;Integrated Security=SSPI&quot;;
+
+// Initialise SQL Race
+Core.Initialize();
+
+// Create simple configuration Set
+ConfigurationSetManager configSetManager = ConfigurationSetManager.CreateConfigurationSetManager();
+ConfigurationSet configSet = configSetManager.Create(connectionString, &quot;Configuration set name&quot;, &quot;Configuration set description&quot;);
+configSet.AddParameter(new Parameter(&quot;Identifier&quot;, &quot;Name&quot;, &quot;Description&quot;, 1000, 0, 1000, 0, 0, 0xFF, 0, &quot;RationalConversion&quot;, 1));
+configSet.AddChannel(new Channel(1, &quot;Name&quot;, 100, DataType.Unsigned8Bit, ChannelDataSourceType.Periodic));
+configSet.AddConversion(new RationalConversion(&quot;RationalConversion&quot;, &quot;units&quot;, &quot;format&quot;, 0, 1, 0, 0, 0, 1));
+try
+{
+  configSet.Commit();
+} 
+catch (ConfiguraitonSetAlreadyExistsException ex)
+{
+ // ConfigurationSet can be committed only once. It cannot be updated - new ConfigurationSet should be created instead
+ Log.Warn($&quot;Commit of a ConfigurationSet {configurationSet.Identifier} failed. The config set already exists&quot;); 
+}</code></pre>
+
+<p>An instance of ConfigurationSet can be committed once only. </p>
+
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSetManager__ctor_" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.#ctor*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSetManager__ctor" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.#ctor">ConfigurationSetManager()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConfigurationSetManager()</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSetManager_SessionId_" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.SessionId*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSetManager_SessionId" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.SessionId">SessionId</h4>
+  <div class="markdown level1 summary"><p>Session Id that this Configuration Set Manager is assigned to.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int SessionId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSetManager_AddFastConfiguration_" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.AddFastConfiguration*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSetManager_AddFastConfiguration_MESL_SqlRace_Domain_ConnectionInformationBase_System_String_MAT_OCS_FFC_Configuration_Format_FastConfigFlags_System_Byte___" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.AddFastConfiguration(MESL.SqlRace.Domain.ConnectionInformationBase,System.String,MAT.OCS.FFC.Configuration.Format.FastConfigFlags,System.Byte[])">AddFastConfiguration(ConnectionInformationBase, String, FastConfigFlags, Byte[])</h4>
+  <div class="markdown level1 summary"><p>Adds the specified Fast Configuration data (not a configuration set).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddFastConfiguration(ConnectionInformationBase connectionInformation, string hash, FastConfigFlags flags, byte[] data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConnectionInformationBase.html">ConnectionInformationBase</a></td>
+        <td><span class="parametername">connectionInformation</span></td>
+        <td><p>Connection.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">hash</span></td>
+        <td><p>Fast Configuration hash (lower-case hex).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">MAT.OCS.FFC.Configuration.Format.FastConfigFlags</span></td>
+        <td><span class="parametername">flags</span></td>
+        <td><p>Option flags, used with <see cref="!:HasFastConfigurationSet"></see>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>Data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>When <a class="xref" href="MESL.SqlRace.Domain.ConfigurationSetManager.html#MESL_SqlRace_Domain_ConfigurationSetManager_SupportsFastConfiguration_MESL_SqlRace_Domain_ConnectionInformationBase_">SupportsFastConfiguration(ConnectionInformationBase)</a> returns <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSetManager_AddFastConfigurationSet_" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.AddFastConfigurationSet*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSetManager_AddFastConfigurationSet_MESL_SqlRace_Domain_ConnectionInformationBase_System_String_System_String_System_UInt32_MESL_SqlRace_Domain_FastConfigurationSetAttributes_System_Byte___System_Boolean__" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.AddFastConfigurationSet(MESL.SqlRace.Domain.ConnectionInformationBase,System.String,System.String,System.UInt32,MESL.SqlRace.Domain.FastConfigurationSetAttributes,System.Byte[],System.Boolean@)">AddFastConfigurationSet(ConnectionInformationBase, String, String, UInt32, FastConfigurationSetAttributes, Byte[], out Boolean)</h4>
+  <div class="markdown level1 summary"><p>Adds the specified Fast Configuration set without mounting it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int AddFastConfigurationSet(ConnectionInformationBase connectionInformation, string identifier, string description, uint ownerId, FastConfigurationSetAttributes fastConfigAttributes, byte[] fastConfigData, out bool created)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConnectionInformationBase.html">ConnectionInformationBase</a></td>
+        <td><span class="parametername">connectionInformation</span></td>
+        <td><p>Connection.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>Configuration set identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">description</span></td>
+        <td><p>Configuration set description.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">ownerId</span></td>
+        <td><p>Team id.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.FastConfigurationSetAttributes.html">FastConfigurationSetAttributes</a></td>
+        <td><span class="parametername">fastConfigAttributes</span></td>
+        <td><p>Fast Configuration attributes (hash and option flags).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">fastConfigData</span></td>
+        <td><p>Fast Configuration data.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">created</span></td>
+        <td><p>Output parameter - <code>true</code> if this resulted in a new configuration set, or <code>false</code> if one already existed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Database id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>When <a class="xref" href="MESL.SqlRace.Domain.ConfigurationSetManager.html#MESL_SqlRace_Domain_ConfigurationSetManager_SupportsFastConfiguration_MESL_SqlRace_Domain_ConnectionInformationBase_">SupportsFastConfiguration(ConnectionInformationBase)</a> returns <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSetManager_Create_" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.Create*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSetManager_Create_MAT_OCS_Core_SessionKey_MESL_SqlRace_Domain_ConnectionInformationBase_System_String_System_String_System_Boolean_System_Boolean_" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.Create(MAT.OCS.Core.SessionKey,MESL.SqlRace.Domain.ConnectionInformationBase,System.String,System.String,System.Boolean,System.Boolean)">Create(SessionKey, ConnectionInformationBase, String, String, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Creates an in-memory configuration set object. The configuration will be saved only when Commit() is called.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConfigurationSet Create(SessionKey key, ConnectionInformationBase connectionInformation, string identifier, string description, bool commitToDatabase = true, bool transient = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key of the session this is associated with.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConnectionInformationBase.html">ConnectionInformationBase</a></td>
+        <td><span class="parametername">connectionInformation</span></td>
+        <td><p>The connection</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>The configuration set identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">description</span></td>
+        <td><p>The configuration set description</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">commitToDatabase</span></td>
+        <td><p>Generate persist function for created configuration set.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">transient</span></td>
+        <td><p>Flag configuration set as transient</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConfigurationSet.html">ConfigurationSet</a></td>
+        <td><p>A <a class="xref" href="MESL.SqlRace.Domain.ConfigurationSet.html">ConfigurationSet</a> instance</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Thrown if the identifier is null or an empty string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSetManager_Create_" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.Create*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSetManager_Create_MAT_OCS_Core_SessionKey_System_String_System_String_System_String_System_Boolean_System_Boolean_" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.Create(MAT.OCS.Core.SessionKey,System.String,System.String,System.String,System.Boolean,System.Boolean)">Create(SessionKey, String, String, String, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Creates an in-memory configuration set object. The configuration will be saved only when Commit() is called.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConfigurationSet Create(SessionKey key, string connectionString, string identifier, string description, bool commitToDatabase = true, bool transient = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key of the session this is associated with.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>The configuration set identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">description</span></td>
+        <td><p>The configuration set description</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">commitToDatabase</span></td>
+        <td><p>Generate persist function for created configuration set.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">transient</span></td>
+        <td><p>Flag configuration set as transient</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConfigurationSet.html">ConfigurationSet</a></td>
+        <td><p>A <a class="xref" href="MESL.SqlRace.Domain.ConfigurationSet.html">ConfigurationSet</a> instance</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Thrown if the identifier is null or an empty string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSetManager_Create_" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.Create*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSetManager_Create_MESL_SqlRace_Domain_ConnectionInformationBase_System_String_System_Boolean_" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.Create(MESL.SqlRace.Domain.ConnectionInformationBase,System.String,System.Boolean)">Create(ConnectionInformationBase, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Creates an in-memory configuration set object. The configuration will be saved only when Commit() is called.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConfigurationSet Create(ConnectionInformationBase connectionInformation, string identifier, bool commitToDatabase = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConnectionInformationBase.html">ConnectionInformationBase</a></td>
+        <td><span class="parametername">connectionInformation</span></td>
+        <td><p>The connection</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>The configuration set identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">commitToDatabase</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConfigurationSet.html">ConfigurationSet</a></td>
+        <td><p>A <a class="xref" href="MESL.SqlRace.Domain.ConfigurationSet.html">ConfigurationSet</a> instance</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Thrown if the identifier is null or an empty string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSetManager_Create_" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.Create*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSetManager_Create_MESL_SqlRace_Domain_ConnectionInformationBase_System_String_System_String_System_Boolean_System_Boolean_" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.Create(MESL.SqlRace.Domain.ConnectionInformationBase,System.String,System.String,System.Boolean,System.Boolean)">Create(ConnectionInformationBase, String, String, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Creates an in-memory configuration set object. The configuration will be saved only when Commit() is called.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConfigurationSet Create(ConnectionInformationBase connectionInformation, string identifier, string description, bool commitToDatabase = true, bool transient = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConnectionInformationBase.html">ConnectionInformationBase</a></td>
+        <td><span class="parametername">connectionInformation</span></td>
+        <td><p>The connection</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>The configuration set identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">description</span></td>
+        <td><p>The configuration set description</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">commitToDatabase</span></td>
+        <td><p>Generate persist function for created configuration set.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">transient</span></td>
+        <td><p>Flag configuration set as transient</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConfigurationSet.html">ConfigurationSet</a></td>
+        <td><p>A <a class="xref" href="MESL.SqlRace.Domain.ConfigurationSet.html">ConfigurationSet</a> instance</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Thrown if the identifier is null or an empty string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSetManager_Create_" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.Create*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSetManager_Create_System_String_System_String_System_Boolean_" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.Create(System.String,System.String,System.Boolean)">Create(String, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Creates an in-memory configuration set object. The configuration will be saved only when Commit() is called.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConfigurationSet Create(string connectionString, string identifier, bool commitToDatabase = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>The configuration set identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">commitToDatabase</span></td>
+        <td><p>Generate persist function for created configuration set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConfigurationSet.html">ConfigurationSet</a></td>
+        <td><p>A <a class="xref" href="MESL.SqlRace.Domain.ConfigurationSet.html">ConfigurationSet</a> instance</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Thrown if the identifier is null or an empty string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSetManager_Create_" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.Create*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSetManager_Create_System_String_System_String_System_String_System_Boolean_System_Boolean_" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.Create(System.String,System.String,System.String,System.Boolean,System.Boolean)">Create(String, String, String, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Creates an in-memory configuration set object. The configuration will be saved only when Commit() is called.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConfigurationSet Create(string connectionString, string identifier, string description, bool commitToDatabase = true, bool transient = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>The configuration set identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">description</span></td>
+        <td><p>The configuration set description</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">commitToDatabase</span></td>
+        <td><p>Generate persist function for created configuration set.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">transient</span></td>
+        <td><p>Flag configuration set as transient</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConfigurationSet.html">ConfigurationSet</a></td>
+        <td><p>A <a class="xref" href="MESL.SqlRace.Domain.ConfigurationSet.html">ConfigurationSet</a> instance</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Thrown if the identifier is null or an empty string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSetManager_CreateConfigurationSetManager_" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.CreateConfigurationSetManager*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSetManager_CreateConfigurationSetManager" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.CreateConfigurationSetManager">CreateConfigurationSetManager()</h4>
+  <div class="markdown level1 summary"><p>Kris L - deprecated. replace references in A9, A10 and remove</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use constructor directly&quot;)]
+public static ConfigurationSetManager CreateConfigurationSetManager()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConfigurationSetManager.html">ConfigurationSetManager</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSetManager_Delete_" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.Delete*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSetManager_Delete_MESL_SqlRace_Domain_ConnectionInformationBase_System_String_" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.Delete(MESL.SqlRace.Domain.ConnectionInformationBase,System.String)">Delete(ConnectionInformationBase, String)</h4>
+  <div class="markdown level1 summary"><p>Deletes the configuration set from SQL Race.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Delete(ConnectionInformationBase connectionInformation, string identifier)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConnectionInformationBase.html">ConnectionInformationBase</a></td>
+        <td><span class="parametername">connectionInformation</span></td>
+        <td><p>The connection</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>The configuration set identifier</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Thrown if the identifier is null or an empty string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSetManager_Delete_" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.Delete*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSetManager_Delete_System_String_System_String_" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.Delete(System.String,System.String)">Delete(String, String)</h4>
+  <div class="markdown level1 summary"><p>Deletes the configuration set from SQL Race.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Delete(string connectionString, string identifier)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>The configuration set identifier</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Thrown if the identifier is null or an empty string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSetManager_Exists_" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.Exists*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSetManager_Exists_MESL_SqlRace_Domain_ConnectionInformationBase_System_String_" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.Exists(MESL.SqlRace.Domain.ConnectionInformationBase,System.String)">Exists(ConnectionInformationBase, String)</h4>
+  <div class="markdown level1 summary"><p>Checks if the configuration set exists in the SQLRace Database.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Exists(ConnectionInformationBase connectionInformation, string identifier)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConnectionInformationBase.html">ConnectionInformationBase</a></td>
+        <td><span class="parametername">connectionInformation</span></td>
+        <td><p>The connection</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>The configuration set identifier</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the configuration set exists, otherwise False</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Thrown if the identifier is null or an empty string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSetManager_Exists_" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.Exists*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSetManager_Exists_MESL_SqlRace_Domain_ConnectionInformationBase_System_String_MESL_SqlRace_Domain_FastConfigurationSetAttributes__" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.Exists(MESL.SqlRace.Domain.ConnectionInformationBase,System.String,MESL.SqlRace.Domain.FastConfigurationSetAttributes@)">Exists(ConnectionInformationBase, String, out FastConfigurationSetAttributes)</h4>
+  <div class="markdown level1 summary"><p>Checks if the configuration set exists in the SQLRace Database, returning <a class="xref" href="MESL.SqlRace.Domain.FastConfigurationSetAttributes.html">FastConfigurationSetAttributes</a>
+via <code data-dev-comment-type="paramref" class="paramref">fastConfigAttributes</code> or <code>null</code> if the configuration set does not have associated fast configuration.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Exists(ConnectionInformationBase connectionInformation, string identifier, out FastConfigurationSetAttributes fastConfigAttributes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConnectionInformationBase.html">ConnectionInformationBase</a></td>
+        <td><span class="parametername">connectionInformation</span></td>
+        <td><p>The connection</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>The configuration set identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.FastConfigurationSetAttributes.html">FastConfigurationSetAttributes</a></td>
+        <td><span class="parametername">fastConfigAttributes</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the configuration set exists, otherwise False</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Thrown if the identifier is null or an empty string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSetManager_GetFastConfiguration_" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.GetFastConfiguration*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSetManager_GetFastConfiguration_MESL_SqlRace_Domain_ConnectionInformationBase_System_String_" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.GetFastConfiguration(MESL.SqlRace.Domain.ConnectionInformationBase,System.String)">GetFastConfiguration(ConnectionInformationBase, String)</h4>
+  <div class="markdown level1 summary"><p>Gets Fast Configuration data (not a configuration set) for the specified hash.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] GetFastConfiguration(ConnectionInformationBase connectionInformation, string hash)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConnectionInformationBase.html">ConnectionInformationBase</a></td>
+        <td><span class="parametername">connectionInformation</span></td>
+        <td><p>Connection.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">hash</span></td>
+        <td><p>Fast Configuration hash (lower-case hex).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><p>Fast Configuration data, or <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>When <a class="xref" href="MESL.SqlRace.Domain.ConfigurationSetManager.html#MESL_SqlRace_Domain_ConfigurationSetManager_SupportsFastConfiguration_MESL_SqlRace_Domain_ConnectionInformationBase_">SupportsFastConfiguration(ConnectionInformationBase)</a> returns <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSetManager_Purge_" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.Purge*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSetManager_Purge_System_String_" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.Purge(System.String)">Purge(String)</h4>
+  <div class="markdown level1 summary"><p>Purges unused configuration sets from the SQL Race</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Purge(string connectionString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSetManager_SupportsFastConfiguration_" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.SupportsFastConfiguration*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSetManager_SupportsFastConfiguration_MESL_SqlRace_Domain_ConnectionInformationBase_" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.SupportsFastConfiguration(MESL.SqlRace.Domain.ConnectionInformationBase)">SupportsFastConfiguration(ConnectionInformationBase)</h4>
+  <div class="markdown level1 summary"><p>Returns whether the specified connection supports Fast Configuration.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SupportsFastConfiguration(ConnectionInformationBase connectionInformation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConnectionInformationBase.html">ConnectionInformationBase</a></td>
+        <td><span class="parametername">connectionInformation</span></td>
+        <td><p>Connection.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if Fast Configuration is supported.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ConfigurationSetManager_UpgradeConfigurationSet_" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.UpgradeConfigurationSet*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConfigurationSetManager_UpgradeConfigurationSet_MESL_SqlRace_Domain_ConnectionInformationBase_System_Int32_System_String_" data-uid="MESL.SqlRace.Domain.ConfigurationSetManager.UpgradeConfigurationSet(MESL.SqlRace.Domain.ConnectionInformationBase,System.Int32,System.String)">UpgradeConfigurationSet(ConnectionInformationBase, Int32, String)</h4>
+  <div class="markdown level1 summary"><p>Upgrades the specified configuration set by associating it with Fast Configuration.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpgradeConfigurationSet(ConnectionInformationBase connectionInformation, int configurationSetId, string fastConfigurationHash)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConnectionInformationBase.html">ConnectionInformationBase</a></td>
+        <td><span class="parametername">connectionInformation</span></td>
+        <td><p>Connection.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">configurationSetId</span></td>
+        <td><p>Configuration set database id.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fastConfigurationHash</span></td>
+        <td><p>Fast Configuration hash (lower-case hex).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>When <a class="xref" href="MESL.SqlRace.Domain.ConfigurationSetManager.html#MESL_SqlRace_Domain_ConfigurationSetManager_SupportsFastConfiguration_MESL_SqlRace_Domain_ConnectionInformationBase_">SupportsFastConfiguration(ConnectionInformationBase)</a> returns <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

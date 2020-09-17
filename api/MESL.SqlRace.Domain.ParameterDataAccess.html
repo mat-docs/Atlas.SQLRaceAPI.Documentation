@@ -1,0 +1,1890 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ParameterDataAccess
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ParameterDataAccess
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MESL.SqlRace.Domain.ParameterDataAccess">
+  
+  
+  <h1 id="MESL_SqlRace_Domain_ParameterDataAccess" data-uid="MESL.SqlRace.Domain.ParameterDataAccess" class="text-break">Class ParameterDataAccess
+  </h1>
+  <div class="markdown level0 summary"><p>This is used to defines how data is sampled or interpolated and obtained from SQL Race. <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html">ParameterDataAccessBase</a></p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">System.MarshalByRefObject</span></div>
+    <div class="level2"><a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html">ParameterDataAccessBase</a></div>
+    <div class="level3"><span class="xref">ParameterDataAccess</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="MESL.SqlRace.Domain.IParameterDataAccess.html">IParameterDataAccess</a></div>
+    <div><span class="xref">System.IDisposable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_DefaultSampleTime">ParameterDataAccessBase.DefaultSampleTime</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_SampleSizeCap">ParameterDataAccessBase.SampleSizeCap</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_CurrentPosition">ParameterDataAccessBase.CurrentPosition</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_AssignErrorDefinition_MESL_SqlRace_Domain_ErrorDefinition_">ParameterDataAccessBase.AssignErrorDefinition(ErrorDefinition)</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_InitializeLifetimeService">ParameterDataAccessBase.InitializeLifetimeService()</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_ValidateStartPositionOfPda">ParameterDataAccessBase.ValidateStartPositionOfPda()</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_GuardAgainstInvocationWhenInvalidated">ParameterDataAccessBase.GuardAgainstInvocationWhenInvalidated()</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_ValidateArguments__3_System_Int32___0_____1_____2___">ParameterDataAccessBase.ValidateArguments&lt;T, TU, TV&gt;(Int32, T[], TU[], TV[])</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_ValidateArguments__2_System_Int32___0_____1___">ParameterDataAccessBase.ValidateArguments&lt;T, TU&gt;(Int32, T[], TU[])</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_ValidateStartAndEndTime_System_Int64_System_Int64_">ParameterDataAccessBase.ValidateStartAndEndTime(Int64, Int64)</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_GoTo_System_Int64_">ParameterDataAccessBase.GoTo(Int64)</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_GoTo_System_Double_">ParameterDataAccessBase.GoTo(Double)</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_SetSampleIncrement_System_Int64_">ParameterDataAccessBase.SetSampleIncrement(Int64)</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_SetSampleIncrement_System_Double_">ParameterDataAccessBase.SetSampleIncrement(Double)</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_Dispose">ParameterDataAccessBase.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_ValidateSampleTime">ParameterDataAccessBase.ValidateSampleTime()</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_SampleTime">ParameterDataAccessBase.SampleTime</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_CurrentTime">ParameterDataAccessBase.CurrentTime</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_Session">ParameterDataAccessBase.Session</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_ErrorDefinition">ParameterDataAccessBase.ErrorDefinition</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_DemandTimerange">ParameterDataAccessBase.DemandTimerange</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_ParameterIdentifier">ParameterDataAccessBase.ParameterIdentifier</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_UseSubSampledChannels">ParameterDataAccessBase.UseSubSampledChannels</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_Invalid">ParameterDataAccessBase.Invalid</a>
+    </div>
+    <div>
+      <span class="xref">System.MarshalByRefObject.MemberwiseClone(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">System.MarshalByRefObject.GetLifetimeService()</span>
+    </div>
+    <div>
+      <span class="xref">System.MarshalByRefObject.CreateObjRef(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.html">MESL.SqlRace.Domain</a></h6>
+  <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
+  <h5 id="MESL_SqlRace_Domain_ParameterDataAccess_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ParameterDataAccess : ParameterDataAccessBase, IParameterDataAccess, IDisposable</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="MESL_SqlRace_Domain_ParameterDataAccess_Disposed" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.Disposed">Disposed</h4>
+  <div class="markdown level1 summary"><p>The disposed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool Disposed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="MESL_SqlRace_Domain_ParameterDataAccess_Conversion_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.Conversion*"></a>
+  <h4 id="MESL_SqlRace_Domain_ParameterDataAccess_Conversion" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.Conversion">Conversion</h4>
+  <div class="markdown level1 summary"><p>Conversion</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConversionBase Conversion { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConversionBase.html">ConversionBase</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ParameterDataAccess_CoverageCursor_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.CoverageCursor*"></a>
+  <h4 id="MESL_SqlRace_Domain_ParameterDataAccess_CoverageCursor" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.CoverageCursor">CoverageCursor</h4>
+  <div class="markdown level1 summary"><p>Gets the coverage cursor for the PDA.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override long CoverageCursor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_CoverageCursor">ParameterDataAccessBase.CoverageCursor</a></div>
+  
+  
+  <a id="MESL_SqlRace_Domain_ParameterDataAccess_DataChangedCounter_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.DataChangedCounter*"></a>
+  <h4 id="MESL_SqlRace_Domain_ParameterDataAccess_DataChangedCounter" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.DataChangedCounter">DataChangedCounter</h4>
+  <div class="markdown level1 summary"><p>Gets a count of changes made to the data of any channel used by the PDA.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int DataChangedCounter { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_DataChangedCounter">ParameterDataAccessBase.DataChangedCounter</a></div>
+  
+  
+  <a id="MESL_SqlRace_Domain_ParameterDataAccess_Parameter_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.Parameter*"></a>
+  <h4 id="MESL_SqlRace_Domain_ParameterDataAccess_Parameter" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.Parameter">Parameter</h4>
+  <div class="markdown level1 summary"><p>The parameter for this Pda</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParameterBase Parameter { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ParameterBase.html">ParameterBase</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="MESL_SqlRace_Domain_ParameterDataAccess_CancelSearch_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.CancelSearch*"></a>
+  <h4 id="MESL_SqlRace_Domain_ParameterDataAccess_CancelSearch" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.CancelSearch">CancelSearch()</h4>
+  <div class="markdown level1 summary"><p>Cancel/Abort Any Searches</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void CancelSearch()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_CancelSearch">ParameterDataAccessBase.CancelSearch()</a></div>
+  
+  
+  <a id="MESL_SqlRace_Domain_ParameterDataAccess_Contains_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.Contains*"></a>
+  <h4 id="MESL_SqlRace_Domain_ParameterDataAccess_Contains_System_Int64_System_Int64_MESL_SqlRace_Domain_Query_MatchingRule_System_Double_System_Nullable_System_Double__System_Nullable_System_Int32__" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.Contains(System.Int64,System.Int64,MESL.SqlRace.Domain.Query.MatchingRule,System.Double,System.Nullable{System.Double},System.Nullable{System.Int32})">Contains(Int64, Int64, MatchingRule, Double, Nullable&lt;Double&gt;, Nullable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Does this PDA&apos;s data contain a value</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Contains(long startAt, long endAt, MatchingRule rule, double value, double? upperValue, int? timespan)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">startAt</span></td>
+        <td><p>Search Start Position</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">endAt</span></td>
+        <td><p>Search End Position</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Query.MatchingRule.html">MatchingRule</a></td>
+        <td><span class="parametername">rule</span></td>
+        <td><p>Comparison operator</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Value to Search For</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><span class="parametername">upperValue</span></td>
+        <td><p>Upper Value - used when using the Between Operator</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">timespan</span></td>
+        <td><p>Period of time the condition must be met for</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Was the ValueFound</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_Contains_System_Int64_System_Int64_MESL_SqlRace_Domain_Query_MatchingRule_System_Double_System_Nullable_System_Double__System_Nullable_System_Int32__">ParameterDataAccessBase.Contains(Int64, Int64, MatchingRule, Double, Nullable&lt;Double&gt;, Nullable&lt;Int32&gt;)</a></div>
+  
+  
+  <a id="MESL_SqlRace_Domain_ParameterDataAccess_Contains_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.Contains*"></a>
+  <h4 id="MESL_SqlRace_Domain_ParameterDataAccess_Contains_System_Int64_System_Int64_MESL_SqlRace_Domain_Query_MatchingRule_System_String_System_Nullable_System_Int32__" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.Contains(System.Int64,System.Int64,MESL.SqlRace.Domain.Query.MatchingRule,System.String,System.Nullable{System.Int32})">Contains(Int64, Int64, MatchingRule, String, Nullable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Does this PDA&apos;s data contain a converted value</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Contains(long startAt, long endAt, MatchingRule rule, string value, int? timespan)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">startAt</span></td>
+        <td><p>Search Start Position</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">endAt</span></td>
+        <td><p>Search End Position</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Query.MatchingRule.html">MatchingRule</a></td>
+        <td><span class="parametername">rule</span></td>
+        <td><p>Comparison operator</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Value to Search For</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">timespan</span></td>
+        <td><p>Period of time the condition must be met for</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Was the ValueFound</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_Contains_System_Int64_System_Int64_MESL_SqlRace_Domain_Query_MatchingRule_System_String_System_Nullable_System_Int32__">ParameterDataAccessBase.Contains(Int64, Int64, MatchingRule, String, Nullable&lt;Int32&gt;)</a></div>
+  
+  
+  <a id="MESL_SqlRace_Domain_ParameterDataAccess_Dispose_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.Dispose*"></a>
+  <h4 id="MESL_SqlRace_Domain_ParameterDataAccess_Dispose_System_Boolean_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.Dispose(System.Boolean)">Dispose(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Releases unmanaged and - optionally - managed resources.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Dispose(bool disposing)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">disposing</span></td>
+        <td><p><code>true</code> to release both managed and unmanaged resources; <code>false</code> to release only
+unmanaged resources.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_Dispose_System_Boolean_">ParameterDataAccessBase.Dispose(Boolean)</a></div>
+  
+  
+  <a id="MESL_SqlRace_Domain_ParameterDataAccess_Finalize_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.Finalize*"></a>
+  <h4 id="MESL_SqlRace_Domain_ParameterDataAccess_Finalize" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.Finalize">Finalize()</h4>
+  <div class="markdown level1 summary"><p>Finalizes an instance of the <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccess.html">ParameterDataAccess</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
+  </div>
+  
+  
+  <a id="MESL_SqlRace_Domain_ParameterDataAccess_GetData_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.GetData*"></a>
+  <h4 id="MESL_SqlRace_Domain_ParameterDataAccess_GetData_System_Int64___MESL_SqlRace_Enumerators_SampleModeType_System_Boolean_MAT_OCS_Core_ParameterValuesTemplate_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.GetData(System.Int64[],MESL.SqlRace.Enumerators.SampleModeType,System.Boolean,MAT.OCS.Core.ParameterValuesTemplate)">GetData(Int64[], SampleModeType, Boolean, ParameterValuesTemplate)</h4>
+  <div class="markdown level1 summary"><p>Gets the sampled data values and <a class="xref" href="MAT.OCS.Core.DataStatusType.html">DataStatusType</a> from the requested timestamps and sample types.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override ParameterValues GetData(long[] sampleTimestamps, SampleModeType withSampleMode = SampleModeType.Mean, bool linearInterpolation = false, ParameterValuesTemplate template = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span>[]</td>
+        <td><span class="parametername">sampleTimestamps</span></td>
+        <td><p>The timestamps requested</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Enumerators.SampleModeType.html">SampleModeType</a></td>
+        <td><span class="parametername">withSampleMode</span></td>
+        <td><p>The <a class="xref" href="MESL.SqlRace.Enumerators.SampleModeType.html">SampleModeType</a> which can be used. These are Minimum, Maximum, Mean and First. This is defaulted to Mean.  These can be specified as flags to get more than one type</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">linearInterpolation</span></td>
+        <td><p>This option only really matters when you are requesting data at a higher frequency than it was collected.<br>For example, if you have low rate data collection at 1hz and request a sample rate of 10hz. 
+This setting is defaulted to be <code>false</code> which means it will extend previous samples to fill the gaps in samples.
+If this is set to <code>true</code>, returned data is linearly interpolated, so the data changes in the samples will be smoother.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.ParameterValuesTemplate.html">ParameterValuesTemplate</a></td>
+        <td><span class="parametername">template</span></td>
+        <td><p>Optional template to be populated with samples.  This can be used if the client wants to manage the memory to perform it&apos;s own memory management/buffering. 
+The use of this is discouraged as the SQL Race memory pooling means it is more efficient in the large object heap and reduces fragmentation. 
+When specifing a template you should follow these rules:
+<ul><li>You always need a DataStatus array</li><li>If using the mode type Mean you need a Data array</li><li>If using the mode type First you need a DataFirst array</li><li>If using the mode type Minimum you need a DataMin array</li><li>If using the mode type Maximum you need a DataMax array</li><li>The arrays must have the length equal or greater to number of samples.<br>If it is greater than the array past the index of the number of samples will be left untouched by this call</li><li>If you want the timestamps in the result, you must specify a Timestamp array</li></ul></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.ParameterValues.html">ParameterValues</a></td>
+        <td><p>Returns a <a class="xref" href="MAT.OCS.Core.ParameterValues.html">ParameterValues</a> object containing the resulting data</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_GetData_System_Int64___MESL_SqlRace_Enumerators_SampleModeType_System_Boolean_MAT_OCS_Core_ParameterValuesTemplate_">ParameterDataAccessBase.GetData(Int64[], SampleModeType, Boolean, ParameterValuesTemplate)</a></div>
+  <h5 id="MESL_SqlRace_Domain_ParameterDataAccess_GetData_System_Int64___MESL_SqlRace_Enumerators_SampleModeType_System_Boolean_MAT_OCS_Core_ParameterValuesTemplate__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>On completion of this call, the <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_CurrentTime">CurrentTime</a> will be set to the end of the returned data</p>
+</div>
+  <h5 id="MESL_SqlRace_Domain_ParameterDataAccess_GetData_System_Int64___MESL_SqlRace_Enumerators_SampleModeType_System_Boolean_MAT_OCS_Core_ParameterValuesTemplate__examples">Examples</h5>
+  <p>The most simple call to this method, provides just the timestamps. This call will return the mean samples for the given timestamps</p>
+<pre><code>pda.GetData(timestamps)</code></pre>
+<p> This call will return the first samples for the given timestamps</p>
+<pre><code>pda.GetData(timestamps, SampleModeType.First)</code></pre>
+<p>This call will return the linearly interpolated mean values for the given timestamps</p>
+<pre><code>pda.GetData(timestamps, linearInterpolation: true)</code></pre>
+<p>Get minimum and maximum values and populate the given template</p>
+<pre><code>pda.GetData(timestamps, SampleModeType.Minimum | SampleModeType.Maximum, interpolate, new ParameterValuesTemplate { DataMin = minimumValues, DataMax = maximumValues, DataStatus = status });</code></pre>
+
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>This is thrown if the timestamps is an empty array or if the length of the arrays in the template are less than the number of timestamps requested</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>This is thrown if timestamps is set to null or if a template is provided, but it does not contain the array definitions it need for the given SampleModeType(s).  You need to follow the template definition rules documented.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ParameterDataAccess_GetDataStatistics_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.GetDataStatistics*"></a>
+  <h4 id="MESL_SqlRace_Domain_ParameterDataAccess_GetDataStatistics_System_Int64_System_Int64_System_Boolean_MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_MESL_SqlRace_Domain_Infrastructure_Interfaces_IParameterDataStatistics_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.GetDataStatistics(System.Int64,System.Int64,System.Boolean,MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption,MESL.SqlRace.Domain.Infrastructure.Interfaces.IParameterDataStatistics)">GetDataStatistics(Int64, Int64, Boolean, StatisticOption, IParameterDataStatistics)</h4>
+  <div class="markdown level1 summary"><p>Returns the statistical values requested with statistic option flag(s) for a time range of data.</p>
+<p>It takes a <code>show you workings</code> approach.  For example when you specify StandardDeviation it will include the sum of values and mean in the result.</p>
+<p>Any samples that have a NaN value are skipped.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IParameterDataStatistics GetDataStatistics(long startTimeStamp, long duration, bool weightStatistics = false, StatisticOption statisticOption = StatisticOption.None, IParameterDataStatistics statisticsResult = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">startTimeStamp</span></td>
+        <td><p>Start time of data range in nanoseconds.  This number is inclusive so will include the sample at this given timestamp</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td><p>Length of data range in nanoseconds. This duration is exclusive, it will ignore any sample at the end of the sample range (startTimeStamp + duration)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">weightStatistics</span></td>
+        <td><p>Weight statistics flag, this is defaulted to false.  If this is set to true then the mean, absolute mean and standard deviation calculations are weighted against the sample interval</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.html">StatisticOption</a></td>
+        <td><span class="parametername">statisticOption</span></td>
+        <td><p>The statistic to be retrieved.  This is defaulted to None which will only return start/end values.  This is a flag field so mutiple types of statistics can be requested in one call.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Infrastructure.Interfaces.IParameterDataStatistics.html">IParameterDataStatistics</a></td>
+        <td><span class="parametername">statisticsResult</span></td>
+        <td><p>Optional base statistics result</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Infrastructure.Interfaces.IParameterDataStatistics.html">IParameterDataStatistics</a></td>
+        <td><p>Returns a <a class="xref" href="MESL.SqlRace.Domain.Infrastructure.Interfaces.IParameterDataStatistics.html">IParameterDataStatistics</a> object containing the results for the requested statistic options.
+Depending on the statistic options depends which fields will be populated:
+<ul><li>AbsoluteMeanValue is populated when AbsoluteMean option is used</li><li>DeltaValue is populated when the Delta option is used.  This value is the delta between the first and last sample.</li><li>EndValue is always populated with the last value in the sample time range</li><li>GeometricMeanValue is populated when the GeometricMean sample option is used. Geometric mean cannot be calculated for negative values</li><li>Lap is always null for GetDataStatistics, it is only used in GetLapStatistics</li><li>MaximumStatus is populated with the maximum sample&apos;s status when Max option is used, otherwise it is defaulted to missing</li><li>MaximumTime is populated with the maximum sample&apos;s timestamp when Max option is used, otherwise it is set to 0</li><li>MaximumValue is populated with the maximum sample&apos;s value when Max option is used</li><li>MeanValue is populated when Mean and/or StandardDevation sample options are used</li><li>MinimumStatus is populated with the minimum sample&apos;s status when Min option is used, otherwise it is defaulted to missing</li><li>MinimumTime is populated with the minimum sample&apos;s timestamp when Min option is used, otherwise it is set to 0</li><li>MinimumValue is populated with the minimum sample&apos;s value when Min option is used</li><li>NumberOfSamples is always populated with the number of samples used to derive the statistics</li><li>RegressionInterceptValue is populated by specifing SlopeIntercept, SlopeRIntercept and/or SlopeRSquared statistic options.  X is the sample number and Y is the sample value.  For example the samples 10, 11, 12 would be mapped to (1, 10)(2, 11)(3, 12)</li><li>RegressionRSquaredValue is populated by specifing SlopeIntercept, SlopeRIntercept and/or SlopeRSquared statistic options.  X is the sample number and Y is the sample value.  For example the samples 10, 11, 12 would be mapped to (1, 10)(2, 11)(3, 12)</li><li>RegressionSlopeValue is populated by specifing SlopeIntercept, SlopeRIntercept and/or SlopeRSquared statistic options.  X is the sample number and Y is the sample value.  For example the samples 10, 11, 12 would be mapped to (1, 10)(2, 11)(3, 12)</li><li>SessionKey is always populated with the session key</li><li>StandardDeviation is populated by specifing the StandardDeviation statistic option.  This is calculated using the Population Standard deviation.</li><li>StartValue is always populated with the first value in the sample time range</li><li>SumOfAbsoluteSampleValues is populated when AbsoluteMean option is used.  If weighted is true this is the sum of values after weighting has been applied</li><li>SumOfSampleValues is populated when Mean and/or StandardDevation sample options are used.  If weighted is true this is the sum of values after weighting has been applied</li><li>SumOfSquaredSampleValues is populated when StandardDevation sample option is used.  If weighted is true this is the sum of values after weighting has been applied</li><li>TimeRange is always populated with the time range used to derive the statistics</li><li>NumberOfNansSkipped is always populated with the number of samples which had the value NaN and where therefore skipped.</li></ul></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_GetDataStatistics_System_Int64_System_Int64_System_Boolean_MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_MESL_SqlRace_Domain_Infrastructure_Interfaces_IParameterDataStatistics_">ParameterDataAccessBase.GetDataStatistics(Int64, Int64, Boolean, StatisticOption, IParameterDataStatistics)</a></div>
+  <h5 id="MESL_SqlRace_Domain_ParameterDataAccess_GetDataStatistics_System_Int64_System_Int64_System_Boolean_MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_MESL_SqlRace_Domain_Infrastructure_Interfaces_IParameterDataStatistics__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If data is requested data is either before or after samples are available then
+a zero numberOfSamples will be returned.</p>
+</div>
+  <h5 id="MESL_SqlRace_Domain_ParameterDataAccess_GetDataStatistics_System_Int64_System_Int64_System_Boolean_MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_MESL_SqlRace_Domain_Infrastructure_Interfaces_IParameterDataStatistics__examples">Examples</h5>
+  <p>Get the minimum value for the given time range</p>
+<pre><code>var result = this.pda.GetDataStatistics(
+                        startTime,
+                        duration,
+                        false,
+                        StatisticOption.Min);</code></pre>
+
+<p>Get the Max, Min and Mean for a given time range</p>
+<pre><code>pda.GetDataStatistics(
+              startTime,
+              duration,
+              false,
+              StatisticOption.Max | StatisticOption.Min | StatisticOption.Mean,
+              compositeStatistics);</code></pre>
+
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Thrown if the <code data-dev-comment-type="paramref" class="paramref">startTimeStamp</code>is less than zero
+or <code data-dev-comment-type="paramref" class="paramref">duration</code> is less than, or equal to zero.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ParameterDataAccess_GetEndTime_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.GetEndTime*"></a>
+  <h4 id="MESL_SqlRace_Domain_ParameterDataAccess_GetEndTime" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.GetEndTime">GetEndTime()</h4>
+  <div class="markdown level1 summary"><p>Returns the end time of the parameters data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override long? GetEndTime()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int64</span>&gt;</td>
+        <td><p>The end time.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_GetEndTime">ParameterDataAccessBase.GetEndTime()</a></div>
+  
+  
+  <a id="MESL_SqlRace_Domain_ParameterDataAccess_GetLapStatistics_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.GetLapStatistics*"></a>
+  <h4 id="MESL_SqlRace_Domain_ParameterDataAccess_GetLapStatistics_MESL_SqlRace_Domain_Lap_System_Boolean_MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_MESL_SqlRace_Domain_Infrastructure_Interfaces_IParameterDataStatistics_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.GetLapStatistics(MESL.SqlRace.Domain.Lap,System.Boolean,MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption,MESL.SqlRace.Domain.Infrastructure.Interfaces.IParameterDataStatistics)">GetLapStatistics(Lap, Boolean, StatisticOption, IParameterDataStatistics)</h4>
+  <div class="markdown level1 summary"><p>Returns the statistical values for the requested lap with statistic option flag(s) for lap time range of data.  The calculated statistics will be cached for improved performance.
+It takes a <code>show you workings</code> approach.  For example when you specify StandardDeviation it will include the sum of values and mean in the result.<br>Any samples that have a NaN value are skipped.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IParameterDataStatistics GetLapStatistics(Lap lap, bool weightStatistics = false, StatisticOption statisticOption = StatisticOption.None, IParameterDataStatistics statisticsResult = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Lap.html">Lap</a></td>
+        <td><span class="parametername">lap</span></td>
+        <td><p>The <a class="xref" href="MESL.SqlRace.Domain.Lap.html">Lap</a> to get statistics for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">weightStatistics</span></td>
+        <td><p>Weight statistics flag, this is defaulted to false.  If this is set to true then the mean, absolute mean and standard deviation calculations are weighted </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.html">StatisticOption</a></td>
+        <td><span class="parametername">statisticOption</span></td>
+        <td><p>The statistic to be retrieved.  This is defaulted to None which will only return start/end values.  This is a flag field so mutiple types of statistics can be requested in one call.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Infrastructure.Interfaces.IParameterDataStatistics.html">IParameterDataStatistics</a></td>
+        <td><span class="parametername">statisticsResult</span></td>
+        <td><p>Optional base statistics result</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Infrastructure.Interfaces.IParameterDataStatistics.html">IParameterDataStatistics</a></td>
+        <td><p>Returns a <a class="xref" href="MESL.SqlRace.Domain.Infrastructure.Interfaces.IParameterDataStatistics.html">IParameterDataStatistics</a> object containing the results for the requested statistic options.
+Depending on the statistic options depends which fields will be populated:
+<ul><li>AbsoluteMeanValue is populated when AbsoluteMean option is used</li><li>DeltaValue is populated when the Delta option is used.  This value is the delta between the first and last sample.</li><li>EndValue is always populated with the last value in the sample time range</li><li>GeometricMeanValue is populated when the GeometricMean sample option is used. Geometric mean cannot be calculated for negative values</li><li>Lap is populated with the lap provided</li><li>MaximumStatus is populated with the maximum sample&apos;s status when Max option is used, otherwise it is defaulted to missing</li><li>MaximumTime is populated with the maximum sample&apos;s timestamp when Max option is used, otherwise it is set to 0</li><li>MaximumValue is populated with the maximum sample&apos;s value when Max option is used</li><li>MeanValue is populated when Mean and/or StandardDevation sample options are used</li><li>MinimumStatus is populated with the minimum sample&apos;s status when Min option is used, otherwise it is defaulted to missing</li><li>MinimumTime is populated with the minimum sample&apos;s timestamp when Min option is used, otherwise it is set to 0</li><li>MinimumValue is populated with the minimum sample&apos;s value when Min option is used</li><li>NumberOfSamples is always populated with the number of samples used to derive the statistics</li><li>RegressionInterceptValue is populated by specifing SlopeIntercept, SlopeRIntercept and/or SlopeRSquared statistic options.  X is the sample number and Y is the sample value.  For example the samples 10, 11, 12 would be mapped to (1, 10)(2, 11)(3, 12)</li><li>RegressionRSquaredValue is populated by specifing SlopeIntercept, SlopeRIntercept and/or SlopeRSquared statistic options.  X is the sample number and Y is the sample value.  For example the samples 10, 11, 12 would be mapped to (1, 10)(2, 11)(3, 12)</li><li>RegressionSlopeValue is populated by specifing SlopeIntercept, SlopeRIntercept and/or SlopeRSquared statistic options.  X is the sample number and Y is the sample value.  For example the samples 10, 11, 12 would be mapped to (1, 10)(2, 11)(3, 12)</li><li>SessionKey is always populated with the session key</li><li>StandardDeviation is populated by specifing the StandardDeviation statistic option.  This is calculated using the Population Standard deviation.</li><li>StartValue is always populated with the first value in the sample time range</li><li>SumOfAbsoluteSampleValues is populated when AbsoluteMean option is used</li><li>SumOfSampleValues is populated when Mean and/or StandardDevation sample options are used</li><li>SumOfSquaredSampleValues is populated when StandardDevation sample option is used</li><li>TimeRange is always populated with the time range used to derive the statistics</li><li>NumberOfNansSkipped is always populated with the number of samples which had the value NaN and where therefore skipped.</li></ul></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_GetLapStatistics_MESL_SqlRace_Domain_Lap_System_Boolean_MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_MESL_SqlRace_Domain_Infrastructure_Interfaces_IParameterDataStatistics_">ParameterDataAccessBase.GetLapStatistics(Lap, Boolean, StatisticOption, IParameterDataStatistics)</a></div>
+  <h5 id="MESL_SqlRace_Domain_ParameterDataAccess_GetLapStatistics_MESL_SqlRace_Domain_Lap_System_Boolean_MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_MESL_SqlRace_Domain_Infrastructure_Interfaces_IParameterDataStatistics__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If data is requested data is either before or after samples are available then
+a zero numberOfSamples will be returned.</p>
+</div>
+  <h5 id="MESL_SqlRace_Domain_ParameterDataAccess_GetLapStatistics_MESL_SqlRace_Domain_Lap_System_Boolean_MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_MESL_SqlRace_Domain_Infrastructure_Interfaces_IParameterDataStatistics__examples">Examples</h5>
+  <p>Get the minimum value for the given lap</p>
+<pre><code>var result = this.pda.GetLapStatistics(
+                        lap,
+                        false,
+                        StatisticOption.Min);</code></pre>
+
+<p>Get the Max, Min and Mean for a given lap</p>
+<pre><code>pda.GetLapStatistics(
+              lap
+              false,
+              StatisticOption.Max | StatisticOption.Min | StatisticOption.Mean,
+              compositeStatistics);</code></pre>
+
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Thrown if the laps start is less than zero or if the start time is after the end time</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>Thrown if the lap is null or if the lap does not have an end time</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ParameterDataAccess_GetMaximumSampleRate_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.GetMaximumSampleRate*"></a>
+  <h4 id="MESL_SqlRace_Domain_ParameterDataAccess_GetMaximumSampleRate" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.GetMaximumSampleRate">GetMaximumSampleRate()</h4>
+  <div class="markdown level1 summary"><p>Returns the maximum sample rate available from the channels
+within the underlying Parameter associated with the PDA.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override long? GetMaximumSampleRate()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int64</span>&gt;</td>
+        <td><p>The maximum sample rate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_GetMaximumSampleRate">ParameterDataAccessBase.GetMaximumSampleRate()</a></div>
+  <h5 id="MESL_SqlRace_Domain_ParameterDataAccess_GetMaximumSampleRate_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This time returned is in nanoseconds.</p>
+</div>
+  
+  
+  <a id="MESL_SqlRace_Domain_ParameterDataAccess_GetMinimumSampleInterval_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.GetMinimumSampleInterval*"></a>
+  <h4 id="MESL_SqlRace_Domain_ParameterDataAccess_GetMinimumSampleInterval_System_Int64_System_Boolean_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.GetMinimumSampleInterval(System.Int64,System.Boolean)">GetMinimumSampleInterval(Int64, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Gets the minimum sample interval.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override long GetMinimumSampleInterval(long sampleTime, bool useSubSampledChannels)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">sampleTime</span></td>
+        <td><p>The sample time.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">useSubSampledChannels</span></td>
+        <td><p>if set to <code>true</code> [use sub sampled channels].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_GetMinimumSampleInterval_System_Int64_System_Boolean_">ParameterDataAccessBase.GetMinimumSampleInterval(Int64, Boolean)</a></div>
+  
+  
+  <a id="MESL_SqlRace_Domain_ParameterDataAccess_GetNextData_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.GetNextData*"></a>
+  <h4 id="MESL_SqlRace_Domain_ParameterDataAccess_GetNextData_System_Int32_MESL_SqlRace_Enumerators_SampleModeType_System_Boolean_MAT_OCS_Core_ParameterValuesTemplate_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.GetNextData(System.Int32,MESL.SqlRace.Enumerators.SampleModeType,System.Boolean,MAT.OCS.Core.ParameterValuesTemplate)">GetNextData(Int32, SampleModeType, Boolean, ParameterValuesTemplate)</h4>
+  <div class="markdown level1 summary"><p>Gets the next sampled data values and <a class="xref" href="MAT.OCS.Core.DataStatusType.html">DataStatusType</a> based on the number of samples requested and the PDA&apos;s current position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override ParameterValues GetNextData(int numberOfSamples, SampleModeType withSampleMode = SampleModeType.Mean, bool linearInterpolation = false, ParameterValuesTemplate template = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">numberOfSamples</span></td>
+        <td><p>Number of samples to retrieve.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Enumerators.SampleModeType.html">SampleModeType</a></td>
+        <td><span class="parametername">withSampleMode</span></td>
+        <td><p>The <a class="xref" href="MESL.SqlRace.Enumerators.SampleModeType.html">SampleModeType</a> which can be used. These are Minimum, Maximum, Mean and First. This is defaulted to Mean.  These can be specified as flags to get more than one type</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">linearInterpolation</span></td>
+        <td><p>This option only really matters when you are requesting data at a higher frequency than it was collected.<br>For example, if you have low rate data collection at 1hz and request a sample rate of 10hz. 
+This setting is defaulted to be <code>false</code> which means it will extend previous samples to fill the gaps in samples.
+If this is set to <code>true</code>, returned data is linearly interpolated, so the data changes in the samples will be smoother.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.ParameterValuesTemplate.html">ParameterValuesTemplate</a></td>
+        <td><span class="parametername">template</span></td>
+        <td><p>Optional template to be populated with samples.  This can be used if the client wants to manage the memory to perform it&apos;s own memory management/buffering. 
+The use of this is discouraged as the SQL Race memory pooling means it is more efficient in the large object heap and reduces fragmentation. 
+When specifing a template you should follow these rules:
+<ul><li>You always need a DataStatus array</li><li>If using the mode type Mean you need a Data array</li><li>If using the mode type First you need a DataFirst array</li><li>If using the mode type Minimum you need a DataMin array</li><li>If using the mode type Maximum you need a DataMax array</li><li>The arrays must have the length equal or greater to number of samples.<br>If it is greater than the array past the index of the number of samples will be left untouched by this call</li></ul></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.ParameterValues.html">ParameterValues</a></td>
+        <td><p>Returns a <a class="xref" href="MAT.OCS.Core.ParameterValues.html">ParameterValues</a> object containing the resulting data</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_GetNextData_System_Int32_MESL_SqlRace_Enumerators_SampleModeType_System_Boolean_MAT_OCS_Core_ParameterValuesTemplate_">ParameterDataAccessBase.GetNextData(Int32, SampleModeType, Boolean, ParameterValuesTemplate)</a></div>
+  <h5 id="MESL_SqlRace_Domain_ParameterDataAccess_GetNextData_System_Int32_MESL_SqlRace_Enumerators_SampleModeType_System_Boolean_MAT_OCS_Core_ParameterValuesTemplate__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>On completion of this call, the <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_CurrentTime">CurrentTime</a> will be set to the end of the returned data</p>
+</div>
+  <h5 id="MESL_SqlRace_Domain_ParameterDataAccess_GetNextData_System_Int32_MESL_SqlRace_Enumerators_SampleModeType_System_Boolean_MAT_OCS_Core_ParameterValuesTemplate__examples">Examples</h5>
+  <p>This example is the most simple call to the method.  It fetches the mean samples which are not linearly interpolated.</p>
+<pre><code>  var parameterValues = this.sourcePda.GetNextData(numberOfSamples);</code></pre>
+<p>This example gets the next mean, minimum and maximum samples which are linearly interpolated</p>
+<pre><code>  var parameterValues = this.sourcePda.GetNextData(numberOfSamples, SampleModeType.Minimum | SampleModeType.Maximum | SampleModeType.Mean, true);</code></pre>
+<p>Using the template to populate arrays in the client.  This is particularly useful if you want to reuse the same array for multiple calls to perform buffering or object reuse.</p>
+<pre><code> var data = new double[numberOfSamples];
+ var status = new DataStatusType[numberOfSamples];
+ parameterDataAccess.GetNextData(numberOfSamples, template: new ParameterValuesTemplate { Data = data, DataStatus = status});</code></pre>
+<p>If using the template and specifing different sample types, you need to ensure that you have defined the correct arrays in the template to be populated</p>
+<pre><code> parameterDataAccess.GetNextData(numberOfSamples, SampleModeType.Minimum | SampleModeType.Maximum, 
+   template: new ParameterValuesTemplate { DataMin = minimumValues, DataMax = maximumValues, DataStatus = dataStatusTypes});</code></pre>
+
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>This is thrown if number of samples requested is less than 1 or if the length of the arrays in the template are less than the number of samples requested</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>This is thrown if a template is provided, but it does not contain the array definitions it need for the given SampleModeType(s).  You need to follow the template definition rules documented.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ParameterDataAccess_GetNextSamples_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.GetNextSamples*"></a>
+  <h4 id="MESL_SqlRace_Domain_ParameterDataAccess_GetNextSamples_System_Int32_MESL_SqlRace_Domain_Infrastructure_Enumerators_StepDirection_MAT_OCS_Core_ParameterValuesTemplate_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.GetNextSamples(System.Int32,MESL.SqlRace.Domain.Infrastructure.Enumerators.StepDirection,MAT.OCS.Core.ParameterValuesTemplate)">GetNextSamples(Int32, StepDirection, ParameterValuesTemplate)</h4>
+  <div class="markdown level1 summary"><p>Returns the next raw data samples, their <a class="xref" href="MAT.OCS.Core.DataStatusType.html">DataStatusType</a> and time based on the number of samples
+requested.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override ParameterValues GetNextSamples(int numberOfSamples, StepDirection direction = StepDirection.Forward, ParameterValuesTemplate template = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">numberOfSamples</span></td>
+        <td><p>Number of samples to retrieve.  This has to be larger than 0.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Infrastructure.Enumerators.StepDirection.html">StepDirection</a></td>
+        <td><span class="parametername">direction</span></td>
+        <td><p>Set this to Reverse if you want to read the previous samples (read backwards)</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.ParameterValuesTemplate.html">ParameterValuesTemplate</a></td>
+        <td><span class="parametername">template</span></td>
+        <td><p>Optional template to be populated with samples.  This can be used if the client wants to manage the memory to perform it&apos;s own memory management/buffering. 
+The use of this is discouraged as the SQL Race memory pooling means it is more efficient in the large object heap and reduces fragmentation. 
+When specifing a template you should follow these rules:
+<ul><li>Provide a DataStatus array</li><li>Prove a Data array</li><li>Provide a Timestamp Array</li><li>Avoid providing a DataMin, DataFirst, DataMax or TimeStampValues arrays</li><li>The arrays must have the length equal or greater to number of samples.<br>If it is greater than the array past the index of the number of samples will be left untouched by this call</li></ul></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.ParameterValues.html">ParameterValues</a></td>
+        <td><p>Returns a <a class="xref" href="MAT.OCS.Core.ParameterValues.html">ParameterValues</a> object with the Data, Timestamp and DataStatus arrays populated with the results. 
+Use the ParameterValues.SampleCount field to determine how much data to read out of the array.  If there are no samples then SampleCount will be 0.<br>The if the template array size is larger than the requested number of samples the extra array space will be left untouched.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_GetNextSamples_System_Int32_MESL_SqlRace_Domain_Infrastructure_Enumerators_StepDirection_MAT_OCS_Core_ParameterValuesTemplate_">ParameterDataAccessBase.GetNextSamples(Int32, StepDirection, ParameterValuesTemplate)</a></div>
+  <h5 id="MESL_SqlRace_Domain_ParameterDataAccess_GetNextSamples_System_Int32_MESL_SqlRace_Domain_Infrastructure_Enumerators_StepDirection_MAT_OCS_Core_ParameterValuesTemplate__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>On completion of this call, the <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_CurrentTime">CurrentTime</a> will be set to the end of
+the returned data</p>
+</div>
+  <h5 id="MESL_SqlRace_Domain_ParameterDataAccess_GetNextSamples_System_Int32_MESL_SqlRace_Domain_Infrastructure_Enumerators_StepDirection_MAT_OCS_Core_ParameterValuesTemplate__examples">Examples</h5>
+  <p>Example of usage and then iterating over the results using the SampleCount field not the array size.</p>
+<pre><code>this.pda.GoTo(startTime);
+var pdaSamples = this.pda.GetNextSamples(noOfSamples);
+for (var i = 0; i &lt; pdaSamples.SampleCount; i++)
+{
+    if(pdaSamples.DataStatus[i] != DataStatusType.Missing)
+    {
+        var data = pdaSamples.Data[i];
+        var timestamp = pdaSamples.Timestamp[i]
+        //Do something with data
+    }
+}</code></pre>
+
+<p>This is the same code example, but called using a template.</p>
+<pre><code>this.pda.GoTo(startTime);
+var pdaSamples = this.pda.GetNextSamples(noOfSamples, template: new ParameterValuesTemplate
+               {
+                   Data = this.data,
+                   DataStatus = this.dataStatus,
+                   Timestamp = this.timeStamps
+                });
+for (var i = 0; i &lt; pdaSamples.SampleCount; i++)
+{
+    if(this.dataStatus[i] != DataStatusType.Missing)
+    {
+        var data = this.data[i];
+        var timestamp = this.timeStamps[i]
+        //Do something with data
+    }
+}</code></pre>
+
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>Thrown if a template is provided without Data, DataStatus or Timestamp arrays</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Thrown if; template arrays are too short, the smallest array is less than the number of samples in length or the number of samples is less than 1 </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ParameterDataAccess_GetSamplesBetween_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.GetSamplesBetween*"></a>
+  <h4 id="MESL_SqlRace_Domain_ParameterDataAccess_GetSamplesBetween_System_Int64_System_Int64_System_Int32_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.GetSamplesBetween(System.Int64,System.Int64,System.Int32)">GetSamplesBetween(Int64, Int64, Int32)</h4>
+  <div class="markdown level1 summary"><p>Gets a number of raw data samples, timestamps and <a class="xref" href="MAT.OCS.Core.DataStatusType.html">DataStatusType</a> based on the time range between the current position to the end sample time and sample size cap requested.<br>If the start time is after the end time it will read the data backwards in reverse. The <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_CurrentTime">CurrentTime</a> is not updated by this call.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override ParameterValues GetSamplesBetween(long startTimeStamp, long endTimeStamp, int sampleSizeCap = 10000)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">startTimeStamp</span></td>
+        <td><p>The start time stamp for the range to be read.  If this is larger than the end time then the data will be read in reverse.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">endTimeStamp</span></td>
+        <td><p>The end time stamp for the range to be read.  If this is smaller than the start time then the data will be read in reverse.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">sampleSizeCap</span></td>
+        <td><p>The maximum number of samples to return, this is defaulted to 10000.  If the cap is exceeded it will return the first X number of samples. This is a useful protection 
+in case you query for high resolution data over an extended time.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.ParameterValues.html">ParameterValues</a></td>
+        <td><p>Returns a <a class="xref" href="MAT.OCS.Core.ParameterValues.html">ParameterValues</a> object with the Data, Timestamp and DataStatus arrays populated with the results. 
+Use the ParameterValues.SampleCount field to determine how much data to read out of the array.  If there are no samples then SampleCount will be 0.<br>The array size is allocated by an estimate and then expanded if needed by a factor.  Therefore the array size can be bigger than required and have empty data on the end.<br>Because of this nature, there is no feature to allow a ParameterValuesTemplate field.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_GetSamplesBetween_System_Int64_System_Int64_System_Int32_">ParameterDataAccessBase.GetSamplesBetween(Int64, Int64, Int32)</a></div>
+  <h5 id="MESL_SqlRace_Domain_ParameterDataAccess_GetSamplesBetween_System_Int64_System_Int64_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If start and end time are equal then the sample for that timestamp is returned</p>
+</div>
+  <h5 id="MESL_SqlRace_Domain_ParameterDataAccess_GetSamplesBetween_System_Int64_System_Int64_System_Int32__examples">Examples</h5>
+  <p>Example of usage and then iterating over the results using the SampleCount field not the array size.</p>
+<pre><code>var pdaSamples = this.pda.GetSamplesBetween(startTime, endTime, maxSampleCountForPdaCall);
+for (var i = 0; i &lt; pdaSamples.SampleCount; i++)
+{
+    if(pdaSamples.DataStatus[i] != DataStatusType.Missing)
+    {
+        var data = pdaSamples.Data[i];
+        var timestamp = pdaSamples.Timestamp[i]
+        //Do something with data
+    }
+}</code></pre>
+
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>This is thrown if start or end time are minus numbers</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>This is thrown if the sampleSizeCap is less than 1</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ParameterDataAccess_GetSamplesCount_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.GetSamplesCount*"></a>
+  <h4 id="MESL_SqlRace_Domain_ParameterDataAccess_GetSamplesCount_System_Int64_System_Int64_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.GetSamplesCount(System.Int64,System.Int64)">GetSamplesCount(Int64, Int64)</h4>
+  <div class="markdown level1 summary"><p>Returns the numbers of samples between a specified start and end time.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override long GetSamplesCount(long startTimeStamp, long endTimeStamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">startTimeStamp</span></td>
+        <td><p>Start time stamp of the data.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">endTimeStamp</span></td>
+        <td><p>End time stamp of the data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>Number of samples between the start and end time, or zero if not samples found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_GetSamplesCount_System_Int64_System_Int64_">ParameterDataAccessBase.GetSamplesCount(Int64, Int64)</a></div>
+  
+  
+  <a id="MESL_SqlRace_Domain_ParameterDataAccess_GetSamplesCountEstimate_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.GetSamplesCountEstimate*"></a>
+  <h4 id="MESL_SqlRace_Domain_ParameterDataAccess_GetSamplesCountEstimate_System_Int64_System_Int64_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.GetSamplesCountEstimate(System.Int64,System.Int64)">GetSamplesCountEstimate(Int64, Int64)</h4>
+  <div class="markdown level1 summary"><p>Returns the theoretical sample count between a specified start and end time based on the highest frequency channel
+for this PDA&apos;s Parameter.
+If the return value is zero means that was impossible to calculate the sample count, or this PDA is created on a
+SlowRow parameter</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override long GetSamplesCountEstimate(long startTimeStamp, long endTimeStamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">startTimeStamp</span></td>
+        <td><p>Start time stamp of the data.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">endTimeStamp</span></td>
+        <td><p>End time stamp of the data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>Theoretical sample count between the start and end time, or zero if it was impossible to calculate, or this
+PDA is created on a SlowRow parameter.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_GetSamplesCountEstimate_System_Int64_System_Int64_">ParameterDataAccessBase.GetSamplesCountEstimate(Int64, Int64)</a></div>
+  
+  
+  <a id="MESL_SqlRace_Domain_ParameterDataAccess_GetSamplesUntil_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.GetSamplesUntil*"></a>
+  <h4 id="MESL_SqlRace_Domain_ParameterDataAccess_GetSamplesUntil_System_Int64_System_Int32_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.GetSamplesUntil(System.Int64,System.Int32)">GetSamplesUntil(Int64, Int32)</h4>
+  <div class="markdown level1 summary"><p>Returns a number of raw data samples between the current position to the end sample time. If the endtime is after the <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_CurrentTime">CurrentTime</a> then the position will be updated to be the last timestamp + 1.<br>If the endtime is before the <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_CurrentTime">CurrentTime</a> then the position will be updated to be the last timestamp - 1 and the data will be read in reverse.  If there are no samples then the PDA position is not updated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override ParameterValues GetSamplesUntil(long endTimeStamp, int sampleSizeCap = 10000)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">endTimeStamp</span></td>
+        <td><p>The end time stamp.  If this is before the PDA current time then it will read backwards to that point.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">sampleSizeCap</span></td>
+        <td><p>This is a cap on the amount of samples which will be returned.  This is defaulted to 10,000.  This is a useful protection 
+in case you query for high resolution data over and extended time.  If the cap is exceeded it will return the first X number of samples.. This can be overriden if required </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.ParameterValues.html">ParameterValues</a></td>
+        <td><p>Returns a <a class="xref" href="MAT.OCS.Core.ParameterValues.html">ParameterValues</a> object with the Data, Timestamp and DataStatus arrays populated with the results. 
+Use the ParameterValues.SampleCount field to determine how much data to read out of the array.  If there are no samples then SampleCount will be 0.<br>The array size is allocated by an estimate and then expanded if needed by a factor.  Therefore the array size can be bigger than the required and have empty data on the end.<br>Because of this nature, there is no feature to allow a ParameterValuesTemplate field.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_GetSamplesUntil_System_Int64_System_Int32_">ParameterDataAccessBase.GetSamplesUntil(Int64, Int32)</a></div>
+  <h5 id="MESL_SqlRace_Domain_ParameterDataAccess_GetSamplesUntil_System_Int64_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If current time and end time are equal then the sample for that timestamp is returned</p>
+</div>
+  <h5 id="MESL_SqlRace_Domain_ParameterDataAccess_GetSamplesUntil_System_Int64_System_Int32__examples">Examples</h5>
+  <p>Example of usage and then iterating over the results using the SampleCount field not the array size.</p>
+<pre><code>this.pda.GoTo(startTime);
+var pdaSamples = this.pda.GetSamplesUntil(endTime);
+for (var i = 0; i &lt; pdaSamples.SampleCount; i++)
+{
+    if(pdaSamples.DataStatus[i] != DataStatusType.Missing)
+    {
+        var data = pdaSamples.Data[i];
+        var timestamp = pdaSamples.Timestamp[i]
+        //Do something with data
+    }
+}</code></pre>
+
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>Thrown if sampleSizeCap is less than 1</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Is thrown if endtime equals the PDa current position or in less than 0</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ParameterDataAccess_GetStartTime_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.GetStartTime*"></a>
+  <h4 id="MESL_SqlRace_Domain_ParameterDataAccess_GetStartTime" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.GetStartTime">GetStartTime()</h4>
+  <div class="markdown level1 summary"><p>Returns the start time for the parameters data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override long? GetStartTime()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int64</span>&gt;</td>
+        <td><p>The start time.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_GetStartTime">ParameterDataAccessBase.GetStartTime()</a></div>
+  
+  
+  <a id="MESL_SqlRace_Domain_ParameterDataAccess_GetTimeRange_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.GetTimeRange*"></a>
+  <h4 id="MESL_SqlRace_Domain_ParameterDataAccess_GetTimeRange" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.GetTimeRange">GetTimeRange()</h4>
+  <div class="markdown level1 summary"><p>Gets the time range for the PDA.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override TimeRange? GetTimeRange()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.TimeRange.html">TimeRange</a>&gt;</td>
+        <td><p>Returns time range or null if there is no data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_GetTimeRange">ParameterDataAccessBase.GetTimeRange()</a></div>
+  
+  
+  <a id="MESL_SqlRace_Domain_ParameterDataAccess_OnInvalidated_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.OnInvalidated*"></a>
+  <h4 id="MESL_SqlRace_Domain_ParameterDataAccess_OnInvalidated" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.OnInvalidated">OnInvalidated()</h4>
+  <div class="markdown level1 summary"><p>Called when [invalidated].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnInvalidated()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_OnInvalidated">ParameterDataAccessBase.OnInvalidated()</a></div>
+  
+  
+  <a id="MESL_SqlRace_Domain_ParameterDataAccess_Search_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.Search*"></a>
+  <h4 id="MESL_SqlRace_Domain_ParameterDataAccess_Search_System_Int64_System_Int64_MESL_SqlRace_Domain_Query_MatchingRule_System_Double_System_Nullable_System_Double__System_Nullable_System_Int32__" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.Search(System.Int64,System.Int64,MESL.SqlRace.Domain.Query.MatchingRule,System.Double,System.Nullable{System.Double},System.Nullable{System.Int32})">Search(Int64, Int64, MatchingRule, Double, Nullable&lt;Double&gt;, Nullable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Search PDA for all occurrences of a data value</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IList&lt;QuerySample&gt; Search(long startAt, long endAt, MatchingRule rule, double value, double? upperValue, int? timespan)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">startAt</span></td>
+        <td><p>Search Start Position</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">endAt</span></td>
+        <td><p>Search End Position</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Query.MatchingRule.html">MatchingRule</a></td>
+        <td><span class="parametername">rule</span></td>
+        <td><p>Comparison operator</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Value to Search For</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><span class="parametername">upperValue</span></td>
+        <td><p>Upper Value - used when using the Between Operator</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">timespan</span></td>
+        <td><p>Period of time the condition must be met for</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.Query.QuerySample.html">QuerySample</a>&gt;</td>
+        <td><p>Matching samples</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_Search_System_Int64_System_Int64_MESL_SqlRace_Domain_Query_MatchingRule_System_Double_System_Nullable_System_Double__System_Nullable_System_Int32__">ParameterDataAccessBase.Search(Int64, Int64, MatchingRule, Double, Nullable&lt;Double&gt;, Nullable&lt;Int32&gt;)</a></div>
+  
+  
+  <a id="MESL_SqlRace_Domain_ParameterDataAccess_Search_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.Search*"></a>
+  <h4 id="MESL_SqlRace_Domain_ParameterDataAccess_Search_System_Int64_System_Int64_MESL_SqlRace_Domain_Query_MatchingRule_System_String_System_Nullable_System_Int32__" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.Search(System.Int64,System.Int64,MESL.SqlRace.Domain.Query.MatchingRule,System.String,System.Nullable{System.Int32})">Search(Int64, Int64, MatchingRule, String, Nullable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Search PDA for all occurrences of a converted data value</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IList&lt;QuerySample&gt; Search(long startAt, long endAt, MatchingRule rule, string value, int? timespan)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">startAt</span></td>
+        <td><p>Search Start Position</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">endAt</span></td>
+        <td><p>Search End Position</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Query.MatchingRule.html">MatchingRule</a></td>
+        <td><span class="parametername">rule</span></td>
+        <td><p>Comparison operator</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Value to Search For</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">timespan</span></td>
+        <td><p>Period of time the condition must be met for</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.Query.QuerySample.html">QuerySample</a>&gt;</td>
+        <td><p>Matching samples</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_Search_System_Int64_System_Int64_MESL_SqlRace_Domain_Query_MatchingRule_System_String_System_Nullable_System_Int32__">ParameterDataAccessBase.Search(Int64, Int64, MatchingRule, String, Nullable&lt;Int32&gt;)</a></div>
+  
+  
+  <a id="MESL_SqlRace_Domain_ParameterDataAccess_SetMapper_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.SetMapper*"></a>
+  <h4 id="MESL_SqlRace_Domain_ParameterDataAccess_SetMapper_System_String_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.SetMapper(System.String)">SetMapper(String)</h4>
+  <div class="markdown level1 summary"><p>Sets the mapper to be used for GetNextData calls. The mapper is identified by its name.
+The API includes default mappers for time (which is the default for a PDA) and distance.
+These are named &quot;time&quot; and &quot;distance&quot; respectively. The API caller may specify another mapping
+name for a custom mapper that has been registered with the API (see MapperService). If a mapper
+is set which is not registered then an invalid argument exception will be thrown.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void SetMapper(string mapper)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">mapper</span></td>
+        <td><p>The name of the mapper.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_SetMapper_System_String_">ParameterDataAccessBase.SetMapper(String)</a></div>
+  
+  
+  <a id="MESL_SqlRace_Domain_ParameterDataAccess_ToString_" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.ToString*"></a>
+  <h4 id="MESL_SqlRace_Domain_ParameterDataAccess_ToString" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Returns a <span class="xref">System.String</span> that represents the current <span class="xref">System.Object</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A <span class="xref">System.String</span> that represents the current <span class="xref">System.Object</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.ToString()</span></div>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="MESL_SqlRace_Domain_ParameterDataAccess_Invalidated" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.Invalidated">Invalidated</h4>
+  <div class="markdown level1 summary"><p>Occurs when [invalidated].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override event EventHandler Invalidated</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_Invalidated">ParameterDataAccessBase.Invalidated</a></div>
+  
+  
+  <h4 id="MESL_SqlRace_Domain_ParameterDataAccess_UnderlyingDataSourceChanged" data-uid="MESL.SqlRace.Domain.ParameterDataAccess.UnderlyingDataSourceChanged">UnderlyingDataSourceChanged</h4>
+  <div class="markdown level1 summary"><p>Occurs when [underlying data source changed]. This event will be raised if the source
+data context of this PDA changes - any previously-requested data is invalid.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override event EventHandler UnderlyingDataSourceChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_UnderlyingDataSourceChanged">ParameterDataAccessBase.UnderlyingDataSourceChanged</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.IParameterDataAccess.html">IParameterDataAccess</a>
+  </div>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

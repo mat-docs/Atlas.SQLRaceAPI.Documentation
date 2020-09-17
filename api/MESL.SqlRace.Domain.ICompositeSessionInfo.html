@@ -1,0 +1,626 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface ICompositeSessionInfo
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface ICompositeSessionInfo
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MESL.SqlRace.Domain.ICompositeSessionInfo">
+  
+  
+  <h1 id="MESL_SqlRace_Domain_ICompositeSessionInfo" data-uid="MESL.SqlRace.Domain.ICompositeSessionInfo" class="text-break">Interface ICompositeSessionInfo
+  </h1>
+  <div class="markdown level0 summary"><p>Interface representing a CompositeSessionInfo</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.IDisposable.Dispose()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.html">MESL.SqlRace.Domain</a></h6>
+  <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
+  <h5 id="MESL_SqlRace_Domain_ICompositeSessionInfo_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ICompositeSessionInfo : IDisposable</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="MESL_SqlRace_Domain_ICompositeSessionInfo_Conversions_" data-uid="MESL.SqlRace.Domain.ICompositeSessionInfo.Conversions*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionInfo_Conversions" data-uid="MESL.SqlRace.Domain.ICompositeSessionInfo.Conversions">Conversions</h4>
+  <div class="markdown level1 summary"><p>Conversions</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ReadOnlyCollection&lt;ConversionBase&gt; Conversions { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ReadOnlyCollection</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.ConversionBase.html">ConversionBase</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ICompositeSessionInfo_Enabled_" data-uid="MESL.SqlRace.Domain.ICompositeSessionInfo.Enabled*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionInfo_Enabled" data-uid="MESL.SqlRace.Domain.ICompositeSessionInfo.Enabled">Enabled</h4>
+  <div class="markdown level1 summary"><p>Wherther Enabled</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool Enabled { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ICompositeSessionInfo_EndTime_" data-uid="MESL.SqlRace.Domain.ICompositeSessionInfo.EndTime*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionInfo_EndTime" data-uid="MESL.SqlRace.Domain.ICompositeSessionInfo.EndTime">EndTime</h4>
+  <div class="markdown level1 summary"><p>Returns the end time of the session</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">long EndTime { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ICompositeSessionInfo_ErrorDefinitions_" data-uid="MESL.SqlRace.Domain.ICompositeSessionInfo.ErrorDefinitions*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionInfo_ErrorDefinitions" data-uid="MESL.SqlRace.Domain.ICompositeSessionInfo.ErrorDefinitions">ErrorDefinitions</h4>
+  <div class="markdown level1 summary"><p>Error Definitions</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ReadOnlyCollection&lt;ErrorDefinition&gt; ErrorDefinitions { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ReadOnlyCollection</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.ErrorDefinition.html">ErrorDefinition</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ICompositeSessionInfo_EventDefinitions_" data-uid="MESL.SqlRace.Domain.ICompositeSessionInfo.EventDefinitions*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionInfo_EventDefinitions" data-uid="MESL.SqlRace.Domain.ICompositeSessionInfo.EventDefinitions">EventDefinitions</h4>
+  <div class="markdown level1 summary"><p>Event Definitions</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ReadOnlyCollection&lt;EventDefinition&gt; EventDefinitions { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ReadOnlyCollection</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.EventDefinition.html">EventDefinition</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ICompositeSessionInfo_Events_" data-uid="MESL.SqlRace.Domain.ICompositeSessionInfo.Events*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionInfo_Events" data-uid="MESL.SqlRace.Domain.ICompositeSessionInfo.Events">Events</h4>
+  <div class="markdown level1 summary"><p>Events</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">EventCollection Events { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Collections.EventCollection.html">EventCollection</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ICompositeSessionInfo_Items_" data-uid="MESL.SqlRace.Domain.ICompositeSessionInfo.Items*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionInfo_Items" data-uid="MESL.SqlRace.Domain.ICompositeSessionInfo.Items">Items</h4>
+  <div class="markdown level1 summary"><p>Session Items</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SessionDataItemsCollection&lt;SessionDataItem&gt; Items { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Collections.SessionDataItemsCollection-1.html">SessionDataItemsCollection</a>&lt;<a class="xref" href="MESL.SqlRace.Domain.SessionDataItem.html">SessionDataItem</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ICompositeSessionInfo_Key_" data-uid="MESL.SqlRace.Domain.ICompositeSessionInfo.Key*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionInfo_Key" data-uid="MESL.SqlRace.Domain.ICompositeSessionInfo.Key">Key</h4>
+  <div class="markdown level1 summary"><p>Session Key for under lying session</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SessionKey Key { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ICompositeSessionInfo_Laps_" data-uid="MESL.SqlRace.Domain.ICompositeSessionInfo.Laps*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionInfo_Laps" data-uid="MESL.SqlRace.Domain.ICompositeSessionInfo.Laps">Laps</h4>
+  <div class="markdown level1 summary"><p>Laps</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ILapCollection Laps { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Collections.ILapCollection.html">ILapCollection</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ICompositeSessionInfo_Parameters_" data-uid="MESL.SqlRace.Domain.ICompositeSessionInfo.Parameters*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionInfo_Parameters" data-uid="MESL.SqlRace.Domain.ICompositeSessionInfo.Parameters">Parameters</h4>
+  <div class="markdown level1 summary"><p>Parameters</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ReadOnlyCollection&lt;ParameterBase&gt; Parameters { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ReadOnlyCollection</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.ParameterBase.html">ParameterBase</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ICompositeSessionInfo_SessionTimeRange_" data-uid="MESL.SqlRace.Domain.ICompositeSessionInfo.SessionTimeRange*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionInfo_SessionTimeRange" data-uid="MESL.SqlRace.Domain.ICompositeSessionInfo.SessionTimeRange">SessionTimeRange</h4>
+  <div class="markdown level1 summary"><p>Gets the Session time range</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TimeRange SessionTimeRange { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.TimeRange.html">TimeRange</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ICompositeSessionInfo_StartTime_" data-uid="MESL.SqlRace.Domain.ICompositeSessionInfo.StartTime*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionInfo_StartTime" data-uid="MESL.SqlRace.Domain.ICompositeSessionInfo.StartTime">StartTime</h4>
+  <div class="markdown level1 summary"><p>Returns the start time of the session</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">long StartTime { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ICompositeSessionInfo_UnderlyingSession_" data-uid="MESL.SqlRace.Domain.ICompositeSessionInfo.UnderlyingSession*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionInfo_UnderlyingSession" data-uid="MESL.SqlRace.Domain.ICompositeSessionInfo.UnderlyingSession">UnderlyingSession</h4>
+  <div class="markdown level1 summary"><p>Underlying Session</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SessionBase UnderlyingSession { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionBase.html">SessionBase</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="MESL_SqlRace_Domain_ICompositeSessionInfo_ContainsParameter_" data-uid="MESL.SqlRace.Domain.ICompositeSessionInfo.ContainsParameter*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionInfo_ContainsParameter_System_String_" data-uid="MESL.SqlRace.Domain.ICompositeSessionInfo.ContainsParameter(System.String)">ContainsParameter(String)</h4>
+  <div class="markdown level1 summary"><p>Does the underlying Session contain the Parameter</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ContainsParameter(string parameterIdentifier)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterIdentifier</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ICompositeSessionInfo_CreateParameterDataAccess_" data-uid="MESL.SqlRace.Domain.ICompositeSessionInfo.CreateParameterDataAccess*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionInfo_CreateParameterDataAccess_System_String_" data-uid="MESL.SqlRace.Domain.ICompositeSessionInfo.CreateParameterDataAccess(System.String)">CreateParameterDataAccess(String)</h4>
+  <div class="markdown level1 summary"><p>Create a PDA on the underlying Session</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ParameterDataAccessBase CreateParameterDataAccess(string parameterIdentifier)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterIdentifier</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html">ParameterDataAccessBase</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ICompositeSessionInfo_GetLapFromStartTime_" data-uid="MESL.SqlRace.Domain.ICompositeSessionInfo.GetLapFromStartTime*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionInfo_GetLapFromStartTime_System_Int64_" data-uid="MESL.SqlRace.Domain.ICompositeSessionInfo.GetLapFromStartTime(System.Int64)">GetLapFromStartTime(Int64)</h4>
+  <div class="markdown level1 summary"><p>Returns the lap in which this start time is present in.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Lap GetLapFromStartTime(long startTime)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">startTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Lap.html">Lap</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_ICompositeSessionInfo_LoadParameters_" data-uid="MESL.SqlRace.Domain.ICompositeSessionInfo.LoadParameters*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionInfo_LoadParameters_System_Collections_Generic_IEnumerable_System_String__" data-uid="MESL.SqlRace.Domain.ICompositeSessionInfo.LoadParameters(System.Collections.Generic.IEnumerable{System.String})">LoadParameters(IEnumerable&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Loads configuration for the parameterIdentifiers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LoadParameters(IEnumerable&lt;string&gt; parameterIdentifiers)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">parameterIdentifiers</span></td>
+        <td><p>parameter identifiers required</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

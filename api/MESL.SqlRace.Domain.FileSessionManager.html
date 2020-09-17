@@ -1,0 +1,940 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class FileSessionManager
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class FileSessionManager
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MESL.SqlRace.Domain.FileSessionManager">
+  
+  
+  <h1 id="MESL_SqlRace_Domain_FileSessionManager" data-uid="MESL.SqlRace.Domain.FileSessionManager" class="text-break">Class FileSessionManager
+  </h1>
+  <div class="markdown level0 summary"><p>Class for the management of finding file based sessions
+contained on the file system for indexing as SQL Race Sessions.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">FileSessionManager</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="MESL.SqlRace.Domain.IFileSessionManager.html">IFileSessionManager</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.html">MESL.SqlRace.Domain</a></h6>
+  <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
+  <h5 id="MESL_SqlRace_Domain_FileSessionManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class FileSessionManager : IFileSessionManager</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="MESL_SqlRace_Domain_FileSessionManager_ComputeGuidFor_" data-uid="MESL.SqlRace.Domain.FileSessionManager.ComputeGuidFor*"></a>
+  <h4 id="MESL_SqlRace_Domain_FileSessionManager_ComputeGuidFor_System_String_" data-uid="MESL.SqlRace.Domain.FileSessionManager.ComputeGuidFor(System.String)">ComputeGuidFor(String)</h4>
+  <div class="markdown level1 summary"><p>Computes a Session Key Guid for a FileSession</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SessionKey ComputeGuidFor(string fileSessionPath)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileSessionPath</span></td>
+        <td><p>Path and filename to compute key for</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_FileSessionManager_CreateFileSessionManager_" data-uid="MESL.SqlRace.Domain.FileSessionManager.CreateFileSessionManager*"></a>
+  <h4 id="MESL_SqlRace_Domain_FileSessionManager_CreateFileSessionManager" data-uid="MESL.SqlRace.Domain.FileSessionManager.CreateFileSessionManager">CreateFileSessionManager()</h4>
+  <div class="markdown level1 summary"><p>Creates a new instance of the <a class="xref" href="MESL.SqlRace.Domain.FileSessionManager.html">FileSessionManager</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FileSessionManager CreateFileSessionManager()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.FileSessionManager.html">FileSessionManager</a></td>
+        <td><p>A new <a class="xref" href="MESL.SqlRace.Domain.FileSessionManager.html">FileSessionManager</a> object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_FileSessionManager_GetIndexedFileSessionFolder_" data-uid="MESL.SqlRace.Domain.FileSessionManager.GetIndexedFileSessionFolder*"></a>
+  <h4 id="MESL_SqlRace_Domain_FileSessionManager_GetIndexedFileSessionFolder_System_String_System_String_System_Boolean_" data-uid="MESL.SqlRace.Domain.FileSessionManager.GetIndexedFileSessionFolder(System.String,System.String,System.Boolean)">GetIndexedFileSessionFolder(String, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Get the indexed file sessions from the cache</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;ISessionSummary&gt; GetIndexedFileSessionFolder(string connectionString, string path, bool includeSubdirectories)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string for the cache database</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td><p>The path to the indexed folder</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">includeSubdirectories</span></td>
+        <td><p>Whether or not to include descendent directories of the path given.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.ISessionSummary.html">ISessionSummary</a>&gt;</td>
+        <td><p>The session summaries of the session files in the given folder</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_FileSessionManager_GetIndexedFileSessionFolder_" data-uid="MESL.SqlRace.Domain.FileSessionManager.GetIndexedFileSessionFolder*"></a>
+  <h4 id="MESL_SqlRace_Domain_FileSessionManager_GetIndexedFileSessionFolder_System_String_System_String_System_Boolean_MESL_SqlRace_Domain_Query_IFilter_System_Collections_Generic_IEnumerable_MESL_SqlRace_Domain_Query_SortCriterion__System_Nullable_System_Int32__System_Nullable_System_Int32__" data-uid="MESL.SqlRace.Domain.FileSessionManager.GetIndexedFileSessionFolder(System.String,System.String,System.Boolean,MESL.SqlRace.Domain.Query.IFilter,System.Collections.Generic.IEnumerable{MESL.SqlRace.Domain.Query.SortCriterion},System.Nullable{System.Int32},System.Nullable{System.Int32})">GetIndexedFileSessionFolder(String, String, Boolean, IFilter, IEnumerable&lt;SortCriterion&gt;, Nullable&lt;Int32&gt;, Nullable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Get the indexed file sessions from the cache</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;ISessionSummary&gt; GetIndexedFileSessionFolder(string connectionString, string path, bool includeSubdirectories, IFilter filter, IEnumerable&lt;SortCriterion&gt; sortCriteria, int? pageNumber, int? pageSize)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string for the cache database</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td><p>The path to the indexed folder</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">includeSubdirectories</span></td>
+        <td><p>Whether or not to include descendent directories of the path given.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Query.IFilter.html">IFilter</a></td>
+        <td><span class="parametername">filter</span></td>
+        <td><p>The filter to limit the number of sessions returned</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.Query.SortCriterion.html">SortCriterion</a>&gt;</td>
+        <td><span class="parametername">sortCriteria</span></td>
+        <td><p>The fields to sort the result by</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">pageNumber</span></td>
+        <td><p>The 1 based page number</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">pageSize</span></td>
+        <td><p>The number of items per page</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.ISessionSummary.html">ISessionSummary</a>&gt;</td>
+        <td><p>The session summaries of the session files in the given folder</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_FileSessionManager_IndexFileSessions_" data-uid="MESL.SqlRace.Domain.FileSessionManager.IndexFileSessions*"></a>
+  <h4 id="MESL_SqlRace_Domain_FileSessionManager_IndexFileSessions_System_Collections_Generic_List_System_String__System_String_System_Boolean_" data-uid="MESL.SqlRace.Domain.FileSessionManager.IndexFileSessions(System.Collections.Generic.List{System.String},System.String,System.Boolean)">IndexFileSessions(List&lt;String&gt;, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Load a FileSession from specified path</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;ISessionSummary&gt; IndexFileSessions(List&lt;string&gt; fileSessionFullPaths, string connectionString, bool processAssociated)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">fileSessionFullPaths</span></td>
+        <td><p>Fully qualified path and filename to a file based session</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>Database connection string to use for file session</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">processAssociated</span></td>
+        <td><p>Whether to include Associate sessions for processing</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.ISessionSummary.html">ISessionSummary</a>&gt;</td>
+        <td><p>List of ISessionSummary representing the File session and Associates (if requested)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_FileSessionManager_IsSessionFile_" data-uid="MESL.SqlRace.Domain.FileSessionManager.IsSessionFile*"></a>
+  <h4 id="MESL_SqlRace_Domain_FileSessionManager_IsSessionFile_System_String_" data-uid="MESL.SqlRace.Domain.FileSessionManager.IsSessionFile(System.String)">IsSessionFile(String)</h4>
+  <div class="markdown level1 summary"><p>Returns true if the file is a type that we can load as a session, false otherwise</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsSessionFile(string filePath)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">filePath</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_FileSessionManager_IsSessionFileOrDependent_" data-uid="MESL.SqlRace.Domain.FileSessionManager.IsSessionFileOrDependent*"></a>
+  <h4 id="MESL_SqlRace_Domain_FileSessionManager_IsSessionFileOrDependent_System_String_" data-uid="MESL.SqlRace.Domain.FileSessionManager.IsSessionFileOrDependent(System.String)">IsSessionFileOrDependent(String)</h4>
+  <div class="markdown level1 summary"><p>Returns true if the file is a type that we can load as a session or a file that depends on a session (e.g. SSE), false otherwise</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsSessionFileOrDependent(string filePath)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">filePath</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_FileSessionManager_Load_" data-uid="MESL.SqlRace.Domain.FileSessionManager.Load*"></a>
+  <h4 id="MESL_SqlRace_Domain_FileSessionManager_Load_System_String_System_Collections_Generic_IList_System_String__" data-uid="MESL.SqlRace.Domain.FileSessionManager.Load(System.String,System.Collections.Generic.IList{System.String})">Load(String, IList&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Loads the specified file session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IClientSession Load(string fileSession, IList&lt;string&gt; associatesToLoad = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileSession</span></td>
+        <td><p>The file session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">associatesToLoad</span></td>
+        <td><p>The associates to load</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.IClientSession.html">IClientSession</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_FileSessionManager_LoadSessionSummariesForFiles_" data-uid="MESL.SqlRace.Domain.FileSessionManager.LoadSessionSummariesForFiles*"></a>
+  <h4 id="MESL_SqlRace_Domain_FileSessionManager_LoadSessionSummariesForFiles_System_Collections_Generic_IList_System_String__MESL_SqlRace_Domain_Query_IFilter_System_Collections_Generic_IEnumerable_MESL_SqlRace_Domain_Query_SortCriterion__System_Threading_CancellationToken_System_IProgress_MESL_SqlRace_Domain_SessionProcessing_SessionProcessingStatusUpdate__" data-uid="MESL.SqlRace.Domain.FileSessionManager.LoadSessionSummariesForFiles(System.Collections.Generic.IList{System.String},MESL.SqlRace.Domain.Query.IFilter,System.Collections.Generic.IEnumerable{MESL.SqlRace.Domain.Query.SortCriterion},System.Threading.CancellationToken,System.IProgress{MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatusUpdate})">LoadSessionSummariesForFiles(IList&lt;String&gt;, IFilter, IEnumerable&lt;SortCriterion&gt;, CancellationToken, IProgress&lt;SessionProcessingStatusUpdate&gt;)</h4>
+  <div class="markdown level1 summary"><p>Load only session summaries for the given files</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;ISessionSummary&gt; LoadSessionSummariesForFiles(IList&lt;string&gt; files, IFilter filter, IEnumerable&lt;SortCriterion&gt; sortCriteria, CancellationToken token, IProgress&lt;SessionProcessingStatusUpdate&gt; progress)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">files</span></td>
+        <td><p>The files that need to be the summary been loaded</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Query.IFilter.html">IFilter</a></td>
+        <td><span class="parametername">filter</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.Query.SortCriterion.html">SortCriterion</a>&gt;</td>
+        <td><span class="parametername">sortCriteria</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>A token to cancel the operation</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IProgress</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatusUpdate.html">SessionProcessingStatusUpdate</a>&gt;</td>
+        <td><span class="parametername">progress</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.ISessionSummary.html">ISessionSummary</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_FileSessionManager_LoadSessionSummariesForFiles_" data-uid="MESL.SqlRace.Domain.FileSessionManager.LoadSessionSummariesForFiles*"></a>
+  <h4 id="MESL_SqlRace_Domain_FileSessionManager_LoadSessionSummariesForFiles_System_Collections_Generic_IList_System_String__System_Threading_CancellationToken_System_IProgress_MESL_SqlRace_Domain_SessionProcessing_SessionProcessingStatusUpdate__" data-uid="MESL.SqlRace.Domain.FileSessionManager.LoadSessionSummariesForFiles(System.Collections.Generic.IList{System.String},System.Threading.CancellationToken,System.IProgress{MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatusUpdate})">LoadSessionSummariesForFiles(IList&lt;String&gt;, CancellationToken, IProgress&lt;SessionProcessingStatusUpdate&gt;)</h4>
+  <div class="markdown level1 summary"><p>Load only session summaries for the given files</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;ISessionSummary&gt; LoadSessionSummariesForFiles(IList&lt;string&gt; files, CancellationToken token, IProgress&lt;SessionProcessingStatusUpdate&gt; progress)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">files</span></td>
+        <td><p>The files that need to be the summary been loaded</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>A token to cancel the operation</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IProgress</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatusUpdate.html">SessionProcessingStatusUpdate</a>&gt;</td>
+        <td><span class="parametername">progress</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.ISessionSummary.html">ISessionSummary</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_FileSessionManager_LoadSessionSummariesForPath_" data-uid="MESL.SqlRace.Domain.FileSessionManager.LoadSessionSummariesForPath*"></a>
+  <h4 id="MESL_SqlRace_Domain_FileSessionManager_LoadSessionSummariesForPath_System_String_System_Boolean_MESL_SqlRace_Domain_Query_IFilter_System_Collections_Generic_IEnumerable_MESL_SqlRace_Domain_Query_SortCriterion__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Threading_CancellationToken_System_IProgress_MESL_SqlRace_Domain_SessionProcessing_SessionProcessingStatusUpdate__" data-uid="MESL.SqlRace.Domain.FileSessionManager.LoadSessionSummariesForPath(System.String,System.Boolean,MESL.SqlRace.Domain.Query.IFilter,System.Collections.Generic.IEnumerable{MESL.SqlRace.Domain.Query.SortCriterion},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Threading.CancellationToken,System.IProgress{MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatusUpdate})">LoadSessionSummariesForPath(String, Boolean, IFilter, IEnumerable&lt;SortCriterion&gt;, Nullable&lt;Int32&gt;, Nullable&lt;Int32&gt;, CancellationToken, IProgress&lt;SessionProcessingStatusUpdate&gt;)</h4>
+  <div class="markdown level1 summary"><p>Load only session summaries for the files present in the given folder</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;ISessionSummary&gt; LoadSessionSummariesForPath(string folderPath, bool includeSubdirectories, IFilter filter, IEnumerable&lt;SortCriterion&gt; sortCriteria, int? pageNumber, int? pageSize, CancellationToken token, IProgress&lt;SessionProcessingStatusUpdate&gt; progress)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">folderPath</span></td>
+        <td><p>Fully qualified path</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">includeSubdirectories</span></td>
+        <td><p>Recursive or not</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Query.IFilter.html">IFilter</a></td>
+        <td><span class="parametername">filter</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.Query.SortCriterion.html">SortCriterion</a>&gt;</td>
+        <td><span class="parametername">sortCriteria</span></td>
+        <td><p>An ordered list of sort field and direction</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">pageNumber</span></td>
+        <td><p>The 1 based page number</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">pageSize</span></td>
+        <td><p>The number of items per page</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>A token to cancel the operation</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IProgress</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatusUpdate.html">SessionProcessingStatusUpdate</a>&gt;</td>
+        <td><span class="parametername">progress</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.ISessionSummary.html">ISessionSummary</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_FileSessionManager_LoadSessionSummariesForPath_" data-uid="MESL.SqlRace.Domain.FileSessionManager.LoadSessionSummariesForPath*"></a>
+  <h4 id="MESL_SqlRace_Domain_FileSessionManager_LoadSessionSummariesForPath_System_String_System_Boolean_System_Threading_CancellationToken_System_IProgress_MESL_SqlRace_Domain_SessionProcessing_SessionProcessingStatusUpdate__" data-uid="MESL.SqlRace.Domain.FileSessionManager.LoadSessionSummariesForPath(System.String,System.Boolean,System.Threading.CancellationToken,System.IProgress{MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatusUpdate})">LoadSessionSummariesForPath(String, Boolean, CancellationToken, IProgress&lt;SessionProcessingStatusUpdate&gt;)</h4>
+  <div class="markdown level1 summary"><p>Load only session summaries for the files present in the given folder</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;ISessionSummary&gt; LoadSessionSummariesForPath(string folderPath, bool includeSubdirectories, CancellationToken token, IProgress&lt;SessionProcessingStatusUpdate&gt; progress)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">folderPath</span></td>
+        <td><p>Fully qualified path</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">includeSubdirectories</span></td>
+        <td><p>Recursive or not</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>A token to cancel the operation</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IProgress</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatusUpdate.html">SessionProcessingStatusUpdate</a>&gt;</td>
+        <td><span class="parametername">progress</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.ISessionSummary.html">ISessionSummary</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_FileSessionManager_PopulateMetadataFromFullLoad_" data-uid="MESL.SqlRace.Domain.FileSessionManager.PopulateMetadataFromFullLoad*"></a>
+  <h4 id="MESL_SqlRace_Domain_FileSessionManager_PopulateMetadataFromFullLoad_MESL_SqlRace_Domain_Session_" data-uid="MESL.SqlRace.Domain.FileSessionManager.PopulateMetadataFromFullLoad(MESL.SqlRace.Domain.Session)">PopulateMetadataFromFullLoad(Session)</h4>
+  <div class="markdown level1 summary"><p>Assign any additional metadata to the session that has become available now that all of the data is being loaded.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool PopulateMetadataFromFullLoad(Session session)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Session.html">Session</a></td>
+        <td><span class="parametername">session</span></td>
+        <td><p>File session object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>true if session summary is found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MESL_SqlRace_Domain_FileSessionManager_ProcessFileSessionConfiguration_" data-uid="MESL.SqlRace.Domain.FileSessionManager.ProcessFileSessionConfiguration*"></a>
+  <h4 id="MESL_SqlRace_Domain_FileSessionManager_ProcessFileSessionConfiguration_System_String_System_String_System_Boolean_" data-uid="MESL.SqlRace.Domain.FileSessionManager.ProcessFileSessionConfiguration(System.String,System.String,System.Boolean)">ProcessFileSessionConfiguration(String, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Processes the file session configuration.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ProcessFileSessionConfiguration(string fileSessionFullPath, string connectionString, bool processAssociated)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileSessionFullPath</span></td>
+        <td><p>The file session full path.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">processAssociated</span></td>
+        <td><p>Process associated sessions</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="MESL_SqlRace_Domain_FileSessionManager_FileSessionEventOccurred" data-uid="MESL.SqlRace.Domain.FileSessionManager.FileSessionEventOccurred">FileSessionEventOccurred</h4>
+  <div class="markdown level1 summary"><p>Event fired for various event on a session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;SessionEventArgs&gt; FileSessionEventOccurred</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.SessionEventArgs.html">SessionEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.IFileSessionManager.html">IFileSessionManager</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
