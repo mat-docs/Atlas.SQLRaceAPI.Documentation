@@ -4883,12 +4883,12 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.CompositeContainerParameterDataAccess.Finalize
   fullName: MESL.SqlRace.Domain.CompositeContainerParameterDataAccess.Finalize
   nameWithType: CompositeContainerParameterDataAccess.Finalize
-- uid: MESL.SqlRace.Domain.CompositeContainerParameterDataAccess.GetDataStatistics(System.Int64,System.Int64,System.Boolean,MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption)
-  name: GetDataStatistics(Int64, Int64, Boolean, StatisticOption)
-  href: api/MESL.SqlRace.Domain.CompositeContainerParameterDataAccess.html#MESL_SqlRace_Domain_CompositeContainerParameterDataAccess_GetDataStatistics_System_Int64_System_Int64_System_Boolean_MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_
-  commentId: M:MESL.SqlRace.Domain.CompositeContainerParameterDataAccess.GetDataStatistics(System.Int64,System.Int64,System.Boolean,MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption)
-  fullName: MESL.SqlRace.Domain.CompositeContainerParameterDataAccess.GetDataStatistics(System.Int64, System.Int64, System.Boolean, MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption)
-  nameWithType: CompositeContainerParameterDataAccess.GetDataStatistics(Int64, Int64, Boolean, StatisticOption)
+- uid: MESL.SqlRace.Domain.CompositeContainerParameterDataAccess.GetDataStatistics(System.Int64,System.Int64,System.Boolean,MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption,System.Boolean)
+  name: GetDataStatistics(Int64, Int64, Boolean, StatisticOption, Boolean)
+  href: api/MESL.SqlRace.Domain.CompositeContainerParameterDataAccess.html#MESL_SqlRace_Domain_CompositeContainerParameterDataAccess_GetDataStatistics_System_Int64_System_Int64_System_Boolean_MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_System_Boolean_
+  commentId: M:MESL.SqlRace.Domain.CompositeContainerParameterDataAccess.GetDataStatistics(System.Int64,System.Int64,System.Boolean,MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption,System.Boolean)
+  fullName: MESL.SqlRace.Domain.CompositeContainerParameterDataAccess.GetDataStatistics(System.Int64, System.Int64, System.Boolean, MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption, System.Boolean)
+  nameWithType: CompositeContainerParameterDataAccess.GetDataStatistics(Int64, Int64, Boolean, StatisticOption, Boolean)
 - uid: MESL.SqlRace.Domain.CompositeContainerParameterDataAccess.GetDataStatistics*
   name: GetDataStatistics
   href: api/MESL.SqlRace.Domain.CompositeContainerParameterDataAccess.html#MESL_SqlRace_Domain_CompositeContainerParameterDataAccess_GetDataStatistics_
@@ -11389,6 +11389,30 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.ExtendedAssociate.AssociateGroup
   fullName: MESL.SqlRace.Domain.ExtendedAssociate.AssociateGroup
   nameWithType: ExtendedAssociate.AssociateGroup
+- uid: MESL.SqlRace.Domain.ExtendedAssociate.Equals(System.Object)
+  name: Equals(Object)
+  href: api/MESL.SqlRace.Domain.ExtendedAssociate.html#MESL_SqlRace_Domain_ExtendedAssociate_Equals_System_Object_
+  commentId: M:MESL.SqlRace.Domain.ExtendedAssociate.Equals(System.Object)
+  fullName: MESL.SqlRace.Domain.ExtendedAssociate.Equals(System.Object)
+  nameWithType: ExtendedAssociate.Equals(Object)
+- uid: MESL.SqlRace.Domain.ExtendedAssociate.Equals*
+  name: Equals
+  href: api/MESL.SqlRace.Domain.ExtendedAssociate.html#MESL_SqlRace_Domain_ExtendedAssociate_Equals_
+  commentId: Overload:MESL.SqlRace.Domain.ExtendedAssociate.Equals
+  fullName: MESL.SqlRace.Domain.ExtendedAssociate.Equals
+  nameWithType: ExtendedAssociate.Equals
+- uid: MESL.SqlRace.Domain.ExtendedAssociate.GetHashCode
+  name: GetHashCode()
+  href: api/MESL.SqlRace.Domain.ExtendedAssociate.html#MESL_SqlRace_Domain_ExtendedAssociate_GetHashCode
+  commentId: M:MESL.SqlRace.Domain.ExtendedAssociate.GetHashCode
+  fullName: MESL.SqlRace.Domain.ExtendedAssociate.GetHashCode()
+  nameWithType: ExtendedAssociate.GetHashCode()
+- uid: MESL.SqlRace.Domain.ExtendedAssociate.GetHashCode*
+  name: GetHashCode
+  href: api/MESL.SqlRace.Domain.ExtendedAssociate.html#MESL_SqlRace_Domain_ExtendedAssociate_GetHashCode_
+  commentId: Overload:MESL.SqlRace.Domain.ExtendedAssociate.GetHashCode
+  fullName: MESL.SqlRace.Domain.ExtendedAssociate.GetHashCode
+  nameWithType: ExtendedAssociate.GetHashCode
 - uid: MESL.SqlRace.Domain.ExtendedAssociate.SessionKey
   name: SessionKey
   href: api/MESL.SqlRace.Domain.ExtendedAssociate.html#MESL_SqlRace_Domain_ExtendedAssociate_SessionKey
@@ -20573,12 +20597,12 @@ references:
   commentId: T:MESL.SqlRace.Domain.ICompositeContainerParameterDataAccess
   fullName: MESL.SqlRace.Domain.ICompositeContainerParameterDataAccess
   nameWithType: ICompositeContainerParameterDataAccess
-- uid: MESL.SqlRace.Domain.ICompositeContainerParameterDataAccess.GetDataStatistics(System.Int64,System.Int64,System.Boolean,MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption)
-  name: GetDataStatistics(Int64, Int64, Boolean, StatisticOption)
-  href: api/MESL.SqlRace.Domain.ICompositeContainerParameterDataAccess.html#MESL_SqlRace_Domain_ICompositeContainerParameterDataAccess_GetDataStatistics_System_Int64_System_Int64_System_Boolean_MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_
-  commentId: M:MESL.SqlRace.Domain.ICompositeContainerParameterDataAccess.GetDataStatistics(System.Int64,System.Int64,System.Boolean,MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption)
-  fullName: MESL.SqlRace.Domain.ICompositeContainerParameterDataAccess.GetDataStatistics(System.Int64, System.Int64, System.Boolean, MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption)
-  nameWithType: ICompositeContainerParameterDataAccess.GetDataStatistics(Int64, Int64, Boolean, StatisticOption)
+- uid: MESL.SqlRace.Domain.ICompositeContainerParameterDataAccess.GetDataStatistics(System.Int64,System.Int64,System.Boolean,MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption,System.Boolean)
+  name: GetDataStatistics(Int64, Int64, Boolean, StatisticOption, Boolean)
+  href: api/MESL.SqlRace.Domain.ICompositeContainerParameterDataAccess.html#MESL_SqlRace_Domain_ICompositeContainerParameterDataAccess_GetDataStatistics_System_Int64_System_Int64_System_Boolean_MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_System_Boolean_
+  commentId: M:MESL.SqlRace.Domain.ICompositeContainerParameterDataAccess.GetDataStatistics(System.Int64,System.Int64,System.Boolean,MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption,System.Boolean)
+  fullName: MESL.SqlRace.Domain.ICompositeContainerParameterDataAccess.GetDataStatistics(System.Int64, System.Int64, System.Boolean, MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption, System.Boolean)
+  nameWithType: ICompositeContainerParameterDataAccess.GetDataStatistics(Int64, Int64, Boolean, StatisticOption, Boolean)
 - uid: MESL.SqlRace.Domain.ICompositeContainerParameterDataAccess.GetDataStatistics*
   name: GetDataStatistics
   href: api/MESL.SqlRace.Domain.ICompositeContainerParameterDataAccess.html#MESL_SqlRace_Domain_ICompositeContainerParameterDataAccess_GetDataStatistics_
@@ -27540,6 +27564,18 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.MountedSessions.MountedSession.AddConfiguration
   fullName: MESL.SqlRace.Domain.MountedSessions.MountedSession.AddConfiguration
   nameWithType: MountedSession.AddConfiguration
+- uid: MESL.SqlRace.Domain.MountedSessions.MountedSession.AddExclusiveLap(MESL.SqlRace.Domain.MountedSessions.MountedLap)
+  name: AddExclusiveLap(MountedLap)
+  href: api/MESL.SqlRace.Domain.MountedSessions.MountedSession.html#MESL_SqlRace_Domain_MountedSessions_MountedSession_AddExclusiveLap_MESL_SqlRace_Domain_MountedSessions_MountedLap_
+  commentId: M:MESL.SqlRace.Domain.MountedSessions.MountedSession.AddExclusiveLap(MESL.SqlRace.Domain.MountedSessions.MountedLap)
+  fullName: MESL.SqlRace.Domain.MountedSessions.MountedSession.AddExclusiveLap(MESL.SqlRace.Domain.MountedSessions.MountedLap)
+  nameWithType: MountedSession.AddExclusiveLap(MountedLap)
+- uid: MESL.SqlRace.Domain.MountedSessions.MountedSession.AddExclusiveLap*
+  name: AddExclusiveLap
+  href: api/MESL.SqlRace.Domain.MountedSessions.MountedSession.html#MESL_SqlRace_Domain_MountedSessions_MountedSession_AddExclusiveLap_
+  commentId: Overload:MESL.SqlRace.Domain.MountedSessions.MountedSession.AddExclusiveLap
+  fullName: MESL.SqlRace.Domain.MountedSessions.MountedSession.AddExclusiveLap
+  nameWithType: MountedSession.AddExclusiveLap
 - uid: MESL.SqlRace.Domain.MountedSessions.MountedSession.AddLap(MESL.SqlRace.Domain.MountedSessions.MountedLap)
   name: AddLap(MountedLap)
   href: api/MESL.SqlRace.Domain.MountedSessions.MountedSession.html#MESL_SqlRace_Domain_MountedSessions_MountedSession_AddLap_MESL_SqlRace_Domain_MountedSessions_MountedLap_
@@ -31011,6 +31047,12 @@ references:
   commentId: F:MESL.SqlRace.Domain.Query.SearchOptions.RetrieveAssociateSessionSummaries
   fullName: MESL.SqlRace.Domain.Query.SearchOptions.RetrieveAssociateSessionSummaries
   nameWithType: SearchOptions.RetrieveAssociateSessionSummaries
+- uid: MESL.SqlRace.Domain.Query.SearchOptions.RetrieveSessionDetails
+  name: RetrieveSessionDetails
+  href: api/MESL.SqlRace.Domain.Query.SearchOptions.html#MESL_SqlRace_Domain_Query_SearchOptions_RetrieveSessionDetails
+  commentId: F:MESL.SqlRace.Domain.Query.SearchOptions.RetrieveSessionDetails
+  fullName: MESL.SqlRace.Domain.Query.SearchOptions.RetrieveSessionDetails
+  nameWithType: SearchOptions.RetrieveSessionDetails
 - uid: MESL.SqlRace.Domain.Query.SortCriterion
   name: SortCriterion
   href: api/MESL.SqlRace.Domain.Query.SortCriterion.html
@@ -33306,222 +33348,6 @@ references:
   commentId: E:MESL.SqlRace.Domain.ScalarParameter.UnderlyingDataSourceChanged
   fullName: MESL.SqlRace.Domain.ScalarParameter.UnderlyingDataSourceChanged
   nameWithType: ScalarParameter.UnderlyingDataSourceChanged
-- uid: MESL.SqlRace.Domain.Serialization
-  name: MESL.SqlRace.Domain.Serialization
-  href: api/MESL.SqlRace.Domain.Serialization.html
-  commentId: N:MESL.SqlRace.Domain.Serialization
-  fullName: MESL.SqlRace.Domain.Serialization
-  nameWithType: MESL.SqlRace.Domain.Serialization
-- uid: MESL.SqlRace.Domain.Serialization.BasicSessionInformation
-  name: BasicSessionInformation
-  href: api/MESL.SqlRace.Domain.Serialization.BasicSessionInformation.html
-  commentId: T:MESL.SqlRace.Domain.Serialization.BasicSessionInformation
-  fullName: MESL.SqlRace.Domain.Serialization.BasicSessionInformation
-  nameWithType: BasicSessionInformation
-- uid: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.#ctor(MAT.OCS.Core.SessionKey,System.String,System.Int64,System.Int64,System.DateTime,System.UInt32,System.String,System.String,System.String)
-  name: BasicSessionInformation(SessionKey, String, Int64, Int64, DateTime, UInt32, String, String, String)
-  href: api/MESL.SqlRace.Domain.Serialization.BasicSessionInformation.html#MESL_SqlRace_Domain_Serialization_BasicSessionInformation__ctor_MAT_OCS_Core_SessionKey_System_String_System_Int64_System_Int64_System_DateTime_System_UInt32_System_String_System_String_System_String_
-  commentId: M:MESL.SqlRace.Domain.Serialization.BasicSessionInformation.#ctor(MAT.OCS.Core.SessionKey,System.String,System.Int64,System.Int64,System.DateTime,System.UInt32,System.String,System.String,System.String)
-  fullName: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.BasicSessionInformation(MAT.OCS.Core.SessionKey, System.String, System.Int64, System.Int64, System.DateTime, System.UInt32, System.String, System.String, System.String)
-  nameWithType: BasicSessionInformation.BasicSessionInformation(SessionKey, String, Int64, Int64, DateTime, UInt32, String, String, String)
-- uid: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.#ctor(MESL.SqlRace.Domain.Session)
-  name: BasicSessionInformation(Session)
-  href: api/MESL.SqlRace.Domain.Serialization.BasicSessionInformation.html#MESL_SqlRace_Domain_Serialization_BasicSessionInformation__ctor_MESL_SqlRace_Domain_Session_
-  commentId: M:MESL.SqlRace.Domain.Serialization.BasicSessionInformation.#ctor(MESL.SqlRace.Domain.Session)
-  fullName: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.BasicSessionInformation(MESL.SqlRace.Domain.Session)
-  nameWithType: BasicSessionInformation.BasicSessionInformation(Session)
-- uid: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.#ctor*
-  name: BasicSessionInformation
-  href: api/MESL.SqlRace.Domain.Serialization.BasicSessionInformation.html#MESL_SqlRace_Domain_Serialization_BasicSessionInformation__ctor_
-  commentId: Overload:MESL.SqlRace.Domain.Serialization.BasicSessionInformation.#ctor
-  fullName: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.BasicSessionInformation
-  nameWithType: BasicSessionInformation.BasicSessionInformation
-- uid: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.EndTime
-  name: EndTime
-  href: api/MESL.SqlRace.Domain.Serialization.BasicSessionInformation.html#MESL_SqlRace_Domain_Serialization_BasicSessionInformation_EndTime
-  commentId: P:MESL.SqlRace.Domain.Serialization.BasicSessionInformation.EndTime
-  fullName: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.EndTime
-  nameWithType: BasicSessionInformation.EndTime
-- uid: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.EndTime*
-  name: EndTime
-  href: api/MESL.SqlRace.Domain.Serialization.BasicSessionInformation.html#MESL_SqlRace_Domain_Serialization_BasicSessionInformation_EndTime_
-  commentId: Overload:MESL.SqlRace.Domain.Serialization.BasicSessionInformation.EndTime
-  fullName: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.EndTime
-  nameWithType: BasicSessionInformation.EndTime
-- uid: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.Identifier
-  name: Identifier
-  href: api/MESL.SqlRace.Domain.Serialization.BasicSessionInformation.html#MESL_SqlRace_Domain_Serialization_BasicSessionInformation_Identifier
-  commentId: P:MESL.SqlRace.Domain.Serialization.BasicSessionInformation.Identifier
-  fullName: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.Identifier
-  nameWithType: BasicSessionInformation.Identifier
-- uid: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.Identifier*
-  name: Identifier
-  href: api/MESL.SqlRace.Domain.Serialization.BasicSessionInformation.html#MESL_SqlRace_Domain_Serialization_BasicSessionInformation_Identifier_
-  commentId: Overload:MESL.SqlRace.Domain.Serialization.BasicSessionInformation.Identifier
-  fullName: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.Identifier
-  nameWithType: BasicSessionInformation.Identifier
-- uid: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.Key
-  name: Key
-  href: api/MESL.SqlRace.Domain.Serialization.BasicSessionInformation.html#MESL_SqlRace_Domain_Serialization_BasicSessionInformation_Key
-  commentId: P:MESL.SqlRace.Domain.Serialization.BasicSessionInformation.Key
-  fullName: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.Key
-  nameWithType: BasicSessionInformation.Key
-- uid: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.Key*
-  name: Key
-  href: api/MESL.SqlRace.Domain.Serialization.BasicSessionInformation.html#MESL_SqlRace_Domain_Serialization_BasicSessionInformation_Key_
-  commentId: Overload:MESL.SqlRace.Domain.Serialization.BasicSessionInformation.Key
-  fullName: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.Key
-  nameWithType: BasicSessionInformation.Key
-- uid: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.MinimumVersionToRead
-  name: MinimumVersionToRead
-  href: api/MESL.SqlRace.Domain.Serialization.BasicSessionInformation.html#MESL_SqlRace_Domain_Serialization_BasicSessionInformation_MinimumVersionToRead
-  commentId: P:MESL.SqlRace.Domain.Serialization.BasicSessionInformation.MinimumVersionToRead
-  fullName: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.MinimumVersionToRead
-  nameWithType: BasicSessionInformation.MinimumVersionToRead
-- uid: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.MinimumVersionToRead*
-  name: MinimumVersionToRead
-  href: api/MESL.SqlRace.Domain.Serialization.BasicSessionInformation.html#MESL_SqlRace_Domain_Serialization_BasicSessionInformation_MinimumVersionToRead_
-  commentId: Overload:MESL.SqlRace.Domain.Serialization.BasicSessionInformation.MinimumVersionToRead
-  fullName: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.MinimumVersionToRead
-  nameWithType: BasicSessionInformation.MinimumVersionToRead
-- uid: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.SessionType
-  name: SessionType
-  href: api/MESL.SqlRace.Domain.Serialization.BasicSessionInformation.html#MESL_SqlRace_Domain_Serialization_BasicSessionInformation_SessionType
-  commentId: P:MESL.SqlRace.Domain.Serialization.BasicSessionInformation.SessionType
-  fullName: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.SessionType
-  nameWithType: BasicSessionInformation.SessionType
-- uid: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.SessionType*
-  name: SessionType
-  href: api/MESL.SqlRace.Domain.Serialization.BasicSessionInformation.html#MESL_SqlRace_Domain_Serialization_BasicSessionInformation_SessionType_
-  commentId: Overload:MESL.SqlRace.Domain.Serialization.BasicSessionInformation.SessionType
-  fullName: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.SessionType
-  nameWithType: BasicSessionInformation.SessionType
-- uid: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.StartTime
-  name: StartTime
-  href: api/MESL.SqlRace.Domain.Serialization.BasicSessionInformation.html#MESL_SqlRace_Domain_Serialization_BasicSessionInformation_StartTime
-  commentId: P:MESL.SqlRace.Domain.Serialization.BasicSessionInformation.StartTime
-  fullName: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.StartTime
-  nameWithType: BasicSessionInformation.StartTime
-- uid: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.StartTime*
-  name: StartTime
-  href: api/MESL.SqlRace.Domain.Serialization.BasicSessionInformation.html#MESL_SqlRace_Domain_Serialization_BasicSessionInformation_StartTime_
-  commentId: Overload:MESL.SqlRace.Domain.Serialization.BasicSessionInformation.StartTime
-  fullName: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.StartTime
-  nameWithType: BasicSessionInformation.StartTime
-- uid: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.TeamId
-  name: TeamId
-  href: api/MESL.SqlRace.Domain.Serialization.BasicSessionInformation.html#MESL_SqlRace_Domain_Serialization_BasicSessionInformation_TeamId
-  commentId: P:MESL.SqlRace.Domain.Serialization.BasicSessionInformation.TeamId
-  fullName: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.TeamId
-  nameWithType: BasicSessionInformation.TeamId
-- uid: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.TeamId*
-  name: TeamId
-  href: api/MESL.SqlRace.Domain.Serialization.BasicSessionInformation.html#MESL_SqlRace_Domain_Serialization_BasicSessionInformation_TeamId_
-  commentId: Overload:MESL.SqlRace.Domain.Serialization.BasicSessionInformation.TeamId
-  fullName: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.TeamId
-  nameWithType: BasicSessionInformation.TeamId
-- uid: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.TimeOfRecording
-  name: TimeOfRecording
-  href: api/MESL.SqlRace.Domain.Serialization.BasicSessionInformation.html#MESL_SqlRace_Domain_Serialization_BasicSessionInformation_TimeOfRecording
-  commentId: P:MESL.SqlRace.Domain.Serialization.BasicSessionInformation.TimeOfRecording
-  fullName: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.TimeOfRecording
-  nameWithType: BasicSessionInformation.TimeOfRecording
-- uid: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.TimeOfRecording*
-  name: TimeOfRecording
-  href: api/MESL.SqlRace.Domain.Serialization.BasicSessionInformation.html#MESL_SqlRace_Domain_Serialization_BasicSessionInformation_TimeOfRecording_
-  commentId: Overload:MESL.SqlRace.Domain.Serialization.BasicSessionInformation.TimeOfRecording
-  fullName: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.TimeOfRecording
-  nameWithType: BasicSessionInformation.TimeOfRecording
-- uid: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.VersionUsedToRecord
-  name: VersionUsedToRecord
-  href: api/MESL.SqlRace.Domain.Serialization.BasicSessionInformation.html#MESL_SqlRace_Domain_Serialization_BasicSessionInformation_VersionUsedToRecord
-  commentId: P:MESL.SqlRace.Domain.Serialization.BasicSessionInformation.VersionUsedToRecord
-  fullName: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.VersionUsedToRecord
-  nameWithType: BasicSessionInformation.VersionUsedToRecord
-- uid: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.VersionUsedToRecord*
-  name: VersionUsedToRecord
-  href: api/MESL.SqlRace.Domain.Serialization.BasicSessionInformation.html#MESL_SqlRace_Domain_Serialization_BasicSessionInformation_VersionUsedToRecord_
-  commentId: Overload:MESL.SqlRace.Domain.Serialization.BasicSessionInformation.VersionUsedToRecord
-  fullName: MESL.SqlRace.Domain.Serialization.BasicSessionInformation.VersionUsedToRecord
-  nameWithType: BasicSessionInformation.VersionUsedToRecord
-- uid: MESL.SqlRace.Domain.Serialization.BlockType
-  name: BlockType
-  href: api/MESL.SqlRace.Domain.Serialization.BlockType.html
-  commentId: T:MESL.SqlRace.Domain.Serialization.BlockType
-  fullName: MESL.SqlRace.Domain.Serialization.BlockType
-  nameWithType: BlockType
-- uid: MESL.SqlRace.Domain.Serialization.BlockType.BinaryItemData
-  name: BinaryItemData
-  href: api/MESL.SqlRace.Domain.Serialization.BlockType.html#MESL_SqlRace_Domain_Serialization_BlockType_BinaryItemData
-  commentId: F:MESL.SqlRace.Domain.Serialization.BlockType.BinaryItemData
-  fullName: MESL.SqlRace.Domain.Serialization.BlockType.BinaryItemData
-  nameWithType: BlockType.BinaryItemData
-- uid: MESL.SqlRace.Domain.Serialization.BlockType.FilestreamData
-  name: FilestreamData
-  href: api/MESL.SqlRace.Domain.Serialization.BlockType.html#MESL_SqlRace_Domain_Serialization_BlockType_FilestreamData
-  commentId: F:MESL.SqlRace.Domain.Serialization.BlockType.FilestreamData
-  fullName: MESL.SqlRace.Domain.Serialization.BlockType.FilestreamData
-  nameWithType: BlockType.FilestreamData
-- uid: MESL.SqlRace.Domain.Serialization.BlockType.LoggedChannelData
-  name: LoggedChannelData
-  href: api/MESL.SqlRace.Domain.Serialization.BlockType.html#MESL_SqlRace_Domain_Serialization_BlockType_LoggedChannelData
-  commentId: F:MESL.SqlRace.Domain.Serialization.BlockType.LoggedChannelData
-  fullName: MESL.SqlRace.Domain.Serialization.BlockType.LoggedChannelData
-  nameWithType: BlockType.LoggedChannelData
-- uid: MESL.SqlRace.Domain.Serialization.BlockType.RowData
-  name: RowData
-  href: api/MESL.SqlRace.Domain.Serialization.BlockType.html#MESL_SqlRace_Domain_Serialization_BlockType_RowData
-  commentId: F:MESL.SqlRace.Domain.Serialization.BlockType.RowData
-  fullName: MESL.SqlRace.Domain.Serialization.BlockType.RowData
-  nameWithType: BlockType.RowData
-- uid: MESL.SqlRace.Domain.Serialization.BlockType.RowDefinitions
-  name: RowDefinitions
-  href: api/MESL.SqlRace.Domain.Serialization.BlockType.html#MESL_SqlRace_Domain_Serialization_BlockType_RowDefinitions
-  commentId: F:MESL.SqlRace.Domain.Serialization.BlockType.RowDefinitions
-  fullName: MESL.SqlRace.Domain.Serialization.BlockType.RowDefinitions
-  nameWithType: BlockType.RowDefinitions
-- uid: MESL.SqlRace.Domain.Serialization.BlockType.SessionConfiguration
-  name: SessionConfiguration
-  href: api/MESL.SqlRace.Domain.Serialization.BlockType.html#MESL_SqlRace_Domain_Serialization_BlockType_SessionConfiguration
-  commentId: F:MESL.SqlRace.Domain.Serialization.BlockType.SessionConfiguration
-  fullName: MESL.SqlRace.Domain.Serialization.BlockType.SessionConfiguration
-  nameWithType: BlockType.SessionConfiguration
-- uid: MESL.SqlRace.Domain.Serialization.BlockType.SessionEntities
-  name: SessionEntities
-  href: api/MESL.SqlRace.Domain.Serialization.BlockType.html#MESL_SqlRace_Domain_Serialization_BlockType_SessionEntities
-  commentId: F:MESL.SqlRace.Domain.Serialization.BlockType.SessionEntities
-  fullName: MESL.SqlRace.Domain.Serialization.BlockType.SessionEntities
-  nameWithType: BlockType.SessionEntities
-- uid: MESL.SqlRace.Domain.Serialization.BlockType.SessionInformation
-  name: SessionInformation
-  href: api/MESL.SqlRace.Domain.Serialization.BlockType.html#MESL_SqlRace_Domain_Serialization_BlockType_SessionInformation
-  commentId: F:MESL.SqlRace.Domain.Serialization.BlockType.SessionInformation
-  fullName: MESL.SqlRace.Domain.Serialization.BlockType.SessionInformation
-  nameWithType: BlockType.SessionInformation
-- uid: MESL.SqlRace.Domain.Serialization.BlockType.SessionTimestamps
-  name: SessionTimestamps
-  href: api/MESL.SqlRace.Domain.Serialization.BlockType.html#MESL_SqlRace_Domain_Serialization_BlockType_SessionTimestamps
-  commentId: F:MESL.SqlRace.Domain.Serialization.BlockType.SessionTimestamps
-  fullName: MESL.SqlRace.Domain.Serialization.BlockType.SessionTimestamps
-  nameWithType: BlockType.SessionTimestamps
-- uid: MESL.SqlRace.Domain.Serialization.BlockType.Unknown
-  name: Unknown
-  href: api/MESL.SqlRace.Domain.Serialization.BlockType.html#MESL_SqlRace_Domain_Serialization_BlockType_Unknown
-  commentId: F:MESL.SqlRace.Domain.Serialization.BlockType.Unknown
-  fullName: MESL.SqlRace.Domain.Serialization.BlockType.Unknown
-  nameWithType: BlockType.Unknown
-- uid: MESL.SqlRace.Domain.Serialization.FileType
-  name: FileType
-  href: api/MESL.SqlRace.Domain.Serialization.FileType.html
-  commentId: T:MESL.SqlRace.Domain.Serialization.FileType
-  fullName: MESL.SqlRace.Domain.Serialization.FileType
-  nameWithType: FileType
-- uid: MESL.SqlRace.Domain.Serialization.FileType.Session
-  name: Session
-  href: api/MESL.SqlRace.Domain.Serialization.FileType.html#MESL_SqlRace_Domain_Serialization_FileType_Session
-  commentId: F:MESL.SqlRace.Domain.Serialization.FileType.Session
-  fullName: MESL.SqlRace.Domain.Serialization.FileType.Session
-  nameWithType: FileType.Session
 - uid: MESL.SqlRace.Domain.Services
   name: MESL.SqlRace.Domain.Services
   href: api/MESL.SqlRace.Domain.Services.html
@@ -39545,6 +39371,12 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.Sort.SessionFieldIdentifiers.#ctor
   fullName: MESL.SqlRace.Domain.Sort.SessionFieldIdentifiers.SessionFieldIdentifiers
   nameWithType: SessionFieldIdentifiers.SessionFieldIdentifiers
+- uid: MESL.SqlRace.Domain.Sort.SessionFieldIdentifiers.CreateDateTime
+  name: CreateDateTime
+  href: api/MESL.SqlRace.Domain.Sort.SessionFieldIdentifiers.html#MESL_SqlRace_Domain_Sort_SessionFieldIdentifiers_CreateDateTime
+  commentId: F:MESL.SqlRace.Domain.Sort.SessionFieldIdentifiers.CreateDateTime
+  fullName: MESL.SqlRace.Domain.Sort.SessionFieldIdentifiers.CreateDateTime
+  nameWithType: SessionFieldIdentifiers.CreateDateTime
 - uid: MESL.SqlRace.Domain.Sort.SessionFieldIdentifiers.EndTime
   name: EndTime
   href: api/MESL.SqlRace.Domain.Sort.SessionFieldIdentifiers.html#MESL_SqlRace_Domain_Sort_SessionFieldIdentifiers_EndTime

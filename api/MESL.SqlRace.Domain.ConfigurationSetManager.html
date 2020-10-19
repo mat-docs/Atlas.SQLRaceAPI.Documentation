@@ -134,7 +134,7 @@ try
 {
   configSet.Commit();
 } 
-catch (ConfiguraitonSetAlreadyExistsException ex)
+catch (ConfigurationSetAlreadyExistsException ex)
 {
  // ConfigurationSet can be committed only once. It cannot be updated - new ConfigurationSet should be created instead
  Log.Warn($&quot;Commit of a ConfigurationSet {configurationSet.Identifier} failed. The config set already exists&quot;); 
@@ -193,7 +193,7 @@ catch (ConfiguraitonSetAlreadyExistsException ex)
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void AddFastConfiguration(ConnectionInformationBase connectionInformation, string hash, FastConfigFlags flags, byte[] data)</code></pre>
+    <pre><code class="lang-csharp hljs">public void AddFastConfiguration(ConnectionInformationBase connectionInformation, string hash, FastConfigFlags flags, byte[] fastConfigData)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -220,13 +220,13 @@ catch (ConfiguraitonSetAlreadyExistsException ex)
       <tr>
         <td><span class="xref">MAT.OCS.FFC.Configuration.Format.FastConfigFlags</span></td>
         <td><span class="parametername">flags</span></td>
-        <td><p>Option flags, used with <see cref="!:HasFastConfigurationSet"></see>.</p>
+        <td><p>Option flags.</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.Byte</span>[]</td>
-        <td><span class="parametername">data</span></td>
-        <td><p>Data.</p>
+        <td><span class="parametername">fastConfigData</span></td>
+        <td><p>Fast Configuration Data.</p>
 </td>
       </tr>
     </tbody>
@@ -1074,7 +1074,8 @@ via <code data-dev-comment-type="paramref" class="paramref">fastConfigAttributes
       <tr>
         <td><a class="xref" href="MESL.SqlRace.Domain.FastConfigurationSetAttributes.html">FastConfigurationSetAttributes</a></td>
         <td><span class="parametername">fastConfigAttributes</span></td>
-        <td></td>
+        <td><p>Fast Configuration Attributes which correspond ti the identifier.</p>
+</td>
       </tr>
     </tbody>
   </table>

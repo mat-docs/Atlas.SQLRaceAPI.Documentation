@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/agent/vsts-agent-win-x64-2.159.2-1/_work/8/s/Mesl.SqlRace.DocFX",
+  "source_base_path": "C:/agent_2/_work/23/s/Mesl.SqlRace.DocFX",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -12,7 +12,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "15258aXEY/UeyaO8hSiWZw=="
+          "hash": "vFZsszNJ/hZSVziyUmRL5g=="
         }
       },
       "is_incremental": false,
@@ -24,7 +24,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "gjxpvZMyLj2HHa5j9JqtLw=="
+          "hash": "yRwW9Hje7+WQNfSb0/W+rg=="
         }
       },
       "is_incremental": false,
@@ -59,7 +59,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "dvR0zdd6nLT3WASyPKbRsw=="
+          "hash": "szqrYkGU2RIkGaZ3MFwVXA=="
         }
       },
       "is_incremental": false,
@@ -503,7 +503,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Collections.LapEventArgs.html",
-          "hash": "/F+rSytAnAFagaFss1+6YA=="
+          "hash": "dJ6iV10g45w8YJHTOa/dnw=="
         }
       },
       "is_incremental": false,
@@ -587,7 +587,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Collections.html",
-          "hash": "gF49+1rJ9PJo1yTyedLVGA=="
+          "hash": "qVAZ80IX1xXTMtsdfnhiQg=="
         }
       },
       "is_incremental": false,
@@ -611,7 +611,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.CompositeContainerParameterDataAccess.html",
-          "hash": "1voDoluTWtsDMQZftMnFLA=="
+          "hash": "EQ4afOAWHpKY7a7bYiMhvg=="
         }
       },
       "is_incremental": false,
@@ -779,7 +779,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.CompositeStatistics.html",
-          "hash": "M8lkVY+zqTDjwCyszUTcWg=="
+          "hash": "+NdNvtc1QQ27V4UCyp44oA=="
         }
       },
       "is_incremental": false,
@@ -827,7 +827,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.ConfigurationSetManager.html",
-          "hash": "b8alZcfD6Rwt4tJKKprPIw=="
+          "hash": "h4Di+YD5FtZgmaYHnLMIzw=="
         }
       },
       "is_incremental": false,
@@ -1163,7 +1163,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.ExtendedAssociate.html",
-          "hash": "QNwEj2qPSzZ9gDmDzfRhCw=="
+          "hash": "XjnQ1ut8CBQe2prKdbc9Zg=="
         }
       },
       "is_incremental": false,
@@ -2903,7 +2903,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.ICompositeContainerParameterDataAccess.html",
-          "hash": "It3M72MNyL2t2GlJ0hiy3Q=="
+          "hash": "H4Nk6yIUp+B/wumHNsCuhg=="
         }
       },
       "is_incremental": false,
@@ -3863,7 +3863,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.MountedSessions.MountedSession.html",
-          "hash": "GTdFGcfzSuJrrY+cK50hzw=="
+          "hash": "1dWl26WGubFaP+xuGEwIqw=="
         }
       },
       "is_incremental": false,
@@ -4271,7 +4271,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Query.SearchOptions.html",
-          "hash": "LqoFhjjjIqB0T4VmYNoRJQ=="
+          "hash": "a+7BJEWXNTqDeupUlu2UzQ=="
         }
       },
       "is_incremental": false,
@@ -4855,54 +4855,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Serialization.BasicSessionInformation.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MESL.SqlRace.Domain.Serialization.BasicSessionInformation.html",
-          "hash": "ULITfLw4CG5Nfl+Zb7s+lg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Serialization.BlockType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MESL.SqlRace.Domain.Serialization.BlockType.html",
-          "hash": "t0TnKfJ0OfhuBAUf+pXJoA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Serialization.FileType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MESL.SqlRace.Domain.Serialization.FileType.html",
-          "hash": "LzS/qq6ssHkz69ail7//BA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Serialization.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MESL.SqlRace.Domain.Serialization.html",
-          "hash": "q1MoIxJqhqpOXCjMPxL6Rg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/api/MESL.SqlRace.Domain.Services.DbRootPathService.yml",
       "output": {
         ".html": {
@@ -5399,7 +5351,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Sort.SessionFieldIdentifiers.html",
-          "hash": "oEWohwO92r0mODQflkD0ng=="
+          "hash": "BCpx8Ydm98I5t8twyUixjA=="
         }
       },
       "is_incremental": false,
@@ -6203,7 +6155,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "41AA7FicrEUobK4HiZqnJQ=="
+          "hash": "LNqzHomZxxUorUcrQpvWfw=="
         }
       },
       "is_incremental": false,
@@ -6242,7 +6194,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 511,
+          "total_file_count": 507,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
