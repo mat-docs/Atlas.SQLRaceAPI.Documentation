@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/agent_2/_work/23/s/Mesl.SqlRace.DocFX",
+  "source_base_path": "C:/a/1/s/Mesl.SqlRace.DocFX",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -12,7 +12,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "cujuJfXUEz7oySM9fwySdw=="
+          "hash": "qN2ENJQiEXVmwpa6Rr9tWQ=="
         }
       },
       "is_incremental": false,
@@ -24,7 +24,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "X6TXZrVtmF54EFx3zKK73Q=="
+          "hash": "A8dF+Hd6aSFHmJwcpmpu5g=="
         }
       },
       "is_incremental": false,
@@ -59,7 +59,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "zQWyCfI27x4TG8bGYW1Urg=="
+          "hash": "IHD/h0wMauKxgp7mlpBXjg=="
         }
       },
       "is_incremental": false,
