@@ -1,18 +1,15 @@
 {
   "homepages": [],
-  "source_base_path": "C:/a/1/s/Mesl.SqlRace.DocFX",
+  "source_base_path": "C:/a/2/s/Mesl.SqlRace.DocFX",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "qN2ENJQiEXVmwpa6Rr9tWQ=="
+          "hash": "6pTyXNhmfOs/HWSUsxziNg=="
         }
       },
       "is_incremental": false,
@@ -24,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "A8dF+Hd6aSFHmJwcpmpu5g=="
+          "hash": "YhXb8/QY9+JD+4eoNuNpzg=="
         }
       },
       "is_incremental": false,
@@ -59,7 +56,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "IHD/h0wMauKxgp7mlpBXjg=="
+          "hash": "i5UCBRupn+/cjjdmpf6MZA=="
         }
       },
       "is_incremental": false,
@@ -3271,11 +3268,35 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.html",
+          "hash": "kRvEAD8JS1TpJj+jTBVUcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISamplesDataResult.yml",
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISamplesDataResult.html",
           "hash": "S9MsochD+vFTl6+bWbPyiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.html",
+          "hash": "I8uxyIJ4P7IiOQdvRkp9HA=="
         }
       },
       "is_incremental": false,
@@ -3311,7 +3332,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.html",
-          "hash": "TnXf7/Y4vJJvTxh9a9S/Rg=="
+          "hash": "s1Sz/vPNnjRCZU/jIhGL+Q=="
         }
       },
       "is_incremental": false,
@@ -6155,7 +6176,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "LNqzHomZxxUorUcrQpvWfw=="
+          "hash": "uEN7moON4OYe1JuqKY3Frg=="
         }
       },
       "is_incremental": false,
@@ -6167,7 +6188,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "bW1a1uMh8vMR2ffROAiacQ=="
+          "hash": "p4Y1WE0GO/V+clSLSajBHw=="
         }
       },
       "is_incremental": false,
@@ -6194,7 +6215,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 507,
+          "total_file_count": 509,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

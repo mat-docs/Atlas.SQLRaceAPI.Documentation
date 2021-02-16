@@ -23944,6 +23944,159 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.Infrastructure.DataPipeline.IDeferredDataResult.TotalSamplesGenerated
   fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.IDeferredDataResult.TotalSamplesGenerated
   nameWithType: IDeferredDataResult.TotalSamplesGenerated
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection
+  name: ISampleCollection
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.html
+  commentId: T:MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection
+  nameWithType: ISampleCollection
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.Add(MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample)
+  name: Add(Sample)
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_ISampleCollection_Add_MESL_SqlRace_Domain_Infrastructure_DataPipeline_Sample_
+  commentId: M:MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.Add(MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample)
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.Add(MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample)
+  nameWithType: ISampleCollection.Add(Sample)
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.Add(System.Double,System.Int64,MAT.OCS.Core.DataStatusType)
+  name: Add(Double, Int64, DataStatusType)
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_ISampleCollection_Add_System_Double_System_Int64_MAT_OCS_Core_DataStatusType_
+  commentId: M:MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.Add(System.Double,System.Int64,MAT.OCS.Core.DataStatusType)
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.Add(System.Double, System.Int64, MAT.OCS.Core.DataStatusType)
+  nameWithType: ISampleCollection.Add(Double, Int64, DataStatusType)
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.Add*
+  name: Add
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_ISampleCollection_Add_
+  commentId: Overload:MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.Add
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.Add
+  nameWithType: ISampleCollection.Add
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.Count
+  name: Count
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_ISampleCollection_Count
+  commentId: P:MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.Count
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.Count
+  nameWithType: ISampleCollection.Count
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.Count*
+  name: Count
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_ISampleCollection_Count_
+  commentId: Overload:MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.Count
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.Count
+  nameWithType: ISampleCollection.Count
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.GetSamplesInTimeRange(System.Int64,System.Int64,System.Action{MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample})
+  name: GetSamplesInTimeRange(Int64, Int64, Action<Sample>)
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_ISampleCollection_GetSamplesInTimeRange_System_Int64_System_Int64_System_Action_MESL_SqlRace_Domain_Infrastructure_DataPipeline_Sample__
+  commentId: M:MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.GetSamplesInTimeRange(System.Int64,System.Int64,System.Action{MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample})
+  name.vb: GetSamplesInTimeRange(Int64, Int64, Action(Of Sample))
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.GetSamplesInTimeRange(System.Int64, System.Int64, System.Action<MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample>)
+  fullName.vb: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.GetSamplesInTimeRange(System.Int64, System.Int64, System.Action(Of MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample))
+  nameWithType: ISampleCollection.GetSamplesInTimeRange(Int64, Int64, Action<Sample>)
+  nameWithType.vb: ISampleCollection.GetSamplesInTimeRange(Int64, Int64, Action(Of Sample))
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.GetSamplesInTimeRange*
+  name: GetSamplesInTimeRange
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_ISampleCollection_GetSamplesInTimeRange_
+  commentId: Overload:MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.GetSamplesInTimeRange
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.GetSamplesInTimeRange
+  nameWithType: ISampleCollection.GetSamplesInTimeRange
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.Item(System.Int32)
+  name: Item[Int32]
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_ISampleCollection_Item_System_Int32_
+  commentId: P:MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.Item(System.Int32)
+  name.vb: Item(Int32)
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.Item[System.Int32]
+  fullName.vb: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.Item(System.Int32)
+  nameWithType: ISampleCollection.Item[Int32]
+  nameWithType.vb: ISampleCollection.Item(Int32)
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.Item*
+  name: Item
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_ISampleCollection_Item_
+  commentId: Overload:MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.Item
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.Item
+  nameWithType: ISampleCollection.Item
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.PeekNextSample
+  name: PeekNextSample()
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_ISampleCollection_PeekNextSample
+  commentId: M:MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.PeekNextSample
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.PeekNextSample()
+  nameWithType: ISampleCollection.PeekNextSample()
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.PeekNextSample*
+  name: PeekNextSample
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_ISampleCollection_PeekNextSample_
+  commentId: Overload:MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.PeekNextSample
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.PeekNextSample
+  nameWithType: ISampleCollection.PeekNextSample
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.PeekSampleAtOrBefore(System.Int64)
+  name: PeekSampleAtOrBefore(Int64)
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_ISampleCollection_PeekSampleAtOrBefore_System_Int64_
+  commentId: M:MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.PeekSampleAtOrBefore(System.Int64)
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.PeekSampleAtOrBefore(System.Int64)
+  nameWithType: ISampleCollection.PeekSampleAtOrBefore(Int64)
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.PeekSampleAtOrBefore*
+  name: PeekSampleAtOrBefore
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_ISampleCollection_PeekSampleAtOrBefore_
+  commentId: Overload:MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.PeekSampleAtOrBefore
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.PeekSampleAtOrBefore
+  nameWithType: ISampleCollection.PeekSampleAtOrBefore
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.PreviousSample
+  name: PreviousSample()
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_ISampleCollection_PreviousSample
+  commentId: M:MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.PreviousSample
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.PreviousSample()
+  nameWithType: ISampleCollection.PreviousSample()
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.PreviousSample*
+  name: PreviousSample
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_ISampleCollection_PreviousSample_
+  commentId: Overload:MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.PreviousSample
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.PreviousSample
+  nameWithType: ISampleCollection.PreviousSample
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.Release
+  name: Release()
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_ISampleCollection_Release
+  commentId: M:MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.Release
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.Release()
+  nameWithType: ISampleCollection.Release()
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.Release*
+  name: Release
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_ISampleCollection_Release_
+  commentId: Overload:MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.Release
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.Release
+  nameWithType: ISampleCollection.Release
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.SamplesInTimeRange(System.Int64,System.Int64)
+  name: SamplesInTimeRange(Int64, Int64)
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_ISampleCollection_SamplesInTimeRange_System_Int64_System_Int64_
+  commentId: M:MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.SamplesInTimeRange(System.Int64,System.Int64)
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.SamplesInTimeRange(System.Int64, System.Int64)
+  nameWithType: ISampleCollection.SamplesInTimeRange(Int64, Int64)
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.SamplesInTimeRange*
+  name: SamplesInTimeRange
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_ISampleCollection_SamplesInTimeRange_
+  commentId: Overload:MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.SamplesInTimeRange
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.SamplesInTimeRange
+  nameWithType: ISampleCollection.SamplesInTimeRange
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.ToArrays(System.Double[],System.Int64[],MAT.OCS.Core.DataStatusType[])
+  name: ToArrays(Double[], Int64[], DataStatusType[])
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_ISampleCollection_ToArrays_System_Double___System_Int64___MAT_OCS_Core_DataStatusType___
+  commentId: M:MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.ToArrays(System.Double[],System.Int64[],MAT.OCS.Core.DataStatusType[])
+  name.vb: ToArrays(Double(), Int64(), DataStatusType())
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.ToArrays(System.Double[], System.Int64[], MAT.OCS.Core.DataStatusType[])
+  fullName.vb: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.ToArrays(System.Double(), System.Int64(), MAT.OCS.Core.DataStatusType())
+  nameWithType: ISampleCollection.ToArrays(Double[], Int64[], DataStatusType[])
+  nameWithType.vb: ISampleCollection.ToArrays(Double(), Int64(), DataStatusType())
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.ToArrays*
+  name: ToArrays
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_ISampleCollection_ToArrays_
+  commentId: Overload:MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.ToArrays
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.ToArrays
+  nameWithType: ISampleCollection.ToArrays
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.UpdateSampleStatus(System.Int32,MAT.OCS.Core.DataStatusType)
+  name: UpdateSampleStatus(Int32, DataStatusType)
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_ISampleCollection_UpdateSampleStatus_System_Int32_MAT_OCS_Core_DataStatusType_
+  commentId: M:MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.UpdateSampleStatus(System.Int32,MAT.OCS.Core.DataStatusType)
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.UpdateSampleStatus(System.Int32, MAT.OCS.Core.DataStatusType)
+  nameWithType: ISampleCollection.UpdateSampleStatus(Int32, DataStatusType)
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.UpdateSampleStatus*
+  name: UpdateSampleStatus
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_ISampleCollection_UpdateSampleStatus_
+  commentId: Overload:MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.UpdateSampleStatus
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.UpdateSampleStatus
+  nameWithType: ISampleCollection.UpdateSampleStatus
 - uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISamplesDataResult
   name: ISamplesDataResult
   href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISamplesDataResult.html
@@ -23998,6 +24151,114 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISamplesDataResult.Timestamps
   fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISamplesDataResult.Timestamps
   nameWithType: ISamplesDataResult.Timestamps
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample
+  name: Sample
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.html
+  commentId: T:MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample
+  nameWithType: Sample
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.#ctor(System.Int64,System.Double,MAT.OCS.Core.DataStatusType)
+  name: Sample(Int64, Double, DataStatusType)
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_Sample__ctor_System_Int64_System_Double_MAT_OCS_Core_DataStatusType_
+  commentId: M:MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.#ctor(System.Int64,System.Double,MAT.OCS.Core.DataStatusType)
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.Sample(System.Int64, System.Double, MAT.OCS.Core.DataStatusType)
+  nameWithType: Sample.Sample(Int64, Double, DataStatusType)
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.#ctor(System.Int64,System.Double,System.Double,MAT.OCS.Core.DataStatusType)
+  name: Sample(Int64, Double, Double, DataStatusType)
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_Sample__ctor_System_Int64_System_Double_System_Double_MAT_OCS_Core_DataStatusType_
+  commentId: M:MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.#ctor(System.Int64,System.Double,System.Double,MAT.OCS.Core.DataStatusType)
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.Sample(System.Int64, System.Double, System.Double, MAT.OCS.Core.DataStatusType)
+  nameWithType: Sample.Sample(Int64, Double, Double, DataStatusType)
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.#ctor(System.Int64,System.Double,System.Double,System.Double,MAT.OCS.Core.DataStatusType)
+  name: Sample(Int64, Double, Double, Double, DataStatusType)
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_Sample__ctor_System_Int64_System_Double_System_Double_System_Double_MAT_OCS_Core_DataStatusType_
+  commentId: M:MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.#ctor(System.Int64,System.Double,System.Double,System.Double,MAT.OCS.Core.DataStatusType)
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.Sample(System.Int64, System.Double, System.Double, System.Double, MAT.OCS.Core.DataStatusType)
+  nameWithType: Sample.Sample(Int64, Double, Double, Double, DataStatusType)
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.#ctor(System.Int64,System.Double,System.Double,System.Double,System.Double,MAT.OCS.Core.DataStatusType)
+  name: Sample(Int64, Double, Double, Double, Double, DataStatusType)
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_Sample__ctor_System_Int64_System_Double_System_Double_System_Double_System_Double_MAT_OCS_Core_DataStatusType_
+  commentId: M:MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.#ctor(System.Int64,System.Double,System.Double,System.Double,System.Double,MAT.OCS.Core.DataStatusType)
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.Sample(System.Int64, System.Double, System.Double, System.Double, System.Double, MAT.OCS.Core.DataStatusType)
+  nameWithType: Sample.Sample(Int64, Double, Double, Double, Double, DataStatusType)
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.#ctor*
+  name: Sample
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_Sample__ctor_
+  commentId: Overload:MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.#ctor
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.Sample
+  nameWithType: Sample.Sample
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.FirstValue
+  name: FirstValue
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_Sample_FirstValue
+  commentId: F:MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.FirstValue
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.FirstValue
+  nameWithType: Sample.FirstValue
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.IsSample
+  name: IsSample()
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_Sample_IsSample
+  commentId: M:MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.IsSample
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.IsSample()
+  nameWithType: Sample.IsSample()
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.IsSample*
+  name: IsSample
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_Sample_IsSample_
+  commentId: Overload:MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.IsSample
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.IsSample
+  nameWithType: Sample.IsSample
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.MarkAsIncomplete
+  name: MarkAsIncomplete()
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_Sample_MarkAsIncomplete
+  commentId: M:MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.MarkAsIncomplete
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.MarkAsIncomplete()
+  nameWithType: Sample.MarkAsIncomplete()
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.MarkAsIncomplete*
+  name: MarkAsIncomplete
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_Sample_MarkAsIncomplete_
+  commentId: Overload:MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.MarkAsIncomplete
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.MarkAsIncomplete
+  nameWithType: Sample.MarkAsIncomplete
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.MaximumValue
+  name: MaximumValue
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_Sample_MaximumValue
+  commentId: F:MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.MaximumValue
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.MaximumValue
+  nameWithType: Sample.MaximumValue
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.MinimumValue
+  name: MinimumValue
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_Sample_MinimumValue
+  commentId: F:MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.MinimumValue
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.MinimumValue
+  nameWithType: Sample.MinimumValue
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.Status
+  name: Status
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_Sample_Status
+  commentId: F:MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.Status
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.Status
+  nameWithType: Sample.Status
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.Timestamp
+  name: Timestamp
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_Sample_Timestamp
+  commentId: F:MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.Timestamp
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.Timestamp
+  nameWithType: Sample.Timestamp
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.ToString
+  name: ToString()
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_Sample_ToString
+  commentId: M:MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.ToString
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.ToString()
+  nameWithType: Sample.ToString()
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.ToString*
+  name: ToString
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_Sample_ToString_
+  commentId: Overload:MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.ToString
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.ToString
+  nameWithType: Sample.ToString
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.Value
+  name: Value
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_Sample_Value
+  commentId: F:MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.Value
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.Value
+  nameWithType: Sample.Value
 - uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.SamplesDataResult
   name: SamplesDataResult
   href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.SamplesDataResult.html
