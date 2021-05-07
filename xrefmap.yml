@@ -7538,15 +7538,15 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.CompositeSessionContainer.SetOffsetValue
   fullName: MESL.SqlRace.Domain.CompositeSessionContainer.SetOffsetValue
   nameWithType: CompositeSessionContainer.SetOffsetValue
-- uid: MESL.SqlRace.Domain.CompositeSessionContainer.SetSessionCompareMode(MAT.OCS.Core.CompositeSessionKey,MESL.SqlRace.Domain.SessionCompareMode,MAT.OCS.Core.SessionKey,System.Nullable{System.UInt32})
-  name: SetSessionCompareMode(CompositeSessionKey, SessionCompareMode, SessionKey, Nullable<UInt32>)
-  href: api/MESL.SqlRace.Domain.CompositeSessionContainer.html#MESL_SqlRace_Domain_CompositeSessionContainer_SetSessionCompareMode_MAT_OCS_Core_CompositeSessionKey_MESL_SqlRace_Domain_SessionCompareMode_MAT_OCS_Core_SessionKey_System_Nullable_System_UInt32__
-  commentId: M:MESL.SqlRace.Domain.CompositeSessionContainer.SetSessionCompareMode(MAT.OCS.Core.CompositeSessionKey,MESL.SqlRace.Domain.SessionCompareMode,MAT.OCS.Core.SessionKey,System.Nullable{System.UInt32})
-  name.vb: SetSessionCompareMode(CompositeSessionKey, SessionCompareMode, SessionKey, Nullable(Of UInt32))
-  fullName: MESL.SqlRace.Domain.CompositeSessionContainer.SetSessionCompareMode(MAT.OCS.Core.CompositeSessionKey, MESL.SqlRace.Domain.SessionCompareMode, MAT.OCS.Core.SessionKey, System.Nullable<System.UInt32>)
-  fullName.vb: MESL.SqlRace.Domain.CompositeSessionContainer.SetSessionCompareMode(MAT.OCS.Core.CompositeSessionKey, MESL.SqlRace.Domain.SessionCompareMode, MAT.OCS.Core.SessionKey, System.Nullable(Of System.UInt32))
-  nameWithType: CompositeSessionContainer.SetSessionCompareMode(CompositeSessionKey, SessionCompareMode, SessionKey, Nullable<UInt32>)
-  nameWithType.vb: CompositeSessionContainer.SetSessionCompareMode(CompositeSessionKey, SessionCompareMode, SessionKey, Nullable(Of UInt32))
+- uid: MESL.SqlRace.Domain.CompositeSessionContainer.SetSessionCompareMode(MAT.OCS.Core.CompositeSessionKey,MESL.SqlRace.Domain.SessionCompareMode,MAT.OCS.Core.SessionKey,System.Nullable{System.Int32})
+  name: SetSessionCompareMode(CompositeSessionKey, SessionCompareMode, SessionKey, Nullable<Int32>)
+  href: api/MESL.SqlRace.Domain.CompositeSessionContainer.html#MESL_SqlRace_Domain_CompositeSessionContainer_SetSessionCompareMode_MAT_OCS_Core_CompositeSessionKey_MESL_SqlRace_Domain_SessionCompareMode_MAT_OCS_Core_SessionKey_System_Nullable_System_Int32__
+  commentId: M:MESL.SqlRace.Domain.CompositeSessionContainer.SetSessionCompareMode(MAT.OCS.Core.CompositeSessionKey,MESL.SqlRace.Domain.SessionCompareMode,MAT.OCS.Core.SessionKey,System.Nullable{System.Int32})
+  name.vb: SetSessionCompareMode(CompositeSessionKey, SessionCompareMode, SessionKey, Nullable(Of Int32))
+  fullName: MESL.SqlRace.Domain.CompositeSessionContainer.SetSessionCompareMode(MAT.OCS.Core.CompositeSessionKey, MESL.SqlRace.Domain.SessionCompareMode, MAT.OCS.Core.SessionKey, System.Nullable<System.Int32>)
+  fullName.vb: MESL.SqlRace.Domain.CompositeSessionContainer.SetSessionCompareMode(MAT.OCS.Core.CompositeSessionKey, MESL.SqlRace.Domain.SessionCompareMode, MAT.OCS.Core.SessionKey, System.Nullable(Of System.Int32))
+  nameWithType: CompositeSessionContainer.SetSessionCompareMode(CompositeSessionKey, SessionCompareMode, SessionKey, Nullable<Int32>)
+  nameWithType.vb: CompositeSessionContainer.SetSessionCompareMode(CompositeSessionKey, SessionCompareMode, SessionKey, Nullable(Of Int32))
 - uid: MESL.SqlRace.Domain.CompositeSessionContainer.SetSessionCompareMode*
   name: SetSessionCompareMode
   href: api/MESL.SqlRace.Domain.CompositeSessionContainer.html#MESL_SqlRace_Domain_CompositeSessionContainer_SetSessionCompareMode_
@@ -22439,15 +22439,15 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.ICompositeSessionContainer.SetOffsetValue
   fullName: MESL.SqlRace.Domain.ICompositeSessionContainer.SetOffsetValue
   nameWithType: ICompositeSessionContainer.SetOffsetValue
-- uid: MESL.SqlRace.Domain.ICompositeSessionContainer.SetSessionCompareMode(MAT.OCS.Core.CompositeSessionKey,MESL.SqlRace.Domain.SessionCompareMode,MAT.OCS.Core.SessionKey,System.Nullable{System.UInt32})
-  name: SetSessionCompareMode(CompositeSessionKey, SessionCompareMode, SessionKey, Nullable<UInt32>)
-  href: api/MESL.SqlRace.Domain.ICompositeSessionContainer.html#MESL_SqlRace_Domain_ICompositeSessionContainer_SetSessionCompareMode_MAT_OCS_Core_CompositeSessionKey_MESL_SqlRace_Domain_SessionCompareMode_MAT_OCS_Core_SessionKey_System_Nullable_System_UInt32__
-  commentId: M:MESL.SqlRace.Domain.ICompositeSessionContainer.SetSessionCompareMode(MAT.OCS.Core.CompositeSessionKey,MESL.SqlRace.Domain.SessionCompareMode,MAT.OCS.Core.SessionKey,System.Nullable{System.UInt32})
-  name.vb: SetSessionCompareMode(CompositeSessionKey, SessionCompareMode, SessionKey, Nullable(Of UInt32))
-  fullName: MESL.SqlRace.Domain.ICompositeSessionContainer.SetSessionCompareMode(MAT.OCS.Core.CompositeSessionKey, MESL.SqlRace.Domain.SessionCompareMode, MAT.OCS.Core.SessionKey, System.Nullable<System.UInt32>)
-  fullName.vb: MESL.SqlRace.Domain.ICompositeSessionContainer.SetSessionCompareMode(MAT.OCS.Core.CompositeSessionKey, MESL.SqlRace.Domain.SessionCompareMode, MAT.OCS.Core.SessionKey, System.Nullable(Of System.UInt32))
-  nameWithType: ICompositeSessionContainer.SetSessionCompareMode(CompositeSessionKey, SessionCompareMode, SessionKey, Nullable<UInt32>)
-  nameWithType.vb: ICompositeSessionContainer.SetSessionCompareMode(CompositeSessionKey, SessionCompareMode, SessionKey, Nullable(Of UInt32))
+- uid: MESL.SqlRace.Domain.ICompositeSessionContainer.SetSessionCompareMode(MAT.OCS.Core.CompositeSessionKey,MESL.SqlRace.Domain.SessionCompareMode,MAT.OCS.Core.SessionKey,System.Nullable{System.Int32})
+  name: SetSessionCompareMode(CompositeSessionKey, SessionCompareMode, SessionKey, Nullable<Int32>)
+  href: api/MESL.SqlRace.Domain.ICompositeSessionContainer.html#MESL_SqlRace_Domain_ICompositeSessionContainer_SetSessionCompareMode_MAT_OCS_Core_CompositeSessionKey_MESL_SqlRace_Domain_SessionCompareMode_MAT_OCS_Core_SessionKey_System_Nullable_System_Int32__
+  commentId: M:MESL.SqlRace.Domain.ICompositeSessionContainer.SetSessionCompareMode(MAT.OCS.Core.CompositeSessionKey,MESL.SqlRace.Domain.SessionCompareMode,MAT.OCS.Core.SessionKey,System.Nullable{System.Int32})
+  name.vb: SetSessionCompareMode(CompositeSessionKey, SessionCompareMode, SessionKey, Nullable(Of Int32))
+  fullName: MESL.SqlRace.Domain.ICompositeSessionContainer.SetSessionCompareMode(MAT.OCS.Core.CompositeSessionKey, MESL.SqlRace.Domain.SessionCompareMode, MAT.OCS.Core.SessionKey, System.Nullable<System.Int32>)
+  fullName.vb: MESL.SqlRace.Domain.ICompositeSessionContainer.SetSessionCompareMode(MAT.OCS.Core.CompositeSessionKey, MESL.SqlRace.Domain.SessionCompareMode, MAT.OCS.Core.SessionKey, System.Nullable(Of System.Int32))
+  nameWithType: ICompositeSessionContainer.SetSessionCompareMode(CompositeSessionKey, SessionCompareMode, SessionKey, Nullable<Int32>)
+  nameWithType.vb: ICompositeSessionContainer.SetSessionCompareMode(CompositeSessionKey, SessionCompareMode, SessionKey, Nullable(Of Int32))
 - uid: MESL.SqlRace.Domain.ICompositeSessionContainer.SetSessionCompareMode*
   name: SetSessionCompareMode
   href: api/MESL.SqlRace.Domain.ICompositeSessionContainer.html#MESL_SqlRace_Domain_ICompositeSessionContainer_SetSessionCompareMode_
@@ -27984,6 +27984,18 @@ references:
   commentId: E:MESL.SqlRace.Domain.MountedSessions.MountedSession.EventsAdded
   fullName: MESL.SqlRace.Domain.MountedSessions.MountedSession.EventsAdded
   nameWithType: MountedSession.EventsAdded
+- uid: MESL.SqlRace.Domain.MountedSessions.MountedSession.ExtendTimeRange(MESL.SqlRace.Domain.TimeRange)
+  name: ExtendTimeRange(TimeRange)
+  href: api/MESL.SqlRace.Domain.MountedSessions.MountedSession.html#MESL_SqlRace_Domain_MountedSessions_MountedSession_ExtendTimeRange_MESL_SqlRace_Domain_TimeRange_
+  commentId: M:MESL.SqlRace.Domain.MountedSessions.MountedSession.ExtendTimeRange(MESL.SqlRace.Domain.TimeRange)
+  fullName: MESL.SqlRace.Domain.MountedSessions.MountedSession.ExtendTimeRange(MESL.SqlRace.Domain.TimeRange)
+  nameWithType: MountedSession.ExtendTimeRange(TimeRange)
+- uid: MESL.SqlRace.Domain.MountedSessions.MountedSession.ExtendTimeRange*
+  name: ExtendTimeRange
+  href: api/MESL.SqlRace.Domain.MountedSessions.MountedSession.html#MESL_SqlRace_Domain_MountedSessions_MountedSession_ExtendTimeRange_
+  commentId: Overload:MESL.SqlRace.Domain.MountedSessions.MountedSession.ExtendTimeRange
+  fullName: MESL.SqlRace.Domain.MountedSessions.MountedSession.ExtendTimeRange
+  nameWithType: MountedSession.ExtendTimeRange
 - uid: MESL.SqlRace.Domain.MountedSessions.MountedSession.GetDataTimeRange(System.UInt32)
   name: GetDataTimeRange(UInt32)
   href: api/MESL.SqlRace.Domain.MountedSessions.MountedSession.html#MESL_SqlRace_Domain_MountedSessions_MountedSession_GetDataTimeRange_System_UInt32_
@@ -28293,18 +28305,6 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.MountedSessions.MountedSession.UpdateState
   fullName: MESL.SqlRace.Domain.MountedSessions.MountedSession.UpdateState
   nameWithType: MountedSession.UpdateState
-- uid: MESL.SqlRace.Domain.MountedSessions.MountedSession.UpdateTimeRange(MESL.SqlRace.Domain.TimeRange)
-  name: UpdateTimeRange(TimeRange)
-  href: api/MESL.SqlRace.Domain.MountedSessions.MountedSession.html#MESL_SqlRace_Domain_MountedSessions_MountedSession_UpdateTimeRange_MESL_SqlRace_Domain_TimeRange_
-  commentId: M:MESL.SqlRace.Domain.MountedSessions.MountedSession.UpdateTimeRange(MESL.SqlRace.Domain.TimeRange)
-  fullName: MESL.SqlRace.Domain.MountedSessions.MountedSession.UpdateTimeRange(MESL.SqlRace.Domain.TimeRange)
-  nameWithType: MountedSession.UpdateTimeRange(TimeRange)
-- uid: MESL.SqlRace.Domain.MountedSessions.MountedSession.UpdateTimeRange*
-  name: UpdateTimeRange
-  href: api/MESL.SqlRace.Domain.MountedSessions.MountedSession.html#MESL_SqlRace_Domain_MountedSessions_MountedSession_UpdateTimeRange_
-  commentId: Overload:MESL.SqlRace.Domain.MountedSessions.MountedSession.UpdateTimeRange
-  fullName: MESL.SqlRace.Domain.MountedSessions.MountedSession.UpdateTimeRange
-  nameWithType: MountedSession.UpdateTimeRange
 - uid: MESL.SqlRace.Domain.MountedSessions.MountedSessionCapabilities
   name: MountedSessionCapabilities
   href: api/MESL.SqlRace.Domain.MountedSessions.MountedSessionCapabilities.html
@@ -28479,18 +28479,33 @@ references:
   commentId: T:MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.EventsAdded
   fullName: MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.EventsAdded
   nameWithType: MountedSessionEvents.EventsAdded
-- uid: MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.EventsAdded.#ctor(MESL.SqlRace.Domain.TimeRange)
-  name: EventsAdded(TimeRange)
-  href: api/MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.EventsAdded.html#MESL_SqlRace_Domain_MountedSessions_MountedSessionEvents_EventsAdded__ctor_MESL_SqlRace_Domain_TimeRange_
-  commentId: M:MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.EventsAdded.#ctor(MESL.SqlRace.Domain.TimeRange)
-  fullName: MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.EventsAdded.EventsAdded(MESL.SqlRace.Domain.TimeRange)
-  nameWithType: MountedSessionEvents.EventsAdded.EventsAdded(TimeRange)
+- uid: MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.EventsAdded.#ctor(MESL.SqlRace.Domain.TimeRange,System.Lazy{System.Collections.Generic.IList{MESL.SqlRace.Domain.Event}})
+  name: EventsAdded(TimeRange, Lazy<IList<Event>>)
+  href: api/MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.EventsAdded.html#MESL_SqlRace_Domain_MountedSessions_MountedSessionEvents_EventsAdded__ctor_MESL_SqlRace_Domain_TimeRange_System_Lazy_System_Collections_Generic_IList_MESL_SqlRace_Domain_Event___
+  commentId: M:MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.EventsAdded.#ctor(MESL.SqlRace.Domain.TimeRange,System.Lazy{System.Collections.Generic.IList{MESL.SqlRace.Domain.Event}})
+  name.vb: EventsAdded(TimeRange, Lazy(Of IList(Of Event)))
+  fullName: MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.EventsAdded.EventsAdded(MESL.SqlRace.Domain.TimeRange, System.Lazy<System.Collections.Generic.IList<MESL.SqlRace.Domain.Event>>)
+  fullName.vb: MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.EventsAdded.EventsAdded(MESL.SqlRace.Domain.TimeRange, System.Lazy(Of System.Collections.Generic.IList(Of MESL.SqlRace.Domain.Event)))
+  nameWithType: MountedSessionEvents.EventsAdded.EventsAdded(TimeRange, Lazy<IList<Event>>)
+  nameWithType.vb: MountedSessionEvents.EventsAdded.EventsAdded(TimeRange, Lazy(Of IList(Of Event)))
 - uid: MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.EventsAdded.#ctor*
   name: EventsAdded
   href: api/MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.EventsAdded.html#MESL_SqlRace_Domain_MountedSessions_MountedSessionEvents_EventsAdded__ctor_
   commentId: Overload:MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.EventsAdded.#ctor
   fullName: MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.EventsAdded.EventsAdded
   nameWithType: MountedSessionEvents.EventsAdded.EventsAdded
+- uid: MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.EventsAdded.Events
+  name: Events
+  href: api/MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.EventsAdded.html#MESL_SqlRace_Domain_MountedSessions_MountedSessionEvents_EventsAdded_Events
+  commentId: P:MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.EventsAdded.Events
+  fullName: MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.EventsAdded.Events
+  nameWithType: MountedSessionEvents.EventsAdded.Events
+- uid: MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.EventsAdded.Events*
+  name: Events
+  href: api/MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.EventsAdded.html#MESL_SqlRace_Domain_MountedSessions_MountedSessionEvents_EventsAdded_Events_
+  commentId: Overload:MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.EventsAdded.Events
+  fullName: MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.EventsAdded.Events
+  nameWithType: MountedSessionEvents.EventsAdded.Events
 - uid: MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.EventsAdded.TimeRange
   name: TimeRange
   href: api/MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.EventsAdded.html#MESL_SqlRace_Domain_MountedSessions_MountedSessionEvents_EventsAdded_TimeRange
@@ -31218,6 +31233,12 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.Query.ScalarFilter.CombineType
   fullName: MESL.SqlRace.Domain.Query.ScalarFilter.CombineType
   nameWithType: ScalarFilter.CombineType
+- uid: MESL.SqlRace.Domain.Query.ScalarFilter.DateFormat
+  name: DateFormat
+  href: api/MESL.SqlRace.Domain.Query.ScalarFilter.html#MESL_SqlRace_Domain_Query_ScalarFilter_DateFormat
+  commentId: F:MESL.SqlRace.Domain.Query.ScalarFilter.DateFormat
+  fullName: MESL.SqlRace.Domain.Query.ScalarFilter.DateFormat
+  nameWithType: ScalarFilter.DateFormat
 - uid: MESL.SqlRace.Domain.Query.ScalarFilter.IgnoreCase
   name: IgnoreCase
   href: api/MESL.SqlRace.Domain.Query.ScalarFilter.html#MESL_SqlRace_Domain_Query_ScalarFilter_IgnoreCase

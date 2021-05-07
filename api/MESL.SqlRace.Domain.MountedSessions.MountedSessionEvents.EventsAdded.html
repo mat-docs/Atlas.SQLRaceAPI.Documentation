@@ -118,16 +118,14 @@
   </div>
   <h3 id="constructors">Constructors
   </h3>
-  
-  
   <a id="MESL_SqlRace_Domain_MountedSessions_MountedSessionEvents_EventsAdded__ctor_" data-uid="MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.EventsAdded.#ctor*"></a>
-  <h4 id="MESL_SqlRace_Domain_MountedSessions_MountedSessionEvents_EventsAdded__ctor_MESL_SqlRace_Domain_TimeRange_" data-uid="MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.EventsAdded.#ctor(MESL.SqlRace.Domain.TimeRange)">EventsAdded(TimeRange)</h4>
+  <h4 id="MESL_SqlRace_Domain_MountedSessions_MountedSessionEvents_EventsAdded__ctor_MESL_SqlRace_Domain_TimeRange_System_Lazy_System_Collections_Generic_IList_MESL_SqlRace_Domain_Event___" data-uid="MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.EventsAdded.#ctor(MESL.SqlRace.Domain.TimeRange,System.Lazy{System.Collections.Generic.IList{MESL.SqlRace.Domain.Event}})">EventsAdded(TimeRange, Lazy&lt;IList&lt;Event&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EventsAdded(TimeRange timeRange)</code></pre>
+    <pre><code class="lang-csharp hljs">public EventsAdded(TimeRange timeRange, Lazy&lt;IList&lt;Event&gt;&gt; events)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -145,12 +143,41 @@
         <td><p>Inclusive time-range covering the events.</p>
 </td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Lazy</span>&lt;<span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.Event.html">Event</a>&gt;&gt;</td>
+        <td><span class="parametername">events</span></td>
+        <td><p>Function, which will return the events once called.</p>
+</td>
+      </tr>
     </tbody>
   </table>
   <h3 id="properties">Properties
   </h3>
-  
-  
+  <a id="MESL_SqlRace_Domain_MountedSessions_MountedSessionEvents_EventsAdded_Events_" data-uid="MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.EventsAdded.Events*"></a>
+  <h4 id="MESL_SqlRace_Domain_MountedSessions_MountedSessionEvents_EventsAdded_Events" data-uid="MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.EventsAdded.Events">Events</h4>
+  <div class="markdown level1 summary"><p>Gets the events.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Lazy&lt;IList&lt;Event&gt;&gt; Events { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Lazy</span>&lt;<span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.Event.html">Event</a>&gt;&gt;</td>
+        <td><p>The events.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="MESL_SqlRace_Domain_MountedSessions_MountedSessionEvents_EventsAdded_TimeRange_" data-uid="MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.EventsAdded.TimeRange*"></a>
   <h4 id="MESL_SqlRace_Domain_MountedSessions_MountedSessionEvents_EventsAdded_TimeRange" data-uid="MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.EventsAdded.TimeRange">TimeRange</h4>
   <div class="markdown level1 summary"><p>Inclusive time-range covering the events. The time-range may be over-sized
@@ -181,10 +208,6 @@ and the events may overlap existing time-ranges.</p>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                </ul>
-              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
