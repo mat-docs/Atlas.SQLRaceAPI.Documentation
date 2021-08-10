@@ -73,7 +73,7 @@
   
   <h1 id="MESL_SqlRace_Domain_Repositories_CAN_CanInstance" data-uid="MESL.SqlRace.Domain.Repositories.CAN.CanInstance" class="text-break">Class CanInstance
   </h1>
-  <div class="markdown level0 summary"><p>Class implements CAN instances.</p>
+  <div class="markdown level0 summary"><p>Represents a CAN message.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -109,13 +109,13 @@
   <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
   <h5 id="MESL_SqlRace_Domain_Repositories_CAN_CanInstance_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CanInstance</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class CanInstance</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <a id="MESL_SqlRace_Domain_Repositories_CAN_CanInstance__ctor_" data-uid="MESL.SqlRace.Domain.Repositories.CAN.CanInstance.#ctor*"></a>
   <h4 id="MESL_SqlRace_Domain_Repositories_CAN_CanInstance__ctor_System_Int64_System_Byte_System_UInt32_System_Byte___" data-uid="MESL.SqlRace.Domain.Repositories.CAN.CanInstance.#ctor(System.Int64,System.Byte,System.UInt32,System.Byte[])">CanInstance(Int64, Byte, UInt32, Byte[])</h4>
-  <div class="markdown level1 summary"><p>Initialise a new instance of CAN data instance.</p>
+  <div class="markdown level1 summary"><p>Initialises a new instance of the <a class="xref" href="MESL.SqlRace.Domain.Repositories.CAN.CanInstance.html">CanInstance</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -135,22 +135,26 @@
       <tr>
         <td><span class="xref">System.Int64</span></td>
         <td><span class="parametername">timestamp</span></td>
-        <td></td>
+        <td><p>Timestamp of the CAN message.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Byte</span></td>
         <td><span class="parametername">isReceived</span></td>
-        <td></td>
+        <td><p>Indicates receive or transmit.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.UInt32</span></td>
         <td><span class="parametername">canId</span></td>
-        <td></td>
+        <td><p>CAN ID.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Byte</span>[]</td>
         <td><span class="parametername">message</span></td>
-        <td></td>
+        <td><p>Message payload; not copied.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -158,7 +162,7 @@
   </h3>
   <a id="MESL_SqlRace_Domain_Repositories_CAN_CanInstance_CanId_" data-uid="MESL.SqlRace.Domain.Repositories.CAN.CanInstance.CanId*"></a>
   <h4 id="MESL_SqlRace_Domain_Repositories_CAN_CanInstance_CanId" data-uid="MESL.SqlRace.Domain.Repositories.CAN.CanInstance.CanId">CanId</h4>
-  <div class="markdown level1 summary"><p>Gets CAN id.</p>
+  <div class="markdown level1 summary"><p>Gets CAN ID.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -182,7 +186,7 @@
   </table>
   <a id="MESL_SqlRace_Domain_Repositories_CAN_CanInstance_IsReceived_" data-uid="MESL.SqlRace.Domain.Repositories.CAN.CanInstance.IsReceived*"></a>
   <h4 id="MESL_SqlRace_Domain_Repositories_CAN_CanInstance_IsReceived" data-uid="MESL.SqlRace.Domain.Repositories.CAN.CanInstance.IsReceived">IsReceived</h4>
-  <div class="markdown level1 summary"><p>Gets the status of received or transmitted.</p>
+  <div class="markdown level1 summary"><p>Gets whether the message was received or transmitted.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -206,7 +210,7 @@
   </table>
   <a id="MESL_SqlRace_Domain_Repositories_CAN_CanInstance_Message_" data-uid="MESL.SqlRace.Domain.Repositories.CAN.CanInstance.Message*"></a>
   <h4 id="MESL_SqlRace_Domain_Repositories_CAN_CanInstance_Message" data-uid="MESL.SqlRace.Domain.Repositories.CAN.CanInstance.Message">Message</h4>
-  <div class="markdown level1 summary"><p>Gets the message bytes.</p>
+  <div class="markdown level1 summary"><p>Gets the message payload, without copying.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -254,7 +258,7 @@
   </table>
   <a id="MESL_SqlRace_Domain_Repositories_CAN_CanInstance_UniqueCanDataKey_" data-uid="MESL.SqlRace.Domain.Repositories.CAN.CanInstance.UniqueCanDataKey*"></a>
   <h4 id="MESL_SqlRace_Domain_Repositories_CAN_CanInstance_UniqueCanDataKey" data-uid="MESL.SqlRace.Domain.Repositories.CAN.CanInstance.UniqueCanDataKey">UniqueCanDataKey</h4>
-  <div class="markdown level1 summary"><p>Unique Guid for this Can instance.</p>
+  <div class="markdown level1 summary"><p>Unique Guid for this Can instance, computed by hashing all the other properties.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
