@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/a/1/s/Mesl.SqlRace.DocFX",
+  "source_base_path": "C:/a/2/s/Mesl.SqlRace.DocFX",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -692,7 +692,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.CompositeSession.html",
-          "hash": "F0ZFeKLkP/On7sYD2S5ixw=="
+          "hash": "E12ogeI1OwsdjuqgyAiCbQ=="
         }
       },
       "is_incremental": false,
