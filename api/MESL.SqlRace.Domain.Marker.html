@@ -110,7 +110,7 @@
     <pre><code class="lang-csharp hljs">public class Marker : EntityBase</code></pre>
   </div>
   <h5 id="MESL_SqlRace_Domain_Marker_remarks"><strong>Remarks</strong></h5>
-  <div class="markdown level0 remarks"><p>A marker allows a point in time message to be stored against the session.</p>
+  <div class="markdown level0 remarks"><p>A marker allows a time range in a session to be defined and annotated.</p>
 </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -121,7 +121,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Marker(long timestamp, string message)</code></pre>
+    <pre><code class="lang-csharp hljs">public Marker(long startTimestamp, string label)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -135,26 +135,26 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Int64</span></td>
-        <td><span class="parametername">timestamp</span></td>
+        <td><span class="parametername">startTimestamp</span></td>
         <td><p>The timestamp.</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">message</span></td>
-        <td><p>The message.</p>
+        <td><span class="parametername">label</span></td>
+        <td><p>The label.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <a id="MESL_SqlRace_Domain_Marker__ctor_" data-uid="MESL.SqlRace.Domain.Marker.#ctor*"></a>
   <h4 id="MESL_SqlRace_Domain_Marker__ctor_System_Int64_System_String_System_String_System_String_" data-uid="MESL.SqlRace.Domain.Marker.#ctor(System.Int64,System.String,System.String,System.String)">Marker(Int64, String, String, String)</h4>
-  <div class="markdown level1 summary"><p>Initialises a new instance of the <a class="xref" href="MESL.SqlRace.Domain.Marker.html">Marker</a> class.</p>
+  <div class="markdown level1 summary"><p>Initialises a new instance of the <a class="xref" href="MESL.SqlRace.Domain.Marker.html">Marker</a> class to indicate a single point in time.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Marker(long timestamp, string message, string statusText, string markerType)</code></pre>
+    <pre><code class="lang-csharp hljs">public Marker(long startTimestamp, string label, string description, string markerType)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -168,20 +168,20 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Int64</span></td>
-        <td><span class="parametername">timestamp</span></td>
+        <td><span class="parametername">startTimestamp</span></td>
         <td><p>The timestamp.</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">message</span></td>
-        <td><p>The message.</p>
+        <td><span class="parametername">label</span></td>
+        <td><p>The label.</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">statusText</span></td>
-        <td><p>The status text.</p>
+        <td><span class="parametername">description</span></td>
+        <td><p>The description.</p>
 </td>
       </tr>
       <tr>
@@ -192,8 +192,195 @@
       </tr>
     </tbody>
   </table>
+  <a id="MESL_SqlRace_Domain_Marker__ctor_" data-uid="MESL.SqlRace.Domain.Marker.#ctor*"></a>
+  <h4 id="MESL_SqlRace_Domain_Marker__ctor_System_Nullable_System_Int64__System_Nullable_System_Int64__System_String_System_String_System_String_" data-uid="MESL.SqlRace.Domain.Marker.#ctor(System.Nullable{System.Int64},System.Nullable{System.Int64},System.String,System.String,System.String)">Marker(Nullable&lt;Int64&gt;, Nullable&lt;Int64&gt;, String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Initialises a new instance of the <a class="xref" href="MESL.SqlRace.Domain.Marker.html">Marker</a> class to indicate a time range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Marker(long? startTimestamp, long? endTimestamp, string label, string markerType, string description)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int64</span>&gt;</td>
+        <td><span class="parametername">startTimestamp</span></td>
+        <td><p>The timestamp for the start of the range or null to use the start of the session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int64</span>&gt;</td>
+        <td><span class="parametername">endTimestamp</span></td>
+        <td><p>The timestamp for the end of the range or null to use the end of the session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">label</span></td>
+        <td><p>A short human readable label for the Marker, this is required.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">markerType</span></td>
+        <td><p>A string defining the category that this Marker represents, this is required.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">description</span></td>
+        <td><p>An optional description of what the Marker represents.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  <h4 id="MESL_SqlRace_Domain_Marker_DefaultMarkerType" data-uid="MESL.SqlRace.Domain.Marker.DefaultMarkerType">DefaultMarkerType</h4>
+  <div class="markdown level1 summary"><p>The default type for the Marker if no value is explicitly provided.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string DefaultMarkerType = &quot;MARKER&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
+  <a id="MESL_SqlRace_Domain_Marker_Description_" data-uid="MESL.SqlRace.Domain.Marker.Description*"></a>
+  <h4 id="MESL_SqlRace_Domain_Marker_Description" data-uid="MESL.SqlRace.Domain.Marker.Description">Description</h4>
+  <div class="markdown level1 summary"><p>Gets the description.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Description { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Marker_EndTimestamp_" data-uid="MESL.SqlRace.Domain.Marker.EndTimestamp*"></a>
+  <h4 id="MESL_SqlRace_Domain_Marker_EndTimestamp" data-uid="MESL.SqlRace.Domain.Marker.EndTimestamp">EndTimestamp</h4>
+  <div class="markdown level1 summary"><p>Gets the end timestamp</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? EndTimestamp { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int64</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Marker_Label_" data-uid="MESL.SqlRace.Domain.Marker.Label*"></a>
+  <h4 id="MESL_SqlRace_Domain_Marker_Label" data-uid="MESL.SqlRace.Domain.Marker.Label">Label</h4>
+  <div class="markdown level1 summary"><p>Gets the label of the marker.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Label { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Marker_MarkerGuid_" data-uid="MESL.SqlRace.Domain.Marker.MarkerGuid*"></a>
+  <h4 id="MESL_SqlRace_Domain_Marker_MarkerGuid" data-uid="MESL.SqlRace.Domain.Marker.MarkerGuid">MarkerGuid</h4>
+  <div class="markdown level1 summary"><p>Gets the GUID of the marker.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Guid MarkerGuid { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <a id="MESL_SqlRace_Domain_Marker_MarkerType_" data-uid="MESL.SqlRace.Domain.Marker.MarkerType*"></a>
   <h4 id="MESL_SqlRace_Domain_Marker_MarkerType" data-uid="MESL.SqlRace.Domain.Marker.MarkerType">MarkerType</h4>
   <div class="markdown level1 summary"><p>Gets the type of the marker.</p>
@@ -218,14 +405,14 @@
       </tr>
     </tbody>
   </table>
-  <a id="MESL_SqlRace_Domain_Marker_Message_" data-uid="MESL.SqlRace.Domain.Marker.Message*"></a>
-  <h4 id="MESL_SqlRace_Domain_Marker_Message" data-uid="MESL.SqlRace.Domain.Marker.Message">Message</h4>
-  <div class="markdown level1 summary"><p>Gets the message.</p>
+  <a id="MESL_SqlRace_Domain_Marker_Properties_" data-uid="MESL.SqlRace.Domain.Marker.Properties*"></a>
+  <h4 id="MESL_SqlRace_Domain_Marker_Properties" data-uid="MESL.SqlRace.Domain.Marker.Properties">Properties</h4>
+  <div class="markdown level1 summary"><p>Gets an immutable copy of the properties.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Message { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ImmutableList&lt;MarkerLabel&gt; Properties { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -237,19 +424,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Collections.Immutable.ImmutableList</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.MarkerLabel.html">MarkerLabel</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <a id="MESL_SqlRace_Domain_Marker_StatusText_" data-uid="MESL.SqlRace.Domain.Marker.StatusText*"></a>
-  <h4 id="MESL_SqlRace_Domain_Marker_StatusText" data-uid="MESL.SqlRace.Domain.Marker.StatusText">StatusText</h4>
-  <div class="markdown level1 summary"><p>Gets the status text.</p>
+  <a id="MESL_SqlRace_Domain_Marker_StartTimestamp_" data-uid="MESL.SqlRace.Domain.Marker.StartTimestamp*"></a>
+  <h4 id="MESL_SqlRace_Domain_Marker_StartTimestamp" data-uid="MESL.SqlRace.Domain.Marker.StartTimestamp">StartTimestamp</h4>
+  <div class="markdown level1 summary"><p>Gets the start timestamp.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string StatusText { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public long? StartTimestamp { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -261,37 +448,40 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="MESL_SqlRace_Domain_Marker_Timestamp_" data-uid="MESL.SqlRace.Domain.Marker.Timestamp*"></a>
-  <h4 id="MESL_SqlRace_Domain_Marker_Timestamp" data-uid="MESL.SqlRace.Domain.Marker.Timestamp">Timestamp</h4>
-  <div class="markdown level1 summary"><p>Gets the timestamp.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public long Timestamp { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int64</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int64</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="methods">Methods
   </h3>
+  <a id="MESL_SqlRace_Domain_Marker_AddLabel_" data-uid="MESL.SqlRace.Domain.Marker.AddLabel*"></a>
+  <h4 id="MESL_SqlRace_Domain_Marker_AddLabel_MESL_SqlRace_Domain_MarkerLabel_" data-uid="MESL.SqlRace.Domain.Marker.AddLabel(MESL.SqlRace.Domain.MarkerLabel)">AddLabel(MarkerLabel)</h4>
+  <div class="markdown level1 summary"><p>Add a descriptive label to this Marker.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddLabel(MarkerLabel label)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.MarkerLabel.html">MarkerLabel</a></td>
+        <td><span class="parametername">label</span></td>
+        <td><p>The label to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="MESL_SqlRace_Domain_Marker_ToString_" data-uid="MESL.SqlRace.Domain.Marker.ToString*"></a>
   <h4 id="MESL_SqlRace_Domain_Marker_ToString" data-uid="MESL.SqlRace.Domain.Marker.ToString">ToString()</h4>
   <div class="markdown level1 summary"><p>Returns a <span class="xref">System.String</span> that represents this instance.</p>

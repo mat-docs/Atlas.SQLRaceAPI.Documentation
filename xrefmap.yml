@@ -11956,6 +11956,18 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.FileDrivers.DriverBase.GetLaps
   fullName: MESL.SqlRace.Domain.FileDrivers.DriverBase.GetLaps
   nameWithType: DriverBase.GetLaps
+- uid: MESL.SqlRace.Domain.FileDrivers.DriverBase.GetMarkers
+  name: GetMarkers()
+  href: api/MESL.SqlRace.Domain.FileDrivers.DriverBase.html#MESL_SqlRace_Domain_FileDrivers_DriverBase_GetMarkers
+  commentId: M:MESL.SqlRace.Domain.FileDrivers.DriverBase.GetMarkers
+  fullName: MESL.SqlRace.Domain.FileDrivers.DriverBase.GetMarkers()
+  nameWithType: DriverBase.GetMarkers()
+- uid: MESL.SqlRace.Domain.FileDrivers.DriverBase.GetMarkers*
+  name: GetMarkers
+  href: api/MESL.SqlRace.Domain.FileDrivers.DriverBase.html#MESL_SqlRace_Domain_FileDrivers_DriverBase_GetMarkers_
+  commentId: Overload:MESL.SqlRace.Domain.FileDrivers.DriverBase.GetMarkers
+  fullName: MESL.SqlRace.Domain.FileDrivers.DriverBase.GetMarkers
+  nameWithType: DriverBase.GetMarkers
 - uid: MESL.SqlRace.Domain.FileDrivers.DriverBase.GetNextSample(System.String,System.Int64,System.Double@,System.Int64@)
   name: GetNextSample(String, Int64, out Double, out Int64)
   href: api/MESL.SqlRace.Domain.FileDrivers.DriverBase.html#MESL_SqlRace_Domain_FileDrivers_DriverBase_GetNextSample_System_String_System_Int64_System_Double__System_Int64__
@@ -12571,6 +12583,18 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.FileSession.ISessionInformation.Laps
   fullName: MESL.SqlRace.Domain.FileSession.ISessionInformation.Laps
   nameWithType: ISessionInformation.Laps
+- uid: MESL.SqlRace.Domain.FileSession.ISessionInformation.Markers
+  name: Markers
+  href: api/MESL.SqlRace.Domain.FileSession.ISessionInformation.html#MESL_SqlRace_Domain_FileSession_ISessionInformation_Markers
+  commentId: P:MESL.SqlRace.Domain.FileSession.ISessionInformation.Markers
+  fullName: MESL.SqlRace.Domain.FileSession.ISessionInformation.Markers
+  nameWithType: ISessionInformation.Markers
+- uid: MESL.SqlRace.Domain.FileSession.ISessionInformation.Markers*
+  name: Markers
+  href: api/MESL.SqlRace.Domain.FileSession.ISessionInformation.html#MESL_SqlRace_Domain_FileSession_ISessionInformation_Markers_
+  commentId: Overload:MESL.SqlRace.Domain.FileSession.ISessionInformation.Markers
+  fullName: MESL.SqlRace.Domain.FileSession.ISessionInformation.Markers
+  nameWithType: ISessionInformation.Markers
 - uid: MESL.SqlRace.Domain.FileSession.ISessionInformation.OwnerId
   name: OwnerId
   href: api/MESL.SqlRace.Domain.FileSession.ISessionInformation.html#MESL_SqlRace_Domain_FileSession_ISessionInformation_OwnerId
@@ -13063,6 +13087,18 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.FileSession.SessionInformation.Laps
   fullName: MESL.SqlRace.Domain.FileSession.SessionInformation.Laps
   nameWithType: SessionInformation.Laps
+- uid: MESL.SqlRace.Domain.FileSession.SessionInformation.Markers
+  name: Markers
+  href: api/MESL.SqlRace.Domain.FileSession.SessionInformation.html#MESL_SqlRace_Domain_FileSession_SessionInformation_Markers
+  commentId: P:MESL.SqlRace.Domain.FileSession.SessionInformation.Markers
+  fullName: MESL.SqlRace.Domain.FileSession.SessionInformation.Markers
+  nameWithType: SessionInformation.Markers
+- uid: MESL.SqlRace.Domain.FileSession.SessionInformation.Markers*
+  name: Markers
+  href: api/MESL.SqlRace.Domain.FileSession.SessionInformation.html#MESL_SqlRace_Domain_FileSession_SessionInformation_Markers_
+  commentId: Overload:MESL.SqlRace.Domain.FileSession.SessionInformation.Markers
+  fullName: MESL.SqlRace.Domain.FileSession.SessionInformation.Markers
+  nameWithType: SessionInformation.Markers
 - uid: MESL.SqlRace.Domain.FileSession.SessionInformation.OwnerId
   name: OwnerId
   href: api/MESL.SqlRace.Domain.FileSession.SessionInformation.html#MESL_SqlRace_Domain_FileSession_SessionInformation_OwnerId
@@ -13498,6 +13534,18 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.FileSessionSummary.Laps
   fullName: MESL.SqlRace.Domain.FileSessionSummary.Laps
   nameWithType: FileSessionSummary.Laps
+- uid: MESL.SqlRace.Domain.FileSessionSummary.Markers
+  name: Markers
+  href: api/MESL.SqlRace.Domain.FileSessionSummary.html#MESL_SqlRace_Domain_FileSessionSummary_Markers
+  commentId: P:MESL.SqlRace.Domain.FileSessionSummary.Markers
+  fullName: MESL.SqlRace.Domain.FileSessionSummary.Markers
+  nameWithType: FileSessionSummary.Markers
+- uid: MESL.SqlRace.Domain.FileSessionSummary.Markers*
+  name: Markers
+  href: api/MESL.SqlRace.Domain.FileSessionSummary.html#MESL_SqlRace_Domain_FileSessionSummary_Markers_
+  commentId: Overload:MESL.SqlRace.Domain.FileSessionSummary.Markers
+  fullName: MESL.SqlRace.Domain.FileSessionSummary.Markers
+  nameWithType: FileSessionSummary.Markers
 - uid: MESL.SqlRace.Domain.FileSessionSummary.OwnerId
   name: OwnerId
   href: api/MESL.SqlRace.Domain.FileSessionSummary.html#MESL_SqlRace_Domain_FileSessionSummary_OwnerId
@@ -23159,6 +23207,18 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.ILap.EndTime
   fullName: MESL.SqlRace.Domain.ILap.EndTime
   nameWithType: ILap.EndTime
+- uid: MESL.SqlRace.Domain.ILap.EndTimeUnbounded
+  name: EndTimeUnbounded
+  href: api/MESL.SqlRace.Domain.ILap.html#MESL_SqlRace_Domain_ILap_EndTimeUnbounded
+  commentId: P:MESL.SqlRace.Domain.ILap.EndTimeUnbounded
+  fullName: MESL.SqlRace.Domain.ILap.EndTimeUnbounded
+  nameWithType: ILap.EndTimeUnbounded
+- uid: MESL.SqlRace.Domain.ILap.EndTimeUnbounded*
+  name: EndTimeUnbounded
+  href: api/MESL.SqlRace.Domain.ILap.html#MESL_SqlRace_Domain_ILap_EndTimeUnbounded_
+  commentId: Overload:MESL.SqlRace.Domain.ILap.EndTimeUnbounded
+  fullName: MESL.SqlRace.Domain.ILap.EndTimeUnbounded
+  nameWithType: ILap.EndTimeUnbounded
 - uid: MESL.SqlRace.Domain.ILap.LapId
   name: LapId
   href: api/MESL.SqlRace.Domain.ILap.html#MESL_SqlRace_Domain_ILap_LapId
@@ -23423,6 +23483,18 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.Infrastructure.DataAccess.IDataHelper.ConnectionTimeout
   fullName: MESL.SqlRace.Domain.Infrastructure.DataAccess.IDataHelper.ConnectionTimeout
   nameWithType: IDataHelper.ConnectionTimeout
+- uid: MESL.SqlRace.Domain.Infrastructure.DataAccess.IDataHelper.CreateCommand
+  name: CreateCommand()
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataAccess.IDataHelper.html#MESL_SqlRace_Domain_Infrastructure_DataAccess_IDataHelper_CreateCommand
+  commentId: M:MESL.SqlRace.Domain.Infrastructure.DataAccess.IDataHelper.CreateCommand
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataAccess.IDataHelper.CreateCommand()
+  nameWithType: IDataHelper.CreateCommand()
+- uid: MESL.SqlRace.Domain.Infrastructure.DataAccess.IDataHelper.CreateCommand*
+  name: CreateCommand
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataAccess.IDataHelper.html#MESL_SqlRace_Domain_Infrastructure_DataAccess_IDataHelper_CreateCommand_
+  commentId: Overload:MESL.SqlRace.Domain.Infrastructure.DataAccess.IDataHelper.CreateCommand
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataAccess.IDataHelper.CreateCommand
+  nameWithType: IDataHelper.CreateCommand
 - uid: MESL.SqlRace.Domain.Infrastructure.DataAccess.IDataHelper.Dispose
   name: Dispose()
   href: api/MESL.SqlRace.Domain.Infrastructure.DataAccess.IDataHelper.html#MESL_SqlRace_Domain_Infrastructure_DataAccess_IDataHelper_Dispose
@@ -26214,6 +26286,18 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.Lap.EndTime
   fullName: MESL.SqlRace.Domain.Lap.EndTime
   nameWithType: Lap.EndTime
+- uid: MESL.SqlRace.Domain.Lap.EndTimeUnbounded
+  name: EndTimeUnbounded
+  href: api/MESL.SqlRace.Domain.Lap.html#MESL_SqlRace_Domain_Lap_EndTimeUnbounded
+  commentId: P:MESL.SqlRace.Domain.Lap.EndTimeUnbounded
+  fullName: MESL.SqlRace.Domain.Lap.EndTimeUnbounded
+  nameWithType: Lap.EndTimeUnbounded
+- uid: MESL.SqlRace.Domain.Lap.EndTimeUnbounded*
+  name: EndTimeUnbounded
+  href: api/MESL.SqlRace.Domain.Lap.html#MESL_SqlRace_Domain_Lap_EndTimeUnbounded_
+  commentId: Overload:MESL.SqlRace.Domain.Lap.EndTimeUnbounded
+  fullName: MESL.SqlRace.Domain.Lap.EndTimeUnbounded
+  nameWithType: Lap.EndTimeUnbounded
 - uid: MESL.SqlRace.Domain.Lap.LapId
   name: LapId
   href: api/MESL.SqlRace.Domain.Lap.html#MESL_SqlRace_Domain_Lap_LapId
@@ -26940,12 +27024,87 @@ references:
   commentId: M:MESL.SqlRace.Domain.Marker.#ctor(System.Int64,System.String,System.String,System.String)
   fullName: MESL.SqlRace.Domain.Marker.Marker(System.Int64, System.String, System.String, System.String)
   nameWithType: Marker.Marker(Int64, String, String, String)
+- uid: MESL.SqlRace.Domain.Marker.#ctor(System.Nullable{System.Int64},System.Nullable{System.Int64},System.String,System.String,System.String)
+  name: Marker(Nullable<Int64>, Nullable<Int64>, String, String, String)
+  href: api/MESL.SqlRace.Domain.Marker.html#MESL_SqlRace_Domain_Marker__ctor_System_Nullable_System_Int64__System_Nullable_System_Int64__System_String_System_String_System_String_
+  commentId: M:MESL.SqlRace.Domain.Marker.#ctor(System.Nullable{System.Int64},System.Nullable{System.Int64},System.String,System.String,System.String)
+  name.vb: Marker(Nullable(Of Int64), Nullable(Of Int64), String, String, String)
+  fullName: MESL.SqlRace.Domain.Marker.Marker(System.Nullable<System.Int64>, System.Nullable<System.Int64>, System.String, System.String, System.String)
+  fullName.vb: MESL.SqlRace.Domain.Marker.Marker(System.Nullable(Of System.Int64), System.Nullable(Of System.Int64), System.String, System.String, System.String)
+  nameWithType: Marker.Marker(Nullable<Int64>, Nullable<Int64>, String, String, String)
+  nameWithType.vb: Marker.Marker(Nullable(Of Int64), Nullable(Of Int64), String, String, String)
 - uid: MESL.SqlRace.Domain.Marker.#ctor*
   name: Marker
   href: api/MESL.SqlRace.Domain.Marker.html#MESL_SqlRace_Domain_Marker__ctor_
   commentId: Overload:MESL.SqlRace.Domain.Marker.#ctor
   fullName: MESL.SqlRace.Domain.Marker.Marker
   nameWithType: Marker.Marker
+- uid: MESL.SqlRace.Domain.Marker.AddLabel(MESL.SqlRace.Domain.MarkerLabel)
+  name: AddLabel(MarkerLabel)
+  href: api/MESL.SqlRace.Domain.Marker.html#MESL_SqlRace_Domain_Marker_AddLabel_MESL_SqlRace_Domain_MarkerLabel_
+  commentId: M:MESL.SqlRace.Domain.Marker.AddLabel(MESL.SqlRace.Domain.MarkerLabel)
+  fullName: MESL.SqlRace.Domain.Marker.AddLabel(MESL.SqlRace.Domain.MarkerLabel)
+  nameWithType: Marker.AddLabel(MarkerLabel)
+- uid: MESL.SqlRace.Domain.Marker.AddLabel*
+  name: AddLabel
+  href: api/MESL.SqlRace.Domain.Marker.html#MESL_SqlRace_Domain_Marker_AddLabel_
+  commentId: Overload:MESL.SqlRace.Domain.Marker.AddLabel
+  fullName: MESL.SqlRace.Domain.Marker.AddLabel
+  nameWithType: Marker.AddLabel
+- uid: MESL.SqlRace.Domain.Marker.DefaultMarkerType
+  name: DefaultMarkerType
+  href: api/MESL.SqlRace.Domain.Marker.html#MESL_SqlRace_Domain_Marker_DefaultMarkerType
+  commentId: F:MESL.SqlRace.Domain.Marker.DefaultMarkerType
+  fullName: MESL.SqlRace.Domain.Marker.DefaultMarkerType
+  nameWithType: Marker.DefaultMarkerType
+- uid: MESL.SqlRace.Domain.Marker.Description
+  name: Description
+  href: api/MESL.SqlRace.Domain.Marker.html#MESL_SqlRace_Domain_Marker_Description
+  commentId: P:MESL.SqlRace.Domain.Marker.Description
+  fullName: MESL.SqlRace.Domain.Marker.Description
+  nameWithType: Marker.Description
+- uid: MESL.SqlRace.Domain.Marker.Description*
+  name: Description
+  href: api/MESL.SqlRace.Domain.Marker.html#MESL_SqlRace_Domain_Marker_Description_
+  commentId: Overload:MESL.SqlRace.Domain.Marker.Description
+  fullName: MESL.SqlRace.Domain.Marker.Description
+  nameWithType: Marker.Description
+- uid: MESL.SqlRace.Domain.Marker.EndTimestamp
+  name: EndTimestamp
+  href: api/MESL.SqlRace.Domain.Marker.html#MESL_SqlRace_Domain_Marker_EndTimestamp
+  commentId: P:MESL.SqlRace.Domain.Marker.EndTimestamp
+  fullName: MESL.SqlRace.Domain.Marker.EndTimestamp
+  nameWithType: Marker.EndTimestamp
+- uid: MESL.SqlRace.Domain.Marker.EndTimestamp*
+  name: EndTimestamp
+  href: api/MESL.SqlRace.Domain.Marker.html#MESL_SqlRace_Domain_Marker_EndTimestamp_
+  commentId: Overload:MESL.SqlRace.Domain.Marker.EndTimestamp
+  fullName: MESL.SqlRace.Domain.Marker.EndTimestamp
+  nameWithType: Marker.EndTimestamp
+- uid: MESL.SqlRace.Domain.Marker.Label
+  name: Label
+  href: api/MESL.SqlRace.Domain.Marker.html#MESL_SqlRace_Domain_Marker_Label
+  commentId: P:MESL.SqlRace.Domain.Marker.Label
+  fullName: MESL.SqlRace.Domain.Marker.Label
+  nameWithType: Marker.Label
+- uid: MESL.SqlRace.Domain.Marker.Label*
+  name: Label
+  href: api/MESL.SqlRace.Domain.Marker.html#MESL_SqlRace_Domain_Marker_Label_
+  commentId: Overload:MESL.SqlRace.Domain.Marker.Label
+  fullName: MESL.SqlRace.Domain.Marker.Label
+  nameWithType: Marker.Label
+- uid: MESL.SqlRace.Domain.Marker.MarkerGuid
+  name: MarkerGuid
+  href: api/MESL.SqlRace.Domain.Marker.html#MESL_SqlRace_Domain_Marker_MarkerGuid
+  commentId: P:MESL.SqlRace.Domain.Marker.MarkerGuid
+  fullName: MESL.SqlRace.Domain.Marker.MarkerGuid
+  nameWithType: Marker.MarkerGuid
+- uid: MESL.SqlRace.Domain.Marker.MarkerGuid*
+  name: MarkerGuid
+  href: api/MESL.SqlRace.Domain.Marker.html#MESL_SqlRace_Domain_Marker_MarkerGuid_
+  commentId: Overload:MESL.SqlRace.Domain.Marker.MarkerGuid
+  fullName: MESL.SqlRace.Domain.Marker.MarkerGuid
+  nameWithType: Marker.MarkerGuid
 - uid: MESL.SqlRace.Domain.Marker.MarkerType
   name: MarkerType
   href: api/MESL.SqlRace.Domain.Marker.html#MESL_SqlRace_Domain_Marker_MarkerType
@@ -26958,42 +27117,30 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.Marker.MarkerType
   fullName: MESL.SqlRace.Domain.Marker.MarkerType
   nameWithType: Marker.MarkerType
-- uid: MESL.SqlRace.Domain.Marker.Message
-  name: Message
-  href: api/MESL.SqlRace.Domain.Marker.html#MESL_SqlRace_Domain_Marker_Message
-  commentId: P:MESL.SqlRace.Domain.Marker.Message
-  fullName: MESL.SqlRace.Domain.Marker.Message
-  nameWithType: Marker.Message
-- uid: MESL.SqlRace.Domain.Marker.Message*
-  name: Message
-  href: api/MESL.SqlRace.Domain.Marker.html#MESL_SqlRace_Domain_Marker_Message_
-  commentId: Overload:MESL.SqlRace.Domain.Marker.Message
-  fullName: MESL.SqlRace.Domain.Marker.Message
-  nameWithType: Marker.Message
-- uid: MESL.SqlRace.Domain.Marker.StatusText
-  name: StatusText
-  href: api/MESL.SqlRace.Domain.Marker.html#MESL_SqlRace_Domain_Marker_StatusText
-  commentId: P:MESL.SqlRace.Domain.Marker.StatusText
-  fullName: MESL.SqlRace.Domain.Marker.StatusText
-  nameWithType: Marker.StatusText
-- uid: MESL.SqlRace.Domain.Marker.StatusText*
-  name: StatusText
-  href: api/MESL.SqlRace.Domain.Marker.html#MESL_SqlRace_Domain_Marker_StatusText_
-  commentId: Overload:MESL.SqlRace.Domain.Marker.StatusText
-  fullName: MESL.SqlRace.Domain.Marker.StatusText
-  nameWithType: Marker.StatusText
-- uid: MESL.SqlRace.Domain.Marker.Timestamp
-  name: Timestamp
-  href: api/MESL.SqlRace.Domain.Marker.html#MESL_SqlRace_Domain_Marker_Timestamp
-  commentId: P:MESL.SqlRace.Domain.Marker.Timestamp
-  fullName: MESL.SqlRace.Domain.Marker.Timestamp
-  nameWithType: Marker.Timestamp
-- uid: MESL.SqlRace.Domain.Marker.Timestamp*
-  name: Timestamp
-  href: api/MESL.SqlRace.Domain.Marker.html#MESL_SqlRace_Domain_Marker_Timestamp_
-  commentId: Overload:MESL.SqlRace.Domain.Marker.Timestamp
-  fullName: MESL.SqlRace.Domain.Marker.Timestamp
-  nameWithType: Marker.Timestamp
+- uid: MESL.SqlRace.Domain.Marker.Properties
+  name: Properties
+  href: api/MESL.SqlRace.Domain.Marker.html#MESL_SqlRace_Domain_Marker_Properties
+  commentId: P:MESL.SqlRace.Domain.Marker.Properties
+  fullName: MESL.SqlRace.Domain.Marker.Properties
+  nameWithType: Marker.Properties
+- uid: MESL.SqlRace.Domain.Marker.Properties*
+  name: Properties
+  href: api/MESL.SqlRace.Domain.Marker.html#MESL_SqlRace_Domain_Marker_Properties_
+  commentId: Overload:MESL.SqlRace.Domain.Marker.Properties
+  fullName: MESL.SqlRace.Domain.Marker.Properties
+  nameWithType: Marker.Properties
+- uid: MESL.SqlRace.Domain.Marker.StartTimestamp
+  name: StartTimestamp
+  href: api/MESL.SqlRace.Domain.Marker.html#MESL_SqlRace_Domain_Marker_StartTimestamp
+  commentId: P:MESL.SqlRace.Domain.Marker.StartTimestamp
+  fullName: MESL.SqlRace.Domain.Marker.StartTimestamp
+  nameWithType: Marker.StartTimestamp
+- uid: MESL.SqlRace.Domain.Marker.StartTimestamp*
+  name: StartTimestamp
+  href: api/MESL.SqlRace.Domain.Marker.html#MESL_SqlRace_Domain_Marker_StartTimestamp_
+  commentId: Overload:MESL.SqlRace.Domain.Marker.StartTimestamp
+  fullName: MESL.SqlRace.Domain.Marker.StartTimestamp
+  nameWithType: Marker.StartTimestamp
 - uid: MESL.SqlRace.Domain.Marker.ToString
   name: ToString()
   href: api/MESL.SqlRace.Domain.Marker.html#MESL_SqlRace_Domain_Marker_ToString
@@ -27006,6 +27153,120 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.Marker.ToString
   fullName: MESL.SqlRace.Domain.Marker.ToString
   nameWithType: Marker.ToString
+- uid: MESL.SqlRace.Domain.MarkerLabel
+  name: MarkerLabel
+  href: api/MESL.SqlRace.Domain.MarkerLabel.html
+  commentId: T:MESL.SqlRace.Domain.MarkerLabel
+  fullName: MESL.SqlRace.Domain.MarkerLabel
+  nameWithType: MarkerLabel
+- uid: MESL.SqlRace.Domain.MarkerLabel.#ctor
+  name: MarkerLabel()
+  href: api/MESL.SqlRace.Domain.MarkerLabel.html#MESL_SqlRace_Domain_MarkerLabel__ctor
+  commentId: M:MESL.SqlRace.Domain.MarkerLabel.#ctor
+  fullName: MESL.SqlRace.Domain.MarkerLabel.MarkerLabel()
+  nameWithType: MarkerLabel.MarkerLabel()
+- uid: MESL.SqlRace.Domain.MarkerLabel.#ctor*
+  name: MarkerLabel
+  href: api/MESL.SqlRace.Domain.MarkerLabel.html#MESL_SqlRace_Domain_MarkerLabel__ctor_
+  commentId: Overload:MESL.SqlRace.Domain.MarkerLabel.#ctor
+  fullName: MESL.SqlRace.Domain.MarkerLabel.MarkerLabel
+  nameWithType: MarkerLabel.MarkerLabel
+- uid: MESL.SqlRace.Domain.MarkerLabel.Description
+  name: Description
+  href: api/MESL.SqlRace.Domain.MarkerLabel.html#MESL_SqlRace_Domain_MarkerLabel_Description
+  commentId: P:MESL.SqlRace.Domain.MarkerLabel.Description
+  fullName: MESL.SqlRace.Domain.MarkerLabel.Description
+  nameWithType: MarkerLabel.Description
+- uid: MESL.SqlRace.Domain.MarkerLabel.Description*
+  name: Description
+  href: api/MESL.SqlRace.Domain.MarkerLabel.html#MESL_SqlRace_Domain_MarkerLabel_Description_
+  commentId: Overload:MESL.SqlRace.Domain.MarkerLabel.Description
+  fullName: MESL.SqlRace.Domain.MarkerLabel.Description
+  nameWithType: MarkerLabel.Description
+- uid: MESL.SqlRace.Domain.MarkerLabel.Format
+  name: Format
+  href: api/MESL.SqlRace.Domain.MarkerLabel.html#MESL_SqlRace_Domain_MarkerLabel_Format
+  commentId: P:MESL.SqlRace.Domain.MarkerLabel.Format
+  fullName: MESL.SqlRace.Domain.MarkerLabel.Format
+  nameWithType: MarkerLabel.Format
+- uid: MESL.SqlRace.Domain.MarkerLabel.Format*
+  name: Format
+  href: api/MESL.SqlRace.Domain.MarkerLabel.html#MESL_SqlRace_Domain_MarkerLabel_Format_
+  commentId: Overload:MESL.SqlRace.Domain.MarkerLabel.Format
+  fullName: MESL.SqlRace.Domain.MarkerLabel.Format
+  nameWithType: MarkerLabel.Format
+- uid: MESL.SqlRace.Domain.MarkerLabel.Label
+  name: Label
+  href: api/MESL.SqlRace.Domain.MarkerLabel.html#MESL_SqlRace_Domain_MarkerLabel_Label
+  commentId: P:MESL.SqlRace.Domain.MarkerLabel.Label
+  fullName: MESL.SqlRace.Domain.MarkerLabel.Label
+  nameWithType: MarkerLabel.Label
+- uid: MESL.SqlRace.Domain.MarkerLabel.Label*
+  name: Label
+  href: api/MESL.SqlRace.Domain.MarkerLabel.html#MESL_SqlRace_Domain_MarkerLabel_Label_
+  commentId: Overload:MESL.SqlRace.Domain.MarkerLabel.Label
+  fullName: MESL.SqlRace.Domain.MarkerLabel.Label
+  nameWithType: MarkerLabel.Label
+- uid: MESL.SqlRace.Domain.MarkerLabel.LabelId
+  name: LabelId
+  href: api/MESL.SqlRace.Domain.MarkerLabel.html#MESL_SqlRace_Domain_MarkerLabel_LabelId
+  commentId: P:MESL.SqlRace.Domain.MarkerLabel.LabelId
+  fullName: MESL.SqlRace.Domain.MarkerLabel.LabelId
+  nameWithType: MarkerLabel.LabelId
+- uid: MESL.SqlRace.Domain.MarkerLabel.LabelId*
+  name: LabelId
+  href: api/MESL.SqlRace.Domain.MarkerLabel.html#MESL_SqlRace_Domain_MarkerLabel_LabelId_
+  commentId: Overload:MESL.SqlRace.Domain.MarkerLabel.LabelId
+  fullName: MESL.SqlRace.Domain.MarkerLabel.LabelId
+  nameWithType: MarkerLabel.LabelId
+- uid: MESL.SqlRace.Domain.MarkerLabel.MarkerId
+  name: MarkerId
+  href: api/MESL.SqlRace.Domain.MarkerLabel.html#MESL_SqlRace_Domain_MarkerLabel_MarkerId
+  commentId: P:MESL.SqlRace.Domain.MarkerLabel.MarkerId
+  fullName: MESL.SqlRace.Domain.MarkerLabel.MarkerId
+  nameWithType: MarkerLabel.MarkerId
+- uid: MESL.SqlRace.Domain.MarkerLabel.MarkerId*
+  name: MarkerId
+  href: api/MESL.SqlRace.Domain.MarkerLabel.html#MESL_SqlRace_Domain_MarkerLabel_MarkerId_
+  commentId: Overload:MESL.SqlRace.Domain.MarkerLabel.MarkerId
+  fullName: MESL.SqlRace.Domain.MarkerLabel.MarkerId
+  nameWithType: MarkerLabel.MarkerId
+- uid: MESL.SqlRace.Domain.MarkerLabel.Name
+  name: Name
+  href: api/MESL.SqlRace.Domain.MarkerLabel.html#MESL_SqlRace_Domain_MarkerLabel_Name
+  commentId: P:MESL.SqlRace.Domain.MarkerLabel.Name
+  fullName: MESL.SqlRace.Domain.MarkerLabel.Name
+  nameWithType: MarkerLabel.Name
+- uid: MESL.SqlRace.Domain.MarkerLabel.Name*
+  name: Name
+  href: api/MESL.SqlRace.Domain.MarkerLabel.html#MESL_SqlRace_Domain_MarkerLabel_Name_
+  commentId: Overload:MESL.SqlRace.Domain.MarkerLabel.Name
+  fullName: MESL.SqlRace.Domain.MarkerLabel.Name
+  nameWithType: MarkerLabel.Name
+- uid: MESL.SqlRace.Domain.MarkerLabel.Unit
+  name: Unit
+  href: api/MESL.SqlRace.Domain.MarkerLabel.html#MESL_SqlRace_Domain_MarkerLabel_Unit
+  commentId: P:MESL.SqlRace.Domain.MarkerLabel.Unit
+  fullName: MESL.SqlRace.Domain.MarkerLabel.Unit
+  nameWithType: MarkerLabel.Unit
+- uid: MESL.SqlRace.Domain.MarkerLabel.Unit*
+  name: Unit
+  href: api/MESL.SqlRace.Domain.MarkerLabel.html#MESL_SqlRace_Domain_MarkerLabel_Unit_
+  commentId: Overload:MESL.SqlRace.Domain.MarkerLabel.Unit
+  fullName: MESL.SqlRace.Domain.MarkerLabel.Unit
+  nameWithType: MarkerLabel.Unit
+- uid: MESL.SqlRace.Domain.MarkerLabel.Value
+  name: Value
+  href: api/MESL.SqlRace.Domain.MarkerLabel.html#MESL_SqlRace_Domain_MarkerLabel_Value
+  commentId: P:MESL.SqlRace.Domain.MarkerLabel.Value
+  fullName: MESL.SqlRace.Domain.MarkerLabel.Value
+  nameWithType: MarkerLabel.Value
+- uid: MESL.SqlRace.Domain.MarkerLabel.Value*
+  name: Value
+  href: api/MESL.SqlRace.Domain.MarkerLabel.html#MESL_SqlRace_Domain_MarkerLabel_Value_
+  commentId: Overload:MESL.SqlRace.Domain.MarkerLabel.Value
+  fullName: MESL.SqlRace.Domain.MarkerLabel.Value
+  nameWithType: MarkerLabel.Value
 - uid: MESL.SqlRace.Domain.MidnightNotifier
   name: MidnightNotifier
   href: api/MESL.SqlRace.Domain.MidnightNotifier.html
@@ -34725,6 +34986,18 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.Session.Markers
   fullName: MESL.SqlRace.Domain.Session.Markers
   nameWithType: Session.Markers
+- uid: MESL.SqlRace.Domain.Session.MarkersAndLaps
+  name: MarkersAndLaps
+  href: api/MESL.SqlRace.Domain.Session.html#MESL_SqlRace_Domain_Session_MarkersAndLaps
+  commentId: P:MESL.SqlRace.Domain.Session.MarkersAndLaps
+  fullName: MESL.SqlRace.Domain.Session.MarkersAndLaps
+  nameWithType: Session.MarkersAndLaps
+- uid: MESL.SqlRace.Domain.Session.MarkersAndLaps*
+  name: MarkersAndLaps
+  href: api/MESL.SqlRace.Domain.Session.html#MESL_SqlRace_Domain_Session_MarkersAndLaps_
+  commentId: Overload:MESL.SqlRace.Domain.Session.MarkersAndLaps
+  fullName: MESL.SqlRace.Domain.Session.MarkersAndLaps
+  nameWithType: Session.MarkersAndLaps
 - uid: MESL.SqlRace.Domain.Session.MarkSessionAsTransient(System.Boolean)
   name: MarkSessionAsTransient(Boolean)
   href: api/MESL.SqlRace.Domain.Session.html#MESL_SqlRace_Domain_Session_MarkSessionAsTransient_System_Boolean_
