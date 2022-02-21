@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/a/1/s/Mesl.SqlRace.DocFX",
+  "source_base_path": "C:/a/2/s/Mesl.SqlRace.DocFX",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -1144,11 +1144,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Exceptions.SqlRaceTimeoutException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Exceptions.SqlRaceTimeoutException.html",
+          "hash": "tbapUXu+ykm8/4GqdAH72A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/MESL.SqlRace.Domain.Exceptions.yml",
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Exceptions.html",
-          "hash": "Perra7eOJmZgTtdeZBqHtA=="
+          "hash": "dVetvw04lrV0+5ZKEsBXCw=="
         }
       },
       "is_incremental": false,
@@ -3152,7 +3164,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.DataAccess.IDataHelper.html",
-          "hash": "XAvcy9oVrtcx7vFM1oRgRA=="
+          "hash": "GWFBwuVd3732TphKh63ysg=="
         }
       },
       "is_incremental": false,
@@ -6188,7 +6200,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "HUPQUoVk+zIUSJUiK1IYeA=="
+          "hash": "rbm+TIu9gb9qeqPxsnXGoQ=="
         }
       },
       "is_incremental": false,
@@ -6227,7 +6239,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 510,
+          "total_file_count": 511,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

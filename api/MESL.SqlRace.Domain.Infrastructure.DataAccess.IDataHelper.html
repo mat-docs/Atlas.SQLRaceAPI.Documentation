@@ -861,6 +861,75 @@
       </tr>
     </tbody>
   </table>
+  <a id="MESL_SqlRace_Domain_Infrastructure_DataAccess_IDataHelper_ExecuteQuery_" data-uid="MESL.SqlRace.Domain.Infrastructure.DataAccess.IDataHelper.ExecuteQuery*"></a>
+  <h4 id="MESL_SqlRace_Domain_Infrastructure_DataAccess_IDataHelper_ExecuteQuery__1_System_String_System_Object_System_Boolean_" data-uid="MESL.SqlRace.Domain.Infrastructure.DataAccess.IDataHelper.ExecuteQuery``1(System.String,System.Object,System.Boolean)">ExecuteQuery&lt;T&gt;(String, Object, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Executes the query.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;T&gt; ExecuteQuery&lt;T&gt;(string commandText, object param, bool buffered)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">commandText</span></td>
+        <td><p>The command text.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">param</span></td>
+        <td><p>The parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">buffered</span></td>
+        <td><p>True if the results should be buffered and returned when the query is finished, false to begin returning immediately.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <a id="MESL_SqlRace_Domain_Infrastructure_DataAccess_IDataHelper_ExecuteScalar_" data-uid="MESL.SqlRace.Domain.Infrastructure.DataAccess.IDataHelper.ExecuteScalar*"></a>
   <h4 id="MESL_SqlRace_Domain_Infrastructure_DataAccess_IDataHelper_ExecuteScalar_System_String_" data-uid="MESL.SqlRace.Domain.Infrastructure.DataAccess.IDataHelper.ExecuteScalar(System.String)">ExecuteScalar(String)</h4>
   <div class="markdown level1 summary"><p>Executes the scalar.</p>

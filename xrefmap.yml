@@ -11347,6 +11347,30 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.Exceptions.CompatibilityException.Version2
   fullName: MESL.SqlRace.Domain.Exceptions.CompatibilityException.Version2
   nameWithType: CompatibilityException.Version2
+- uid: MESL.SqlRace.Domain.Exceptions.SqlRaceTimeoutException
+  name: SqlRaceTimeoutException
+  href: api/MESL.SqlRace.Domain.Exceptions.SqlRaceTimeoutException.html
+  commentId: T:MESL.SqlRace.Domain.Exceptions.SqlRaceTimeoutException
+  fullName: MESL.SqlRace.Domain.Exceptions.SqlRaceTimeoutException
+  nameWithType: SqlRaceTimeoutException
+- uid: MESL.SqlRace.Domain.Exceptions.SqlRaceTimeoutException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: SqlRaceTimeoutException(SerializationInfo, StreamingContext)
+  href: api/MESL.SqlRace.Domain.Exceptions.SqlRaceTimeoutException.html#MESL_SqlRace_Domain_Exceptions_SqlRaceTimeoutException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:MESL.SqlRace.Domain.Exceptions.SqlRaceTimeoutException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: MESL.SqlRace.Domain.Exceptions.SqlRaceTimeoutException.SqlRaceTimeoutException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: SqlRaceTimeoutException.SqlRaceTimeoutException(SerializationInfo, StreamingContext)
+- uid: MESL.SqlRace.Domain.Exceptions.SqlRaceTimeoutException.#ctor(System.String,System.Exception)
+  name: SqlRaceTimeoutException(String, Exception)
+  href: api/MESL.SqlRace.Domain.Exceptions.SqlRaceTimeoutException.html#MESL_SqlRace_Domain_Exceptions_SqlRaceTimeoutException__ctor_System_String_System_Exception_
+  commentId: M:MESL.SqlRace.Domain.Exceptions.SqlRaceTimeoutException.#ctor(System.String,System.Exception)
+  fullName: MESL.SqlRace.Domain.Exceptions.SqlRaceTimeoutException.SqlRaceTimeoutException(System.String, System.Exception)
+  nameWithType: SqlRaceTimeoutException.SqlRaceTimeoutException(String, Exception)
+- uid: MESL.SqlRace.Domain.Exceptions.SqlRaceTimeoutException.#ctor*
+  name: SqlRaceTimeoutException
+  href: api/MESL.SqlRace.Domain.Exceptions.SqlRaceTimeoutException.html#MESL_SqlRace_Domain_Exceptions_SqlRaceTimeoutException__ctor_
+  commentId: Overload:MESL.SqlRace.Domain.Exceptions.SqlRaceTimeoutException.#ctor
+  fullName: MESL.SqlRace.Domain.Exceptions.SqlRaceTimeoutException.SqlRaceTimeoutException
+  nameWithType: SqlRaceTimeoutException.SqlRaceTimeoutException
 - uid: MESL.SqlRace.Domain.ExtendedAssociate
   name: ExtendedAssociate
   href: api/MESL.SqlRace.Domain.ExtendedAssociate.html
@@ -23564,6 +23588,15 @@ references:
   fullName.vb: MESL.SqlRace.Domain.Infrastructure.DataAccess.IDataHelper.ExecuteQuery(Of T)(System.String, System.Object)
   nameWithType: IDataHelper.ExecuteQuery<T>(String, Object)
   nameWithType.vb: IDataHelper.ExecuteQuery(Of T)(String, Object)
+- uid: MESL.SqlRace.Domain.Infrastructure.DataAccess.IDataHelper.ExecuteQuery``1(System.String,System.Object,System.Boolean)
+  name: ExecuteQuery<T>(String, Object, Boolean)
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataAccess.IDataHelper.html#MESL_SqlRace_Domain_Infrastructure_DataAccess_IDataHelper_ExecuteQuery__1_System_String_System_Object_System_Boolean_
+  commentId: M:MESL.SqlRace.Domain.Infrastructure.DataAccess.IDataHelper.ExecuteQuery``1(System.String,System.Object,System.Boolean)
+  name.vb: ExecuteQuery(Of T)(String, Object, Boolean)
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataAccess.IDataHelper.ExecuteQuery<T>(System.String, System.Object, System.Boolean)
+  fullName.vb: MESL.SqlRace.Domain.Infrastructure.DataAccess.IDataHelper.ExecuteQuery(Of T)(System.String, System.Object, System.Boolean)
+  nameWithType: IDataHelper.ExecuteQuery<T>(String, Object, Boolean)
+  nameWithType.vb: IDataHelper.ExecuteQuery(Of T)(String, Object, Boolean)
 - uid: MESL.SqlRace.Domain.Infrastructure.DataAccess.IDataHelper.ExecuteScalar(System.String)
   name: ExecuteScalar(String)
   href: api/MESL.SqlRace.Domain.Infrastructure.DataAccess.IDataHelper.html#MESL_SqlRace_Domain_Infrastructure_DataAccess_IDataHelper_ExecuteScalar_System_String_
