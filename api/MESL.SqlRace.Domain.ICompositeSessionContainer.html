@@ -1,0 +1,794 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface ICompositeSessionContainer
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface ICompositeSessionContainer
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer">
+  
+  
+  <h1 id="MESL_SqlRace_Domain_ICompositeSessionContainer" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer" class="text-break">Interface ICompositeSessionContainer
+  </h1>
+  <div class="markdown level0 summary"><p>Interface representing a CompositeSessionContainer</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.IDisposable.Dispose()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.html">MESL.SqlRace.Domain</a></h6>
+  <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
+  <h5 id="MESL_SqlRace_Domain_ICompositeSessionContainer_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ICompositeSessionContainer : IDisposable</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="MESL_SqlRace_Domain_ICompositeSessionContainer_CompositeSessions_" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.CompositeSessions*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionContainer_CompositeSessions" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.CompositeSessions">CompositeSessions</h4>
+  <div class="markdown level1 summary"><p>Gets the list of CompositeSessions</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IReadOnlyList&lt;ICompositeSession&gt; CompositeSessions { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.ICompositeSession.html">ICompositeSession</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_ICompositeSessionContainer_Disposed_" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.Disposed*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionContainer_Disposed" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.Disposed">Disposed</h4>
+  <div class="markdown level1 summary"><p>Has this instance been Disposed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool Disposed { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_ICompositeSessionContainer_Identifier_" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.Identifier*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionContainer_Identifier" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.Identifier">Identifier</h4>
+  <div class="markdown level1 summary"><p>Composite Session Container Identifier</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string Identifier { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_ICompositeSessionContainer_Key_" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.Key*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionContainer_Key" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.Key">Key</h4>
+  <div class="markdown level1 summary"><p>Composite Session Container Key</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">CompositeSessionContainerKey Key { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.CompositeSessionContainerKey.html">CompositeSessionContainerKey</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_ICompositeSessionContainer_PrimaryCompositeSession_" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.PrimaryCompositeSession*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionContainer_PrimaryCompositeSession" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.PrimaryCompositeSession">PrimaryCompositeSession</h4>
+  <div class="markdown level1 summary"><p>Gets the CompositeSession in the Primary Slot</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ICompositeSession PrimaryCompositeSession { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ICompositeSession.html">ICompositeSession</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_ICompositeSessionContainer_XAxisParameter_" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.XAxisParameter*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionContainer_XAxisParameter" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.XAxisParameter">XAxisParameter</h4>
+  <div class="markdown level1 summary"><p>Gets or Sets the X Axis Parameter for Container</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string XAxisParameter { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="MESL_SqlRace_Domain_ICompositeSessionContainer_Add_" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.Add*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionContainer_Add_MESL_SqlRace_Domain_ICompositeSession_" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.Add(MESL.SqlRace.Domain.ICompositeSession)">Add(ICompositeSession)</h4>
+  <div class="markdown level1 summary"><p>Add a CompositeSession instance to this Container</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Add(ICompositeSession compositeSession)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ICompositeSession.html">ICompositeSession</a></td>
+        <td><span class="parametername">compositeSession</span></td>
+        <td><p>CompositeSession to be Added</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_ICompositeSessionContainer_Add_" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.Add*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionContainer_Add_System_Collections_Generic_List_MESL_SqlRace_Domain_ICompositeSession__" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.Add(System.Collections.Generic.List{MESL.SqlRace.Domain.ICompositeSession})">Add(List&lt;ICompositeSession&gt;)</h4>
+  <div class="markdown level1 summary"><p>Add a list of CompositeSessions</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Add(List&lt;ICompositeSession&gt; compositeSessions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.ICompositeSession.html">ICompositeSession</a>&gt;</td>
+        <td><span class="parametername">compositeSessions</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_ICompositeSessionContainer_CreateParameterDataAccess_" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.CreateParameterDataAccess*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionContainer_CreateParameterDataAccess_System_String_" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.CreateParameterDataAccess(System.String)">CreateParameterDataAccess(String)</h4>
+  <div class="markdown level1 summary"><p>Creates the parameter data access.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ICompositeContainerParameterDataAccess CreateParameterDataAccess(string identifier)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ICompositeContainerParameterDataAccess.html">ICompositeContainerParameterDataAccess</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_ICompositeSessionContainer_PromoteToPrimary_" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.PromoteToPrimary*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionContainer_PromoteToPrimary_MAT_OCS_Core_CompositeSessionKey_" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.PromoteToPrimary(MAT.OCS.Core.CompositeSessionKey)">PromoteToPrimary(CompositeSessionKey)</h4>
+  <div class="markdown level1 summary"><p>Promote CompositeSession to the Primary Slot</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ICompositeSession PromoteToPrimary(CompositeSessionKey key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.CompositeSessionKey.html">CompositeSessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ICompositeSession.html">ICompositeSession</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_ICompositeSessionContainer_Remove_" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.Remove*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionContainer_Remove_MAT_OCS_Core_CompositeSessionKey_" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.Remove(MAT.OCS.Core.CompositeSessionKey)">Remove(CompositeSessionKey)</h4>
+  <div class="markdown level1 summary"><p>Remove a CompositeSession</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Remove(CompositeSessionKey key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.CompositeSessionKey.html">CompositeSessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Key of Session to Remove.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_ICompositeSessionContainer_Remove_" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.Remove*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionContainer_Remove_System_Collections_Generic_List_MAT_OCS_Core_CompositeSessionKey__" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.Remove(System.Collections.Generic.List{MAT.OCS.Core.CompositeSessionKey})">Remove(List&lt;CompositeSessionKey&gt;)</h4>
+  <div class="markdown level1 summary"><p>Remove a list of CompositeSessions</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Remove(List&lt;CompositeSessionKey&gt; keys)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="MAT.OCS.Core.CompositeSessionKey.html">CompositeSessionKey</a>&gt;</td>
+        <td><span class="parametername">keys</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.NotImplementedException</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_ICompositeSessionContainer_SetAutoFitLaps_" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.SetAutoFitLaps*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionContainer_SetAutoFitLaps_MAT_OCS_Core_CompositeSessionKey_System_Boolean_" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.SetAutoFitLaps(MAT.OCS.Core.CompositeSessionKey,System.Boolean)">SetAutoFitLaps(CompositeSessionKey, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Sets AutoFitLaps on or off</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetAutoFitLaps(CompositeSessionKey key, bool autoFit)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.CompositeSessionKey.html">CompositeSessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Composite Session Key to set auto fit to</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">autoFit</span></td>
+        <td><p>boolean</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_ICompositeSessionContainer_SetAutoFitLaps_" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.SetAutoFitLaps*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionContainer_SetAutoFitLaps_System_Boolean_" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.SetAutoFitLaps(System.Boolean)">SetAutoFitLaps(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Sets AutoFitLaps on or off</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetAutoFitLaps(bool autoFit)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">autoFit</span></td>
+        <td><p>boolean</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_ICompositeSessionContainer_SetAutoFitLimit_" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.SetAutoFitLimit*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionContainer_SetAutoFitLimit_MAT_OCS_Core_CompositeSessionKey_System_Double_" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.SetAutoFitLimit(MAT.OCS.Core.CompositeSessionKey,System.Double)">SetAutoFitLimit(CompositeSessionKey, Double)</h4>
+  <div class="markdown level1 summary"><p>Sets the AutoFit Limit</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetAutoFitLimit(CompositeSessionKey key, double autoFitLimit)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.CompositeSessionKey.html">CompositeSessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Composite Session Key to apply auto fit limit to</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">autoFitLimit</span></td>
+        <td><p>% Threshold below which data will be stretched or compressed</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="MESL_SqlRace_Domain_ICompositeSessionContainer_SetAutoFitLimit_MAT_OCS_Core_CompositeSessionKey_System_Double__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The X-axis of the Overlay data is stretched or compressed so that the start and end of each lap matches the
+start and end of the lap in the primary set</p>
+</div>
+  <a id="MESL_SqlRace_Domain_ICompositeSessionContainer_SetAutoFitLimit_" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.SetAutoFitLimit*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionContainer_SetAutoFitLimit_System_Double_" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.SetAutoFitLimit(System.Double)">SetAutoFitLimit(Double)</h4>
+  <div class="markdown level1 summary"><p>Sets the AutoFit Limit</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetAutoFitLimit(double autoFitLimit)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">autoFitLimit</span></td>
+        <td><p>% Threshold below which data will be stretched or compressed</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="MESL_SqlRace_Domain_ICompositeSessionContainer_SetAutoFitLimit_System_Double__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The X-axis of the Overlay data is stretched or compressed so that the start and end of each lap matches the
+start and end of the lap in the primary set</p>
+</div>
+  <a id="MESL_SqlRace_Domain_ICompositeSessionContainer_SetOffsetValue_" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.SetOffsetValue*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionContainer_SetOffsetValue_MAT_OCS_Core_CompositeSessionKey_System_Double_" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.SetOffsetValue(MAT.OCS.Core.CompositeSessionKey,System.Double)">SetOffsetValue(CompositeSessionKey, Double)</h4>
+  <div class="markdown level1 summary"><p>Sets an X Axis offset value for a slave session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetOffsetValue(CompositeSessionKey key, double offset)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.CompositeSessionKey.html">CompositeSessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>The offset.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_ICompositeSessionContainer_SetOffsetValue_" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.SetOffsetValue*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionContainer_SetOffsetValue_MAT_OCS_Core_CompositeSessionKey_System_Int64_" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.SetOffsetValue(MAT.OCS.Core.CompositeSessionKey,System.Int64)">SetOffsetValue(CompositeSessionKey, Int64)</h4>
+  <div class="markdown level1 summary"><p>Sets a Time offset value for a slave session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetOffsetValue(CompositeSessionKey key, long offset)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.CompositeSessionKey.html">CompositeSessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The Composite Session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>The offset value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_ICompositeSessionContainer_SetOffsetValue_" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.SetOffsetValue*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionContainer_SetOffsetValue_System_Double_" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.SetOffsetValue(System.Double)">SetOffsetValue(Double)</h4>
+  <div class="markdown level1 summary"><p>Sets the X Axis Offset value for all Slave Sessions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetOffsetValue(double offset)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>The offset.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_ICompositeSessionContainer_SetOffsetValue_" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.SetOffsetValue*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionContainer_SetOffsetValue_System_Int64_" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.SetOffsetValue(System.Int64)">SetOffsetValue(Int64)</h4>
+  <div class="markdown level1 summary"><p>Sets the time Offset value for all Slave Sessions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetOffsetValue(long offset)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>The offset.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_ICompositeSessionContainer_SetSessionCompareMode_" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.SetSessionCompareMode*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionContainer_SetSessionCompareMode_MAT_OCS_Core_CompositeSessionKey_MESL_SqlRace_Domain_SessionCompareMode_MAT_OCS_Core_SessionKey_System_Nullable_System_Int32__" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.SetSessionCompareMode(MAT.OCS.Core.CompositeSessionKey,MESL.SqlRace.Domain.SessionCompareMode,MAT.OCS.Core.SessionKey,System.Nullable{System.Int32})">SetSessionCompareMode(CompositeSessionKey, SessionCompareMode, SessionKey, Nullable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Set the compare mode on a particular session in the container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetSessionCompareMode(CompositeSessionKey compositeSessionKey, SessionCompareMode compareMode, SessionKey sessionKey, int? lapId = default(int? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.CompositeSessionKey.html">CompositeSessionKey</a></td>
+        <td><span class="parametername">compositeSessionKey</span></td>
+        <td><p>The key of the session you wish to change.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionCompareMode.html">SessionCompareMode</a></td>
+        <td><span class="parametername">compareMode</span></td>
+        <td><p>The mode that the session will be compared with.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">sessionKey</span></td>
+        <td><p>When lapId populated, pass the session key of the session that the lap belongs to</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">lapId</span></td>
+        <td><p>The lap Id required for Single Lap Repeat mode, otherwise not required</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_ICompositeSessionContainer_SetXAxisParameter_" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.SetXAxisParameter*"></a>
+  <h4 id="MESL_SqlRace_Domain_ICompositeSessionContainer_SetXAxisParameter_System_String_" data-uid="MESL.SqlRace.Domain.ICompositeSessionContainer.SetXAxisParameter(System.String)">SetXAxisParameter(String)</h4>
+  <div class="markdown level1 summary"><p>Sets the x axis parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetXAxisParameter(string identifier)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>The identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

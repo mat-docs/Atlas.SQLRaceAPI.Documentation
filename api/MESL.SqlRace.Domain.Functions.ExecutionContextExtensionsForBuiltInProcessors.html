@@ -1,0 +1,4584 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ExecutionContextExtensionsForBuiltInProcessors
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ExecutionContextExtensionsForBuiltInProcessors
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors">
+  
+  
+  <h1 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors" class="text-break">Class ExecutionContextExtensionsForBuiltInProcessors
+  </h1>
+  <div class="markdown level0 summary"><p>Execution context extension methods for built-in processors.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ExecutionContextExtensionsForBuiltInProcessors</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.Functions.html">MESL.SqlRace.Domain.Functions</a></h6>
+  <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
+  <h5 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class ExecutionContextExtensionsForBuiltInProcessors</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_BiLinearInterpolate_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.BiLinearInterpolate*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_BiLinearInterpolate_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Double_System_Double_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.BiLinearInterpolate(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Double,System.Double,System.Int64)">BiLinearInterpolate(IExecutionContext, Int32, String, Double, Double, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the bilinear interpolate value for the given parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double BiLinearInterpolate(this IExecutionContext executionContext, int processorSlot, string fileName, double inputX, double inputY, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td><p>The interpolate file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inputX</span></td>
+        <td><p>The x input.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inputY</span></td>
+        <td><p>The y input.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_BiLinearInterpolate_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.BiLinearInterpolate*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_BiLinearInterpolate_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_String_System_String_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.BiLinearInterpolate(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.String,System.String,System.Int64)">BiLinearInterpolate(IExecutionContext, Int32, String, String, String, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the bilinear interpolate value for the given parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double BiLinearInterpolate(this IExecutionContext executionContext, int processorSlot, string fileName, string parameterXId, string parameterYId, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td><p>The interpolate file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterXId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterYId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_CumulativeLapMax_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.CumulativeLapMax*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_CumulativeLapMax_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.CumulativeLapMax(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Int64)">CumulativeLapMax(IExecutionContext, Int32, String, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the max value in the current and previous laps for the given parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double CumulativeLapMax(this IExecutionContext executionContext, int processorSlot, string parameterId, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The max value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_CumulativeLapMean_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.CumulativeLapMean*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_CumulativeLapMean_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int32_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.CumulativeLapMean(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Int32,System.Int64)">CumulativeLapMean(IExecutionContext, Int32, String, Int32, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the mean value for the given parameter in the current and previous laps.
+This overload is needed by FDL functions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double CumulativeLapMean(this IExecutionContext executionContext, int processorSlot, string parameterId, int weightStatistics, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">weightStatistics</span></td>
+        <td><p>The weight statistics flag; 0 for unweighted, 1 for weighted.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_CumulativeLapMean_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.CumulativeLapMean*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_CumulativeLapMean_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.CumulativeLapMean(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Int64)">CumulativeLapMean(IExecutionContext, Int32, String, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the weighted mean value for the given parameter in the current and previous laps.
+This overload is needed by FDL functions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double CumulativeLapMean(this IExecutionContext executionContext, int processorSlot, string parameterId, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_CumulativeLapMin_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.CumulativeLapMin*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_CumulativeLapMin_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.CumulativeLapMin(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Int64)">CumulativeLapMin(IExecutionContext, Int32, String, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the min value in the current and previous laps for the given parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double CumulativeLapMin(this IExecutionContext executionContext, int processorSlot, string parameterId, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_CumulativeLapStdDev_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.CumulativeLapStdDev*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_CumulativeLapStdDev_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int32_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.CumulativeLapStdDev(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Int32,System.Int64)">CumulativeLapStdDev(IExecutionContext, Int32, String, Int32, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the std dev value for the given parameter in the current and previous laps.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double CumulativeLapStdDev(this IExecutionContext executionContext, int processorSlot, string parameterId, int weightStatistics, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">weightStatistics</span></td>
+        <td><p>The weight statistics flag; 0 for unweighted, 1 for weighted.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_CumulativeLapStdDev_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.CumulativeLapStdDev*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_CumulativeLapStdDev_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.CumulativeLapStdDev(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Int64)">CumulativeLapStdDev(IExecutionContext, Int32, String, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the weighted std dev value for the given parameter in the current and previous laps.
+This overload is needed by FDL functions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double CumulativeLapStdDev(this IExecutionContext executionContext, int processorSlot, string parameterId, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_CurrentLapNumber_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.CurrentLapNumber*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_CurrentLapNumber_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.CurrentLapNumber(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.Int64)">CurrentLapNumber(IExecutionContext, Int32, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the current lap number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double CurrentLapNumber(this IExecutionContext executionContext, int processorSlot, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_Derivative_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.Derivative*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_Derivative_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_Double_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.Derivative(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.Double,System.Int64)">Derivative(IExecutionContext, Int32, Double, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates and returns the derivative of the given parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double Derivative(this IExecutionContext executionContext, int processorSlot, double sampleValue, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The slot that this processor occupies.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">sampleValue</span></td>
+        <td><p>The processor input value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The derivative of the given parameter.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_Derivative_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.Derivative*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_Derivative_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.Derivative(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Int64)">Derivative(IExecutionContext, Int32, String, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates and returns the derivative of the given parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double Derivative(this IExecutionContext executionContext, int processorSlot, string parameterId, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The slot that this processor occupies.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The derivative of the given parameter.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_DigitalFilter1_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.DigitalFilter1*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_DigitalFilter1_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_Double_System_Double_System_Double_System_Double_System_Double_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.DigitalFilter1(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.Double,System.Double,System.Double,System.Double,System.Double,System.Int64)">DigitalFilter1(IExecutionContext, Int32, Double, Double, Double, Double, Double, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the digital filter value for the given parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double DigitalFilter1(this IExecutionContext executionContext, int processorSlot, double sampleValue, double b1, double b2, double a1, double a2, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">sampleValue</span></td>
+        <td><p>The processor input value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">b1</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">b2</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">a1</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">a2</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_DigitalFilter1_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.DigitalFilter1*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_DigitalFilter1_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Double_System_Double_System_Double_System_Double_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.DigitalFilter1(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Double,System.Double,System.Double,System.Double,System.Int64)">DigitalFilter1(IExecutionContext, Int32, String, Double, Double, Double, Double, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the digital filter value for the given parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double DigitalFilter1(this IExecutionContext executionContext, int processorSlot, string parameterId, double b1, double b2, double a1, double a2, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">b1</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">b2</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">a1</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">a2</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_DigitalFilter2_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.DigitalFilter2*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_DigitalFilter2_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.DigitalFilter2(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Int64)">DigitalFilter2(IExecutionContext, Int32, Double, Double, Double, Double, Double, Double, Double, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the digital filter value for the given parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double DigitalFilter2(this IExecutionContext executionContext, int processorSlot, double sampleValue, double b1, double b2, double b3, double a1, double a2, double a3, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">sampleValue</span></td>
+        <td><p>The processor input value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">b1</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">b2</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">b3</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">a1</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">a2</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">a3</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_DigitalFilter2_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.DigitalFilter2*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_DigitalFilter2_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.DigitalFilter2(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Int64)">DigitalFilter2(IExecutionContext, Int32, String, Double, Double, Double, Double, Double, Double, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the digital filter value for the given parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double DigitalFilter2(this IExecutionContext executionContext, int processorSlot, string parameterId, double b1, double b2, double b3, double a1, double a2, double a3, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">b1</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">b2</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">b3</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">a1</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">a2</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">a3</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_DigitalFilter3_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.DigitalFilter3*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_DigitalFilter3_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.DigitalFilter3(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Int64)">DigitalFilter3(IExecutionContext, Int32, Double, Double, Double, Double, Double, Double, Double, Double, Double, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the digital filter value for the given parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double DigitalFilter3(this IExecutionContext executionContext, int processorSlot, double sampleValue, double b1, double b2, double b3, double b4, double a1, double a2, double a3, double a4, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">sampleValue</span></td>
+        <td><p>The processor input value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">b1</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">b2</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">b3</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">b4</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">a1</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">a2</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">a3</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">a4</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_DigitalFilter3_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.DigitalFilter3*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_DigitalFilter3_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.DigitalFilter3(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Int64)">DigitalFilter3(IExecutionContext, Int32, String, Double, Double, Double, Double, Double, Double, Double, Double, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the digital filter value for the given parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double DigitalFilter3(this IExecutionContext executionContext, int processorSlot, string parameterId, double b1, double b2, double b3, double b4, double a1, double a2, double a3, double a4, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">b1</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">b2</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">b3</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">b4</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">a1</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">a2</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">a3</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">a4</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_DistanceIntoLap_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.DistanceIntoLap*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_DistanceIntoLap_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.DistanceIntoLap(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.Int64)">DistanceIntoLap(IExecutionContext, Int32, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates distance in the current lap.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double DistanceIntoLap(this IExecutionContext executionContext, int processorSlot, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The distance value of the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_Filter_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.Filter*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_Filter_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_Double_System_Double_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.Filter(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.Double,System.Double,System.Int64)">Filter(IExecutionContext, Int32, Double, Double, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the low pass filter value for the given parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double Filter(this IExecutionContext executionContext, int processorSlot, double sampleValue, double frequency, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">sampleValue</span></td>
+        <td><p>The processor input value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">frequency</span></td>
+        <td><p>The frequency.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The given parameter passed through a low-pass filter.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_Filter_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.Filter*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_Filter_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Double_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.Filter(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Double,System.Int64)">Filter(IExecutionContext, Int32, String, Double, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the low pass filter value for the given parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double Filter(this IExecutionContext executionContext, int processorSlot, string parameterId, double frequency, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">frequency</span></td>
+        <td><p>The frequency.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The given parameter passed through a low-pass filter.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_HighPassFilter_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.HighPassFilter*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_HighPassFilter_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_Double_System_Double_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.HighPassFilter(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.Double,System.Double,System.Int64)">HighPassFilter(IExecutionContext, Int32, Double, Double, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the high pass filter value for the given parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double HighPassFilter(this IExecutionContext executionContext, int processorSlot, double sampleValue, double frequency, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">sampleValue</span></td>
+        <td><p>The processor input value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">frequency</span></td>
+        <td><p>The frequency.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_HighPassFilter_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.HighPassFilter*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_HighPassFilter_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Double_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.HighPassFilter(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Double,System.Int64)">HighPassFilter(IExecutionContext, Int32, String, Double, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the high pass filter value for the given parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double HighPassFilter(this IExecutionContext executionContext, int processorSlot, string parameterId, double frequency, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">frequency</span></td>
+        <td><p>The frequency.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_IndexBySample_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.IndexBySample*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_IndexBySample_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Double_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.IndexBySample(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Double,System.Int64)">IndexBySample(IExecutionContext, Int32, String, Double, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the value for the given parameter id offset forwards or backwards by the given sample.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double IndexBySample(this IExecutionContext executionContext, int processorSlot, string parameterId, double sample, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">sample</span></td>
+        <td><p>The sample.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_IndexByTime_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.IndexByTime*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_IndexByTime_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Double_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.IndexByTime(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Double,System.Int64)">IndexByTime(IExecutionContext, Int32, String, Double, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the value for the given parameter id offset forwards or backwards by the given time.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double IndexByTime(this IExecutionContext executionContext, int processorSlot, string parameterId, double offset, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>The offset in seconds.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_Integral_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.Integral*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_Integral_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_Double_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.Integral(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.Double,System.Int64)">Integral(IExecutionContext, Int32, Double, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the integral value for the given parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double Integral(this IExecutionContext executionContext, int processorSlot, double sampleValue, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">sampleValue</span></td>
+        <td><p>The processor input value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_Integral_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.Integral*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_Integral_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.Integral(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Int64)">Integral(IExecutionContext, Int32, String, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the integral value for the given parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double Integral(this IExecutionContext executionContext, int processorSlot, string parameterId, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_IsInError_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.IsInError*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_IsInError_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.IsInError(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Int64)">IsInError(IExecutionContext, Int32, String, Int64)</h4>
+  <div class="markdown level1 summary"><p>Checks for Default status of parameter sample.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double IsInError(this IExecutionContext executionContext, int processorSlot, string parameterId, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Returns 1 if in Error, else 0.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LapBestFit_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LapBestFit*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LapBestFit_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_String_System_Int32_System_Int32_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LapBestFit(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.String,System.Int32,System.Int32,System.Int64)">LapBestFit(IExecutionContext, Int32, String, String, Int32, Int32, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the Lap Best Fit accross the values for current lap.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double LapBestFit(this IExecutionContext executionContext, int processorSlot, string parameterXId, string parameterYId, int order, int coefficientIndex, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterXId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterYId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">order</span></td>
+        <td><p>The order.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">coefficientIndex</span></td>
+        <td><p>The coefficient index.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LapMax_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LapMax*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LapMax_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LapMax(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Int64)">LapMax(IExecutionContext, Int32, String, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the max value in the current lap for the given parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double LapMax(this IExecutionContext executionContext, int processorSlot, string parameterId, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The max value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LapMean_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LapMean*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LapMean_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int32_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LapMean(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Int32,System.Int64)">LapMean(IExecutionContext, Int32, String, Int32, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the lap mean value for the given parameter.
+This overload is needed by FDL functions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double LapMean(this IExecutionContext executionContext, int processorSlot, string parameterId, int weightStatistics, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">weightStatistics</span></td>
+        <td><p>The weight statistics flag; 0 for unweighted, 1 for weighted.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LapMean_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LapMean*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LapMean_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LapMean(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Int64)">LapMean(IExecutionContext, Int32, String, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the weighted lap mean value for the given parameter.
+This overload is needed by FDL functions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double LapMean(this IExecutionContext executionContext, int processorSlot, string parameterId, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LapMin_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LapMin*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LapMin_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LapMin(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Int64)">LapMin(IExecutionContext, Int32, String, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the min value in the current lap for the given parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double LapMin(this IExecutionContext executionContext, int processorSlot, string parameterId, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LapStdDev_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LapStdDev*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LapStdDev_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int32_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LapStdDev(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Int32,System.Int64)">LapStdDev(IExecutionContext, Int32, String, Int32, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the lap std dev value for the given parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double LapStdDev(this IExecutionContext executionContext, int processorSlot, string parameterId, int weightStatistics, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">weightStatistics</span></td>
+        <td><p>The weight statistics flag; 0 for unweighted, 1 for weighted.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LapStdDev_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LapStdDev*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LapStdDev_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LapStdDev(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Int64)">LapStdDev(IExecutionContext, Int32, String, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the weighted lap std dev value for the given parameter.
+This overload is needed by FDL functions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double LapStdDev(this IExecutionContext executionContext, int processorSlot, string parameterId, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LapTime_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LapTime*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LapTime_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_Double_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LapTime(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.Double)">LapTime(IExecutionContext, Int32, Double)</h4>
+  <div class="markdown level1 summary"><p>Calculates lap time in seconds.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double LapTime(this IExecutionContext executionContext, int processorSlot, double lapNumber)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">lapNumber</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LapTime_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LapTime*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LapTime_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_Int32_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LapTime(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.Int32)">LapTime(IExecutionContext, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Calculates lap time in seconds.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double LapTime(this IExecutionContext executionContext, int processorSlot, int lapNumber)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">lapNumber</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LinearInterpolate_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LinearInterpolate*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LinearInterpolate_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Double_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LinearInterpolate(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Double,System.Int64)">LinearInterpolate(IExecutionContext, Int32, String, Double, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the linear interpolate value for the given parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double LinearInterpolate(this IExecutionContext executionContext, int processorSlot, string fileName, double input, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td><p>The interpolate file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">input</span></td>
+        <td><p>The input value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LinearInterpolate_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LinearInterpolate*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LinearInterpolate_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_String_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LinearInterpolate(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.String,System.Int64)">LinearInterpolate(IExecutionContext, Int32, String, String, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the linear interpolate value for the given parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double LinearInterpolate(this IExecutionContext executionContext, int processorSlot, string fileName, string parameterId, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td><p>The interpolate file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LinearRegressionOffset_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LinearRegressionOffset*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LinearRegressionOffset_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_String_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LinearRegressionOffset(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.String,System.Int64)">LinearRegressionOffset(IExecutionContext, Int32, String, String, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the Linear Regression Offset accross the values for current lap.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double LinearRegressionOffset(this IExecutionContext executionContext, int processorSlot, string parameterXId, string parameterYId, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterXId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterYId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LinearRegressionR2_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LinearRegressionR2*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LinearRegressionR2_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_String_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LinearRegressionR2(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.String,System.Int64)">LinearRegressionR2(IExecutionContext, Int32, String, String, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the Linear Regression R Squared accross the values for current lap.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double LinearRegressionR2(this IExecutionContext executionContext, int processorSlot, string parameterXId, string parameterYId, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterXId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterYId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LinearRegressionSlope_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LinearRegressionSlope*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LinearRegressionSlope_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_String_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LinearRegressionSlope(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.String,System.Int64)">LinearRegressionSlope(IExecutionContext, Int32, String, String, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the Linear Regression Slope accross the values for current lap.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double LinearRegressionSlope(this IExecutionContext executionContext, int processorSlot, string parameterXId, string parameterYId, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterXId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterYId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_MedianFilter_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.MedianFilter*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_MedianFilter_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int32_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.MedianFilter(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Int32,System.Int64)">MedianFilter(IExecutionContext, Int32, String, Int32, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the median filter value for the given parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double MedianFilter(this IExecutionContext executionContext, int processorSlot, string parameterId, int windowSize, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">windowSize</span></td>
+        <td><p>The windowSize.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_MedianFilter17_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.MedianFilter17*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_MedianFilter17_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.MedianFilter17(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Int64)">MedianFilter17(IExecutionContext, Int32, String, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the median filter value for the given parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double MedianFilter17(this IExecutionContext executionContext, int processorSlot, string parameterId, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_MedianFilter25_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.MedianFilter25*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_MedianFilter25_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.MedianFilter25(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Int64)">MedianFilter25(IExecutionContext, Int32, String, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the median filter value for the given parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double MedianFilter25(this IExecutionContext executionContext, int processorSlot, string parameterId, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_MedianFilter9_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.MedianFilter9*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_MedianFilter9_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.MedianFilter9(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Int64)">MedianFilter9(IExecutionContext, Int32, String, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the median filter value for the given parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double MedianFilter9(this IExecutionContext executionContext, int processorSlot, string parameterId, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_MovingAverage_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.MovingAverage*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_MovingAverage_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int32_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.MovingAverage(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Int32,System.Int64)">MovingAverage(IExecutionContext, Int32, String, Int32, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates and returns the moving average of the given parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double MovingAverage(this IExecutionContext executionContext, int processorSlot, string parameterId, int windowSize, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">windowSize</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The moving average of the given parameter.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_PhaseCompFilter_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.PhaseCompFilter*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_PhaseCompFilter_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Double_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.PhaseCompFilter(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Double)">PhaseCompFilter(IExecutionContext, Int32, String, Double)</h4>
+  <div class="markdown level1 summary"><p>Calculates the phase comp filter value for the given parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double PhaseCompFilter(this IExecutionContext executionContext, int processorSlot, string parameterId, double frequency)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">frequency</span></td>
+        <td><p>The frequency.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SamplesMax_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.SamplesMax*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SamplesMax_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int32_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.SamplesMax(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Int32,System.Int64)">SamplesMax(IExecutionContext, Int32, String, Int32, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the max value of a parameter. This processor calculates the max value of the given window.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double SamplesMax(this IExecutionContext executionContext, int processorSlot, string parameterId, int windowSize, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">windowSize</span></td>
+        <td><p>The windowSize.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The max value in the samples.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SamplesMin_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.SamplesMin*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SamplesMin_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int32_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.SamplesMin(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Int32,System.Int64)">SamplesMin(IExecutionContext, Int32, String, Int32, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the min value of a parameter. This processor calculates the min value of the given window.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double SamplesMin(this IExecutionContext executionContext, int processorSlot, string parameterId, int windowSize, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">windowSize</span></td>
+        <td><p>The windowSize.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the samples.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SamplesPerSec_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.SamplesPerSec*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SamplesPerSec_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.SamplesPerSec(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String)">SamplesPerSec(IExecutionContext, Int32, String)</h4>
+  <div class="markdown level1 summary"><p>Calculates the samples per second for the given parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double SamplesPerSec(this IExecutionContext executionContext, int processorSlot, string parameterId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SessionMax_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.SessionMax*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SessionMax_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.SessionMax(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Int64)">SessionMax(IExecutionContext, Int32, String, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the max value in the session for the given parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double SessionMax(this IExecutionContext executionContext, int processorSlot, string parameterId, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp for the point. This is not session end time!.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The max value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SessionMean_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.SessionMean*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SessionMean_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int32_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.SessionMean(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Int32,System.Int64)">SessionMean(IExecutionContext, Int32, String, Int32, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the session mean value for the given parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double SessionMean(this IExecutionContext executionContext, int processorSlot, string parameterId, int weightStatistics, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">weightStatistics</span></td>
+        <td><p>The weight statistics flag; 0 for unweighted, 1 for weighted.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp for the point. This is not session end time!.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SessionMean_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.SessionMean*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SessionMean_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.SessionMean(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Int64)">SessionMean(IExecutionContext, Int32, String, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the session mean value for the given parameter.
+This overload is needed by FDL functions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double SessionMean(this IExecutionContext executionContext, int processorSlot, string parameterId, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp for the point. This is not session end time!.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SessionMin_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.SessionMin*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SessionMin_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.SessionMin(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Int64)">SessionMin(IExecutionContext, Int32, String, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the max value in the session for the given parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double SessionMin(this IExecutionContext executionContext, int processorSlot, string parameterId, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp for the point. This is not session end time!.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The max value in the session.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SessionStdDev_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.SessionStdDev*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SessionStdDev_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int32_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.SessionStdDev(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Int32,System.Int64)">SessionStdDev(IExecutionContext, Int32, String, Int32, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the session std dev value for the given parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double SessionStdDev(this IExecutionContext executionContext, int processorSlot, string parameterId, int weightStatistics, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">weightStatistics</span></td>
+        <td><p>The weight statistics flag; 0 for unweighted, 1 for weighted.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp for the point. This is not session end time!.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SessionStdDev_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.SessionStdDev*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SessionStdDev_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.SessionStdDev(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Int64)">SessionStdDev(IExecutionContext, Int32, String, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the session std dev value for the given parameter.
+This overload is needed by FDL functions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double SessionStdDev(this IExecutionContext executionContext, int processorSlot, string parameterId, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp for the point. This is not session end time!.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SetEvent_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.SetEvent*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SetEvent_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_String_System_String_System_Int32_System_Int32_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.SetEvent(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.String,System.String,System.Int32,System.Int32,System.Int64)">SetEvent(IExecutionContext, Int32, String, String, String, Int32, Int32, Int64)</h4>
+  <div class="markdown level1 summary"><p>Set an event marker in the session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double SetEvent(this IExecutionContext executionContext, int processorSlot, string eventName, string description, string group, int type, int persistency, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">eventName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">description</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">group</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">persistency</span></td>
+        <td><p>If greater than Zero it will persist the event to session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SetEvent_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.SetEvent*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SetEvent_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_String_System_String_System_Int32_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.SetEvent(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.String,System.String,System.Int32,System.Int64)">SetEvent(IExecutionContext, Int32, String, String, String, Int32, Int64)</h4>
+  <div class="markdown level1 summary"><p>Set an event marker in the session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double SetEvent(this IExecutionContext executionContext, int processorSlot, string eventName, string description, string group, int type, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">eventName</span></td>
+        <td><p>The event name.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">description</span></td>
+        <td><p>The event description.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">group</span></td>
+        <td><p>The event group.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>The event priority type.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>0</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SetLap_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.SetLap*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SetLap_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.SetLap(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32)">SetLap(IExecutionContext, Int32)</h4>
+  <div class="markdown level1 summary"><p>Sets a lap marker in the session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double SetLap(this IExecutionContext executionContext, int processorSlot)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_TimeIntoLap_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.TimeIntoLap*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_TimeIntoLap_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.TimeIntoLap(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int64)">TimeIntoLap(IExecutionContext, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the max value in the session for the given parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double TimeIntoLap(this IExecutionContext executionContext, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The max value in the session.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_TimeIntoSession_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.TimeIntoSession*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_TimeIntoSession_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.TimeIntoSession(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int64)">TimeIntoSession(IExecutionContext, Int64)</h4>
+  <div class="markdown level1 summary"><p>Returns the time into the current session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double TimeIntoSession(this IExecutionContext executionContext, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The time into the current session.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_TimeOfDay_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.TimeOfDay*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_TimeOfDay_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.TimeOfDay(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.Int64)">TimeOfDay(IExecutionContext, Int32, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the max value in the session for the given parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double TimeOfDay(this IExecutionContext executionContext, int processorSlot, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The max value in the session.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_UwLapMean_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.UwLapMean*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_UwLapMean_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.UwLapMean(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Int64)">UwLapMean(IExecutionContext, Int32, String, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the unweighted lap mean value for the given parameter.
+This overload is needed by FDL functions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double UwLapMean(this IExecutionContext executionContext, int processorSlot, string parameterId, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_UwLapStdDev_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.UwLapStdDev*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_UwLapStdDev_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.UwLapStdDev(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Int64)">UwLapStdDev(IExecutionContext, Int32, String, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the unweighted lap standard deviation value for the given parameter.
+This overload is needed by FDL functions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double UwLapStdDev(this IExecutionContext executionContext, int processorSlot, string parameterId, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_UwSessionMean_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.UwSessionMean*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_UwSessionMean_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.UwSessionMean(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Int64)">UwSessionMean(IExecutionContext, Int32, String, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the unweighted session mean value for the given parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double UwSessionMean(this IExecutionContext executionContext, int processorSlot, string parameterId, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp for the point. This is not session end time!.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_UwSessionStdDev_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.UwSessionStdDev*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_UwSessionStdDev_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.UwSessionStdDev(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Int64)">UwSessionStdDev(IExecutionContext, Int32, String, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the unweighted session std dev value for the given parameter.
+This overload is needed by FDL functions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double UwSessionStdDev(this IExecutionContext executionContext, int processorSlot, string parameterId, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp for the point. This is not session end time!.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_WriteToLog_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.WriteToLog*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_WriteToLog_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_String_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.WriteToLog(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.String)">WriteToLog(IExecutionContext, Int32, String, String)</h4>
+  <div class="markdown level1 summary"><p>Saves the write to log value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double WriteToLog(this IExecutionContext executionContext, int processorSlot, string fileName, string logEntry)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td><p>The log file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">logEntry</span></td>
+        <td><p>The log entry.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

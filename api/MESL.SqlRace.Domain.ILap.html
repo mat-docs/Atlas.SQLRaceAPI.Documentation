@@ -1,0 +1,436 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface ILap
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface ILap
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MESL.SqlRace.Domain.ILap">
+  
+  
+  <h1 id="MESL_SqlRace_Domain_ILap" data-uid="MESL.SqlRace.Domain.ILap" class="text-break">Interface ILap
+  </h1>
+  <div class="markdown level0 summary"><p>Interface representing a Lap</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.html">MESL.SqlRace.Domain</a></h6>
+  <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
+  <h5 id="MESL_SqlRace_Domain_ILap_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ILap</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="MESL_SqlRace_Domain_ILap_CountForFastestLap_" data-uid="MESL.SqlRace.Domain.ILap.CountForFastestLap*"></a>
+  <h4 id="MESL_SqlRace_Domain_ILap_CountForFastestLap" data-uid="MESL.SqlRace.Domain.ILap.CountForFastestLap">CountForFastestLap</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the lap should count towards the
+fastest lap determination for the session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool CountForFastestLap { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_ILap_EndTime_" data-uid="MESL.SqlRace.Domain.ILap.EndTime*"></a>
+  <h4 id="MESL_SqlRace_Domain_ILap_EndTime" data-uid="MESL.SqlRace.Domain.ILap.EndTime">EndTime</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the end time of the lap in nanoseconds. If the end time is not specified the implementation will attempt to determine the end time from the session end time. <a class="xref" href="MESL.SqlRace.Domain.ILap.html#MESL_SqlRace_Domain_ILap_EndTimeUnbounded">EndTimeUnbounded</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">long? EndTime { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int64</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_ILap_EndTimeUnbounded_" data-uid="MESL.SqlRace.Domain.ILap.EndTimeUnbounded*"></a>
+  <h4 id="MESL_SqlRace_Domain_ILap_EndTimeUnbounded" data-uid="MESL.SqlRace.Domain.ILap.EndTimeUnbounded">EndTimeUnbounded</h4>
+  <div class="markdown level1 summary"><p>Gets the end time of the lap in nanoseconds.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">long? EndTimeUnbounded { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int64</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_ILap_LapId_" data-uid="MESL.SqlRace.Domain.ILap.LapId*"></a>
+  <h4 id="MESL_SqlRace_Domain_ILap_LapId" data-uid="MESL.SqlRace.Domain.ILap.LapId">LapId</h4>
+  <div class="markdown level1 summary"><p>Gets the lap identifier.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int LapId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The lap identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_ILap_LapTime_" data-uid="MESL.SqlRace.Domain.ILap.LapTime*"></a>
+  <h4 id="MESL_SqlRace_Domain_ILap_LapTime" data-uid="MESL.SqlRace.Domain.ILap.LapTime">LapTime</h4>
+  <div class="markdown level1 summary"><p>Gets the lap time in nanoseconds.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">long? LapTime { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int64</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_ILap_Name_" data-uid="MESL.SqlRace.Domain.ILap.Name*"></a>
+  <h4 id="MESL_SqlRace_Domain_ILap_Name" data-uid="MESL.SqlRace.Domain.ILap.Name">Name</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the lap name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string Name { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>value</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Lap Name exceeds maximum allowed lap name length of 150 characters.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_ILap_Number_" data-uid="MESL.SqlRace.Domain.ILap.Number*"></a>
+  <h4 id="MESL_SqlRace_Domain_ILap_Number" data-uid="MESL.SqlRace.Domain.ILap.Number">Number</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the lap number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">short Number { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><p>The number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Negative lap number is not allowed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_ILap_StartTime_" data-uid="MESL.SqlRace.Domain.ILap.StartTime*"></a>
+  <h4 id="MESL_SqlRace_Domain_ILap_StartTime" data-uid="MESL.SqlRace.Domain.ILap.StartTime">StartTime</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the start time of the lap in nanoseconds.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">long StartTime { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_ILap_TimeRange_" data-uid="MESL.SqlRace.Domain.ILap.TimeRange*"></a>
+  <h4 id="MESL_SqlRace_Domain_ILap_TimeRange" data-uid="MESL.SqlRace.Domain.ILap.TimeRange">TimeRange</h4>
+  <div class="markdown level1 summary"><p>Gets the time range for the lap.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TimeRange? TimeRange { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.TimeRange.html">TimeRange</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_ILap_TriggerSource_" data-uid="MESL.SqlRace.Domain.ILap.TriggerSource*"></a>
+  <h4 id="MESL_SqlRace_Domain_ILap_TriggerSource" data-uid="MESL.SqlRace.Domain.ILap.TriggerSource">TriggerSource</h4>
+  <div class="markdown level1 summary"><p>Gets the trigger source for a lap.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">byte TriggerSource { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="MESL_SqlRace_Domain_ILap_TriggerSource_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Trigger sources are user defined and can be values such as:</p>
+<ul>
+<li>On Circuit</li>
+<li>Pit Lane</li>
+<li>Out Lap</li>
+<li>In Lap</li>
+<li>etc.</li>
+</ul>
+</div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="MESL_SqlRace_Domain_ILap_ToString_" data-uid="MESL.SqlRace.Domain.ILap.ToString*"></a>
+  <h4 id="MESL_SqlRace_Domain_ILap_ToString" data-uid="MESL.SqlRace.Domain.ILap.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Returns a <span class="xref">System.String</span> that represents the current <span class="xref">System.Object</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A <span class="xref">System.String</span> that represents the current <span class="xref">System.Object</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

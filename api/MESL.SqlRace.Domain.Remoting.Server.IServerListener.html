@@ -1,0 +1,406 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IServerListener
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IServerListener
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MESL.SqlRace.Domain.Remoting.Server.IServerListener">
+  
+  
+  <h1 id="MESL_SqlRace_Domain_Remoting_Server_IServerListener" data-uid="MESL.SqlRace.Domain.Remoting.Server.IServerListener" class="text-break">Interface IServerListener
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.Remoting.Server.html">MESL.SqlRace.Domain.Remoting.Server</a></h6>
+  <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
+  <h5 id="MESL_SqlRace_Domain_Remoting_Server_IServerListener_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IServerListener</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="MESL_SqlRace_Domain_Remoting_Server_IServerListener_IsRunning_" data-uid="MESL.SqlRace.Domain.Remoting.Server.IServerListener.IsRunning*"></a>
+  <h4 id="MESL_SqlRace_Domain_Remoting_Server_IServerListener_IsRunning" data-uid="MESL.SqlRace.Domain.Remoting.Server.IServerListener.IsRunning">IsRunning</h4>
+  <div class="markdown level1 summary"><p>Server is running</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsRunning { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Remoting_Server_IServerListener_ServerEndPoint_" data-uid="MESL.SqlRace.Domain.Remoting.Server.IServerListener.ServerEndPoint*"></a>
+  <h4 id="MESL_SqlRace_Domain_Remoting_Server_IServerListener_ServerEndPoint" data-uid="MESL.SqlRace.Domain.Remoting.Server.IServerListener.ServerEndPoint">ServerEndPoint</h4>
+  <div class="markdown level1 summary"><p>The server end point</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IPEndPoint ServerEndPoint { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Net.IPEndPoint</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="MESL_SqlRace_Domain_Remoting_Server_IServerListener_GetAllSessionSubscriptions_" data-uid="MESL.SqlRace.Domain.Remoting.Server.IServerListener.GetAllSessionSubscriptions*"></a>
+  <h4 id="MESL_SqlRace_Domain_Remoting_Server_IServerListener_GetAllSessionSubscriptions" data-uid="MESL.SqlRace.Domain.Remoting.Server.IServerListener.GetAllSessionSubscriptions">GetAllSessionSubscriptions()</h4>
+  <div class="markdown level1 summary"><p>Get the subscribed sessions</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">List&lt;ClientSubscription&gt; GetAllSessionSubscriptions()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.Remoting.Server.ClientSubscription.html">ClientSubscription</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Remoting_Server_IServerListener_GetClientSessionSubscriptions_" data-uid="MESL.SqlRace.Domain.Remoting.Server.IServerListener.GetClientSessionSubscriptions*"></a>
+  <h4 id="MESL_SqlRace_Domain_Remoting_Server_IServerListener_GetClientSessionSubscriptions" data-uid="MESL.SqlRace.Domain.Remoting.Server.IServerListener.GetClientSessionSubscriptions">GetClientSessionSubscriptions()</h4>
+  <div class="markdown level1 summary"><p>Get the client subscribers</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">List&lt;ClientSubscription&gt; GetClientSessionSubscriptions()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.Remoting.Server.ClientSubscription.html">ClientSubscription</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Remoting_Server_IServerListener_Initialize_" data-uid="MESL.SqlRace.Domain.Remoting.Server.IServerListener.Initialize*"></a>
+  <h4 id="MESL_SqlRace_Domain_Remoting_Server_IServerListener_Initialize" data-uid="MESL.SqlRace.Domain.Remoting.Server.IServerListener.Initialize">Initialize()</h4>
+  <div class="markdown level1 summary"><p>Initialize</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Initialize()</code></pre>
+  </div>
+  <a id="MESL_SqlRace_Domain_Remoting_Server_IServerListener_IsRunningOn_" data-uid="MESL.SqlRace.Domain.Remoting.Server.IServerListener.IsRunningOn*"></a>
+  <h4 id="MESL_SqlRace_Domain_Remoting_Server_IServerListener_IsRunningOn_MESL_SqlRace_Domain_ConnectionContextBase_" data-uid="MESL.SqlRace.Domain.Remoting.Server.IServerListener.IsRunningOn(MESL.SqlRace.Domain.ConnectionContextBase)">IsRunningOn(ConnectionContextBase)</h4>
+  <div class="markdown level1 summary"><p>Check ifthe server listener run on a specific Db</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsRunningOn(ConnectionContextBase connectionContext)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConnectionContextBase.html">ConnectionContextBase</a></td>
+        <td><span class="parametername">connectionContext</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Remoting_Server_IServerListener_ProcessCloseSessionRequest_" data-uid="MESL.SqlRace.Domain.Remoting.Server.IServerListener.ProcessCloseSessionRequest*"></a>
+  <h4 id="MESL_SqlRace_Domain_Remoting_Server_IServerListener_ProcessCloseSessionRequest_System_Guid_MAT_OCS_Core_SessionKey_System_String_" data-uid="MESL.SqlRace.Domain.Remoting.Server.IServerListener.ProcessCloseSessionRequest(System.Guid,MAT.OCS.Core.SessionKey,System.String)">ProcessCloseSessionRequest(Guid, SessionKey, String)</h4>
+  <div class="markdown level1 summary"><p>Processes the close session request.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ProcessCloseSessionRequest(Guid clientSubscriptionId, SessionKey sessionKey, string connectionString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">clientSubscriptionId</span></td>
+        <td><p>The client subscription identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">sessionKey</span></td>
+        <td><p>The session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Remoting_Server_IServerListener_Start_" data-uid="MESL.SqlRace.Domain.Remoting.Server.IServerListener.Start*"></a>
+  <h4 id="MESL_SqlRace_Domain_Remoting_Server_IServerListener_Start" data-uid="MESL.SqlRace.Domain.Remoting.Server.IServerListener.Start">Start()</h4>
+  <div class="markdown level1 summary"><p>Start the server</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Start()</code></pre>
+  </div>
+  <a id="MESL_SqlRace_Domain_Remoting_Server_IServerListener_Stop_" data-uid="MESL.SqlRace.Domain.Remoting.Server.IServerListener.Stop*"></a>
+  <h4 id="MESL_SqlRace_Domain_Remoting_Server_IServerListener_Stop" data-uid="MESL.SqlRace.Domain.Remoting.Server.IServerListener.Stop">Stop()</h4>
+  <div class="markdown level1 summary"><p>Stop the server</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Stop()</code></pre>
+  </div>
+  <a id="MESL_SqlRace_Domain_Remoting_Server_IServerListener_SubscribeClient_" data-uid="MESL.SqlRace.Domain.Remoting.Server.IServerListener.SubscribeClient*"></a>
+  <h4 id="MESL_SqlRace_Domain_Remoting_Server_IServerListener_SubscribeClient_System_Guid_MAT_OCS_Core_SessionKey_System_String_" data-uid="MESL.SqlRace.Domain.Remoting.Server.IServerListener.SubscribeClient(System.Guid,MAT.OCS.Core.SessionKey,System.String)">SubscribeClient(Guid, SessionKey, String)</h4>
+  <div class="markdown level1 summary"><p>Subscribes the client.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SubscribeClient(Guid clientSubscriptionId, SessionKey sessionKey, string connectionString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">clientSubscriptionId</span></td>
+        <td><p>The client subscription identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">sessionKey</span></td>
+        <td><p>The session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Remoting_Server_IServerListener_SubscribeClient_" data-uid="MESL.SqlRace.Domain.Remoting.Server.IServerListener.SubscribeClient*"></a>
+  <h4 id="MESL_SqlRace_Domain_Remoting_Server_IServerListener_SubscribeClient_System_Guid_MAT_OCS_Core_SessionKey_System_String_System_Guid_" data-uid="MESL.SqlRace.Domain.Remoting.Server.IServerListener.SubscribeClient(System.Guid,MAT.OCS.Core.SessionKey,System.String,System.Guid)">SubscribeClient(Guid, SessionKey, String, Guid)</h4>
+  <div class="markdown level1 summary"><p>Subscribes the client.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SubscribeClient(Guid clientSubscriptionId, SessionKey sessionKey, string connectionString, Guid senderId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">clientSubscriptionId</span></td>
+        <td><p>The client subscription identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">sessionKey</span></td>
+        <td><p>The session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">senderId</span></td>
+        <td><p>The sender identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

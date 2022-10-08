@@ -1,0 +1,435 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class SessionEventArgs
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class SessionEventArgs
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MESL.SqlRace.Domain.SessionEventArgs">
+  
+  
+  <h1 id="MESL_SqlRace_Domain_SessionEventArgs" data-uid="MESL.SqlRace.Domain.SessionEventArgs" class="text-break">Class SessionEventArgs
+  </h1>
+  <div class="markdown level0 summary"><p>Container for information about a session event </p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">System.EventArgs</span></div>
+    <div class="level2"><span class="xref">SessionEventArgs</span></div>
+      <div class="level3"><a class="xref" href="MESL.SqlRace.Domain.RemoteSessionEventArgs.html">RemoteSessionEventArgs</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.EventArgs.Empty</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.html">MESL.SqlRace.Domain</a></h6>
+  <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
+  <h5 id="MESL_SqlRace_Domain_SessionEventArgs_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class SessionEventArgs : EventArgs</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <a id="MESL_SqlRace_Domain_SessionEventArgs__ctor_" data-uid="MESL.SqlRace.Domain.SessionEventArgs.#ctor*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionEventArgs__ctor_MESL_SqlRace_Domain_SessionEventType_MAT_OCS_Core_SessionKey_" data-uid="MESL.SqlRace.Domain.SessionEventArgs.#ctor(MESL.SqlRace.Domain.SessionEventType,MAT.OCS.Core.SessionKey)">SessionEventArgs(SessionEventType, SessionKey)</h4>
+  <div class="markdown level1 summary"><p>Initialises a new instance of the <a class="xref" href="MESL.SqlRace.Domain.SessionEventArgs.html">SessionEventArgs</a> class. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SessionEventArgs(SessionEventType eventType, SessionKey sessionKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td><span class="parametername">eventType</span></td>
+        <td><p>Type of the event.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">sessionKey</span></td>
+        <td><p>The session key.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_SessionEventArgs__ctor_" data-uid="MESL.SqlRace.Domain.SessionEventArgs.#ctor*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionEventArgs__ctor_MESL_SqlRace_Domain_SessionEventType_MAT_OCS_Core_SessionKey_System_Collections_Generic_Dictionary_System_String_System_Object__" data-uid="MESL.SqlRace.Domain.SessionEventArgs.#ctor(MESL.SqlRace.Domain.SessionEventType,MAT.OCS.Core.SessionKey,System.Collections.Generic.Dictionary{System.String,System.Object})">SessionEventArgs(SessionEventType, SessionKey, Dictionary&lt;String, Object&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initialises a new instance of the <a class="xref" href="MESL.SqlRace.Domain.SessionEventArgs.html">SessionEventArgs</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SessionEventArgs(SessionEventType eventType, SessionKey sessionKey, Dictionary&lt;string, object&gt; eventDetails)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td><span class="parametername">eventType</span></td>
+        <td><p>Type of the event.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">sessionKey</span></td>
+        <td><p>The session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
+        <td><span class="parametername">eventDetails</span></td>
+        <td><p>The event details.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_SessionEventArgs__ctor_" data-uid="MESL.SqlRace.Domain.SessionEventArgs.#ctor*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionEventArgs__ctor_MESL_SqlRace_Domain_SessionEventType_MAT_OCS_Core_SessionKey_System_Collections_Generic_Dictionary_System_String_System_Object__System_String_" data-uid="MESL.SqlRace.Domain.SessionEventArgs.#ctor(MESL.SqlRace.Domain.SessionEventType,MAT.OCS.Core.SessionKey,System.Collections.Generic.Dictionary{System.String,System.Object},System.String)">SessionEventArgs(SessionEventType, SessionKey, Dictionary&lt;String, Object&gt;, String)</h4>
+  <div class="markdown level1 summary"><p>Initialises a new instance of the <a class="xref" href="MESL.SqlRace.Domain.SessionEventArgs.html">SessionEventArgs</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SessionEventArgs(SessionEventType eventType, SessionKey sessionKey, Dictionary&lt;string, object&gt; eventDetails, string message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td><span class="parametername">eventType</span></td>
+        <td><p>Type of the event.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">sessionKey</span></td>
+        <td><p>The session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
+        <td><span class="parametername">eventDetails</span></td>
+        <td><p>The event details.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_SessionEventArgs__ctor_" data-uid="MESL.SqlRace.Domain.SessionEventArgs.#ctor*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionEventArgs__ctor_MESL_SqlRace_Domain_SessionEventType_MAT_OCS_Core_SessionKey_System_String_" data-uid="MESL.SqlRace.Domain.SessionEventArgs.#ctor(MESL.SqlRace.Domain.SessionEventType,MAT.OCS.Core.SessionKey,System.String)">SessionEventArgs(SessionEventType, SessionKey, String)</h4>
+  <div class="markdown level1 summary"><p>Initialises a new instance of the <a class="xref" href="MESL.SqlRace.Domain.SessionEventArgs.html">SessionEventArgs</a> class. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SessionEventArgs(SessionEventType eventType, SessionKey sessionKey, string message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td><span class="parametername">eventType</span></td>
+        <td><p>Type of the event.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">sessionKey</span></td>
+        <td><p>The session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="MESL_SqlRace_Domain_SessionEventArgs_EventDetails_" data-uid="MESL.SqlRace.Domain.SessionEventArgs.EventDetails*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionEventArgs_EventDetails" data-uid="MESL.SqlRace.Domain.SessionEventArgs.EventDetails">EventDetails</h4>
+  <div class="markdown level1 summary"><p>Gets the event details. The object type
+will be dependent on the event type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, object&gt; EventDetails { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_SessionEventArgs_EventType_" data-uid="MESL.SqlRace.Domain.SessionEventArgs.EventType*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionEventArgs_EventType" data-uid="MESL.SqlRace.Domain.SessionEventArgs.EventType">EventType</h4>
+  <div class="markdown level1 summary"><p>Gets the type of the event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SessionEventType EventType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td><p>The type of the event.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_SessionEventArgs_Message_" data-uid="MESL.SqlRace.Domain.SessionEventArgs.Message*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionEventArgs_Message" data-uid="MESL.SqlRace.Domain.SessionEventArgs.Message">Message</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Message { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The message.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_SessionEventArgs_SessionKey_" data-uid="MESL.SqlRace.Domain.SessionEventArgs.SessionKey*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionEventArgs_SessionKey" data-uid="MESL.SqlRace.Domain.SessionEventArgs.SessionKey">SessionKey</h4>
+  <div class="markdown level1 summary"><p>Gets the session key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SessionKey SessionKey { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="MESL_SqlRace_Domain_SessionEventArgs_ToString_" data-uid="MESL.SqlRace.Domain.SessionEventArgs.ToString*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionEventArgs_ToString" data-uid="MESL.SqlRace.Domain.SessionEventArgs.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Returns a <span class="xref">System.String</span> that represents this instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A <span class="xref">System.String</span> that represents this instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.ToString()</span></div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

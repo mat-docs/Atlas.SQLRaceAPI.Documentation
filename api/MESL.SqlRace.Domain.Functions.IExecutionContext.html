@@ -1,0 +1,658 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IExecutionContext
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IExecutionContext
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MESL.SqlRace.Domain.Functions.IExecutionContext">
+  
+  
+  <h1 id="MESL_SqlRace_Domain_Functions_IExecutionContext" data-uid="MESL.SqlRace.Domain.Functions.IExecutionContext" class="text-break">Interface IExecutionContext
+  </h1>
+  <div class="markdown level0 summary"><p>Describes a function execution context.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.Functions.html">MESL.SqlRace.Domain.Functions</a></h6>
+  <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
+  <h5 id="MESL_SqlRace_Domain_Functions_IExecutionContext_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IExecutionContext</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="MESL_SqlRace_Domain_Functions_IExecutionContext_CalculationModeInfo_" data-uid="MESL.SqlRace.Domain.Functions.IExecutionContext.CalculationModeInfo*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_IExecutionContext_CalculationModeInfo" data-uid="MESL.SqlRace.Domain.Functions.IExecutionContext.CalculationModeInfo">CalculationModeInfo</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the calculation mode.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ICalculationModeInfo CalculationModeInfo { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.ICalculationModeInfo.html">ICalculationModeInfo</a></td>
+        <td><p>The calculation mode.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_IExecutionContext_Constants_" data-uid="MESL.SqlRace.Domain.Functions.IExecutionContext.Constants*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_IExecutionContext_Constants" data-uid="MESL.SqlRace.Domain.Functions.IExecutionContext.Constants">Constants</h4>
+  <div class="markdown level1 summary"><p>Gets constants attached to the execution context</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IReadOnlyDictionary&lt;string, ConstantObject&gt; Constants { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyDictionary</span>&lt;<span class="xref">System.String</span>, <a class="xref" href="MESL.SqlRace.Domain.Functions.ConstantObject.html">ConstantObject</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_IExecutionContext_FunctionInput_" data-uid="MESL.SqlRace.Domain.Functions.IExecutionContext.FunctionInput*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_IExecutionContext_FunctionInput" data-uid="MESL.SqlRace.Domain.Functions.IExecutionContext.FunctionInput">FunctionInput</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the function input.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IFunctionInput FunctionInput { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IFunctionInput.html">IFunctionInput</a></td>
+        <td><p>The function input.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_IExecutionContext_FunctionMode_" data-uid="MESL.SqlRace.Domain.Functions.IExecutionContext.FunctionMode*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_IExecutionContext_FunctionMode" data-uid="MESL.SqlRace.Domain.Functions.IExecutionContext.FunctionMode">FunctionMode</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the function mode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">FunctionMode FunctionMode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">MESL.SqlRace.Functions.Interfaces.Enums.FunctionMode</span></td>
+        <td><p>The function mode.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_IExecutionContext_FunctionOutput_" data-uid="MESL.SqlRace.Domain.Functions.IExecutionContext.FunctionOutput*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_IExecutionContext_FunctionOutput" data-uid="MESL.SqlRace.Domain.Functions.IExecutionContext.FunctionOutput">FunctionOutput</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the function output.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IFunctionOutput FunctionOutput { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IFunctionOutput.html">IFunctionOutput</a></td>
+        <td><p>The function output.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_IExecutionContext_InterpolateBetweenSamples_" data-uid="MESL.SqlRace.Domain.Functions.IExecutionContext.InterpolateBetweenSamples*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_IExecutionContext_InterpolateBetweenSamples" data-uid="MESL.SqlRace.Domain.Functions.IExecutionContext.InterpolateBetweenSamples">InterpolateBetweenSamples</h4>
+  <div class="markdown level1 summary"><p>Gets or sets whether interpolation should be used between samples</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool InterpolateBetweenSamples { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if [interpolate between samples]; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_IExecutionContext_JoinGapsAroundNull_" data-uid="MESL.SqlRace.Domain.Functions.IExecutionContext.JoinGapsAroundNull*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_IExecutionContext_JoinGapsAroundNull" data-uid="MESL.SqlRace.Domain.Functions.IExecutionContext.JoinGapsAroundNull">JoinGapsAroundNull</h4>
+  <div class="markdown level1 summary"><p>Gets or sets whether to join gaps around null.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool JoinGapsAroundNull { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether to join gaps around null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_IExecutionContext_Session_" data-uid="MESL.SqlRace.Domain.Functions.IExecutionContext.Session*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_IExecutionContext_Session" data-uid="MESL.SqlRace.Domain.Functions.IExecutionContext.Session">Session</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ISession Session { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ISession.html">ISession</a></td>
+        <td><p>The session.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_IExecutionContext_State_" data-uid="MESL.SqlRace.Domain.Functions.IExecutionContext.State*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_IExecutionContext_State" data-uid="MESL.SqlRace.Domain.Functions.IExecutionContext.State">State</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">object State { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><p>The state.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="MESL_SqlRace_Domain_Functions_IExecutionContext_ExecuteFunction_" data-uid="MESL.SqlRace.Domain.Functions.IExecutionContext.ExecuteFunction*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_IExecutionContext_ExecuteFunction_System_String_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.IExecutionContext.ExecuteFunction(System.String,System.Int64)">ExecuteFunction(String, Int64)</h4>
+  <div class="markdown level1 summary"><p>Executes the function.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double ExecuteFunction(string functionName, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">functionName</span></td>
+        <td><p>Name of the function.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_IExecutionContext_GetProcessor_" data-uid="MESL.SqlRace.Domain.Functions.IExecutionContext.GetProcessor*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_IExecutionContext_GetProcessor__1_System_Guid_System_Int32_" data-uid="MESL.SqlRace.Domain.Functions.IExecutionContext.GetProcessor``1(System.Guid,System.Int32)">GetProcessor&lt;T&gt;(Guid, Int32)</h4>
+  <div class="markdown level1 summary"><p>Gets or creates a processor in the slot specified.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">T GetProcessor&lt;T&gt;(Guid processorUniqueId, int processorSlot)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">processorUniqueId</span></td>
+        <td><p>The processor&apos;s unique ID.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor&apos;s slot.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>A new instance of the processor with the given unique identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_BiLinearInterpolate_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_String_System_String_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.BiLinearInterpolate(IExecutionContext, Int32, String, String, String, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_BiLinearInterpolate_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Double_System_Double_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.BiLinearInterpolate(IExecutionContext, Int32, String, Double, Double, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_CurrentLapNumber_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.CurrentLapNumber(IExecutionContext, Int32, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_DistanceIntoLap_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.DistanceIntoLap(IExecutionContext, Int32, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_Derivative_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.Derivative(IExecutionContext, Int32, String, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_Derivative_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_Double_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.Derivative(IExecutionContext, Int32, Double, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_DigitalFilter1_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Double_System_Double_System_Double_System_Double_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.DigitalFilter1(IExecutionContext, Int32, String, Double, Double, Double, Double, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_DigitalFilter1_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_Double_System_Double_System_Double_System_Double_System_Double_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.DigitalFilter1(IExecutionContext, Int32, Double, Double, Double, Double, Double, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_DigitalFilter2_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.DigitalFilter2(IExecutionContext, Int32, String, Double, Double, Double, Double, Double, Double, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_DigitalFilter2_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.DigitalFilter2(IExecutionContext, Int32, Double, Double, Double, Double, Double, Double, Double, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_DigitalFilter3_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.DigitalFilter3(IExecutionContext, Int32, String, Double, Double, Double, Double, Double, Double, Double, Double, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_DigitalFilter3_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.DigitalFilter3(IExecutionContext, Int32, Double, Double, Double, Double, Double, Double, Double, Double, Double, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_Filter_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Double_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.Filter(IExecutionContext, Int32, String, Double, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_Filter_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_Double_System_Double_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.Filter(IExecutionContext, Int32, Double, Double, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_HighPassFilter_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Double_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.HighPassFilter(IExecutionContext, Int32, String, Double, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_HighPassFilter_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_Double_System_Double_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.HighPassFilter(IExecutionContext, Int32, Double, Double, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_IndexBySample_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Double_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.IndexBySample(IExecutionContext, Int32, String, Double, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_IndexByTime_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Double_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.IndexByTime(IExecutionContext, Int32, String, Double, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_Integral_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.Integral(IExecutionContext, Int32, String, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_Integral_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_Double_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.Integral(IExecutionContext, Int32, Double, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LapMax_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.LapMax(IExecutionContext, Int32, String, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LapMean_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.LapMean(IExecutionContext, Int32, String, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LapMean_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int32_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.LapMean(IExecutionContext, Int32, String, Int32, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LapMin_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.LapMin(IExecutionContext, Int32, String, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LapStdDev_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int32_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.LapStdDev(IExecutionContext, Int32, String, Int32, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LapStdDev_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.LapStdDev(IExecutionContext, Int32, String, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_CumulativeLapMax_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.CumulativeLapMax(IExecutionContext, Int32, String, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_CumulativeLapMean_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.CumulativeLapMean(IExecutionContext, Int32, String, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_CumulativeLapMean_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int32_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.CumulativeLapMean(IExecutionContext, Int32, String, Int32, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_CumulativeLapMin_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.CumulativeLapMin(IExecutionContext, Int32, String, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_CumulativeLapStdDev_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int32_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.CumulativeLapStdDev(IExecutionContext, Int32, String, Int32, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_CumulativeLapStdDev_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.CumulativeLapStdDev(IExecutionContext, Int32, String, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LapTime_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_Int32_">ExecutionContextExtensionsForBuiltInProcessors.LapTime(IExecutionContext, Int32, Int32)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LapTime_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_Double_">ExecutionContextExtensionsForBuiltInProcessors.LapTime(IExecutionContext, Int32, Double)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_UwLapMean_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.UwLapMean(IExecutionContext, Int32, String, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_UwLapStdDev_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.UwLapStdDev(IExecutionContext, Int32, String, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LinearInterpolate_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_String_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.LinearInterpolate(IExecutionContext, Int32, String, String, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LinearInterpolate_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Double_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.LinearInterpolate(IExecutionContext, Int32, String, Double, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_MedianFilter_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int32_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.MedianFilter(IExecutionContext, Int32, String, Int32, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_MedianFilter17_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.MedianFilter17(IExecutionContext, Int32, String, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_MedianFilter25_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.MedianFilter25(IExecutionContext, Int32, String, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_MedianFilter9_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.MedianFilter9(IExecutionContext, Int32, String, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_MovingAverage_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int32_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.MovingAverage(IExecutionContext, Int32, String, Int32, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_PhaseCompFilter_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Double_">ExecutionContextExtensionsForBuiltInProcessors.PhaseCompFilter(IExecutionContext, Int32, String, Double)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SamplesMax_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int32_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.SamplesMax(IExecutionContext, Int32, String, Int32, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SamplesMin_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int32_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.SamplesMin(IExecutionContext, Int32, String, Int32, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SamplesPerSec_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_">ExecutionContextExtensionsForBuiltInProcessors.SamplesPerSec(IExecutionContext, Int32, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SessionMax_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.SessionMax(IExecutionContext, Int32, String, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SessionMean_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int32_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.SessionMean(IExecutionContext, Int32, String, Int32, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SessionMean_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.SessionMean(IExecutionContext, Int32, String, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SessionMin_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.SessionMin(IExecutionContext, Int32, String, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SessionStdDev_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int32_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.SessionStdDev(IExecutionContext, Int32, String, Int32, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SessionStdDev_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.SessionStdDev(IExecutionContext, Int32, String, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_UwSessionMean_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.UwSessionMean(IExecutionContext, Int32, String, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_UwSessionStdDev_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.UwSessionStdDev(IExecutionContext, Int32, String, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SetEvent_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_String_System_String_System_Int32_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.SetEvent(IExecutionContext, Int32, String, String, String, Int32, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SetEvent_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_String_System_String_System_Int32_System_Int32_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.SetEvent(IExecutionContext, Int32, String, String, String, Int32, Int32, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SetLap_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_">ExecutionContextExtensionsForBuiltInProcessors.SetLap(IExecutionContext, Int32)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_TimeIntoLap_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.TimeIntoLap(IExecutionContext, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_TimeIntoSession_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.TimeIntoSession(IExecutionContext, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_TimeOfDay_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.TimeOfDay(IExecutionContext, Int32, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_WriteToLog_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_String_">ExecutionContextExtensionsForBuiltInProcessors.WriteToLog(IExecutionContext, Int32, String, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LapBestFit_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_String_System_Int32_System_Int32_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.LapBestFit(IExecutionContext, Int32, String, String, Int32, Int32, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LinearRegressionSlope_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_String_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.LinearRegressionSlope(IExecutionContext, Int32, String, String, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LinearRegressionOffset_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_String_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.LinearRegressionOffset(IExecutionContext, Int32, String, String, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LinearRegressionR2_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_String_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.LinearRegressionR2(IExecutionContext, Int32, String, String, Int64)</a>
+  </div>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_IsInError_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int64_">ExecutionContextExtensionsForBuiltInProcessors.IsInError(IExecutionContext, Int32, String, Int64)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

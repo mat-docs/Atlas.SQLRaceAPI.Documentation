@@ -1,0 +1,935 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class VirtualParameter
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class VirtualParameter
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MESL.SqlRace.Domain.VirtualParameter">
+  
+  
+  <h1 id="MESL_SqlRace_Domain_VirtualParameter" data-uid="MESL.SqlRace.Domain.VirtualParameter" class="text-break">Class VirtualParameter
+  </h1>
+  <div class="markdown level0 summary"><p>Domain entity representing a Virtual Parameter.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="MESL.SqlRace.Domain.ParameterBase.html">ParameterBase</a></div>
+    <div class="level2"><span class="xref">VirtualParameter</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="MESL.SqlRace.Domain.IParameter.html">IParameter</a></div>
+    <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterBase.html#MESL_SqlRace_Domain_ParameterBase_Recalculate">ParameterBase.Recalculate()</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterBase.html#MESL_SqlRace_Domain_ParameterBase_NotifyPropertyChanged_System_String_">ParameterBase.NotifyPropertyChanged(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterBase.html#MESL_SqlRace_Domain_ParameterBase_ApplicationName">ParameterBase.ApplicationName</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterBase.html#MESL_SqlRace_Domain_ParameterBase_Available">ParameterBase.Available</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterBase.html#MESL_SqlRace_Domain_ParameterBase_BitShift">ParameterBase.BitShift</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterBase.html#MESL_SqlRace_Domain_ParameterBase_ByteOrder">ParameterBase.ByteOrder</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterBase.html#MESL_SqlRace_Domain_ParameterBase_CanRecalculate">ParameterBase.CanRecalculate</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterBase.html#MESL_SqlRace_Domain_ParameterBase_ConversionFunctionName">ParameterBase.ConversionFunctionName</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterBase.html#MESL_SqlRace_Domain_ParameterBase_DataBitMask">ParameterBase.DataBitMask</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterBase.html#MESL_SqlRace_Domain_ParameterBase_Description">ParameterBase.Description</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterBase.html#MESL_SqlRace_Domain_ParameterBase_ErrorBitmask">ParameterBase.ErrorBitmask</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterBase.html#MESL_SqlRace_Domain_ParameterBase_FormatOverride">ParameterBase.FormatOverride</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterBase.html#MESL_SqlRace_Domain_ParameterBase_GroupIdentifiers">ParameterBase.GroupIdentifiers</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterBase.html#MESL_SqlRace_Domain_ParameterBase_Identifier">ParameterBase.Identifier</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterBase.html#MESL_SqlRace_Domain_ParameterBase_MaximumValue">ParameterBase.MaximumValue</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterBase.html#MESL_SqlRace_Domain_ParameterBase_MinimumValue">ParameterBase.MinimumValue</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterBase.html#MESL_SqlRace_Domain_ParameterBase_Name">ParameterBase.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterBase.html#MESL_SqlRace_Domain_ParameterBase_OffsetValue">ParameterBase.OffsetValue</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterBase.html#MESL_SqlRace_Domain_ParameterBase_ShowInBrowser">ParameterBase.ShowInBrowser</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterBase.html#MESL_SqlRace_Domain_ParameterBase_Unit">ParameterBase.Unit</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterBase.html#MESL_SqlRace_Domain_ParameterBase_UserType">ParameterBase.UserType</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterBase.html#MESL_SqlRace_Domain_ParameterBase_WarningMaximumValue">ParameterBase.WarningMaximumValue</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterBase.html#MESL_SqlRace_Domain_ParameterBase_WarningMinimumValue">ParameterBase.WarningMinimumValue</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterBase.html#MESL_SqlRace_Domain_ParameterBase_AvailabilityChanged">ParameterBase.AvailabilityChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="MESL.SqlRace.Domain.ParameterBase.html#MESL_SqlRace_Domain_ParameterBase_PropertyChanged">ParameterBase.PropertyChanged</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.html">MESL.SqlRace.Domain</a></h6>
+  <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
+  <h5 id="MESL_SqlRace_Domain_VirtualParameter_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class VirtualParameter : ParameterBase, IParameter, INotifyPropertyChanged</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <a id="MESL_SqlRace_Domain_VirtualParameter__ctor_" data-uid="MESL.SqlRace.Domain.VirtualParameter.#ctor*"></a>
+  <h4 id="MESL_SqlRace_Domain_VirtualParameter__ctor_System_String_System_String_System_String_System_Double_System_Double_System_Double_System_Double_System_Double_System_String_System_UInt32_System_UInt32_System_String_MESL_SqlRace_Enumerators_LanguageType_" data-uid="MESL.SqlRace.Domain.VirtualParameter.#ctor(System.String,System.String,System.String,System.Double,System.Double,System.Double,System.Double,System.Double,System.String,System.UInt32,System.UInt32,System.String,MESL.SqlRace.Enumerators.LanguageType)">VirtualParameter(String, String, String, Double, Double, Double, Double, Double, String, UInt32, UInt32, String, LanguageType)</h4>
+  <div class="markdown level1 summary"><p>Initialises a new instance of the <a class="xref" href="MESL.SqlRace.Domain.VirtualParameter.html">VirtualParameter</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VirtualParameter(string identifier, string name, string description, double maximumValue, double minimumValue, double warningMaximumValue, double warningMinimumValue, double offsetValue, string conversionFunctionName, uint dataBitMask, uint errorBitMask, string functionCode, LanguageType languageType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>The identifier. The historic VIRT app group will be removed from the identifier i.e. &apos;param:VIRT&apos; will be changed to &apos;param&apos;.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the virtual parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">description</span></td>
+        <td><p>The description.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">maximumValue</span></td>
+        <td><p>The maximum value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">minimumValue</span></td>
+        <td><p>The minimum value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">warningMaximumValue</span></td>
+        <td><p>The warning maximum value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">warningMinimumValue</span></td>
+        <td><p>The warning minimum value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">offsetValue</span></td>
+        <td><p>The offset value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">conversionFunctionName</span></td>
+        <td><p>Name of the conversion function.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">dataBitMask</span></td>
+        <td><p>The data bit mask.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">errorBitMask</span></td>
+        <td><p>The error bit mask.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">functionCode</span></td>
+        <td><p>The function code.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Enumerators.LanguageType.html">LanguageType</a></td>
+        <td><span class="parametername">languageType</span></td>
+        <td><p>Type of the language.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_VirtualParameter__ctor_" data-uid="MESL.SqlRace.Domain.VirtualParameter.#ctor*"></a>
+  <h4 id="MESL_SqlRace_Domain_VirtualParameter__ctor_System_String_System_String_System_String_System_Double_System_Double_System_Double_System_Double_System_Double_System_String_System_UInt32_System_UInt32_System_String_MESL_SqlRace_Enumerators_LanguageType_System_Collections_Generic_List_System_String__" data-uid="MESL.SqlRace.Domain.VirtualParameter.#ctor(System.String,System.String,System.String,System.Double,System.Double,System.Double,System.Double,System.Double,System.String,System.UInt32,System.UInt32,System.String,MESL.SqlRace.Enumerators.LanguageType,System.Collections.Generic.List{System.String})">VirtualParameter(String, String, String, Double, Double, Double, Double, Double, String, UInt32, UInt32, String, LanguageType, List&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initialises a new instance of the <a class="xref" href="MESL.SqlRace.Domain.VirtualParameter.html">VirtualParameter</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VirtualParameter(string identifier, string name, string description, double maximumValue, double minimumValue, double warningMaximumValue, double warningMinimumValue, double offsetValue, string conversionFunctionName, uint dataBitMask, uint errorBitMask, string functionCode, LanguageType languageType, List&lt;string&gt; parameterGroupIdentifiers)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>The identifier. The historic VIRT app group will be removed from the identifier i.e. &apos;param:VIRT&apos; will be changed to &apos;param&apos;.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the virtual parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">description</span></td>
+        <td><p>The description.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">maximumValue</span></td>
+        <td><p>The maximum value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">minimumValue</span></td>
+        <td><p>The minimum value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">warningMaximumValue</span></td>
+        <td><p>The warning maximum value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">warningMinimumValue</span></td>
+        <td><p>The warning minimum value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">offsetValue</span></td>
+        <td><p>The offset value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">conversionFunctionName</span></td>
+        <td><p>Name of the conversion function.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">dataBitMask</span></td>
+        <td><p>The data bit mask.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">errorBitMask</span></td>
+        <td><p>The error bit mask.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">functionCode</span></td>
+        <td><p>The function code.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Enumerators.LanguageType.html">LanguageType</a></td>
+        <td><span class="parametername">languageType</span></td>
+        <td><p>Type of the language.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">parameterGroupIdentifiers</span></td>
+        <td><p>The parameter group identifiers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_VirtualParameter__ctor_" data-uid="MESL.SqlRace.Domain.VirtualParameter.#ctor*"></a>
+  <h4 id="MESL_SqlRace_Domain_VirtualParameter__ctor_System_String_System_String_System_String_System_Double_System_Double_System_Double_System_Double_System_Double_System_String_System_UInt32_System_UInt32_System_String_MESL_SqlRace_Enumerators_LanguageType_System_String_" data-uid="MESL.SqlRace.Domain.VirtualParameter.#ctor(System.String,System.String,System.String,System.Double,System.Double,System.Double,System.Double,System.Double,System.String,System.UInt32,System.UInt32,System.String,MESL.SqlRace.Enumerators.LanguageType,System.String)">VirtualParameter(String, String, String, Double, Double, Double, Double, Double, String, UInt32, UInt32, String, LanguageType, String)</h4>
+  <div class="markdown level1 summary"><p>Initialises a new instance of the <a class="xref" href="MESL.SqlRace.Domain.VirtualParameter.html">VirtualParameter</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VirtualParameter(string identifier, string name, string description, double maximumValue, double minimumValue, double warningMaximumValue, double warningMinimumValue, double offsetValue, string conversionFunctionName, uint dataBitMask, uint errorBitMask, string functionCode, LanguageType languageType, string applicationGroupName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>The identifier. The historic VIRT app group will be removed from the identifier i.e. &apos;param:VIRT&apos; will be changed to &apos;param&apos;.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the virtual parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">description</span></td>
+        <td><p>The description.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">maximumValue</span></td>
+        <td><p>The maximum value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">minimumValue</span></td>
+        <td><p>The minimum value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">warningMaximumValue</span></td>
+        <td><p>The warning maximum value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">warningMinimumValue</span></td>
+        <td><p>The warning minimum value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">offsetValue</span></td>
+        <td><p>The offset value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">conversionFunctionName</span></td>
+        <td><p>Name of the conversion function.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">dataBitMask</span></td>
+        <td><p>The data bit mask.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">errorBitMask</span></td>
+        <td><p>The error bit mask.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">functionCode</span></td>
+        <td><p>The function code.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Enumerators.LanguageType.html">LanguageType</a></td>
+        <td><span class="parametername">languageType</span></td>
+        <td><p>Type of the language.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">applicationGroupName</span></td>
+        <td><p>The application group name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_VirtualParameter__ctor_" data-uid="MESL.SqlRace.Domain.VirtualParameter.#ctor*"></a>
+  <h4 id="MESL_SqlRace_Domain_VirtualParameter__ctor_System_String_System_String_System_String_System_Double_System_Double_System_Double_System_Double_System_Double_System_String_System_UInt32_System_UInt32_System_String_MESL_SqlRace_Enumerators_LanguageType_System_String_System_Collections_Generic_List_System_String__" data-uid="MESL.SqlRace.Domain.VirtualParameter.#ctor(System.String,System.String,System.String,System.Double,System.Double,System.Double,System.Double,System.Double,System.String,System.UInt32,System.UInt32,System.String,MESL.SqlRace.Enumerators.LanguageType,System.String,System.Collections.Generic.List{System.String})">VirtualParameter(String, String, String, Double, Double, Double, Double, Double, String, UInt32, UInt32, String, LanguageType, String, List&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initialises a new instance of the <a class="xref" href="MESL.SqlRace.Domain.VirtualParameter.html">VirtualParameter</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VirtualParameter(string identifier, string name, string description, double maximumValue, double minimumValue, double warningMaximumValue, double warningMinimumValue, double offsetValue, string conversionFunctionName, uint dataBitMask, uint errorBitMask, string functionCode, LanguageType languageType, string applicationGroupName, List&lt;string&gt; parameterGroupIdentifiers)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>The identifier. The historic VIRT app group will be removed from the identifier i.e. &apos;param:VIRT&apos; will be changed to &apos;param&apos;.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the virtual parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">description</span></td>
+        <td><p>The description.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">maximumValue</span></td>
+        <td><p>The maximum value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">minimumValue</span></td>
+        <td><p>The minimum value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">warningMaximumValue</span></td>
+        <td><p>The warning maximum value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">warningMinimumValue</span></td>
+        <td><p>The warning minimum value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">offsetValue</span></td>
+        <td><p>The offset value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">conversionFunctionName</span></td>
+        <td><p>Name of the conversion function.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">dataBitMask</span></td>
+        <td><p>The data bit mask.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">errorBitMask</span></td>
+        <td><p>The error bit mask.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">functionCode</span></td>
+        <td><p>The function code.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Enumerators.LanguageType.html">LanguageType</a></td>
+        <td><span class="parametername">languageType</span></td>
+        <td><p>Type of the language.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">applicationGroupName</span></td>
+        <td><p>The application group name.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">parameterGroupIdentifiers</span></td>
+        <td><p>The parameter group identifiers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_VirtualParameter__ctor_" data-uid="MESL.SqlRace.Domain.VirtualParameter.#ctor*"></a>
+  <h4 id="MESL_SqlRace_Domain_VirtualParameter__ctor_System_String_System_String_System_String_System_Double_System_Double_System_Double_System_Double_System_Double_System_String_System_UInt32_System_UInt32_System_String_MESL_SqlRace_Enumerators_LanguageType_System_String_System_Collections_Generic_List_System_String__System_String_System_String_" data-uid="MESL.SqlRace.Domain.VirtualParameter.#ctor(System.String,System.String,System.String,System.Double,System.Double,System.Double,System.Double,System.Double,System.String,System.UInt32,System.UInt32,System.String,MESL.SqlRace.Enumerators.LanguageType,System.String,System.Collections.Generic.List{System.String},System.String,System.String)">VirtualParameter(String, String, String, Double, Double, Double, Double, Double, String, UInt32, UInt32, String, LanguageType, String, List&lt;String&gt;, String, String)</h4>
+  <div class="markdown level1 summary"><p>Initialises a new instance of the <a class="xref" href="MESL.SqlRace.Domain.VirtualParameter.html">VirtualParameter</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VirtualParameter(string identifier, string name, string description, double maximumValue, double minimumValue, double warningMaximumValue, double warningMinimumValue, double offsetValue, string conversionFunctionName, uint dataBitMask, uint errorBitMask, string functionCode, LanguageType languageType, string applicationGroupName, List&lt;string&gt; parameterGroupIdentifiers, string formatOverride, string units)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>The identifier. The historic VIRT app group will be removed from the identifier i.e. &apos;param:VIRT&apos; will be changed to &apos;param&apos;.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the virtual parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">description</span></td>
+        <td><p>The description.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">maximumValue</span></td>
+        <td><p>The maximum value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">minimumValue</span></td>
+        <td><p>The minimum value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">warningMaximumValue</span></td>
+        <td><p>The warning maximum value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">warningMinimumValue</span></td>
+        <td><p>The warning minimum value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">offsetValue</span></td>
+        <td><p>The offset value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">conversionFunctionName</span></td>
+        <td><p>Name of the conversion function.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">dataBitMask</span></td>
+        <td><p>The data bit mask.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">errorBitMask</span></td>
+        <td><p>The error bit mask.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">functionCode</span></td>
+        <td><p>The function code.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Enumerators.LanguageType.html">LanguageType</a></td>
+        <td><span class="parametername">languageType</span></td>
+        <td><p>Type of the language.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">applicationGroupName</span></td>
+        <td><p>The application group name.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">parameterGroupIdentifiers</span></td>
+        <td><p>The parameter group identifiers.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">formatOverride</span></td>
+        <td><p>The format override.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">units</span></td>
+        <td><p>The units value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  <h4 id="MESL_SqlRace_Domain_VirtualParameter_LegacyVirtSuffix" data-uid="MESL.SqlRace.Domain.VirtualParameter.LegacyVirtSuffix">LegacyVirtSuffix</h4>
+  <div class="markdown level1 summary"><p>The app name formerly used for virtual parameters &quot;:VIRT&quot;</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string LegacyVirtSuffix = &quot;:VIRT&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="MESL_SqlRace_Domain_VirtualParameter_FunctionCode_" data-uid="MESL.SqlRace.Domain.VirtualParameter.FunctionCode*"></a>
+  <h4 id="MESL_SqlRace_Domain_VirtualParameter_FunctionCode" data-uid="MESL.SqlRace.Domain.VirtualParameter.FunctionCode">FunctionCode</h4>
+  <div class="markdown level1 summary"><p>Gets the function code.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string FunctionCode { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The function code.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_VirtualParameter_LanguageType_" data-uid="MESL.SqlRace.Domain.VirtualParameter.LanguageType*"></a>
+  <h4 id="MESL_SqlRace_Domain_VirtualParameter_LanguageType" data-uid="MESL.SqlRace.Domain.VirtualParameter.LanguageType">LanguageType</h4>
+  <div class="markdown level1 summary"><p>Gets the script language for the function within the <a class="xref" href="MESL.SqlRace.Domain.VirtualParameter.html">VirtualParameter</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LanguageType LanguageType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Enumerators.LanguageType.html">LanguageType</a></td>
+        <td><p>The type of the language.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_VirtualParameter_ParameterType_" data-uid="MESL.SqlRace.Domain.VirtualParameter.ParameterType*"></a>
+  <h4 id="MESL_SqlRace_Domain_VirtualParameter_ParameterType" data-uid="MESL.SqlRace.Domain.VirtualParameter.ParameterType">ParameterType</h4>
+  <div class="markdown level1 summary"><p>Gets the type of the parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override ParameterType ParameterType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Enumerators.ParameterType.html">ParameterType</a></td>
+        <td><p>The type of the parameter.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.ParameterBase.html#MESL_SqlRace_Domain_ParameterBase_ParameterType">ParameterBase.ParameterType</a></div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="MESL_SqlRace_Domain_VirtualParameter_ToString_" data-uid="MESL.SqlRace.Domain.VirtualParameter.ToString*"></a>
+  <h4 id="MESL_SqlRace_Domain_VirtualParameter_ToString" data-uid="MESL.SqlRace.Domain.VirtualParameter.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Returns a <span class="xref">System.String</span> that represents the current <span class="xref">System.Object</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A <span class="xref">System.String</span> that represents the current <span class="xref">System.Object</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.ParameterBase.html#MESL_SqlRace_Domain_ParameterBase_ToString">ParameterBase.ToString()</a></div>
+  <h3 id="events">Events
+  </h3>
+  <h4 id="MESL_SqlRace_Domain_VirtualParameter_UnderlyingDataSourceChanged" data-uid="MESL.SqlRace.Domain.VirtualParameter.UnderlyingDataSourceChanged">UnderlyingDataSourceChanged</h4>
+  <div class="markdown level1 summary"><p>Occurs when [underlying data source changed].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override event EventHandler UnderlyingDataSourceChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.ParameterBase.html#MESL_SqlRace_Domain_ParameterBase_UnderlyingDataSourceChanged">ParameterBase.UnderlyingDataSourceChanged</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="MESL.SqlRace.Domain.IParameter.html">IParameter</a>
+  </div>
+  <div>
+      <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

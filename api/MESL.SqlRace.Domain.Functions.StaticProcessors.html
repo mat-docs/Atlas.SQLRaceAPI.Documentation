@@ -1,0 +1,793 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class StaticProcessors
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class StaticProcessors
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MESL.SqlRace.Domain.Functions.StaticProcessors">
+  
+  
+  <h1 id="MESL_SqlRace_Domain_Functions_StaticProcessors" data-uid="MESL.SqlRace.Domain.Functions.StaticProcessors" class="text-break">Class StaticProcessors
+  </h1>
+  <div class="markdown level0 summary"><p>Static processors that operate on single values, do not require context, cannot be directly
+replaced with a BCL static method call, and cannot be trivially expanded in-line.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">StaticProcessors</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.Functions.html">MESL.SqlRace.Domain.Functions</a></h6>
+  <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
+  <h5 id="MESL_SqlRace_Domain_Functions_StaticProcessors_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class StaticProcessors</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="MESL_SqlRace_Domain_Functions_StaticProcessors_BitOfWord_" data-uid="MESL.SqlRace.Domain.Functions.StaticProcessors.BitOfWord*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_StaticProcessors_BitOfWord_System_Double_System_Double_" data-uid="MESL.SqlRace.Domain.Functions.StaticProcessors.BitOfWord(System.Double,System.Double)">BitOfWord(Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Gets a bit value from a given value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double BitOfWord(double pdaValue, double bit)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">pdaValue</span></td>
+        <td><p>The pda value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">bit</span></td>
+        <td><p>The bit.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Returns 1 if bit number bit in the parameter is 1, otherwise returns 0. Bits count
+from 0 and from least significant to most significant.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_StaticProcessors_BitOfWord_" data-uid="MESL.SqlRace.Domain.Functions.StaticProcessors.BitOfWord*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_StaticProcessors_BitOfWord_System_Double_System_Int32_" data-uid="MESL.SqlRace.Domain.Functions.StaticProcessors.BitOfWord(System.Double,System.Int32)">BitOfWord(Double, Int32)</h4>
+  <div class="markdown level1 summary"><p>Gets a bit value from a given value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double BitOfWord(double pdaValue, int bit)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">pdaValue</span></td>
+        <td><p>The pda value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">bit</span></td>
+        <td><p>The bit.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Returns 1 if bit number bit in the parameter is 1, otherwise returns 0. Bits count
+from 0 and from least significant to most significant.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="MESL_SqlRace_Domain_Functions_StaticProcessors_BitOfWord_System_Double_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Copied from MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors</p>
+</div>
+  <a id="MESL_SqlRace_Domain_Functions_StaticProcessors_ClearLog_" data-uid="MESL.SqlRace.Domain.Functions.StaticProcessors.ClearLog*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_StaticProcessors_ClearLog_System_String_" data-uid="MESL.SqlRace.Domain.Functions.StaticProcessors.ClearLog(System.String)">ClearLog(String)</h4>
+  <div class="markdown level1 summary"><p>Clears the contents of the file specified.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ClearLog(string fullPath)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fullPath</span></td>
+        <td><p>Full path to the file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="MESL_SqlRace_Domain_Functions_StaticProcessors_ClearLog_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This processor will clear the contents of any file of any type without warning.</p>
+</div>
+  <a id="MESL_SqlRace_Domain_Functions_StaticProcessors_Div_" data-uid="MESL.SqlRace.Domain.Functions.StaticProcessors.Div*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_StaticProcessors_Div_System_Double_System_Double_" data-uid="MESL.SqlRace.Domain.Functions.StaticProcessors.Div(System.Double,System.Double)">Div(Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Calculates the quotient of the two values (evaluated as two 64-bit signed integers).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double Div(double number, double denominator)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">number</span></td>
+        <td><p>The number.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">denominator</span></td>
+        <td><p>The denominator.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The quotient of the two values if denominator is not zero, else +ve or -ve Infinity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_StaticProcessors_IsFirstPass_" data-uid="MESL.SqlRace.Domain.Functions.StaticProcessors.IsFirstPass*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_StaticProcessors_IsFirstPass" data-uid="MESL.SqlRace.Domain.Functions.StaticProcessors.IsFirstPass">IsFirstPass()</h4>
+  <div class="markdown level1 summary"><p>Determines whether [is first pass].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int IsFirstPass()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p><code>true</code> if [is first pass]; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_StaticProcessors_IsGreaterThan_" data-uid="MESL.SqlRace.Domain.Functions.StaticProcessors.IsGreaterThan*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_StaticProcessors_IsGreaterThan_System_Double_System_Double_" data-uid="MESL.SqlRace.Domain.Functions.StaticProcessors.IsGreaterThan(System.Double,System.Double)">IsGreaterThan(Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Converts Boolean expression of greater-than into a numeric value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int IsGreaterThan(double left, double right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>1 if left is greater than right; 0 otherwise</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_StaticProcessors_IsGreaterThanOrEqualTo_" data-uid="MESL.SqlRace.Domain.Functions.StaticProcessors.IsGreaterThanOrEqualTo*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_StaticProcessors_IsGreaterThanOrEqualTo_System_Double_System_Double_" data-uid="MESL.SqlRace.Domain.Functions.StaticProcessors.IsGreaterThanOrEqualTo(System.Double,System.Double)">IsGreaterThanOrEqualTo(Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Converts Boolean expression of greater-than-or-equal-to into a numeric value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int IsGreaterThanOrEqualTo(double left, double right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>1 if left is greater than or equal to right; 0 otherwise</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_StaticProcessors_IsInRange_" data-uid="MESL.SqlRace.Domain.Functions.StaticProcessors.IsInRange*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_StaticProcessors_IsInRange_System_Double_System_Double_System_Double_" data-uid="MESL.SqlRace.Domain.Functions.StaticProcessors.IsInRange(System.Double,System.Double,System.Double)">IsInRange(Double, Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Determines whether a is in the range of b, where the range is defined by [b - epsilon, b + epsilon].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int IsInRange(double a, double b, double epsilon)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>The value being tested.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>The centre of the range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">epsilon</span></td>
+        <td><p>The epsilon that defines the range.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>1 if a is in the range [b - epsilon, b + epsilon], 0 otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_StaticProcessors_IsLessThan_" data-uid="MESL.SqlRace.Domain.Functions.StaticProcessors.IsLessThan*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_StaticProcessors_IsLessThan_System_Double_System_Double_" data-uid="MESL.SqlRace.Domain.Functions.StaticProcessors.IsLessThan(System.Double,System.Double)">IsLessThan(Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Converts Boolean expression of less-than into a numeric value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int IsLessThan(double left, double right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>1 if left is less than or equal to right; 0 otherwise</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_StaticProcessors_IsLessThanOrEqualTo_" data-uid="MESL.SqlRace.Domain.Functions.StaticProcessors.IsLessThanOrEqualTo*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_StaticProcessors_IsLessThanOrEqualTo_System_Double_System_Double_" data-uid="MESL.SqlRace.Domain.Functions.StaticProcessors.IsLessThanOrEqualTo(System.Double,System.Double)">IsLessThanOrEqualTo(Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Converts Boolean expression of less-than-or-equal-to into a numeric value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int IsLessThanOrEqualTo(double left, double right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>1 if left is less than or equal to right; 0 otherwise</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_StaticProcessors_Mod_" data-uid="MESL.SqlRace.Domain.Functions.StaticProcessors.Mod*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_StaticProcessors_Mod_System_Double_System_Double_" data-uid="MESL.SqlRace.Domain.Functions.StaticProcessors.Mod(System.Double,System.Double)">Mod(Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Calculates the remainder of integer division.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int Mod(double left, double right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The remainder of integer division.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_StaticProcessors_NoLog_" data-uid="MESL.SqlRace.Domain.Functions.StaticProcessors.NoLog*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_StaticProcessors_NoLog_System_Double_" data-uid="MESL.SqlRace.Domain.Functions.StaticProcessors.NoLog(System.Double)">NoLog(Double)</h4>
+  <div class="markdown level1 summary"><p>Noes the log.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double NoLog(double value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The value passed in.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="MESL_SqlRace_Domain_Functions_StaticProcessors_NoLog_System_Double__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Copied from MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors</p>
+</div>
+  <a id="MESL_SqlRace_Domain_Functions_StaticProcessors_Not_" data-uid="MESL.SqlRace.Domain.Functions.StaticProcessors.Not*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_StaticProcessors_Not_System_Boolean_" data-uid="MESL.SqlRace.Domain.Functions.StaticProcessors.Not(System.Boolean)">Not(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Performs a logical not on the Boolean passed in.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double Not(bool expression)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">expression</span></td>
+        <td><p>if set to <code>true</code> [expression].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>1 if expression is false; otherwise 0.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="MESL_SqlRace_Domain_Functions_StaticProcessors_Not_System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Copied from MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors</p>
+</div>
+  <a id="MESL_SqlRace_Domain_Functions_StaticProcessors_Not_" data-uid="MESL.SqlRace.Domain.Functions.StaticProcessors.Not*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_StaticProcessors_Not_System_Double_" data-uid="MESL.SqlRace.Domain.Functions.StaticProcessors.Not(System.Double)">Not(Double)</h4>
+  <div class="markdown level1 summary"><p>Performs a logical not on the double passed in.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double Not(double expression)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">expression</span></td>
+        <td><p>The expression.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>1 if expression is 0; otherwise 0.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="MESL_SqlRace_Domain_Functions_StaticProcessors_Not_System_Double__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Copied from MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
