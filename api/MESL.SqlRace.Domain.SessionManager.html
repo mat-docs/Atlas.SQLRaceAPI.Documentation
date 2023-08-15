@@ -1350,6 +1350,122 @@ until it is removed).</p>
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="MESL.SqlRace.Domain.SessionManagerBase.html#MESL_SqlRace_Domain_SessionManagerBase_ExportSession_System_String_MAT_OCS_Core_SessionKey_System_String_System_Collections_Generic_IReadOnlyList_System_String__System_Collections_Generic_IReadOnlyList_System_Int32__System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_String_">SessionManagerBase.ExportSession(String, SessionKey, String, IReadOnlyList&lt;String&gt;, IReadOnlyList&lt;Int32&gt;, Boolean, Boolean, Boolean, Boolean, Boolean, String)</a></div>
+  <a id="MESL_SqlRace_Domain_SessionManager_ExportSessionWithCustomTime_" data-uid="MESL.SqlRace.Domain.SessionManager.ExportSessionWithCustomTime*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManager_ExportSessionWithCustomTime_System_String_MAT_OCS_Core_SessionKey_System_String_System_Collections_Generic_IReadOnlyList_System_String__System_Collections_Generic_IReadOnlyList_System_Int32__System_Nullable_System_Int64__System_Nullable_System_Int64__System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_String_" data-uid="MESL.SqlRace.Domain.SessionManager.ExportSessionWithCustomTime(System.String,MAT.OCS.Core.SessionKey,System.String,System.Collections.Generic.IReadOnlyList{System.String},System.Collections.Generic.IReadOnlyList{System.Int32},System.Nullable{System.Int64},System.Nullable{System.Int64},System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.String)">ExportSessionWithCustomTime(String, SessionKey, String, IReadOnlyList&lt;String&gt;, IReadOnlyList&lt;Int32&gt;, Nullable&lt;Int64&gt;, Nullable&lt;Int64&gt;, Boolean, Boolean, Boolean, Boolean, Boolean, String)</h4>
+  <div class="markdown level1 summary"><p>Exports a session with a list of specific parameter identifiers</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override FragmentedMemoryStream ExportSessionWithCustomTime(string connectionString, SessionKey sessionKey, string filePath, IReadOnlyList&lt;string&gt; parametersToExport, IReadOnlyList&lt;int&gt; lapsToExport, long? customStartTime, long? customEndTime, bool exportEvents, bool exportErrors, bool exportMarkers, bool exportSessionConstants, bool useActiveTeam, string sessionIdentifier)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string for the database with the session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">sessionKey</span></td>
+        <td><p>The session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">filePath</span></td>
+        <td><p>The file path to export to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">parametersToExport</span></td>
+        <td><p>List of parameter identifiers to export.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">lapsToExport</span></td>
+        <td><p>List of laps to export.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int64</span>&gt;</td>
+        <td><span class="parametername">customStartTime</span></td>
+        <td><p>List of laps to export.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int64</span>&gt;</td>
+        <td><span class="parametername">customEndTime</span></td>
+        <td><p>List of laps to export.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">exportEvents</span></td>
+        <td><p>Export Events.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">exportErrors</span></td>
+        <td><p>Export Errors.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">exportMarkers</span></td>
+        <td><p>Export Markers.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">exportSessionConstants</span></td>
+        <td><p>Export Session Constants.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">useActiveTeam</span></td>
+        <td><p>Use active team to export the session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sessionIdentifier</span></td>
+        <td><p>The identifier for the session</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">MESL.SqlRace.Common.FragmentedMemoryStream</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.SessionManagerBase.html#MESL_SqlRace_Domain_SessionManagerBase_ExportSessionWithCustomTime_System_String_MAT_OCS_Core_SessionKey_System_String_System_Collections_Generic_IReadOnlyList_System_String__System_Collections_Generic_IReadOnlyList_System_Int32__System_Nullable_System_Int64__System_Nullable_System_Int64__System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_String_">SessionManagerBase.ExportSessionWithCustomTime(String, SessionKey, String, IReadOnlyList&lt;String&gt;, IReadOnlyList&lt;Int32&gt;, Nullable&lt;Int64&gt;, Nullable&lt;Int64&gt;, Boolean, Boolean, Boolean, Boolean, Boolean, String)</a></div>
   <a id="MESL_SqlRace_Domain_SessionManager_ExportSessionWithNullTeamId_" data-uid="MESL.SqlRace.Domain.SessionManager.ExportSessionWithNullTeamId*"></a>
   <h4 id="MESL_SqlRace_Domain_SessionManager_ExportSessionWithNullTeamId_System_String_MAT_OCS_Core_SessionKey_" data-uid="MESL.SqlRace.Domain.SessionManager.ExportSessionWithNullTeamId(System.String,MAT.OCS.Core.SessionKey)">ExportSessionWithNullTeamId(String, SessionKey)</h4>
   <div class="markdown level1 summary"><p>The export session with null team id.</p>
@@ -3262,6 +3378,81 @@ public override IClientSession Load(SessionKey key, string connectionString, IEn
         <td><span class="xref">System.Security.Authentication.AuthenticationException</span></td>
         <td><p>Thrown if the SQL Race licence does not allow session loading or there is an issue with the licence (expired, not
 configured etc).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_SessionManager_Load_" data-uid="MESL.SqlRace.Domain.SessionManager.Load*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManager_Load_MAT_OCS_Core_SessionKey_System_String_System_Collections_Generic_IReadOnlyDictionary_MAT_OCS_Core_SessionKey_System_String__" data-uid="MESL.SqlRace.Domain.SessionManager.Load(MAT.OCS.Core.SessionKey,System.String,System.Collections.Generic.IReadOnlyDictionary{MAT.OCS.Core.SessionKey,System.String})">Load(SessionKey, String, IReadOnlyDictionary&lt;SessionKey, String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Loads a primary session and its associated sessions. The associated sessions will be
+loaded and their contents exposed through the primary session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IClientSession Load(SessionKey key, string connectionString, IReadOnlyDictionary&lt;SessionKey, string&gt; associateSessions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The session key of the primary session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>Connection string to the SQL Race database.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyDictionary</span>&lt;<a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a>, <span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">associateSessions</span></td>
+        <td><p>The additional session keys.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.IClientSession.html">IClientSession</a></td>
+        <td><p>The specified session with its associated sessions.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.SessionManagerBase.html#MESL_SqlRace_Domain_SessionManagerBase_Load_MAT_OCS_Core_SessionKey_System_String_System_Collections_Generic_IReadOnlyDictionary_MAT_OCS_Core_SessionKey_System_String__">SessionManagerBase.Load(SessionKey, String, IReadOnlyDictionary&lt;SessionKey, String&gt;)</a></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Authentication.AuthenticationException</span></td>
+        <td><p>Thrown if the SQL Race licence does not allow session loading or there is an
+issue with the licence (expired, not configured etc).</p>
 </td>
       </tr>
     </tbody>

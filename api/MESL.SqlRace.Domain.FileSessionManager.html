@@ -156,7 +156,63 @@ contained on the file system for indexing as SQL Race Sessions.</p>
     <tbody>
       <tr>
         <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
-        <td></td>
+        <td><p>SessionKey</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_FileSessionManager_ComputeLegacyKey_" data-uid="MESL.SqlRace.Domain.FileSessionManager.ComputeLegacyKey*"></a>
+  <h4 id="MESL_SqlRace_Domain_FileSessionManager_ComputeLegacyKey_System_String_System_UInt64_System_UInt64_" data-uid="MESL.SqlRace.Domain.FileSessionManager.ComputeLegacyKey(System.String,System.UInt64,System.UInt64)">ComputeLegacyKey(String, UInt64, UInt64)</h4>
+  <div class="markdown level1 summary"><p>Computes a Session Key Guid for a FileSession replicating MAT.SessionImportConsole algorithm</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SessionKey ComputeLegacyKey(string fileSessionPath, ulong startTime, ulong endTime)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileSessionPath</span></td>
+        <td><p>Path and filename to compute key for</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">startTime</span></td>
+        <td><p>Session Start time</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">endTime</span></td>
+        <td><p>Session End time</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a></td>
+        <td><p>SessionKey</p>
+</td>
       </tr>
     </tbody>
   </table>

@@ -126,8 +126,162 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public DatabaseConnectionManager()</code></pre>
   </div>
+  <h3 id="fields">Fields
+  </h3>
+  <h4 id="MESL_SqlRace_Domain_DatabaseConnectionManager_SqlStreamFolderDefaultName" data-uid="MESL.SqlRace.Domain.DatabaseConnectionManager.SqlStreamFolderDefaultName">SqlStreamFolderDefaultName</h4>
+  <div class="markdown level1 summary"><p>Sql Stream Folder Default Name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string SqlStreamFolderDefaultName = &quot;Filestreams&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
+  <a id="MESL_SqlRace_Domain_DatabaseConnectionManager_CanWriteToFolder_" data-uid="MESL.SqlRace.Domain.DatabaseConnectionManager.CanWriteToFolder*"></a>
+  <h4 id="MESL_SqlRace_Domain_DatabaseConnectionManager_CanWriteToFolder_System_String_" data-uid="MESL.SqlRace.Domain.DatabaseConnectionManager.CanWriteToFolder(System.String)">CanWriteToFolder(String)</h4>
+  <div class="markdown level1 summary"><p>Tests if a full folder name is writable</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool CanWriteToFolder(string path)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td><p>full folder name</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>true if the folder is writable</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_DatabaseConnectionManager_CreateSqliteConnectionStr_" data-uid="MESL.SqlRace.Domain.DatabaseConnectionManager.CreateSqliteConnectionStr*"></a>
+  <h4 id="MESL_SqlRace_Domain_DatabaseConnectionManager_CreateSqliteConnectionStr_System_String_" data-uid="MESL.SqlRace.Domain.DatabaseConnectionManager.CreateSqliteConnectionStr(System.String)">CreateSqliteConnectionStr(String)</h4>
+  <div class="markdown level1 summary"><p>Creates SQlite connection string from a full file name</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string CreateSqliteConnectionStr(string sqLiteFileName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sqLiteFileName</span></td>
+        <td><p>SQlite full file name</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>SQlite connection string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_DatabaseConnectionManager_CreateSqliteRootPath_" data-uid="MESL.SqlRace.Domain.DatabaseConnectionManager.CreateSqliteRootPath*"></a>
+  <h4 id="MESL_SqlRace_Domain_DatabaseConnectionManager_CreateSqliteRootPath_System_String_" data-uid="MESL.SqlRace.Domain.DatabaseConnectionManager.CreateSqliteRootPath(System.String)">CreateSqliteRootPath(String)</h4>
+  <div class="markdown level1 summary"><p>Creates SQlite RootPath from a full file name</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string CreateSqliteRootPath(string sqLiteFileName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sqLiteFileName</span></td>
+        <td><p>SQlite full file name</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>RootPath full folder name</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="MESL_SqlRace_Domain_DatabaseConnectionManager_GetCacheSize_" data-uid="MESL.SqlRace.Domain.DatabaseConnectionManager.GetCacheSize*"></a>
   <h4 id="MESL_SqlRace_Domain_DatabaseConnectionManager_GetCacheSize_System_String_" data-uid="MESL.SqlRace.Domain.DatabaseConnectionManager.GetCacheSize(System.String)">GetCacheSize(String)</h4>
   <div class="markdown level1 summary"><p>Get the cache size token from the connection string</p>
@@ -503,6 +657,55 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_DatabaseConnectionManager_GetSqliteFileNameFromConnectionStr_" data-uid="MESL.SqlRace.Domain.DatabaseConnectionManager.GetSqliteFileNameFromConnectionStr*"></a>
+  <h4 id="MESL_SqlRace_Domain_DatabaseConnectionManager_GetSqliteFileNameFromConnectionStr_System_String_System_Boolean__" data-uid="MESL.SqlRace.Domain.DatabaseConnectionManager.GetSqliteFileNameFromConnectionStr(System.String,System.Boolean@)">GetSqliteFileNameFromConnectionStr(String, out Boolean)</h4>
+  <div class="markdown level1 summary"><p>Converts SQlite connection string, if valid, to its full file name</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetSqliteFileNameFromConnectionStr(string connectionStr, out bool isSQlite)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionStr</span></td>
+        <td><p>SQlite connection string</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isSQlite</span></td>
+        <td><p>true if a valid SQlite connection string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>its full file name</p>
+</td>
       </tr>
     </tbody>
   </table>

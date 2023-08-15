@@ -10094,6 +10094,18 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.DatabaseConnection.IsDatabaseStoredRootPath
   fullName: MESL.SqlRace.Domain.DatabaseConnection.IsDatabaseStoredRootPath
   nameWithType: DatabaseConnection.IsDatabaseStoredRootPath
+- uid: MESL.SqlRace.Domain.DatabaseConnection.IsSqlite
+  name: IsSqlite
+  href: api/MESL.SqlRace.Domain.DatabaseConnection.html#MESL_SqlRace_Domain_DatabaseConnection_IsSqlite
+  commentId: P:MESL.SqlRace.Domain.DatabaseConnection.IsSqlite
+  fullName: MESL.SqlRace.Domain.DatabaseConnection.IsSqlite
+  nameWithType: DatabaseConnection.IsSqlite
+- uid: MESL.SqlRace.Domain.DatabaseConnection.IsSqlite*
+  name: IsSqlite
+  href: api/MESL.SqlRace.Domain.DatabaseConnection.html#MESL_SqlRace_Domain_DatabaseConnection_IsSqlite_
+  commentId: Overload:MESL.SqlRace.Domain.DatabaseConnection.IsSqlite
+  fullName: MESL.SqlRace.Domain.DatabaseConnection.IsSqlite
+  nameWithType: DatabaseConnection.IsSqlite
 - uid: MESL.SqlRace.Domain.DatabaseConnection.RootPath
   name: RootPath
   href: api/MESL.SqlRace.Domain.DatabaseConnection.html#MESL_SqlRace_Domain_DatabaseConnection_RootPath
@@ -10238,6 +10250,42 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.DatabaseConnectionManager.#ctor
   fullName: MESL.SqlRace.Domain.DatabaseConnectionManager.DatabaseConnectionManager
   nameWithType: DatabaseConnectionManager.DatabaseConnectionManager
+- uid: MESL.SqlRace.Domain.DatabaseConnectionManager.CanWriteToFolder(System.String)
+  name: CanWriteToFolder(String)
+  href: api/MESL.SqlRace.Domain.DatabaseConnectionManager.html#MESL_SqlRace_Domain_DatabaseConnectionManager_CanWriteToFolder_System_String_
+  commentId: M:MESL.SqlRace.Domain.DatabaseConnectionManager.CanWriteToFolder(System.String)
+  fullName: MESL.SqlRace.Domain.DatabaseConnectionManager.CanWriteToFolder(System.String)
+  nameWithType: DatabaseConnectionManager.CanWriteToFolder(String)
+- uid: MESL.SqlRace.Domain.DatabaseConnectionManager.CanWriteToFolder*
+  name: CanWriteToFolder
+  href: api/MESL.SqlRace.Domain.DatabaseConnectionManager.html#MESL_SqlRace_Domain_DatabaseConnectionManager_CanWriteToFolder_
+  commentId: Overload:MESL.SqlRace.Domain.DatabaseConnectionManager.CanWriteToFolder
+  fullName: MESL.SqlRace.Domain.DatabaseConnectionManager.CanWriteToFolder
+  nameWithType: DatabaseConnectionManager.CanWriteToFolder
+- uid: MESL.SqlRace.Domain.DatabaseConnectionManager.CreateSqliteConnectionStr(System.String)
+  name: CreateSqliteConnectionStr(String)
+  href: api/MESL.SqlRace.Domain.DatabaseConnectionManager.html#MESL_SqlRace_Domain_DatabaseConnectionManager_CreateSqliteConnectionStr_System_String_
+  commentId: M:MESL.SqlRace.Domain.DatabaseConnectionManager.CreateSqliteConnectionStr(System.String)
+  fullName: MESL.SqlRace.Domain.DatabaseConnectionManager.CreateSqliteConnectionStr(System.String)
+  nameWithType: DatabaseConnectionManager.CreateSqliteConnectionStr(String)
+- uid: MESL.SqlRace.Domain.DatabaseConnectionManager.CreateSqliteConnectionStr*
+  name: CreateSqliteConnectionStr
+  href: api/MESL.SqlRace.Domain.DatabaseConnectionManager.html#MESL_SqlRace_Domain_DatabaseConnectionManager_CreateSqliteConnectionStr_
+  commentId: Overload:MESL.SqlRace.Domain.DatabaseConnectionManager.CreateSqliteConnectionStr
+  fullName: MESL.SqlRace.Domain.DatabaseConnectionManager.CreateSqliteConnectionStr
+  nameWithType: DatabaseConnectionManager.CreateSqliteConnectionStr
+- uid: MESL.SqlRace.Domain.DatabaseConnectionManager.CreateSqliteRootPath(System.String)
+  name: CreateSqliteRootPath(String)
+  href: api/MESL.SqlRace.Domain.DatabaseConnectionManager.html#MESL_SqlRace_Domain_DatabaseConnectionManager_CreateSqliteRootPath_System_String_
+  commentId: M:MESL.SqlRace.Domain.DatabaseConnectionManager.CreateSqliteRootPath(System.String)
+  fullName: MESL.SqlRace.Domain.DatabaseConnectionManager.CreateSqliteRootPath(System.String)
+  nameWithType: DatabaseConnectionManager.CreateSqliteRootPath(String)
+- uid: MESL.SqlRace.Domain.DatabaseConnectionManager.CreateSqliteRootPath*
+  name: CreateSqliteRootPath
+  href: api/MESL.SqlRace.Domain.DatabaseConnectionManager.html#MESL_SqlRace_Domain_DatabaseConnectionManager_CreateSqliteRootPath_
+  commentId: Overload:MESL.SqlRace.Domain.DatabaseConnectionManager.CreateSqliteRootPath
+  fullName: MESL.SqlRace.Domain.DatabaseConnectionManager.CreateSqliteRootPath
+  nameWithType: DatabaseConnectionManager.CreateSqliteRootPath
 - uid: MESL.SqlRace.Domain.DatabaseConnectionManager.GetCacheSize(System.String)
   name: GetCacheSize(String)
   href: api/MESL.SqlRace.Domain.DatabaseConnectionManager.html#MESL_SqlRace_Domain_DatabaseConnectionManager_GetCacheSize_System_String_
@@ -10346,6 +10394,21 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.DatabaseConnectionManager.GetRootPathForConnectionString
   fullName: MESL.SqlRace.Domain.DatabaseConnectionManager.GetRootPathForConnectionString
   nameWithType: DatabaseConnectionManager.GetRootPathForConnectionString
+- uid: MESL.SqlRace.Domain.DatabaseConnectionManager.GetSqliteFileNameFromConnectionStr(System.String,System.Boolean@)
+  name: GetSqliteFileNameFromConnectionStr(String, out Boolean)
+  href: api/MESL.SqlRace.Domain.DatabaseConnectionManager.html#MESL_SqlRace_Domain_DatabaseConnectionManager_GetSqliteFileNameFromConnectionStr_System_String_System_Boolean__
+  commentId: M:MESL.SqlRace.Domain.DatabaseConnectionManager.GetSqliteFileNameFromConnectionStr(System.String,System.Boolean@)
+  name.vb: GetSqliteFileNameFromConnectionStr(String, ByRef Boolean)
+  fullName: MESL.SqlRace.Domain.DatabaseConnectionManager.GetSqliteFileNameFromConnectionStr(System.String, out System.Boolean)
+  fullName.vb: MESL.SqlRace.Domain.DatabaseConnectionManager.GetSqliteFileNameFromConnectionStr(System.String, ByRef System.Boolean)
+  nameWithType: DatabaseConnectionManager.GetSqliteFileNameFromConnectionStr(String, out Boolean)
+  nameWithType.vb: DatabaseConnectionManager.GetSqliteFileNameFromConnectionStr(String, ByRef Boolean)
+- uid: MESL.SqlRace.Domain.DatabaseConnectionManager.GetSqliteFileNameFromConnectionStr*
+  name: GetSqliteFileNameFromConnectionStr
+  href: api/MESL.SqlRace.Domain.DatabaseConnectionManager.html#MESL_SqlRace_Domain_DatabaseConnectionManager_GetSqliteFileNameFromConnectionStr_
+  commentId: Overload:MESL.SqlRace.Domain.DatabaseConnectionManager.GetSqliteFileNameFromConnectionStr
+  fullName: MESL.SqlRace.Domain.DatabaseConnectionManager.GetSqliteFileNameFromConnectionStr
+  nameWithType: DatabaseConnectionManager.GetSqliteFileNameFromConnectionStr
 - uid: MESL.SqlRace.Domain.DatabaseConnectionManager.GetSqliteSessionIndexingCacheConnection
   name: GetSqliteSessionIndexingCacheConnection()
   href: api/MESL.SqlRace.Domain.DatabaseConnectionManager.html#MESL_SqlRace_Domain_DatabaseConnectionManager_GetSqliteSessionIndexingCacheConnection
@@ -10414,6 +10477,12 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.DatabaseConnectionManager.SaveConnections
   fullName: MESL.SqlRace.Domain.DatabaseConnectionManager.SaveConnections
   nameWithType: DatabaseConnectionManager.SaveConnections
+- uid: MESL.SqlRace.Domain.DatabaseConnectionManager.SqlStreamFolderDefaultName
+  name: SqlStreamFolderDefaultName
+  href: api/MESL.SqlRace.Domain.DatabaseConnectionManager.html#MESL_SqlRace_Domain_DatabaseConnectionManager_SqlStreamFolderDefaultName
+  commentId: F:MESL.SqlRace.Domain.DatabaseConnectionManager.SqlStreamFolderDefaultName
+  fullName: MESL.SqlRace.Domain.DatabaseConnectionManager.SqlStreamFolderDefaultName
+  nameWithType: DatabaseConnectionManager.SqlStreamFolderDefaultName
 - uid: MESL.SqlRace.Domain.DatabaseConnectionManager.UpdateConnectionsList(System.Collections.Generic.IList{MESL.SqlRace.Domain.DatabaseConnection})
   name: UpdateConnectionsList(IList<DatabaseConnection>)
   href: api/MESL.SqlRace.Domain.DatabaseConnectionManager.html#MESL_SqlRace_Domain_DatabaseConnectionManager_UpdateConnectionsList_System_Collections_Generic_IList_MESL_SqlRace_Domain_DatabaseConnection__
@@ -11998,6 +12067,30 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.FileDrivers.DriverBase.GetNextSamples
   fullName: MESL.SqlRace.Domain.FileDrivers.DriverBase.GetNextSamples
   nameWithType: DriverBase.GetNextSamples
+- uid: MESL.SqlRace.Domain.FileDrivers.DriverBase.GetParameterApplicationGroup(System.String)
+  name: GetParameterApplicationGroup(String)
+  href: api/MESL.SqlRace.Domain.FileDrivers.DriverBase.html#MESL_SqlRace_Domain_FileDrivers_DriverBase_GetParameterApplicationGroup_System_String_
+  commentId: M:MESL.SqlRace.Domain.FileDrivers.DriverBase.GetParameterApplicationGroup(System.String)
+  fullName: MESL.SqlRace.Domain.FileDrivers.DriverBase.GetParameterApplicationGroup(System.String)
+  nameWithType: DriverBase.GetParameterApplicationGroup(String)
+- uid: MESL.SqlRace.Domain.FileDrivers.DriverBase.GetParameterApplicationGroup*
+  name: GetParameterApplicationGroup
+  href: api/MESL.SqlRace.Domain.FileDrivers.DriverBase.html#MESL_SqlRace_Domain_FileDrivers_DriverBase_GetParameterApplicationGroup_
+  commentId: Overload:MESL.SqlRace.Domain.FileDrivers.DriverBase.GetParameterApplicationGroup
+  fullName: MESL.SqlRace.Domain.FileDrivers.DriverBase.GetParameterApplicationGroup
+  nameWithType: DriverBase.GetParameterApplicationGroup
+- uid: MESL.SqlRace.Domain.FileDrivers.DriverBase.GetParameterApplicationGroupDescription(System.String)
+  name: GetParameterApplicationGroupDescription(String)
+  href: api/MESL.SqlRace.Domain.FileDrivers.DriverBase.html#MESL_SqlRace_Domain_FileDrivers_DriverBase_GetParameterApplicationGroupDescription_System_String_
+  commentId: M:MESL.SqlRace.Domain.FileDrivers.DriverBase.GetParameterApplicationGroupDescription(System.String)
+  fullName: MESL.SqlRace.Domain.FileDrivers.DriverBase.GetParameterApplicationGroupDescription(System.String)
+  nameWithType: DriverBase.GetParameterApplicationGroupDescription(String)
+- uid: MESL.SqlRace.Domain.FileDrivers.DriverBase.GetParameterApplicationGroupDescription*
+  name: GetParameterApplicationGroupDescription
+  href: api/MESL.SqlRace.Domain.FileDrivers.DriverBase.html#MESL_SqlRace_Domain_FileDrivers_DriverBase_GetParameterApplicationGroupDescription_
+  commentId: Overload:MESL.SqlRace.Domain.FileDrivers.DriverBase.GetParameterApplicationGroupDescription
+  fullName: MESL.SqlRace.Domain.FileDrivers.DriverBase.GetParameterApplicationGroupDescription
+  nameWithType: DriverBase.GetParameterApplicationGroupDescription
 - uid: MESL.SqlRace.Domain.FileDrivers.DriverBase.GetParameterDescription(System.String)
   name: GetParameterDescription(String)
   href: api/MESL.SqlRace.Domain.FileDrivers.DriverBase.html#MESL_SqlRace_Domain_FileDrivers_DriverBase_GetParameterDescription_System_String_
@@ -13168,6 +13261,18 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.FileSessionManager.ComputeGuidFor
   fullName: MESL.SqlRace.Domain.FileSessionManager.ComputeGuidFor
   nameWithType: FileSessionManager.ComputeGuidFor
+- uid: MESL.SqlRace.Domain.FileSessionManager.ComputeLegacyKey(System.String,System.UInt64,System.UInt64)
+  name: ComputeLegacyKey(String, UInt64, UInt64)
+  href: api/MESL.SqlRace.Domain.FileSessionManager.html#MESL_SqlRace_Domain_FileSessionManager_ComputeLegacyKey_System_String_System_UInt64_System_UInt64_
+  commentId: M:MESL.SqlRace.Domain.FileSessionManager.ComputeLegacyKey(System.String,System.UInt64,System.UInt64)
+  fullName: MESL.SqlRace.Domain.FileSessionManager.ComputeLegacyKey(System.String, System.UInt64, System.UInt64)
+  nameWithType: FileSessionManager.ComputeLegacyKey(String, UInt64, UInt64)
+- uid: MESL.SqlRace.Domain.FileSessionManager.ComputeLegacyKey*
+  name: ComputeLegacyKey
+  href: api/MESL.SqlRace.Domain.FileSessionManager.html#MESL_SqlRace_Domain_FileSessionManager_ComputeLegacyKey_
+  commentId: Overload:MESL.SqlRace.Domain.FileSessionManager.ComputeLegacyKey
+  fullName: MESL.SqlRace.Domain.FileSessionManager.ComputeLegacyKey
+  nameWithType: FileSessionManager.ComputeLegacyKey
 - uid: MESL.SqlRace.Domain.FileSessionManager.CreateFileSessionManager
   name: CreateFileSessionManager()
   href: api/MESL.SqlRace.Domain.FileSessionManager.html#MESL_SqlRace_Domain_FileSessionManager_CreateFileSessionManager
@@ -37557,6 +37662,21 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.SessionManager.ExportSession
   fullName: MESL.SqlRace.Domain.SessionManager.ExportSession
   nameWithType: SessionManager.ExportSession
+- uid: MESL.SqlRace.Domain.SessionManager.ExportSessionWithCustomTime(System.String,MAT.OCS.Core.SessionKey,System.String,System.Collections.Generic.IReadOnlyList{System.String},System.Collections.Generic.IReadOnlyList{System.Int32},System.Nullable{System.Int64},System.Nullable{System.Int64},System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.String)
+  name: ExportSessionWithCustomTime(String, SessionKey, String, IReadOnlyList<String>, IReadOnlyList<Int32>, Nullable<Int64>, Nullable<Int64>, Boolean, Boolean, Boolean, Boolean, Boolean, String)
+  href: api/MESL.SqlRace.Domain.SessionManager.html#MESL_SqlRace_Domain_SessionManager_ExportSessionWithCustomTime_System_String_MAT_OCS_Core_SessionKey_System_String_System_Collections_Generic_IReadOnlyList_System_String__System_Collections_Generic_IReadOnlyList_System_Int32__System_Nullable_System_Int64__System_Nullable_System_Int64__System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_String_
+  commentId: M:MESL.SqlRace.Domain.SessionManager.ExportSessionWithCustomTime(System.String,MAT.OCS.Core.SessionKey,System.String,System.Collections.Generic.IReadOnlyList{System.String},System.Collections.Generic.IReadOnlyList{System.Int32},System.Nullable{System.Int64},System.Nullable{System.Int64},System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.String)
+  name.vb: ExportSessionWithCustomTime(String, SessionKey, String, IReadOnlyList(Of String), IReadOnlyList(Of Int32), Nullable(Of Int64), Nullable(Of Int64), Boolean, Boolean, Boolean, Boolean, Boolean, String)
+  fullName: MESL.SqlRace.Domain.SessionManager.ExportSessionWithCustomTime(System.String, MAT.OCS.Core.SessionKey, System.String, System.Collections.Generic.IReadOnlyList<System.String>, System.Collections.Generic.IReadOnlyList<System.Int32>, System.Nullable<System.Int64>, System.Nullable<System.Int64>, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.String)
+  fullName.vb: MESL.SqlRace.Domain.SessionManager.ExportSessionWithCustomTime(System.String, MAT.OCS.Core.SessionKey, System.String, System.Collections.Generic.IReadOnlyList(Of System.String), System.Collections.Generic.IReadOnlyList(Of System.Int32), System.Nullable(Of System.Int64), System.Nullable(Of System.Int64), System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.String)
+  nameWithType: SessionManager.ExportSessionWithCustomTime(String, SessionKey, String, IReadOnlyList<String>, IReadOnlyList<Int32>, Nullable<Int64>, Nullable<Int64>, Boolean, Boolean, Boolean, Boolean, Boolean, String)
+  nameWithType.vb: SessionManager.ExportSessionWithCustomTime(String, SessionKey, String, IReadOnlyList(Of String), IReadOnlyList(Of Int32), Nullable(Of Int64), Nullable(Of Int64), Boolean, Boolean, Boolean, Boolean, Boolean, String)
+- uid: MESL.SqlRace.Domain.SessionManager.ExportSessionWithCustomTime*
+  name: ExportSessionWithCustomTime
+  href: api/MESL.SqlRace.Domain.SessionManager.html#MESL_SqlRace_Domain_SessionManager_ExportSessionWithCustomTime_
+  commentId: Overload:MESL.SqlRace.Domain.SessionManager.ExportSessionWithCustomTime
+  fullName: MESL.SqlRace.Domain.SessionManager.ExportSessionWithCustomTime
+  nameWithType: SessionManager.ExportSessionWithCustomTime
 - uid: MESL.SqlRace.Domain.SessionManager.ExportSessionWithNullTeamId(System.String,MAT.OCS.Core.SessionKey)
   name: ExportSessionWithNullTeamId(String, SessionKey)
   href: api/MESL.SqlRace.Domain.SessionManager.html#MESL_SqlRace_Domain_SessionManager_ExportSessionWithNullTeamId_System_String_MAT_OCS_Core_SessionKey_
@@ -37905,6 +38025,15 @@ references:
   fullName.vb: MESL.SqlRace.Domain.SessionManager.Load(MAT.OCS.Core.SessionKey, System.String, System.Collections.Generic.IEnumerable(Of System.String), MESL.SqlRace.Domain.SessionChildItemsToLoad)
   nameWithType: SessionManager.Load(SessionKey, String, IEnumerable<String>, SessionChildItemsToLoad)
   nameWithType.vb: SessionManager.Load(SessionKey, String, IEnumerable(Of String), SessionChildItemsToLoad)
+- uid: MESL.SqlRace.Domain.SessionManager.Load(MAT.OCS.Core.SessionKey,System.String,System.Collections.Generic.IReadOnlyDictionary{MAT.OCS.Core.SessionKey,System.String})
+  name: Load(SessionKey, String, IReadOnlyDictionary<SessionKey, String>)
+  href: api/MESL.SqlRace.Domain.SessionManager.html#MESL_SqlRace_Domain_SessionManager_Load_MAT_OCS_Core_SessionKey_System_String_System_Collections_Generic_IReadOnlyDictionary_MAT_OCS_Core_SessionKey_System_String__
+  commentId: M:MESL.SqlRace.Domain.SessionManager.Load(MAT.OCS.Core.SessionKey,System.String,System.Collections.Generic.IReadOnlyDictionary{MAT.OCS.Core.SessionKey,System.String})
+  name.vb: Load(SessionKey, String, IReadOnlyDictionary(Of SessionKey, String))
+  fullName: MESL.SqlRace.Domain.SessionManager.Load(MAT.OCS.Core.SessionKey, System.String, System.Collections.Generic.IReadOnlyDictionary<MAT.OCS.Core.SessionKey, System.String>)
+  fullName.vb: MESL.SqlRace.Domain.SessionManager.Load(MAT.OCS.Core.SessionKey, System.String, System.Collections.Generic.IReadOnlyDictionary(Of MAT.OCS.Core.SessionKey, System.String))
+  nameWithType: SessionManager.Load(SessionKey, String, IReadOnlyDictionary<SessionKey, String>)
+  nameWithType.vb: SessionManager.Load(SessionKey, String, IReadOnlyDictionary(Of SessionKey, String))
 - uid: MESL.SqlRace.Domain.SessionManager.Load*
   name: Load
   href: api/MESL.SqlRace.Domain.SessionManager.html#MESL_SqlRace_Domain_SessionManager_Load_
@@ -38327,6 +38456,21 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.SessionManagerBase.ExportSession
   fullName: MESL.SqlRace.Domain.SessionManagerBase.ExportSession
   nameWithType: SessionManagerBase.ExportSession
+- uid: MESL.SqlRace.Domain.SessionManagerBase.ExportSessionWithCustomTime(System.String,MAT.OCS.Core.SessionKey,System.String,System.Collections.Generic.IReadOnlyList{System.String},System.Collections.Generic.IReadOnlyList{System.Int32},System.Nullable{System.Int64},System.Nullable{System.Int64},System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.String)
+  name: ExportSessionWithCustomTime(String, SessionKey, String, IReadOnlyList<String>, IReadOnlyList<Int32>, Nullable<Int64>, Nullable<Int64>, Boolean, Boolean, Boolean, Boolean, Boolean, String)
+  href: api/MESL.SqlRace.Domain.SessionManagerBase.html#MESL_SqlRace_Domain_SessionManagerBase_ExportSessionWithCustomTime_System_String_MAT_OCS_Core_SessionKey_System_String_System_Collections_Generic_IReadOnlyList_System_String__System_Collections_Generic_IReadOnlyList_System_Int32__System_Nullable_System_Int64__System_Nullable_System_Int64__System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_String_
+  commentId: M:MESL.SqlRace.Domain.SessionManagerBase.ExportSessionWithCustomTime(System.String,MAT.OCS.Core.SessionKey,System.String,System.Collections.Generic.IReadOnlyList{System.String},System.Collections.Generic.IReadOnlyList{System.Int32},System.Nullable{System.Int64},System.Nullable{System.Int64},System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.String)
+  name.vb: ExportSessionWithCustomTime(String, SessionKey, String, IReadOnlyList(Of String), IReadOnlyList(Of Int32), Nullable(Of Int64), Nullable(Of Int64), Boolean, Boolean, Boolean, Boolean, Boolean, String)
+  fullName: MESL.SqlRace.Domain.SessionManagerBase.ExportSessionWithCustomTime(System.String, MAT.OCS.Core.SessionKey, System.String, System.Collections.Generic.IReadOnlyList<System.String>, System.Collections.Generic.IReadOnlyList<System.Int32>, System.Nullable<System.Int64>, System.Nullable<System.Int64>, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.String)
+  fullName.vb: MESL.SqlRace.Domain.SessionManagerBase.ExportSessionWithCustomTime(System.String, MAT.OCS.Core.SessionKey, System.String, System.Collections.Generic.IReadOnlyList(Of System.String), System.Collections.Generic.IReadOnlyList(Of System.Int32), System.Nullable(Of System.Int64), System.Nullable(Of System.Int64), System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.String)
+  nameWithType: SessionManagerBase.ExportSessionWithCustomTime(String, SessionKey, String, IReadOnlyList<String>, IReadOnlyList<Int32>, Nullable<Int64>, Nullable<Int64>, Boolean, Boolean, Boolean, Boolean, Boolean, String)
+  nameWithType.vb: SessionManagerBase.ExportSessionWithCustomTime(String, SessionKey, String, IReadOnlyList(Of String), IReadOnlyList(Of Int32), Nullable(Of Int64), Nullable(Of Int64), Boolean, Boolean, Boolean, Boolean, Boolean, String)
+- uid: MESL.SqlRace.Domain.SessionManagerBase.ExportSessionWithCustomTime*
+  name: ExportSessionWithCustomTime
+  href: api/MESL.SqlRace.Domain.SessionManagerBase.html#MESL_SqlRace_Domain_SessionManagerBase_ExportSessionWithCustomTime_
+  commentId: Overload:MESL.SqlRace.Domain.SessionManagerBase.ExportSessionWithCustomTime
+  fullName: MESL.SqlRace.Domain.SessionManagerBase.ExportSessionWithCustomTime
+  nameWithType: SessionManagerBase.ExportSessionWithCustomTime
 - uid: MESL.SqlRace.Domain.SessionManagerBase.ExportSessionWithNullTeamId(System.String,MAT.OCS.Core.SessionKey,System.String)
   name: ExportSessionWithNullTeamId(String, SessionKey, String)
   href: api/MESL.SqlRace.Domain.SessionManagerBase.html#MESL_SqlRace_Domain_SessionManagerBase_ExportSessionWithNullTeamId_System_String_MAT_OCS_Core_SessionKey_System_String_
@@ -38561,6 +38705,15 @@ references:
   fullName.vb: MESL.SqlRace.Domain.SessionManagerBase.Load(MAT.OCS.Core.SessionKey, System.String, System.Collections.Generic.IEnumerable(Of System.String), MESL.SqlRace.Domain.SessionChildItemsToLoad)
   nameWithType: SessionManagerBase.Load(SessionKey, String, IEnumerable<String>, SessionChildItemsToLoad)
   nameWithType.vb: SessionManagerBase.Load(SessionKey, String, IEnumerable(Of String), SessionChildItemsToLoad)
+- uid: MESL.SqlRace.Domain.SessionManagerBase.Load(MAT.OCS.Core.SessionKey,System.String,System.Collections.Generic.IReadOnlyDictionary{MAT.OCS.Core.SessionKey,System.String})
+  name: Load(SessionKey, String, IReadOnlyDictionary<SessionKey, String>)
+  href: api/MESL.SqlRace.Domain.SessionManagerBase.html#MESL_SqlRace_Domain_SessionManagerBase_Load_MAT_OCS_Core_SessionKey_System_String_System_Collections_Generic_IReadOnlyDictionary_MAT_OCS_Core_SessionKey_System_String__
+  commentId: M:MESL.SqlRace.Domain.SessionManagerBase.Load(MAT.OCS.Core.SessionKey,System.String,System.Collections.Generic.IReadOnlyDictionary{MAT.OCS.Core.SessionKey,System.String})
+  name.vb: Load(SessionKey, String, IReadOnlyDictionary(Of SessionKey, String))
+  fullName: MESL.SqlRace.Domain.SessionManagerBase.Load(MAT.OCS.Core.SessionKey, System.String, System.Collections.Generic.IReadOnlyDictionary<MAT.OCS.Core.SessionKey, System.String>)
+  fullName.vb: MESL.SqlRace.Domain.SessionManagerBase.Load(MAT.OCS.Core.SessionKey, System.String, System.Collections.Generic.IReadOnlyDictionary(Of MAT.OCS.Core.SessionKey, System.String))
+  nameWithType: SessionManagerBase.Load(SessionKey, String, IReadOnlyDictionary<SessionKey, String>)
+  nameWithType.vb: SessionManagerBase.Load(SessionKey, String, IReadOnlyDictionary(Of SessionKey, String))
 - uid: MESL.SqlRace.Domain.SessionManagerBase.Load*
   name: Load
   href: api/MESL.SqlRace.Domain.SessionManagerBase.html#MESL_SqlRace_Domain_SessionManagerBase_Load_
@@ -40052,18 +40205,6 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.SqliteDatabaseConnection.NonFriendlyIdentifier
   fullName: MESL.SqlRace.Domain.SqliteDatabaseConnection.NonFriendlyIdentifier
   nameWithType: SqliteDatabaseConnection.NonFriendlyIdentifier
-- uid: MESL.SqlRace.Domain.SqliteDatabaseConnection.RootPath
-  name: RootPath
-  href: api/MESL.SqlRace.Domain.SqliteDatabaseConnection.html#MESL_SqlRace_Domain_SqliteDatabaseConnection_RootPath
-  commentId: P:MESL.SqlRace.Domain.SqliteDatabaseConnection.RootPath
-  fullName: MESL.SqlRace.Domain.SqliteDatabaseConnection.RootPath
-  nameWithType: SqliteDatabaseConnection.RootPath
-- uid: MESL.SqlRace.Domain.SqliteDatabaseConnection.RootPath*
-  name: RootPath
-  href: api/MESL.SqlRace.Domain.SqliteDatabaseConnection.html#MESL_SqlRace_Domain_SqliteDatabaseConnection_RootPath_
-  commentId: Overload:MESL.SqlRace.Domain.SqliteDatabaseConnection.RootPath
-  fullName: MESL.SqlRace.Domain.SqliteDatabaseConnection.RootPath
-  nameWithType: SqliteDatabaseConnection.RootPath
 - uid: MESL.SqlRace.Domain.SqliteDatabaseConnection.TestFilestreamAccess(MESL.SqlRace.Domain.ConnectionInformationBase,System.String,System.Boolean)
   name: TestFilestreamAccess(ConnectionInformationBase, String, Boolean)
   href: api/MESL.SqlRace.Domain.SqliteDatabaseConnection.html#MESL_SqlRace_Domain_SqliteDatabaseConnection_TestFilestreamAccess_MESL_SqlRace_Domain_ConnectionInformationBase_System_String_System_Boolean_
