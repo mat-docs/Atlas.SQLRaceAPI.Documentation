@@ -86,35 +86,11 @@
     <div><a class="xref" href="MESL.SqlRace.Domain.ICompositeContainerParameterDataAccess.html">ICompositeContainerParameterDataAccess</a></div>
     <div><span class="xref">System.IDisposable</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.html">MESL.SqlRace.Domain</a></h6>
   <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
   <h5 id="MESL_SqlRace_Domain_CompositeContainerParameterDataAccess_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CompositeContainerParameterDataAccess : ICompositeContainerParameterDataAccess, IDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public class CompositeContainerParameterDataAccess : Object, ICompositeContainerParameterDataAccess, IDisposable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -371,7 +347,7 @@ If this value is not set then the default sample time is 100Hz (10,000,000 ns).<
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void Finalize()</code></pre>
   </div>
   <a id="MESL_SqlRace_Domain_CompositeContainerParameterDataAccess_GetDataStatistics_" data-uid="MESL.SqlRace.Domain.CompositeContainerParameterDataAccess.GetDataStatistics*"></a>
   <h4 id="MESL_SqlRace_Domain_CompositeContainerParameterDataAccess_GetDataStatistics_System_Int64_System_Int64_System_Boolean_MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_System_Boolean_" data-uid="MESL.SqlRace.Domain.CompositeContainerParameterDataAccess.GetDataStatistics(System.Int64,System.Int64,System.Boolean,MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption,System.Boolean)">GetDataStatistics(Int64, Int64, Boolean, StatisticOption, Boolean)</h4>
@@ -591,8 +567,7 @@ Uses timestamps provided for each secondary session rather than relying on SQLRa
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use member returning ParameterValues instead&quot;)]
-public void GetNextData(int numberOfSamples, SampleModeType sampleMode, bool interpolate, ref Dictionary&lt;CompositeSessionKey, double[]&gt; data, ref Dictionary&lt;CompositeSessionKey, DataStatusType[]&gt; status)</code></pre>
+    <pre><code class="lang-csharp hljs">public void GetNextData(int numberOfSamples, SampleModeType sampleMode, bool interpolate, ref Dictionary&lt;CompositeSessionKey, double[]&gt; data, ref Dictionary&lt;CompositeSessionKey, DataStatusType[]&gt; status)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -647,8 +622,7 @@ sampler.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use member returning ParameterValues instead&quot;)]
-public void GetNextData(int numberOfSamples, bool interpolate, ref Dictionary&lt;CompositeSessionKey, MinimumMaximumMeanDouble[]&gt; minimumMaximumMeanValues, ref Dictionary&lt;CompositeSessionKey, DataStatusType[]&gt; status)</code></pre>
+    <pre><code class="lang-csharp hljs">public void GetNextData(int numberOfSamples, bool interpolate, ref Dictionary&lt;CompositeSessionKey, MinimumMaximumMeanDouble[]&gt; minimumMaximumMeanValues, ref Dictionary&lt;CompositeSessionKey, DataStatusType[]&gt; status)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -697,8 +671,7 @@ On completion of this call, the <a class="xref" href="MESL.SqlRace.Domain.ICompo
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use member returning ParameterValues instead&quot;)]
-public void GetNextData(int numberOfSamples, bool interpolate, ref Dictionary&lt;CompositeSessionKey, double[]&gt; minimumValues, ref Dictionary&lt;CompositeSessionKey, double[]&gt; maximumValues, ref Dictionary&lt;CompositeSessionKey, DataStatusType[]&gt; status)</code></pre>
+    <pre><code class="lang-csharp hljs">public void GetNextData(int numberOfSamples, bool interpolate, ref Dictionary&lt;CompositeSessionKey, double[]&gt; minimumValues, ref Dictionary&lt;CompositeSessionKey, double[]&gt; maximumValues, ref Dictionary&lt;CompositeSessionKey, DataStatusType[]&gt; status)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -752,8 +725,7 @@ public void GetNextData(int numberOfSamples, bool interpolate, ref Dictionary&lt
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use member returning ParameterValues instead&quot;)]
-public void GetNextData(int numberOfSamples, ref Dictionary&lt;CompositeSessionKey, double[]&gt; data, ref Dictionary&lt;CompositeSessionKey, DataStatusType[]&gt; status)</code></pre>
+    <pre><code class="lang-csharp hljs">public void GetNextData(int numberOfSamples, ref Dictionary&lt;CompositeSessionKey, double[]&gt; data, ref Dictionary&lt;CompositeSessionKey, DataStatusType[]&gt; status)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -796,8 +768,7 @@ On completion of this call, the <a class="xref" href="MESL.SqlRace.Domain.ICompo
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use member returning ParameterValues instead&quot;)]
-public void GetNextData(int numberOfSamples, ref Dictionary&lt;CompositeSessionKey, double[]&gt; minimumValues, ref Dictionary&lt;CompositeSessionKey, double[]&gt; maximumValues, ref Dictionary&lt;CompositeSessionKey, DataStatusType[]&gt; status)</code></pre>
+    <pre><code class="lang-csharp hljs">public void GetNextData(int numberOfSamples, ref Dictionary&lt;CompositeSessionKey, double[]&gt; minimumValues, ref Dictionary&lt;CompositeSessionKey, double[]&gt; maximumValues, ref Dictionary&lt;CompositeSessionKey, DataStatusType[]&gt; status)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -945,8 +916,7 @@ On completion of this call, the <a class="xref" href="MESL.SqlRace.Domain.ICompo
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use member returning ParameterValues instead&quot;)]
-public void GetNextData(long[] sampleTimestamps, SampleModeType sampleMode, bool interpolate, ref Dictionary&lt;CompositeSessionKey, double[]&gt; data, ref Dictionary&lt;CompositeSessionKey, DataStatusType[]&gt; status)</code></pre>
+    <pre><code class="lang-csharp hljs">public void GetNextData(long[] sampleTimestamps, SampleModeType sampleMode, bool interpolate, ref Dictionary&lt;CompositeSessionKey, double[]&gt; data, ref Dictionary&lt;CompositeSessionKey, DataStatusType[]&gt; status)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1046,8 +1016,7 @@ Allows SQLRace to apply offsets for secondary sessions</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use member returning ParameterValues instead&quot;)]
-public void GetNextData(long[] timestamps, bool interpolate, ref Dictionary&lt;CompositeSessionKey, double[]&gt; minimumValues, ref Dictionary&lt;CompositeSessionKey, double[]&gt; maximumValues, ref Dictionary&lt;CompositeSessionKey, DataStatusType[]&gt; status)</code></pre>
+    <pre><code class="lang-csharp hljs">public void GetNextData(long[] timestamps, bool interpolate, ref Dictionary&lt;CompositeSessionKey, double[]&gt; minimumValues, ref Dictionary&lt;CompositeSessionKey, double[]&gt; maximumValues, ref Dictionary&lt;CompositeSessionKey, DataStatusType[]&gt; status)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1098,8 +1067,7 @@ public void GetNextData(long[] timestamps, bool interpolate, ref Dictionary&lt;C
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use member returning ParameterValues instead&quot;)]
-public void GetNextData(long[] sampleTimestamps, ref Dictionary&lt;CompositeSessionKey, double[]&gt; data, ref Dictionary&lt;CompositeSessionKey, DataStatusType[]&gt; status)</code></pre>
+    <pre><code class="lang-csharp hljs">public void GetNextData(long[] sampleTimestamps, ref Dictionary&lt;CompositeSessionKey, double[]&gt; data, ref Dictionary&lt;CompositeSessionKey, DataStatusType[]&gt; status)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1185,8 +1153,7 @@ NOTE: This method does not deal with Single Lap compare</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use member returning ParameterValues instead&quot;)]
-public int[] GetNextSamples(int numberOfSamples, ref Dictionary&lt;CompositeSessionKey, double[]&gt; data, ref Dictionary&lt;CompositeSessionKey, DataStatusType[]&gt; status, ref Dictionary&lt;CompositeSessionKey, long[]&gt; time)</code></pre>
+    <pre><code class="lang-csharp hljs">public int[] GetNextSamples(int numberOfSamples, ref Dictionary&lt;CompositeSessionKey, double[]&gt; data, ref Dictionary&lt;CompositeSessionKey, DataStatusType[]&gt; status, ref Dictionary&lt;CompositeSessionKey, long[]&gt; time)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1296,8 +1263,7 @@ public int[] GetNextSamples(int numberOfSamples, ref Dictionary&lt;CompositeSess
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use member returning ParameterValues instead&quot;)]
-public int[] GetNextSamples(long endTime, ref Dictionary&lt;CompositeSessionKey, double[]&gt; data, ref Dictionary&lt;CompositeSessionKey, DataStatusType[]&gt; status, ref Dictionary&lt;CompositeSessionKey, long[]&gt; time)</code></pre>
+    <pre><code class="lang-csharp hljs">public int[] GetNextSamples(long endTime, ref Dictionary&lt;CompositeSessionKey, double[]&gt; data, ref Dictionary&lt;CompositeSessionKey, DataStatusType[]&gt; status, ref Dictionary&lt;CompositeSessionKey, long[]&gt; time)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1402,8 +1368,7 @@ NOTE: This method does not deal with Single Lap compare</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use member returning ParameterValues instead&quot;)]
-public int[] GetPreviousSamples(int numberOfSamples, ref Dictionary&lt;CompositeSessionKey, double[]&gt; data, ref Dictionary&lt;CompositeSessionKey, DataStatusType[]&gt; status, ref Dictionary&lt;CompositeSessionKey, long[]&gt; time)</code></pre>
+    <pre><code class="lang-csharp hljs">public int[] GetPreviousSamples(int numberOfSamples, ref Dictionary&lt;CompositeSessionKey, double[]&gt; data, ref Dictionary&lt;CompositeSessionKey, DataStatusType[]&gt; status, ref Dictionary&lt;CompositeSessionKey, long[]&gt; time)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1508,8 +1473,7 @@ NOTE: This method does not deal with Single Lap compare</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use member returning ParameterValues instead&quot;)]
-public int[] GetPreviousSamples(long endTime, ref Dictionary&lt;CompositeSessionKey, double[]&gt; data, ref Dictionary&lt;CompositeSessionKey, DataStatusType[]&gt; status, ref Dictionary&lt;CompositeSessionKey, long[]&gt; time)</code></pre>
+    <pre><code class="lang-csharp hljs">public int[] GetPreviousSamples(long endTime, ref Dictionary&lt;CompositeSessionKey, double[]&gt; data, ref Dictionary&lt;CompositeSessionKey, DataStatusType[]&gt; status, ref Dictionary&lt;CompositeSessionKey, long[]&gt; time)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1570,8 +1534,7 @@ public int[] GetPreviousSamples(long endTime, ref Dictionary&lt;CompositeSession
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use member returning ParameterValues instead&quot;)]
-public int[] GetSamples(int maximumNumberOfSamples, long startTimeStamp, long endTimeStamp, ref Dictionary&lt;CompositeSessionKey, double[]&gt; data, ref Dictionary&lt;CompositeSessionKey, DataStatusType[]&gt; status, ref Dictionary&lt;CompositeSessionKey, long[]&gt; time)</code></pre>
+    <pre><code class="lang-csharp hljs">public int[] GetSamples(int maximumNumberOfSamples, long startTimeStamp, long endTimeStamp, ref Dictionary&lt;CompositeSessionKey, double[]&gt; data, ref Dictionary&lt;CompositeSessionKey, DataStatusType[]&gt; status, ref Dictionary&lt;CompositeSessionKey, long[]&gt; time)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1644,7 +1607,7 @@ public int[] GetSamples(int maximumNumberOfSamples, long startTimeStamp, long en
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Dictionary&lt;CompositeSessionKey, Dictionary&lt;SessionKey, long?&gt;&gt; GetSamplesCount(long startTimeStamp, long endTimeStamp)</code></pre>
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;CompositeSessionKey, Dictionary&lt;SessionKey, Nullable&lt;long&gt;&gt;&gt; GetSamplesCount(long startTimeStamp, long endTimeStamp)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1694,7 +1657,7 @@ If the return value is zero means that was impossible to calculate the sample co
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Dictionary&lt;CompositeSessionKey, Dictionary&lt;SessionKey, long?&gt;&gt; GetSamplesCountEstimate(long startTimeStamp, long endTimeStamp)</code></pre>
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;CompositeSessionKey, Dictionary&lt;SessionKey, Nullable&lt;long&gt;&gt;&gt; GetSamplesCountEstimate(long startTimeStamp, long endTimeStamp)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

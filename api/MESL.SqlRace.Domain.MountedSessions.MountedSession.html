@@ -97,35 +97,11 @@
     <div><a class="xref" href="MESL.SqlRace.Domain.MountedSessions.IMountedEventsPageSource.html">IMountedEventsPageSource</a></div>
     <div><a class="xref" href="MESL.SqlRace.Domain.MountedSessions.IMountedDataPageSource.html">IMountedDataPageSource</a></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.MountedSessions.html">MESL.SqlRace.Domain.MountedSessions</a></h6>
   <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
   <h5 id="MESL_SqlRace_Domain_MountedSessions_MountedSession_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class MountedSession : IMountedEventsPageSource, IMountedDataPageSource</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class MountedSession : Object, IMountedEventsPageSource, IMountedDataPageSource</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -136,7 +112,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected MountedSession(string identifier, DateTimeOffset timestamp, long epoch, string type, uint? ownerId)</code></pre>
+    <pre><code class="lang-csharp hljs">protected MountedSession(string identifier, DateTimeOffset timestamp, long epoch, string type, Nullable&lt;uint&gt; ownerId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -417,7 +393,7 @@ that there are differences between the configuration definitions.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public uint? OwnerId { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Nullable&lt;uint&gt; OwnerId { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -467,7 +443,7 @@ that there are differences between the configuration definitions.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual TimeRange? TimeRange { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual Nullable&lt;TimeRange&gt; TimeRange { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -717,7 +693,7 @@ and fires <a class="xref" href="MESL.SqlRace.Domain.MountedSessions.MountedSessi
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual TimeRange? GetDataTimeRange(uint channelId)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual Nullable&lt;TimeRange&gt; GetDataTimeRange(uint channelId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1030,7 +1006,7 @@ and fires <a class="xref" href="MESL.SqlRace.Domain.MountedSessions.MountedSessi
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual IEnumerable&lt;IMountedDataPage&gt; ReadPagedData(uint channelId, ReadDirection pagingDirection, long? startTime, long? endTime)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual IEnumerable&lt;IMountedDataPage&gt; ReadPagedData(uint channelId, ReadDirection pagingDirection, Nullable&lt;long&gt; startTime, Nullable&lt;long&gt; endTime)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1091,7 +1067,7 @@ and fires <a class="xref" href="MESL.SqlRace.Domain.MountedSessions.MountedSessi
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual IEnumerable&lt;IMountedEventsPage&gt; ReadPagedEvents(ReadDirection pagingDirection, long? startTime, long? endTime)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual IEnumerable&lt;IMountedEventsPage&gt; ReadPagedEvents(ReadDirection pagingDirection, Nullable&lt;long&gt; startTime, Nullable&lt;long&gt; endTime)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

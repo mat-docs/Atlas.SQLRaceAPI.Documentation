@@ -75,12 +75,6 @@
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.IDisposable.Dispose()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.html">MESL.SqlRace.Domain</a></h6>
   <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
   <h5 id="MESL_SqlRace_Domain_IParameterDataAccess_syntax">Syntax</h5>
@@ -96,7 +90,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">long? CurrentTime { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">Nullable&lt;long&gt; CurrentTime { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -123,7 +117,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">ParameterValues GetNextSamples(int numberOfSamples, StepDirection direction = StepDirection.Forward, ParameterValuesTemplate template = null)</code></pre>
+    <pre><code class="lang-csharp hljs">ParameterValues GetNextSamples(int numberOfSamples, StepDirection direction, ParameterValuesTemplate template = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

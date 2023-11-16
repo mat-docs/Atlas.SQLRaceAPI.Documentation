@@ -82,27 +82,6 @@
     <div class="level1"><a class="xref" href="MESL.SqlRace.Domain.EntityBase.html">EntityBase</a></div>
     <div class="level2"><span class="xref">Marker</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.html">MESL.SqlRace.Domain</a></h6>
   <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
   <h5 id="MESL_SqlRace_Domain_Marker_syntax">Syntax</h5>
@@ -199,7 +178,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Marker(long? startTimestamp, long? endTimestamp, string label, string markerType, string description, string guid = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public Marker(Nullable&lt;long&gt; startTimestamp, Nullable&lt;long&gt; endTimestamp, string label, string markerType, string description, string guid = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -322,7 +301,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public long? EndTimestamp { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Nullable&lt;long&gt; EndTimestamp { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -335,6 +314,30 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int64</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Marker_IsTransient_" data-uid="MESL.SqlRace.Domain.Marker.IsTransient*"></a>
+  <h4 id="MESL_SqlRace_Domain_Marker_IsTransient" data-uid="MESL.SqlRace.Domain.Marker.IsTransient">IsTransient</h4>
+  <div class="markdown level1 summary"><p>Gets the value of IsTransient property; sets it privately</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsTransient { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -442,7 +445,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public long? StartTimestamp { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Nullable&lt;long&gt; StartTimestamp { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -488,6 +491,72 @@
       </tr>
     </tbody>
   </table>
+  <a id="MESL_SqlRace_Domain_Marker_CreateTransientMarker_" data-uid="MESL.SqlRace.Domain.Marker.CreateTransientMarker*"></a>
+  <h4 id="MESL_SqlRace_Domain_Marker_CreateTransientMarker_System_Nullable_System_Int64__System_Nullable_System_Int64__System_String_System_String_System_String_System_String_" data-uid="MESL.SqlRace.Domain.Marker.CreateTransientMarker(System.Nullable{System.Int64},System.Nullable{System.Int64},System.String,System.String,System.String,System.String)">CreateTransientMarker(Nullable&lt;Int64&gt;, Nullable&lt;Int64&gt;, String, String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Creates a new instance of the <a class="xref" href="MESL.SqlRace.Domain.Marker.html">Marker</a> class to create Transient Marker</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Marker CreateTransientMarker(Nullable&lt;long&gt; startTimestamp, Nullable&lt;long&gt; endTimestamp, string label, string markerType, string description, string guid = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int64</span>&gt;</td>
+        <td><span class="parametername">startTimestamp</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int64</span>&gt;</td>
+        <td><span class="parametername">endTimestamp</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">label</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">markerType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">description</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">guid</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Marker.html">Marker</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <a id="MESL_SqlRace_Domain_Marker_ToString_" data-uid="MESL.SqlRace.Domain.Marker.ToString*"></a>
   <h4 id="MESL_SqlRace_Domain_Marker_ToString" data-uid="MESL.SqlRace.Domain.Marker.ToString">ToString()</h4>
   <div class="markdown level1 summary"><p>Returns a <span class="xref">System.String</span> that represents this instance.</p>
@@ -513,8 +582,31 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Object.ToString()</span></div>
+  <a id="MESL_SqlRace_Domain_Marker_ToStringWithTransient_" data-uid="MESL.SqlRace.Domain.Marker.ToStringWithTransient*"></a>
+  <h4 id="MESL_SqlRace_Domain_Marker_ToStringWithTransient" data-uid="MESL.SqlRace.Domain.Marker.ToStringWithTransient">ToStringWithTransient()</h4>
+  <div class="markdown level1 summary"><p>Returns a <span class="xref">System.String</span> that represents this instance which includes the value of IsTransient.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ToStringWithTransient()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A <span class="xref">System.String</span> that represents this instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

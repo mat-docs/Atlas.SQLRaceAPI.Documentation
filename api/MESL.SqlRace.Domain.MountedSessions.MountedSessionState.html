@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Enum MountedSessionState
+    <title>Class MountedSessionState
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Enum MountedSessionState
+    <meta name="title" content="Class MountedSessionState
    ">
     <meta name="generator" content="docfx 2.56.2.0">
     
@@ -71,51 +71,140 @@
             <article class="content wrap" id="_content" data-uid="MESL.SqlRace.Domain.MountedSessions.MountedSessionState">
   
   
-  <h1 id="MESL_SqlRace_Domain_MountedSessions_MountedSessionState" data-uid="MESL.SqlRace.Domain.MountedSessions.MountedSessionState" class="text-break">Enum MountedSessionState
+  <h1 id="MESL_SqlRace_Domain_MountedSessions_MountedSessionState" data-uid="MESL.SqlRace.Domain.MountedSessions.MountedSessionState" class="text-break">Class MountedSessionState
   </h1>
   <div class="markdown level0 summary"><p>Represents the state of a mounted session.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">MountedSessionState</span></div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.MountedSessions.html">MESL.SqlRace.Domain.MountedSessions</a></h6>
   <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
   <h5 id="MESL_SqlRace_Domain_MountedSessions_MountedSessionState_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public enum MountedSessionState</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class MountedSessionState : Enum</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
+  <h4 id="MESL_SqlRace_Domain_MountedSessions_MountedSessionState_Closed" data-uid="MESL.SqlRace.Domain.MountedSessions.MountedSessionState.Closed">Closed</h4>
+  <div class="markdown level1 summary"><p>Session is closed. All data in the session is stable. Change events
+may still be fired as data is lazy-loaded.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const MountedSessionState Closed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type</th>
         <th>Description</th>
       </tr>
-    <thead>
+    </thead>
     <tbody>
       <tr>
-        <td id="MESL_SqlRace_Domain_MountedSessions_MountedSessionState_Closed">Closed</td>
-        <td><p>Session is closed. All data in the session is stable. Change events
-may still be fired as data is lazy-loaded.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_MountedSessions_MountedSessionState_Empty">Empty</td>
-        <td><p>Session exists but currently contains no data.
-Expect <a class="xref" href="MESL.SqlRace.Domain.MountedSessions.MountedSession.html#MESL_SqlRace_Domain_MountedSessions_MountedSession_TimeRange">TimeRange</a> to return <code>null</code>.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_MountedSessions_MountedSessionState_Open">Open</td>
-        <td><p>Session is open with the potential to have more data added.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_MountedSessions_MountedSessionState_Unknown">Unknown</td>
-        <td><p>Unknown state. Should not generally be used.</p>
-</td>
+        <td><a class="xref" href="MESL.SqlRace.Domain.MountedSessions.MountedSessionState.html">MountedSessionState</a></td>
+        <td></td>
       </tr>
     </tbody>
-  </thead></thead></table>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_MountedSessions_MountedSessionState_Empty" data-uid="MESL.SqlRace.Domain.MountedSessions.MountedSessionState.Empty">Empty</h4>
+  <div class="markdown level1 summary"><p>Session exists but currently contains no data.
+Expect <a class="xref" href="MESL.SqlRace.Domain.MountedSessions.MountedSession.html#MESL_SqlRace_Domain_MountedSessions_MountedSession_TimeRange">TimeRange</a> to return <code>null</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const MountedSessionState Empty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.MountedSessions.MountedSessionState.html">MountedSessionState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_MountedSessions_MountedSessionState_Open" data-uid="MESL.SqlRace.Domain.MountedSessions.MountedSessionState.Open">Open</h4>
+  <div class="markdown level1 summary"><p>Session is open with the potential to have more data added.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const MountedSessionState Open</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.MountedSessions.MountedSessionState.html">MountedSessionState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_MountedSessions_MountedSessionState_Unknown" data-uid="MESL.SqlRace.Domain.MountedSessions.MountedSessionState.Unknown">Unknown</h4>
+  <div class="markdown level1 summary"><p>Unknown state. Should not generally be used.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const MountedSessionState Unknown</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.MountedSessions.MountedSessionState.html">MountedSessionState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_MountedSessions_MountedSessionState_value__" data-uid="MESL.SqlRace.Domain.MountedSessions.MountedSessionState.value__">value__</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int value__</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

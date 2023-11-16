@@ -79,9 +79,8 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">System.MarshalByRefObject</span></div>
-    <div class="level2"><a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html">ParameterDataAccessBase</a></div>
-    <div class="level3"><span class="xref">FixedValueParameterDataAccess</span></div>
+    <div class="level1"><a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html">ParameterDataAccessBase</a></div>
+    <div class="level2"><span class="xref">FixedValueParameterDataAccess</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
@@ -101,9 +100,6 @@
     </div>
     <div>
       <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_AssignErrorDefinition_MESL_SqlRace_Domain_ErrorDefinition_">ParameterDataAccessBase.AssignErrorDefinition(ErrorDefinition)</a>
-    </div>
-    <div>
-      <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_InitializeLifetimeService">ParameterDataAccessBase.InitializeLifetimeService()</a>
     </div>
     <div>
       <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_OnInvalidated">ParameterDataAccessBase.OnInvalidated()</a>
@@ -167,36 +163,6 @@
     </div>
     <div>
       <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_Invalid">ParameterDataAccessBase.Invalid</a>
-    </div>
-    <div>
-      <span class="xref">System.MarshalByRefObject.MemberwiseClone(System.Boolean)</span>
-    </div>
-    <div>
-      <span class="xref">System.MarshalByRefObject.GetLifetimeService()</span>
-    </div>
-    <div>
-      <span class="xref">System.MarshalByRefObject.CreateObjRef(System.Type)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.Functions.html">MESL.SqlRace.Domain.Functions</a></h6>
@@ -330,7 +296,7 @@ used by the PDA.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool Contains(long startAt, long endAt, MatchingRule rule, double value, double? upperValue, int? timespan)</code></pre>
+    <pre><code class="lang-csharp hljs">public override bool Contains(long startAt, long endAt, MatchingRule rule, double value, Nullable&lt;double&gt; upperValue, Nullable&lt;int&gt; timespan)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -420,7 +386,7 @@ used by the PDA.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool Contains(long startAt, long endAt, MatchingRule rule, string value, int? timespan)</code></pre>
+    <pre><code class="lang-csharp hljs">public override bool Contains(long startAt, long endAt, MatchingRule rule, string value, Nullable&lt;int&gt; timespan)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -608,7 +574,7 @@ When specifing a template you should follow these rules:
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override IParameterDataStatistics GetDataStatistics(long startTimeStamp, long duration, bool weightStatistics = false, StatisticOption statisticOption = StatisticOption.None, IParameterDataStatistics statisticsResult = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public override IParameterDataStatistics GetDataStatistics(long startTimeStamp, long duration, bool weightStatistics = false, StatisticOption statisticOption, IParameterDataStatistics statisticsResult = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -716,7 +682,7 @@ or <code data-dev-comment-type="paramref" class="paramref">duration</code> is le
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override long? GetEndTime()</code></pre>
+    <pre><code class="lang-csharp hljs">public override Nullable&lt;long&gt; GetEndTime()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -744,7 +710,7 @@ It takes a <code>show you workings</code> approach.  For example when you specif
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override IParameterDataStatistics GetLapStatistics(Lap lap, bool weightStatistics = false, StatisticOption statisticOption = StatisticOption.None, IParameterDataStatistics statisticsResult = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public override IParameterDataStatistics GetLapStatistics(Lap lap, bool weightStatistics = false, StatisticOption statisticOption, IParameterDataStatistics statisticsResult = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -841,6 +807,36 @@ a zero numberOfSamples will be returned.</p>
       </tr>
     </tbody>
   </table>
+  <a id="MESL_SqlRace_Domain_Functions_FixedValueParameterDataAccess_GetMaximumFrequency_" data-uid="MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.GetMaximumFrequency*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_FixedValueParameterDataAccess_GetMaximumFrequency" data-uid="MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.GetMaximumFrequency">GetMaximumFrequency()</h4>
+  <div class="markdown level1 summary"><p>Returns the maximum frequency in Hz.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override double GetMaximumFrequency()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The maximum frequency.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_GetMaximumFrequency">ParameterDataAccessBase.GetMaximumFrequency()</a></div>
+  <h5 id="MESL_SqlRace_Domain_Functions_FixedValueParameterDataAccess_GetMaximumFrequency_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If zero, then the frequency could not be determined.</p>
+</div>
   <a id="MESL_SqlRace_Domain_Functions_FixedValueParameterDataAccess_GetMaximumSampleRate_" data-uid="MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.GetMaximumSampleRate*"></a>
   <h4 id="MESL_SqlRace_Domain_Functions_FixedValueParameterDataAccess_GetMaximumSampleRate" data-uid="MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.GetMaximumSampleRate">GetMaximumSampleRate()</h4>
   <div class="markdown level1 summary"><p>Returns the maximum sample rate available from the channels
@@ -849,7 +845,7 @@ within the underlying Parameter associated with the PDA.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override long? GetMaximumSampleRate()</code></pre>
+    <pre><code class="lang-csharp hljs">public override Nullable&lt;long&gt; GetMaximumSampleRate()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -871,6 +867,36 @@ within the underlying Parameter associated with the PDA.</p>
   <div><a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_GetMaximumSampleRate">ParameterDataAccessBase.GetMaximumSampleRate()</a></div>
   <h5 id="MESL_SqlRace_Domain_Functions_FixedValueParameterDataAccess_GetMaximumSampleRate_remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>This time returned is in nanoseconds.</p>
+</div>
+  <a id="MESL_SqlRace_Domain_Functions_FixedValueParameterDataAccess_GetMinimumFrequency_" data-uid="MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.GetMinimumFrequency*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_FixedValueParameterDataAccess_GetMinimumFrequency" data-uid="MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.GetMinimumFrequency">GetMinimumFrequency()</h4>
+  <div class="markdown level1 summary"><p>Returns the minimum frequency in Hz.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override double GetMinimumFrequency()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The minimum frequency.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_GetMinimumFrequency">ParameterDataAccessBase.GetMinimumFrequency()</a></div>
+  <h5 id="MESL_SqlRace_Domain_Functions_FixedValueParameterDataAccess_GetMinimumFrequency_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If zero, then the frequency could not be determined.</p>
 </div>
   <a id="MESL_SqlRace_Domain_Functions_FixedValueParameterDataAccess_GetMinimumSampleInterval_" data-uid="MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.GetMinimumSampleInterval*"></a>
   <h4 id="MESL_SqlRace_Domain_Functions_FixedValueParameterDataAccess_GetMinimumSampleInterval_System_Int64_System_Boolean_" data-uid="MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.GetMinimumSampleInterval(System.Int64,System.Boolean)">GetMinimumSampleInterval(Int64, Boolean)</h4>
@@ -1050,7 +1076,7 @@ requested.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override ParameterValues GetNextSamples(int numberOfSamples, StepDirection direction = StepDirection.Forward, ParameterValuesTemplate template = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public override ParameterValues GetNextSamples(int numberOfSamples, StepDirection direction, ParameterValuesTemplate template = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1491,7 +1517,7 @@ for (var i = 0; i &lt; pdaSamples.SampleCount; i++)
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override long? GetStartTime()</code></pre>
+    <pre><code class="lang-csharp hljs">public override Nullable&lt;long&gt; GetStartTime()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1533,7 +1559,7 @@ for (var i = 0; i &lt; pdaSamples.SampleCount; i++)
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override TimeRange? GetTimeRange()</code></pre>
+    <pre><code class="lang-csharp hljs">public override Nullable&lt;TimeRange&gt; GetTimeRange()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1560,7 +1586,7 @@ for (var i = 0; i &lt; pdaSamples.SampleCount; i++)
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override IList&lt;QuerySample&gt; Search(long startAt, long endAt, MatchingRule rule, double value, double? upperValue, int? timespan)</code></pre>
+    <pre><code class="lang-csharp hljs">public override IList&lt;QuerySample&gt; Search(long startAt, long endAt, MatchingRule rule, double value, Nullable&lt;double&gt; upperValue, Nullable&lt;int&gt; timespan)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1650,7 +1676,7 @@ for (var i = 0; i &lt; pdaSamples.SampleCount; i++)
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override IList&lt;QuerySample&gt; Search(long startAt, long endAt, MatchingRule rule, string value, int? timespan)</code></pre>
+    <pre><code class="lang-csharp hljs">public override IList&lt;QuerySample&gt; Search(long startAt, long endAt, MatchingRule rule, string value, Nullable&lt;int&gt; timespan)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

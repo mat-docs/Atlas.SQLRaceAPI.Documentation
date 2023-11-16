@@ -96,24 +96,6 @@
     <div>
       <a class="xref" href="MESL.SqlRace.Domain.ConversionBase.html#MESL_SqlRace_Domain_ConversionBase_FormatString">ConversionBase.FormatString</a>
     </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.html">MESL.SqlRace.Domain</a></h6>
   <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
@@ -126,13 +108,14 @@
 </div>
   <h5 id="MESL_SqlRace_Domain_RationalConversion_examples"><strong>Examples</strong></h5>
   <p>The rational conversion is a simple gain and offset linear conversion and the calculation is as follows:</p>
-<p>eng + coefficient3
+<pre><code>      eng + coefficient3
 raw = ------------------
-coefficient6
-else, the calculation is as follows
-coefficient1<em>eng^2 + coefficient2</em>eng + coefficient3
+         coefficient6</code></pre>
+
+<p>else, the calculation is as follows:</p>
+<pre><code>        coefficient1*eng^2 + coefficient2*eng + coefficient3
 raw =   ----------------------------------------------------
-coefficient4<em>eng^2 + coefficient5</em>eng + coefficient6</p>
+        coefficient4*eng^2 + coefficient5*eng + coefficient6</code></pre>
 
   <h3 id="constructors">Constructors
   </h3>

@@ -190,7 +190,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">DateTime? EpochDate { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">Nullable&lt;DateTime&gt; EpochDate { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -339,8 +339,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;This property breaks encapsulation and is not immutable. If you capture the instance, it may be replaced by SQL Race at a later stage, and you will have wrong data. Please use LapCollection property instead.&quot;)]
-LapCollection Laps { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">LapCollection Laps { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">

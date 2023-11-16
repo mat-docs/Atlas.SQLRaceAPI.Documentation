@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Enum SessionProcessingStatus
+    <title>Class SessionProcessingStatus
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Enum SessionProcessingStatus
+    <meta name="title" content="Class SessionProcessingStatus
    ">
     <meta name="generator" content="docfx 2.56.2.0">
     
@@ -71,60 +71,185 @@
             <article class="content wrap" id="_content" data-uid="MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatus">
   
   
-  <h1 id="MESL_SqlRace_Domain_SessionProcessing_SessionProcessingStatus" data-uid="MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatus" class="text-break">Enum SessionProcessingStatus
+  <h1 id="MESL_SqlRace_Domain_SessionProcessing_SessionProcessingStatus" data-uid="MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatus" class="text-break">Class SessionProcessingStatus
   </h1>
   <div class="markdown level0 summary"><p>The current status of the session file processing</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">SessionProcessingStatus</span></div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.SessionProcessing.html">MESL.SqlRace.Domain.SessionProcessing</a></h6>
   <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
   <h5 id="MESL_SqlRace_Domain_SessionProcessing_SessionProcessingStatus_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public enum SessionProcessingStatus</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class SessionProcessingStatus : Enum</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
+  <h4 id="MESL_SqlRace_Domain_SessionProcessing_SessionProcessingStatus_CachingNewSessions" data-uid="MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatus.CachingNewSessions">CachingNewSessions</h4>
+  <div class="markdown level1 summary"><p>The sessions that were loaded from the file system are being added to the cache</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionProcessingStatus CachingNewSessions</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type</th>
         <th>Description</th>
       </tr>
-    <thead>
+    </thead>
     <tbody>
       <tr>
-        <td id="MESL_SqlRace_Domain_SessionProcessing_SessionProcessingStatus_CachingNewSessions">CachingNewSessions</td>
-        <td><p>The sessions that were loaded from the file system are being added to the cache</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionProcessing_SessionProcessingStatus_CalculatingSessionKeys">CalculatingSessionKeys</td>
-        <td><p>The SessionKeys are being calculated for each of the session files in the folder.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionProcessing_SessionProcessingStatus_LoadingFromCache">LoadingFromCache</td>
-        <td><p>The sessions in the cache are being read.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionProcessing_SessionProcessingStatus_LoadingUnprocessedSessions">LoadingUnprocessedSessions</td>
-        <td><p>Sessions that weren&apos;t in the cache are being loaded from the file system</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionProcessing_SessionProcessingStatus_ProcessingAssociations">ProcessingAssociations</td>
-        <td><p>The associate sessions are being linked to their master sessions.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionProcessing_SessionProcessingStatus_RemovingStaleCacheEntries">RemovingStaleCacheEntries</td>
-        <td><p>The sessions that were in the cache that didn&apos;t have a correspinding file on the file system
-are being removed.</p>
-</td>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatus.html">SessionProcessingStatus</a></td>
+        <td></td>
       </tr>
     </tbody>
-  </thead></thead></table>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionProcessing_SessionProcessingStatus_CalculatingSessionKeys" data-uid="MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatus.CalculatingSessionKeys">CalculatingSessionKeys</h4>
+  <div class="markdown level1 summary"><p>The SessionKeys are being calculated for each of the session files in the folder.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionProcessingStatus CalculatingSessionKeys</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatus.html">SessionProcessingStatus</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionProcessing_SessionProcessingStatus_LoadingFromCache" data-uid="MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatus.LoadingFromCache">LoadingFromCache</h4>
+  <div class="markdown level1 summary"><p>The sessions in the cache are being read.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionProcessingStatus LoadingFromCache</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatus.html">SessionProcessingStatus</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionProcessing_SessionProcessingStatus_LoadingUnprocessedSessions" data-uid="MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatus.LoadingUnprocessedSessions">LoadingUnprocessedSessions</h4>
+  <div class="markdown level1 summary"><p>Sessions that weren&apos;t in the cache are being loaded from the file system</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionProcessingStatus LoadingUnprocessedSessions</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatus.html">SessionProcessingStatus</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionProcessing_SessionProcessingStatus_ProcessingAssociations" data-uid="MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatus.ProcessingAssociations">ProcessingAssociations</h4>
+  <div class="markdown level1 summary"><p>The associate sessions are being linked to their master sessions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionProcessingStatus ProcessingAssociations</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatus.html">SessionProcessingStatus</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionProcessing_SessionProcessingStatus_RemovingStaleCacheEntries" data-uid="MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatus.RemovingStaleCacheEntries">RemovingStaleCacheEntries</h4>
+  <div class="markdown level1 summary"><p>The sessions that were in the cache that didn&apos;t have a correspinding file on the file system
+are being removed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionProcessingStatus RemovingStaleCacheEntries</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatus.html">SessionProcessingStatus</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionProcessing_SessionProcessingStatus_value__" data-uid="MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatus.value__">value__</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int value__</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

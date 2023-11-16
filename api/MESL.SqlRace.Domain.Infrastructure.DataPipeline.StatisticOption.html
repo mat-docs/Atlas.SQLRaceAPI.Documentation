@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Enum StatisticOption
+    <title>Class StatisticOption
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Enum StatisticOption
+    <meta name="title" content="Class StatisticOption
    ">
     <meta name="generator" content="docfx 2.56.2.0">
     
@@ -71,100 +71,368 @@
             <article class="content wrap" id="_content" data-uid="MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption">
   
   
-  <h1 id="MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption" data-uid="MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption" class="text-break">Enum StatisticOption
+  <h1 id="MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption" data-uid="MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption" class="text-break">Class StatisticOption
   </h1>
   <div class="markdown level0 summary"><p>Enumeration to provide which statistics to enable</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">StatisticOption</span></div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.Infrastructure.DataPipeline.html">MESL.SqlRace.Domain.Infrastructure.DataPipeline</a></h6>
   <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
   <h5 id="MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Flags]
-public enum StatisticOption</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class StatisticOption : Enum</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
+  <h4 id="MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_AbsoluteMean" data-uid="MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.AbsoluteMean">AbsoluteMean</h4>
+  <div class="markdown level1 summary"><p>Provides an absolute mean statistic</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const StatisticOption AbsoluteMean</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type</th>
         <th>Description</th>
       </tr>
-    <thead>
+    </thead>
     <tbody>
       <tr>
-        <td id="MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_AbsoluteMean">AbsoluteMean</td>
-        <td><p>Provides an absolute mean statistic</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_All">All</td>
-        <td><p>Provide all statistics</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_Delta">Delta</td>
-        <td><p>Provides a delta statistic</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_End">End</td>
-        <td><p>Provides an end statistic for the last value in the range</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_GeometricMean">GeometricMean</td>
-        <td><p>Provides a geometric mean statistic</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_Max">Max</td>
-        <td><p>Provides a max statistic</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_Mean">Mean</td>
-        <td><p>Provides a mean statistic</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_Min">Min</td>
-        <td><p>Provides a min statistic</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_None">None</td>
-        <td><p>Provides no statistics</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_Slope">Slope</td>
-        <td><p>Provides a regression slope statistic</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_SlopeIntercept">SlopeIntercept</td>
-        <td><p>Provides a regression intercept statistic</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_SlopeRSquared">SlopeRSquared</td>
-        <td><p>Provides a regresion slope rsquared statistic</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_StandardDeviation">StandardDeviation</td>
-        <td><p>Provides a standard deviation statistic</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_Start">Start</td>
-        <td><p>Provides a start statistic for the first value in the range</p>
-</td>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.html">StatisticOption</a></td>
+        <td></td>
       </tr>
     </tbody>
-  </thead></thead></table>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_All" data-uid="MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.All">All</h4>
+  <div class="markdown level1 summary"><p>Provide all statistics</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const StatisticOption All</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.html">StatisticOption</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_Delta" data-uid="MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.Delta">Delta</h4>
+  <div class="markdown level1 summary"><p>Provides a delta statistic</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const StatisticOption Delta</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.html">StatisticOption</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_End" data-uid="MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.End">End</h4>
+  <div class="markdown level1 summary"><p>Provides an end statistic for the last value in the range</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const StatisticOption End</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.html">StatisticOption</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_GeometricMean" data-uid="MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.GeometricMean">GeometricMean</h4>
+  <div class="markdown level1 summary"><p>Provides a geometric mean statistic</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const StatisticOption GeometricMean</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.html">StatisticOption</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_Max" data-uid="MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.Max">Max</h4>
+  <div class="markdown level1 summary"><p>Provides a max statistic</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const StatisticOption Max</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.html">StatisticOption</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_Mean" data-uid="MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.Mean">Mean</h4>
+  <div class="markdown level1 summary"><p>Provides a mean statistic</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const StatisticOption Mean</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.html">StatisticOption</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_Min" data-uid="MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.Min">Min</h4>
+  <div class="markdown level1 summary"><p>Provides a min statistic</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const StatisticOption Min</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.html">StatisticOption</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_None" data-uid="MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.None">None</h4>
+  <div class="markdown level1 summary"><p>Provides no statistics</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const StatisticOption None</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.html">StatisticOption</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_Slope" data-uid="MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.Slope">Slope</h4>
+  <div class="markdown level1 summary"><p>Provides a regression slope statistic</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const StatisticOption Slope</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.html">StatisticOption</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_SlopeIntercept" data-uid="MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.SlopeIntercept">SlopeIntercept</h4>
+  <div class="markdown level1 summary"><p>Provides a regression intercept statistic</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const StatisticOption SlopeIntercept</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.html">StatisticOption</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_SlopeRSquared" data-uid="MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.SlopeRSquared">SlopeRSquared</h4>
+  <div class="markdown level1 summary"><p>Provides a regresion slope rsquared statistic</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const StatisticOption SlopeRSquared</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.html">StatisticOption</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_StandardDeviation" data-uid="MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.StandardDeviation">StandardDeviation</h4>
+  <div class="markdown level1 summary"><p>Provides a standard deviation statistic</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const StatisticOption StandardDeviation</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.html">StatisticOption</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_Start" data-uid="MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.Start">Start</h4>
+  <div class="markdown level1 summary"><p>Provides a start statistic for the first value in the range</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const StatisticOption Start</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.html">StatisticOption</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_value__" data-uid="MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.value__">value__</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int value__</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

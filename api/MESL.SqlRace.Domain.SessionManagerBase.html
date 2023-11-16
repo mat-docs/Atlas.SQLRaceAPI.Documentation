@@ -82,35 +82,11 @@
     <div class="level1"><span class="xref">SessionManagerBase</span></div>
       <div class="level2"><a class="xref" href="MESL.SqlRace.Domain.SessionManager.html">SessionManager</a></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.html">MESL.SqlRace.Domain</a></h6>
   <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
   <h5 id="MESL_SqlRace_Domain_SessionManagerBase_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class SessionManagerBase</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class SessionManagerBase : Object</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -944,7 +920,7 @@ until it is removed).</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract FragmentedMemoryStream ExportSessionWithCustomTime(string connectionString, SessionKey sessionKey, string filePath, IReadOnlyList&lt;string&gt; parametersToExport, IReadOnlyList&lt;int&gt; lapsToExport, long? customStartTime, long? customEndTime, bool exportEvents, bool exportErrors, bool exportMarkers, bool exportSessionConstants, bool useActiveTeam, string sessionIdentifier)</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract FragmentedMemoryStream ExportSessionWithCustomTime(string connectionString, SessionKey sessionKey, string filePath, IReadOnlyList&lt;string&gt; parametersToExport, IReadOnlyList&lt;int&gt; lapsToExport, Nullable&lt;long&gt; customStartTime, Nullable&lt;long&gt; customEndTime, bool exportEvents, bool exportErrors, bool exportMarkers, bool exportSessionConstants, bool useActiveTeam, string sessionIdentifier)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1097,7 +1073,7 @@ until it is removed).</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract IList&lt;SessionSummary&gt; Find(string connectionString, int? maxCount, IList&lt;SessionState&gt; sessionStates, bool? sessionsWithNoChannelData)</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract IList&lt;SessionSummary&gt; Find(string connectionString, Nullable&lt;int&gt; maxCount, IList&lt;SessionState&gt; sessionStates, Nullable&lt;bool&gt; sessionsWithNoChannelData)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1958,8 +1934,7 @@ from the specified file.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;SessionManagerBase.Load(SessionKey, ConnectionInformationBase, IEnumerable&lt;string&gt;) will be removed in a future version&quot;)]
-public abstract IClientSession Load(SessionKey key, ConnectionInformationBase connectionInformation, IEnumerable&lt;string&gt; parameterIdentifiers)</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract IClientSession Load(SessionKey key, ConnectionInformationBase connectionInformation, IEnumerable&lt;string&gt; parameterIdentifiers)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2030,8 +2005,7 @@ public abstract IClientSession Load(SessionKey key, ConnectionInformationBase co
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;SessionManagerBase.Load(SessionKey, ConnectionInformationBase, IEnumerable&lt;string&gt;, SessionChildItemsToLoad) will be removed in a future version&quot;)]
-public abstract IClientSession Load(SessionKey key, ConnectionInformationBase connectionInformation, IEnumerable&lt;string&gt; parameterIdentifiers, SessionChildItemsToLoad childItemsToLoad)</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract IClientSession Load(SessionKey key, ConnectionInformationBase connectionInformation, IEnumerable&lt;string&gt; parameterIdentifiers, SessionChildItemsToLoad childItemsToLoad)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2173,8 +2147,7 @@ public abstract IClientSession Load(SessionKey key, ConnectionInformationBase co
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;SessionManagerBase.Load(SessionKey, string, IEnumerable&lt;string&gt;) will be removed in a future version&quot;)]
-public abstract IClientSession Load(SessionKey key, string connectionString, IEnumerable&lt;string&gt; parameterIdentifiers)</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract IClientSession Load(SessionKey key, string connectionString, IEnumerable&lt;string&gt; parameterIdentifiers)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2245,8 +2218,7 @@ public abstract IClientSession Load(SessionKey key, string connectionString, IEn
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;SessionManagerBase.Load(SessionKey, string, IEnumerable&lt;string&gt;) will be removed in a future version&quot;)]
-public abstract IClientSession Load(SessionKey key, string connectionString, IEnumerable&lt;string&gt; parameterIdentifiers, SessionChildItemsToLoad childItemsToLoad)</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract IClientSession Load(SessionKey key, string connectionString, IEnumerable&lt;string&gt; parameterIdentifiers, SessionChildItemsToLoad childItemsToLoad)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2627,8 +2599,7 @@ public abstract IClientSession Load(SessionKey key, string connectionString, IEn
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;SessionManagerBase.LoadLightweight(SessionKey, ConnectionInformationBase, IEnumerable&lt;string&gt;) will be removed in a future version&quot;)]
-public abstract IClientSession LoadLightweight(SessionKey key, ConnectionInformationBase connectionInformation, IEnumerable&lt;string&gt; parameterIdentifiers)</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract IClientSession LoadLightweight(SessionKey key, ConnectionInformationBase connectionInformation, IEnumerable&lt;string&gt; parameterIdentifiers)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2699,8 +2670,7 @@ public abstract IClientSession LoadLightweight(SessionKey key, ConnectionInforma
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;SessionManagerBase.LoadLightweight(SessionKey, ConnectionInformationBase, IEnumerable&lt;string&gt;, IEnumerable&lt;SessionKey&gt;) will be removed in a future version&quot;)]
-public abstract IClientSession LoadLightweight(SessionKey key, ConnectionInformationBase connectionInformation, IEnumerable&lt;string&gt; parameterIdentifiers, IEnumerable&lt;SessionKey&gt; additionalSessionKeys)</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract IClientSession LoadLightweight(SessionKey key, ConnectionInformationBase connectionInformation, IEnumerable&lt;string&gt; parameterIdentifiers, IEnumerable&lt;SessionKey&gt; additionalSessionKeys)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2913,8 +2883,7 @@ public abstract IClientSession LoadLightweight(SessionKey key, ConnectionInforma
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;SessionManagerBase.LoadLightweight(SessionKey, string, IEnumerable&lt;string&gt;) will be removed in a future version&quot;)]
-public abstract IClientSession LoadLightweight(SessionKey key, string connectionString, IEnumerable&lt;string&gt; parameterIdentifiers)</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract IClientSession LoadLightweight(SessionKey key, string connectionString, IEnumerable&lt;string&gt; parameterIdentifiers)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2985,8 +2954,7 @@ public abstract IClientSession LoadLightweight(SessionKey key, string connection
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;SessionManagerBase.LoadLightweight(SessionKey, string, IEnumerable&lt;string&gt;, IEnumerable&lt;SessionKey&gt;) will be removed in a future version&quot;)]
-public abstract IClientSession LoadLightweight(SessionKey key, string connectionString, IEnumerable&lt;string&gt; parameterIdentifiers, IEnumerable&lt;SessionKey&gt; additionalSessionKeys)</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract IClientSession LoadLightweight(SessionKey key, string connectionString, IEnumerable&lt;string&gt; parameterIdentifiers, IEnumerable&lt;SessionKey&gt; additionalSessionKeys)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3065,7 +3033,7 @@ This will continue until you cancel using the cancellation token</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract IEnumerable&lt;SessionSummary&gt; Poll(string connectionString, IList&lt;SessionState&gt; sessionStates, bool? sessionsWithNoChannelData, CancellationToken token)</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract IEnumerable&lt;SessionSummary&gt; Poll(string connectionString, IList&lt;SessionState&gt; sessionStates, Nullable&lt;bool&gt; sessionsWithNoChannelData, CancellationToken token)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

@@ -86,35 +86,11 @@
     <div><a class="xref" href="MESL.SqlRace.Domain.ICompositeParameterDataAccess.html">ICompositeParameterDataAccess</a></div>
     <div><span class="xref">System.IDisposable</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.html">MESL.SqlRace.Domain</a></h6>
   <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
   <h5 id="MESL_SqlRace_Domain_CompositeParameterDataAccess_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CompositeParameterDataAccess : ICompositeParameterDataAccess, IDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public class CompositeParameterDataAccess : Object, ICompositeParameterDataAccess, IDisposable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -197,7 +173,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public double? CurrentDistance { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Nullable&lt;double&gt; CurrentDistance { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -221,7 +197,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public long? CurrentTime { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Nullable&lt;long&gt; CurrentTime { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -394,7 +370,7 @@ it is reclaimed by garbage collection.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void Finalize()</code></pre>
   </div>
   <a id="MESL_SqlRace_Domain_CompositeParameterDataAccess_GetAbsoluteSamples_" data-uid="MESL.SqlRace.Domain.CompositeParameterDataAccess.GetAbsoluteSamples*"></a>
   <h4 id="MESL_SqlRace_Domain_CompositeParameterDataAccess_GetAbsoluteSamples_System_Int32_System_Int64_System_Int64_" data-uid="MESL.SqlRace.Domain.CompositeParameterDataAccess.GetAbsoluteSamples(System.Int32,System.Int64,System.Int64)">GetAbsoluteSamples(Int32, Int64, Int64)</h4>
@@ -454,8 +430,7 @@ it is reclaimed by garbage collection.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use member returning ParameterValues instead&quot;)]
-public int GetAbsoluteSamples(int maximumNumberOfSamples, long startTimeStamp, long endTimeStamp, ref double[] data, ref DataStatusType[] status, ref long[] time)</code></pre>
+    <pre><code class="lang-csharp hljs">public int GetAbsoluteSamples(int maximumNumberOfSamples, long startTimeStamp, long endTimeStamp, ref double[] data, ref DataStatusType[] status, ref long[] time)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -603,7 +578,7 @@ is less than, or equal to zero.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Dictionary&lt;SessionKey, long?&gt; GetEndTime()</code></pre>
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;SessionKey, Nullable&lt;long&gt;&gt; GetEndTime()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -676,6 +651,34 @@ cached for improved performance.</p>
       </tr>
     </tbody>
   </table>
+  <a id="MESL_SqlRace_Domain_CompositeParameterDataAccess_GetMaximumFrequency_" data-uid="MESL.SqlRace.Domain.CompositeParameterDataAccess.GetMaximumFrequency*"></a>
+  <h4 id="MESL_SqlRace_Domain_CompositeParameterDataAccess_GetMaximumFrequency" data-uid="MESL.SqlRace.Domain.CompositeParameterDataAccess.GetMaximumFrequency">GetMaximumFrequency()</h4>
+  <div class="markdown level1 summary"><p>Returns maximum frequencies for session keys.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;SessionKey, double&gt; GetMaximumFrequency()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a>, <span class="xref">System.Double</span>&gt;</td>
+        <td><p>A dictionary where keys are session keys and values are doubles representing maximum frequencies.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="MESL_SqlRace_Domain_CompositeParameterDataAccess_GetMaximumFrequency_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If zero, then the frequency could not be determined.</p>
+</div>
   <a id="MESL_SqlRace_Domain_CompositeParameterDataAccess_GetMaximumSampleRate_" data-uid="MESL.SqlRace.Domain.CompositeParameterDataAccess.GetMaximumSampleRate*"></a>
   <h4 id="MESL_SqlRace_Domain_CompositeParameterDataAccess_GetMaximumSampleRate" data-uid="MESL.SqlRace.Domain.CompositeParameterDataAccess.GetMaximumSampleRate">GetMaximumSampleRate()</h4>
   <div class="markdown level1 summary"><p>Get Maximum Sample Rate</p>
@@ -683,7 +686,7 @@ cached for improved performance.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Dictionary&lt;SessionKey, long?&gt; GetMaximumSampleRate()</code></pre>
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;SessionKey, Nullable&lt;long&gt;&gt; GetMaximumSampleRate()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -715,6 +718,34 @@ cached for improved performance.</p>
       </tr>
     </tbody>
   </table>
+  <a id="MESL_SqlRace_Domain_CompositeParameterDataAccess_GetMinimumFrequency_" data-uid="MESL.SqlRace.Domain.CompositeParameterDataAccess.GetMinimumFrequency*"></a>
+  <h4 id="MESL_SqlRace_Domain_CompositeParameterDataAccess_GetMinimumFrequency" data-uid="MESL.SqlRace.Domain.CompositeParameterDataAccess.GetMinimumFrequency">GetMinimumFrequency()</h4>
+  <div class="markdown level1 summary"><p>Returns minimum frequencies for session keys.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;SessionKey, double&gt; GetMinimumFrequency()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<a class="xref" href="MAT.OCS.Core.SessionKey.html">SessionKey</a>, <span class="xref">System.Double</span>&gt;</td>
+        <td><p>A dictionary where keys are session keys and values are doubles representing minimum frequencies.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="MESL_SqlRace_Domain_CompositeParameterDataAccess_GetMinimumFrequency_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If zero, then the frequency could not be determined.</p>
+</div>
   <a id="MESL_SqlRace_Domain_CompositeParameterDataAccess_GetNextData_" data-uid="MESL.SqlRace.Domain.CompositeParameterDataAccess.GetNextData*"></a>
   <h4 id="MESL_SqlRace_Domain_CompositeParameterDataAccess_GetNextData_System_Int32_MESL_SqlRace_Enumerators_SampleModeType_System_Boolean_System_Double____MAT_OCS_Core_DataStatusType____" data-uid="MESL.SqlRace.Domain.CompositeParameterDataAccess.GetNextData(System.Int32,MESL.SqlRace.Enumerators.SampleModeType,System.Boolean,System.Double[]@,MAT.OCS.Core.DataStatusType[]@)">GetNextData(Int32, SampleModeType, Boolean, ref Double[], ref DataStatusType[])</h4>
   <div class="markdown level1 summary"><p>Gets the next sampled data values and <a class="xref" href="MAT.OCS.Core.DataStatusType.html">DataStatusType</a> based on the number of samples requested.</p>
@@ -722,8 +753,7 @@ cached for improved performance.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use member returning ParameterValues instead&quot;)]
-public void GetNextData(int numberOfSamples, SampleModeType sampleMode, bool interpolate, ref double[] data, ref DataStatusType[] status)</code></pre>
+    <pre><code class="lang-csharp hljs">public void GetNextData(int numberOfSamples, SampleModeType sampleMode, bool interpolate, ref double[] data, ref DataStatusType[] status)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -779,8 +809,7 @@ using the min/max/mean sampler.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use member returning ParameterValues instead&quot;)]
-public void GetNextData(int numberOfSamples, bool interpolate, ref MinimumMaximumMeanDouble[] data, ref DataStatusType[] status)</code></pre>
+    <pre><code class="lang-csharp hljs">public void GetNextData(int numberOfSamples, bool interpolate, ref MinimumMaximumMeanDouble[] data, ref DataStatusType[] status)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -831,8 +860,7 @@ using min/max sampler.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use member returning ParameterValues instead&quot;)]
-public void GetNextData(int numberOfSamples, bool interpolate, ref double[] minimumValues, ref double[] maximumValues, ref DataStatusType[] status)</code></pre>
+    <pre><code class="lang-csharp hljs">public void GetNextData(int numberOfSamples, bool interpolate, ref double[] minimumValues, ref double[] maximumValues, ref DataStatusType[] status)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -887,8 +915,7 @@ the returned data</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use member returning ParameterValues instead&quot;)]
-public void GetNextData(int numberOfSamples, ref double[] data, ref DataStatusType[] status)</code></pre>
+    <pre><code class="lang-csharp hljs">public void GetNextData(int numberOfSamples, ref double[] data, ref DataStatusType[] status)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1031,8 +1058,7 @@ the returned data.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use member returning ParameterValues instead&quot;)]
-public void GetNextData(long[] sampleTimestamps, SampleModeType sampleMode, bool interpolate, ref double[] data, ref DataStatusType[] status)</code></pre>
+    <pre><code class="lang-csharp hljs">public void GetNextData(long[] sampleTimestamps, SampleModeType sampleMode, bool interpolate, ref double[] data, ref DataStatusType[] status)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1134,8 +1160,7 @@ public void GetNextData(long[] sampleTimestamps, SampleModeType sampleMode, bool
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use member returning ParameterValues instead&quot;)]
-public void GetNextData(long[] timestamps, bool interpolate, ref double[] minimumValues, ref double[] maximumValues, ref DataStatusType[] status)</code></pre>
+    <pre><code class="lang-csharp hljs">public void GetNextData(long[] timestamps, bool interpolate, ref double[] minimumValues, ref double[] maximumValues, ref DataStatusType[] status)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1189,8 +1214,7 @@ public void GetNextData(long[] timestamps, bool interpolate, ref double[] minimu
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use member returning ParameterValues instead&quot;)]
-public void GetNextData(long[] sampleTimestamps, ref double[] data, ref DataStatusType[] status)</code></pre>
+    <pre><code class="lang-csharp hljs">public void GetNextData(long[] sampleTimestamps, ref double[] data, ref DataStatusType[] status)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1281,8 +1305,7 @@ requested.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use member returning ParameterValues instead&quot;)]
-public int GetNextSamples(int numberOfSamples, ref double[] data, ref DataStatusType[] status, ref long[] time)</code></pre>
+    <pre><code class="lang-csharp hljs">public int GetNextSamples(int numberOfSamples, ref double[] data, ref DataStatusType[] status, ref long[] time)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1392,8 +1415,7 @@ the endTime provided.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use member returning ParameterValues instead&quot;)]
-public int GetNextSamples(long endTime, ref double[] data, ref DataStatusType[] status, ref long[] timestamps)</code></pre>
+    <pre><code class="lang-csharp hljs">public int GetNextSamples(long endTime, ref double[] data, ref DataStatusType[] status, ref long[] timestamps)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1503,8 +1525,7 @@ requested.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use member returning ParameterValues instead&quot;)]
-public int GetPreviousSamples(int numberOfSamples, ref double[] data, ref DataStatusType[] status, ref long[] time)</code></pre>
+    <pre><code class="lang-csharp hljs">public int GetPreviousSamples(int numberOfSamples, ref double[] data, ref DataStatusType[] status, ref long[] time)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1610,8 +1631,7 @@ public int GetPreviousSamples(int numberOfSamples, ref double[] data, ref DataSt
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use member returning ParameterValues instead&quot;)]
-public int GetPreviousSamples(long endTime, ref double[] data, ref DataStatusType[] status, ref long[] timestamps)</code></pre>
+    <pre><code class="lang-csharp hljs">public int GetPreviousSamples(long endTime, ref double[] data, ref DataStatusType[] status, ref long[] timestamps)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1739,8 +1759,7 @@ along with their <a class="xref" href="MAT.OCS.Core.DataStatusType.html">DataSta
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use member returning ParameterValues instead&quot;)]
-public int GetSamples(int maximumNumberOfSamples, long startTimeStamp, long endTimeStamp, ref double[] data, ref DataStatusType[] status, ref long[] time)</code></pre>
+    <pre><code class="lang-csharp hljs">public int GetSamples(int maximumNumberOfSamples, long startTimeStamp, long endTimeStamp, ref double[] data, ref DataStatusType[] status, ref long[] time)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1823,7 +1842,7 @@ public int GetSamples(int maximumNumberOfSamples, long startTimeStamp, long endT
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Dictionary&lt;SessionKey, long?&gt; GetSamplesCount(long startTimeStamp, long endTimeStamp)</code></pre>
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;SessionKey, Nullable&lt;long&gt;&gt; GetSamplesCount(long startTimeStamp, long endTimeStamp)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1875,7 +1894,7 @@ SlowRow parameter</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Dictionary&lt;SessionKey, long?&gt; GetSamplesCountEstimate(long startTimeStamp, long endTimeStamp)</code></pre>
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;SessionKey, Nullable&lt;long&gt;&gt; GetSamplesCountEstimate(long startTimeStamp, long endTimeStamp)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1925,7 +1944,7 @@ PDA is created on a SlowRow parameter.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Dictionary&lt;SessionKey, long?&gt; GetStartTime()</code></pre>
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;SessionKey, Nullable&lt;long&gt;&gt; GetStartTime()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1950,7 +1969,7 @@ PDA is created on a SlowRow parameter.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Dictionary&lt;SessionKey, TimeRange?&gt; GetTimeRange()</code></pre>
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;SessionKey, Nullable&lt;TimeRange&gt;&gt; GetTimeRange()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">

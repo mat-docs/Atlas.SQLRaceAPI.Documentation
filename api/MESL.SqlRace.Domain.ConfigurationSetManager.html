@@ -81,35 +81,11 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">ConfigurationSetManager</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.html">MESL.SqlRace.Domain</a></h6>
   <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
   <h5 id="MESL_SqlRace_Domain_ConfigurationSetManager_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ConfigurationSetManager : IConfigurationSetManager</code></pre>
+    <pre><code class="lang-csharp hljs">public class ConfigurationSetManager : Object, IConfigurationSetManager</code></pre>
   </div>
   <h5 id="MESL_SqlRace_Domain_ConfigurationSetManager_remarks"><strong>Remarks</strong></h5>
   <div class="markdown level0 remarks"><p>Then <code>ConfigurationSetManager</code> will return a <a class="xref" href="MESL.SqlRace.Domain.ConfigurationSet.html">ConfigurationSet</a> instance when the Create method
@@ -828,8 +804,7 @@ catch (ConfigurationSetAlreadyExistsException ex)
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use constructor directly&quot;)]
-public static ConfigurationSetManager CreateConfigurationSetManager()</code></pre>
+    <pre><code class="lang-csharp hljs">public static ConfigurationSetManager CreateConfigurationSetManager()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">

@@ -397,6 +397,12 @@ references:
   commentId: F:MAT.OCS.Core.DataResultMode.Value
   fullName: MAT.OCS.Core.DataResultMode.Value
   nameWithType: DataResultMode.Value
+- uid: MAT.OCS.Core.DataResultMode.value__
+  name: value__
+  href: api/MAT.OCS.Core.DataResultMode.html#MAT_OCS_Core_DataResultMode_value__
+  commentId: F:MAT.OCS.Core.DataResultMode.value__
+  fullName: MAT.OCS.Core.DataResultMode.value__
+  nameWithType: DataResultMode.value__
 - uid: MAT.OCS.Core.DataStatusType
   name: DataStatusType
   href: api/MAT.OCS.Core.DataStatusType.html
@@ -457,6 +463,12 @@ references:
   commentId: F:MAT.OCS.Core.DataStatusType.Sample
   fullName: MAT.OCS.Core.DataStatusType.Sample
   nameWithType: DataStatusType.Sample
+- uid: MAT.OCS.Core.DataStatusType.value__
+  name: value__
+  href: api/MAT.OCS.Core.DataStatusType.html#MAT_OCS_Core_DataStatusType_value__
+  commentId: F:MAT.OCS.Core.DataStatusType.value__
+  fullName: MAT.OCS.Core.DataStatusType.value__
+  nameWithType: DataStatusType.value__
 - uid: MAT.OCS.Core.ErrorStatusType
   name: ErrorStatusType
   href: api/MAT.OCS.Core.ErrorStatusType.html
@@ -481,6 +493,12 @@ references:
   commentId: F:MAT.OCS.Core.ErrorStatusType.Unknown
   fullName: MAT.OCS.Core.ErrorStatusType.Unknown
   nameWithType: ErrorStatusType.Unknown
+- uid: MAT.OCS.Core.ErrorStatusType.value__
+  name: value__
+  href: api/MAT.OCS.Core.ErrorStatusType.html#MAT_OCS_Core_ErrorStatusType_value__
+  commentId: F:MAT.OCS.Core.ErrorStatusType.value__
+  fullName: MAT.OCS.Core.ErrorStatusType.value__
+  nameWithType: ErrorStatusType.value__
 - uid: MAT.OCS.Core.Extensions
   name: MAT.OCS.Core.Extensions
   href: api/MAT.OCS.Core.Extensions.html
@@ -2302,6 +2320,12 @@ references:
   commentId: F:MESL.SqlRace.Domain.AuditType.Unknown
   fullName: MESL.SqlRace.Domain.AuditType.Unknown
   nameWithType: AuditType.Unknown
+- uid: MESL.SqlRace.Domain.AuditType.value__
+  name: value__
+  href: api/MESL.SqlRace.Domain.AuditType.html#MESL_SqlRace_Domain_AuditType_value__
+  commentId: F:MESL.SqlRace.Domain.AuditType.value__
+  fullName: MESL.SqlRace.Domain.AuditType.value__
+  nameWithType: AuditType.value__
 - uid: MESL.SqlRace.Domain.AvailabilityChangedEventArgs
   name: AvailabilityChangedEventArgs
   href: api/MESL.SqlRace.Domain.AvailabilityChangedEventArgs.html
@@ -4556,186 +4580,6 @@ references:
   fullName.vb: MESL.SqlRace.Domain.Collections.SynchronizedList(Of T).SyncRoot
   nameWithType: SynchronizedList<T>.SyncRoot
   nameWithType.vb: SynchronizedList(Of T).SyncRoot
-- uid: MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#Generic#ICollection{T}#Clear
-  name: ICollection<T>.Clear()
-  href: api/MESL.SqlRace.Domain.Collections.SynchronizedList-1.html#MESL_SqlRace_Domain_Collections_SynchronizedList_1_System_Collections_Generic_ICollection_T__Clear
-  commentId: M:MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#Generic#ICollection{T}#Clear
-  name.vb: System.Collections.Generic.ICollection<T>.Clear()
-  fullName: MESL.SqlRace.Domain.Collections.SynchronizedList<T>.System.Collections.Generic.ICollection<T>.Clear()
-  fullName.vb: MESL.SqlRace.Domain.Collections.SynchronizedList(Of T).System.Collections.Generic.ICollection<T>.Clear()
-  nameWithType: SynchronizedList<T>.ICollection<T>.Clear()
-  nameWithType.vb: SynchronizedList(Of T).System.Collections.Generic.ICollection<T>.Clear()
-- uid: MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#Generic#ICollection{T}#Clear*
-  name: ICollection<T>.Clear
-  href: api/MESL.SqlRace.Domain.Collections.SynchronizedList-1.html#MESL_SqlRace_Domain_Collections_SynchronizedList_1_System_Collections_Generic_ICollection_T__Clear_
-  commentId: Overload:MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#Generic#ICollection{T}#Clear
-  name.vb: System.Collections.Generic.ICollection<T>.Clear
-  fullName: MESL.SqlRace.Domain.Collections.SynchronizedList<T>.System.Collections.Generic.ICollection<T>.Clear
-  fullName.vb: MESL.SqlRace.Domain.Collections.SynchronizedList(Of T).System.Collections.Generic.ICollection<T>.Clear
-  nameWithType: SynchronizedList<T>.ICollection<T>.Clear
-  nameWithType.vb: SynchronizedList(Of T).System.Collections.Generic.ICollection<T>.Clear
-- uid: MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#Generic#ICollection{T}#IsReadOnly
-  name: ICollection<T>.IsReadOnly
-  href: api/MESL.SqlRace.Domain.Collections.SynchronizedList-1.html#MESL_SqlRace_Domain_Collections_SynchronizedList_1_System_Collections_Generic_ICollection_T__IsReadOnly
-  commentId: P:MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#Generic#ICollection{T}#IsReadOnly
-  name.vb: System.Collections.Generic.ICollection<T>.IsReadOnly
-  fullName: MESL.SqlRace.Domain.Collections.SynchronizedList<T>.System.Collections.Generic.ICollection<T>.IsReadOnly
-  fullName.vb: MESL.SqlRace.Domain.Collections.SynchronizedList(Of T).System.Collections.Generic.ICollection<T>.IsReadOnly
-  nameWithType: SynchronizedList<T>.ICollection<T>.IsReadOnly
-  nameWithType.vb: SynchronizedList(Of T).System.Collections.Generic.ICollection<T>.IsReadOnly
-- uid: MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#Generic#ICollection{T}#IsReadOnly*
-  name: ICollection<T>.IsReadOnly
-  href: api/MESL.SqlRace.Domain.Collections.SynchronizedList-1.html#MESL_SqlRace_Domain_Collections_SynchronizedList_1_System_Collections_Generic_ICollection_T__IsReadOnly_
-  commentId: Overload:MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#Generic#ICollection{T}#IsReadOnly
-  name.vb: System.Collections.Generic.ICollection<T>.IsReadOnly
-  fullName: MESL.SqlRace.Domain.Collections.SynchronizedList<T>.System.Collections.Generic.ICollection<T>.IsReadOnly
-  fullName.vb: MESL.SqlRace.Domain.Collections.SynchronizedList(Of T).System.Collections.Generic.ICollection<T>.IsReadOnly
-  nameWithType: SynchronizedList<T>.ICollection<T>.IsReadOnly
-  nameWithType.vb: SynchronizedList(Of T).System.Collections.Generic.ICollection<T>.IsReadOnly
-- uid: MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#Generic#IList{T}#RemoveAt(System.Int32)
-  name: IList<T>.RemoveAt(Int32)
-  href: api/MESL.SqlRace.Domain.Collections.SynchronizedList-1.html#MESL_SqlRace_Domain_Collections_SynchronizedList_1_System_Collections_Generic_IList_T__RemoveAt_System_Int32_
-  commentId: M:MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#Generic#IList{T}#RemoveAt(System.Int32)
-  name.vb: System.Collections.Generic.IList<T>.RemoveAt(Int32)
-  fullName: MESL.SqlRace.Domain.Collections.SynchronizedList<T>.System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
-  fullName.vb: MESL.SqlRace.Domain.Collections.SynchronizedList(Of T).System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
-  nameWithType: SynchronizedList<T>.IList<T>.RemoveAt(Int32)
-  nameWithType.vb: SynchronizedList(Of T).System.Collections.Generic.IList<T>.RemoveAt(Int32)
-- uid: MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#Generic#IList{T}#RemoveAt*
-  name: IList<T>.RemoveAt
-  href: api/MESL.SqlRace.Domain.Collections.SynchronizedList-1.html#MESL_SqlRace_Domain_Collections_SynchronizedList_1_System_Collections_Generic_IList_T__RemoveAt_
-  commentId: Overload:MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#Generic#IList{T}#RemoveAt
-  name.vb: System.Collections.Generic.IList<T>.RemoveAt
-  fullName: MESL.SqlRace.Domain.Collections.SynchronizedList<T>.System.Collections.Generic.IList<T>.RemoveAt
-  fullName.vb: MESL.SqlRace.Domain.Collections.SynchronizedList(Of T).System.Collections.Generic.IList<T>.RemoveAt
-  nameWithType: SynchronizedList<T>.IList<T>.RemoveAt
-  nameWithType.vb: SynchronizedList(Of T).System.Collections.Generic.IList<T>.RemoveAt
-- uid: MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#IEnumerable#GetEnumerator
-  name: IEnumerable.GetEnumerator()
-  href: api/MESL.SqlRace.Domain.Collections.SynchronizedList-1.html#MESL_SqlRace_Domain_Collections_SynchronizedList_1_System_Collections_IEnumerable_GetEnumerator
-  commentId: M:MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#IEnumerable#GetEnumerator
-  name.vb: System.Collections.IEnumerable.GetEnumerator()
-  fullName: MESL.SqlRace.Domain.Collections.SynchronizedList<T>.System.Collections.IEnumerable.GetEnumerator()
-  fullName.vb: MESL.SqlRace.Domain.Collections.SynchronizedList(Of T).System.Collections.IEnumerable.GetEnumerator()
-  nameWithType: SynchronizedList<T>.IEnumerable.GetEnumerator()
-  nameWithType.vb: SynchronizedList(Of T).System.Collections.IEnumerable.GetEnumerator()
-- uid: MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#IEnumerable#GetEnumerator*
-  name: IEnumerable.GetEnumerator
-  href: api/MESL.SqlRace.Domain.Collections.SynchronizedList-1.html#MESL_SqlRace_Domain_Collections_SynchronizedList_1_System_Collections_IEnumerable_GetEnumerator_
-  commentId: Overload:MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#IEnumerable#GetEnumerator
-  name.vb: System.Collections.IEnumerable.GetEnumerator
-  fullName: MESL.SqlRace.Domain.Collections.SynchronizedList<T>.System.Collections.IEnumerable.GetEnumerator
-  fullName.vb: MESL.SqlRace.Domain.Collections.SynchronizedList(Of T).System.Collections.IEnumerable.GetEnumerator
-  nameWithType: SynchronizedList<T>.IEnumerable.GetEnumerator
-  nameWithType.vb: SynchronizedList(Of T).System.Collections.IEnumerable.GetEnumerator
-- uid: MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#IList#Clear
-  name: IList.Clear()
-  href: api/MESL.SqlRace.Domain.Collections.SynchronizedList-1.html#MESL_SqlRace_Domain_Collections_SynchronizedList_1_System_Collections_IList_Clear
-  commentId: M:MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#IList#Clear
-  name.vb: System.Collections.IList.Clear()
-  fullName: MESL.SqlRace.Domain.Collections.SynchronizedList<T>.System.Collections.IList.Clear()
-  fullName.vb: MESL.SqlRace.Domain.Collections.SynchronizedList(Of T).System.Collections.IList.Clear()
-  nameWithType: SynchronizedList<T>.IList.Clear()
-  nameWithType.vb: SynchronizedList(Of T).System.Collections.IList.Clear()
-- uid: MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#IList#Clear*
-  name: IList.Clear
-  href: api/MESL.SqlRace.Domain.Collections.SynchronizedList-1.html#MESL_SqlRace_Domain_Collections_SynchronizedList_1_System_Collections_IList_Clear_
-  commentId: Overload:MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#IList#Clear
-  name.vb: System.Collections.IList.Clear
-  fullName: MESL.SqlRace.Domain.Collections.SynchronizedList<T>.System.Collections.IList.Clear
-  fullName.vb: MESL.SqlRace.Domain.Collections.SynchronizedList(Of T).System.Collections.IList.Clear
-  nameWithType: SynchronizedList<T>.IList.Clear
-  nameWithType.vb: SynchronizedList(Of T).System.Collections.IList.Clear
-- uid: MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#IList#get_Item(System.Int32)
-  name: IList.get_Item(Int32)
-  href: api/MESL.SqlRace.Domain.Collections.SynchronizedList-1.html#MESL_SqlRace_Domain_Collections_SynchronizedList_1_System_Collections_IList_get_Item_System_Int32_
-  commentId: M:MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#IList#get_Item(System.Int32)
-  name.vb: System.Collections.IList.get_Item(Int32)
-  fullName: MESL.SqlRace.Domain.Collections.SynchronizedList<T>.System.Collections.IList.get_Item(System.Int32)
-  fullName.vb: MESL.SqlRace.Domain.Collections.SynchronizedList(Of T).System.Collections.IList.get_Item(System.Int32)
-  nameWithType: SynchronizedList<T>.IList.get_Item(Int32)
-  nameWithType.vb: SynchronizedList(Of T).System.Collections.IList.get_Item(Int32)
-- uid: MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#IList#get_Item*
-  name: IList.get_Item
-  href: api/MESL.SqlRace.Domain.Collections.SynchronizedList-1.html#MESL_SqlRace_Domain_Collections_SynchronizedList_1_System_Collections_IList_get_Item_
-  commentId: Overload:MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#IList#get_Item
-  name.vb: System.Collections.IList.get_Item
-  fullName: MESL.SqlRace.Domain.Collections.SynchronizedList<T>.System.Collections.IList.get_Item
-  fullName.vb: MESL.SqlRace.Domain.Collections.SynchronizedList(Of T).System.Collections.IList.get_Item
-  nameWithType: SynchronizedList<T>.IList.get_Item
-  nameWithType.vb: SynchronizedList(Of T).System.Collections.IList.get_Item
-- uid: MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#IList#IsReadOnly
-  name: IList.IsReadOnly
-  href: api/MESL.SqlRace.Domain.Collections.SynchronizedList-1.html#MESL_SqlRace_Domain_Collections_SynchronizedList_1_System_Collections_IList_IsReadOnly
-  commentId: P:MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#IList#IsReadOnly
-  name.vb: System.Collections.IList.IsReadOnly
-  fullName: MESL.SqlRace.Domain.Collections.SynchronizedList<T>.System.Collections.IList.IsReadOnly
-  fullName.vb: MESL.SqlRace.Domain.Collections.SynchronizedList(Of T).System.Collections.IList.IsReadOnly
-  nameWithType: SynchronizedList<T>.IList.IsReadOnly
-  nameWithType.vb: SynchronizedList(Of T).System.Collections.IList.IsReadOnly
-- uid: MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#IList#IsReadOnly*
-  name: IList.IsReadOnly
-  href: api/MESL.SqlRace.Domain.Collections.SynchronizedList-1.html#MESL_SqlRace_Domain_Collections_SynchronizedList_1_System_Collections_IList_IsReadOnly_
-  commentId: Overload:MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#IList#IsReadOnly
-  name.vb: System.Collections.IList.IsReadOnly
-  fullName: MESL.SqlRace.Domain.Collections.SynchronizedList<T>.System.Collections.IList.IsReadOnly
-  fullName.vb: MESL.SqlRace.Domain.Collections.SynchronizedList(Of T).System.Collections.IList.IsReadOnly
-  nameWithType: SynchronizedList<T>.IList.IsReadOnly
-  nameWithType.vb: SynchronizedList(Of T).System.Collections.IList.IsReadOnly
-- uid: MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#IList#Item(System.Int32)
-  name: IList.Item[Int32]
-  href: api/MESL.SqlRace.Domain.Collections.SynchronizedList-1.html#MESL_SqlRace_Domain_Collections_SynchronizedList_1_System_Collections_IList_Item_System_Int32_
-  commentId: P:MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#IList#Item(System.Int32)
-  name.vb: System.Collections.IList.Item(Int32)
-  fullName: MESL.SqlRace.Domain.Collections.SynchronizedList<T>.System.Collections.IList.Item[System.Int32]
-  fullName.vb: MESL.SqlRace.Domain.Collections.SynchronizedList(Of T).System.Collections.IList.Item(System.Int32)
-  nameWithType: SynchronizedList<T>.IList.Item[Int32]
-  nameWithType.vb: SynchronizedList(Of T).System.Collections.IList.Item(Int32)
-- uid: MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#IList#Item*
-  name: IList.Item
-  href: api/MESL.SqlRace.Domain.Collections.SynchronizedList-1.html#MESL_SqlRace_Domain_Collections_SynchronizedList_1_System_Collections_IList_Item_
-  commentId: Overload:MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#IList#Item
-  name.vb: System.Collections.IList.Item
-  fullName: MESL.SqlRace.Domain.Collections.SynchronizedList<T>.System.Collections.IList.Item
-  fullName.vb: MESL.SqlRace.Domain.Collections.SynchronizedList(Of T).System.Collections.IList.Item
-  nameWithType: SynchronizedList<T>.IList.Item
-  nameWithType.vb: SynchronizedList(Of T).System.Collections.IList.Item
-- uid: MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#IList#RemoveAt(System.Int32)
-  name: IList.RemoveAt(Int32)
-  href: api/MESL.SqlRace.Domain.Collections.SynchronizedList-1.html#MESL_SqlRace_Domain_Collections_SynchronizedList_1_System_Collections_IList_RemoveAt_System_Int32_
-  commentId: M:MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#IList#RemoveAt(System.Int32)
-  name.vb: System.Collections.IList.RemoveAt(Int32)
-  fullName: MESL.SqlRace.Domain.Collections.SynchronizedList<T>.System.Collections.IList.RemoveAt(System.Int32)
-  fullName.vb: MESL.SqlRace.Domain.Collections.SynchronizedList(Of T).System.Collections.IList.RemoveAt(System.Int32)
-  nameWithType: SynchronizedList<T>.IList.RemoveAt(Int32)
-  nameWithType.vb: SynchronizedList(Of T).System.Collections.IList.RemoveAt(Int32)
-- uid: MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#IList#RemoveAt*
-  name: IList.RemoveAt
-  href: api/MESL.SqlRace.Domain.Collections.SynchronizedList-1.html#MESL_SqlRace_Domain_Collections_SynchronizedList_1_System_Collections_IList_RemoveAt_
-  commentId: Overload:MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#IList#RemoveAt
-  name.vb: System.Collections.IList.RemoveAt
-  fullName: MESL.SqlRace.Domain.Collections.SynchronizedList<T>.System.Collections.IList.RemoveAt
-  fullName.vb: MESL.SqlRace.Domain.Collections.SynchronizedList(Of T).System.Collections.IList.RemoveAt
-  nameWithType: SynchronizedList<T>.IList.RemoveAt
-  nameWithType.vb: SynchronizedList(Of T).System.Collections.IList.RemoveAt
-- uid: MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#IList#set_Item(System.Int32,System.Object)
-  name: IList.set_Item(Int32, Object)
-  href: api/MESL.SqlRace.Domain.Collections.SynchronizedList-1.html#MESL_SqlRace_Domain_Collections_SynchronizedList_1_System_Collections_IList_set_Item_System_Int32_System_Object_
-  commentId: M:MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#IList#set_Item(System.Int32,System.Object)
-  name.vb: System.Collections.IList.set_Item(Int32, Object)
-  fullName: MESL.SqlRace.Domain.Collections.SynchronizedList<T>.System.Collections.IList.set_Item(System.Int32, System.Object)
-  fullName.vb: MESL.SqlRace.Domain.Collections.SynchronizedList(Of T).System.Collections.IList.set_Item(System.Int32, System.Object)
-  nameWithType: SynchronizedList<T>.IList.set_Item(Int32, Object)
-  nameWithType.vb: SynchronizedList(Of T).System.Collections.IList.set_Item(Int32, Object)
-- uid: MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#IList#set_Item*
-  name: IList.set_Item
-  href: api/MESL.SqlRace.Domain.Collections.SynchronizedList-1.html#MESL_SqlRace_Domain_Collections_SynchronizedList_1_System_Collections_IList_set_Item_
-  commentId: Overload:MESL.SqlRace.Domain.Collections.SynchronizedList`1.System#Collections#IList#set_Item
-  name.vb: System.Collections.IList.set_Item
-  fullName: MESL.SqlRace.Domain.Collections.SynchronizedList<T>.System.Collections.IList.set_Item
-  fullName.vb: MESL.SqlRace.Domain.Collections.SynchronizedList(Of T).System.Collections.IList.set_Item
-  nameWithType: SynchronizedList<T>.IList.set_Item
-  nameWithType.vb: SynchronizedList(Of T).System.Collections.IList.set_Item
 - uid: MESL.SqlRace.Domain.CompareSessionMode
   name: CompareSessionMode
   href: api/MESL.SqlRace.Domain.CompareSessionMode.html
@@ -5687,6 +5531,18 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.CompositeParameterDataAccess.GetLapStatistics
   fullName: MESL.SqlRace.Domain.CompositeParameterDataAccess.GetLapStatistics
   nameWithType: CompositeParameterDataAccess.GetLapStatistics
+- uid: MESL.SqlRace.Domain.CompositeParameterDataAccess.GetMaximumFrequency
+  name: GetMaximumFrequency()
+  href: api/MESL.SqlRace.Domain.CompositeParameterDataAccess.html#MESL_SqlRace_Domain_CompositeParameterDataAccess_GetMaximumFrequency
+  commentId: M:MESL.SqlRace.Domain.CompositeParameterDataAccess.GetMaximumFrequency
+  fullName: MESL.SqlRace.Domain.CompositeParameterDataAccess.GetMaximumFrequency()
+  nameWithType: CompositeParameterDataAccess.GetMaximumFrequency()
+- uid: MESL.SqlRace.Domain.CompositeParameterDataAccess.GetMaximumFrequency*
+  name: GetMaximumFrequency
+  href: api/MESL.SqlRace.Domain.CompositeParameterDataAccess.html#MESL_SqlRace_Domain_CompositeParameterDataAccess_GetMaximumFrequency_
+  commentId: Overload:MESL.SqlRace.Domain.CompositeParameterDataAccess.GetMaximumFrequency
+  fullName: MESL.SqlRace.Domain.CompositeParameterDataAccess.GetMaximumFrequency
+  nameWithType: CompositeParameterDataAccess.GetMaximumFrequency
 - uid: MESL.SqlRace.Domain.CompositeParameterDataAccess.GetMaximumSampleRate
   name: GetMaximumSampleRate()
   href: api/MESL.SqlRace.Domain.CompositeParameterDataAccess.html#MESL_SqlRace_Domain_CompositeParameterDataAccess_GetMaximumSampleRate
@@ -5699,6 +5555,18 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.CompositeParameterDataAccess.GetMaximumSampleRate
   fullName: MESL.SqlRace.Domain.CompositeParameterDataAccess.GetMaximumSampleRate
   nameWithType: CompositeParameterDataAccess.GetMaximumSampleRate
+- uid: MESL.SqlRace.Domain.CompositeParameterDataAccess.GetMinimumFrequency
+  name: GetMinimumFrequency()
+  href: api/MESL.SqlRace.Domain.CompositeParameterDataAccess.html#MESL_SqlRace_Domain_CompositeParameterDataAccess_GetMinimumFrequency
+  commentId: M:MESL.SqlRace.Domain.CompositeParameterDataAccess.GetMinimumFrequency
+  fullName: MESL.SqlRace.Domain.CompositeParameterDataAccess.GetMinimumFrequency()
+  nameWithType: CompositeParameterDataAccess.GetMinimumFrequency()
+- uid: MESL.SqlRace.Domain.CompositeParameterDataAccess.GetMinimumFrequency*
+  name: GetMinimumFrequency
+  href: api/MESL.SqlRace.Domain.CompositeParameterDataAccess.html#MESL_SqlRace_Domain_CompositeParameterDataAccess_GetMinimumFrequency_
+  commentId: Overload:MESL.SqlRace.Domain.CompositeParameterDataAccess.GetMinimumFrequency
+  fullName: MESL.SqlRace.Domain.CompositeParameterDataAccess.GetMinimumFrequency
+  nameWithType: CompositeParameterDataAccess.GetMinimumFrequency
 - uid: MESL.SqlRace.Domain.CompositeParameterDataAccess.GetNextData(System.Int32,MESL.SqlRace.Enumerators.SampleModeType,System.Boolean,System.Double[]@,MAT.OCS.Core.DataStatusType[]@)
   name: GetNextData(Int32, SampleModeType, Boolean, ref Double[], ref DataStatusType[])
   href: api/MESL.SqlRace.Domain.CompositeParameterDataAccess.html#MESL_SqlRace_Domain_CompositeParameterDataAccess_GetNextData_System_Int32_MESL_SqlRace_Enumerators_SampleModeType_System_Boolean_System_Double____MAT_OCS_Core_DataStatusType____
@@ -7616,6 +7484,12 @@ references:
   commentId: F:MESL.SqlRace.Domain.CompositeSessionEventType.Removed
   fullName: MESL.SqlRace.Domain.CompositeSessionEventType.Removed
   nameWithType: CompositeSessionEventType.Removed
+- uid: MESL.SqlRace.Domain.CompositeSessionEventType.value__
+  name: value__
+  href: api/MESL.SqlRace.Domain.CompositeSessionEventType.html#MESL_SqlRace_Domain_CompositeSessionEventType_value__
+  commentId: F:MESL.SqlRace.Domain.CompositeSessionEventType.value__
+  fullName: MESL.SqlRace.Domain.CompositeSessionEventType.value__
+  nameWithType: CompositeSessionEventType.value__
 - uid: MESL.SqlRace.Domain.CompositeSessionException
   name: CompositeSessionException
   href: api/MESL.SqlRace.Domain.CompositeSessionException.html
@@ -7979,6 +7853,12 @@ references:
   commentId: F:MESL.SqlRace.Domain.CompositeSessionMode.Overlay
   fullName: MESL.SqlRace.Domain.CompositeSessionMode.Overlay
   nameWithType: CompositeSessionMode.Overlay
+- uid: MESL.SqlRace.Domain.CompositeSessionMode.value__
+  name: value__
+  href: api/MESL.SqlRace.Domain.CompositeSessionMode.html#MESL_SqlRace_Domain_CompositeSessionMode_value__
+  commentId: F:MESL.SqlRace.Domain.CompositeSessionMode.value__
+  fullName: MESL.SqlRace.Domain.CompositeSessionMode.value__
+  nameWithType: CompositeSessionMode.value__
 - uid: MESL.SqlRace.Domain.CompositeStatistics
   name: CompositeStatistics
   href: api/MESL.SqlRace.Domain.CompositeStatistics.html
@@ -9554,6 +9434,18 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.ConstantParameterDataAccess.GetLapStatistics
   fullName: MESL.SqlRace.Domain.ConstantParameterDataAccess.GetLapStatistics
   nameWithType: ConstantParameterDataAccess.GetLapStatistics
+- uid: MESL.SqlRace.Domain.ConstantParameterDataAccess.GetMaximumFrequency
+  name: GetMaximumFrequency()
+  href: api/MESL.SqlRace.Domain.ConstantParameterDataAccess.html#MESL_SqlRace_Domain_ConstantParameterDataAccess_GetMaximumFrequency
+  commentId: M:MESL.SqlRace.Domain.ConstantParameterDataAccess.GetMaximumFrequency
+  fullName: MESL.SqlRace.Domain.ConstantParameterDataAccess.GetMaximumFrequency()
+  nameWithType: ConstantParameterDataAccess.GetMaximumFrequency()
+- uid: MESL.SqlRace.Domain.ConstantParameterDataAccess.GetMaximumFrequency*
+  name: GetMaximumFrequency
+  href: api/MESL.SqlRace.Domain.ConstantParameterDataAccess.html#MESL_SqlRace_Domain_ConstantParameterDataAccess_GetMaximumFrequency_
+  commentId: Overload:MESL.SqlRace.Domain.ConstantParameterDataAccess.GetMaximumFrequency
+  fullName: MESL.SqlRace.Domain.ConstantParameterDataAccess.GetMaximumFrequency
+  nameWithType: ConstantParameterDataAccess.GetMaximumFrequency
 - uid: MESL.SqlRace.Domain.ConstantParameterDataAccess.GetMaximumSampleRate
   name: GetMaximumSampleRate()
   href: api/MESL.SqlRace.Domain.ConstantParameterDataAccess.html#MESL_SqlRace_Domain_ConstantParameterDataAccess_GetMaximumSampleRate
@@ -9566,6 +9458,18 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.ConstantParameterDataAccess.GetMaximumSampleRate
   fullName: MESL.SqlRace.Domain.ConstantParameterDataAccess.GetMaximumSampleRate
   nameWithType: ConstantParameterDataAccess.GetMaximumSampleRate
+- uid: MESL.SqlRace.Domain.ConstantParameterDataAccess.GetMinimumFrequency
+  name: GetMinimumFrequency()
+  href: api/MESL.SqlRace.Domain.ConstantParameterDataAccess.html#MESL_SqlRace_Domain_ConstantParameterDataAccess_GetMinimumFrequency
+  commentId: M:MESL.SqlRace.Domain.ConstantParameterDataAccess.GetMinimumFrequency
+  fullName: MESL.SqlRace.Domain.ConstantParameterDataAccess.GetMinimumFrequency()
+  nameWithType: ConstantParameterDataAccess.GetMinimumFrequency()
+- uid: MESL.SqlRace.Domain.ConstantParameterDataAccess.GetMinimumFrequency*
+  name: GetMinimumFrequency
+  href: api/MESL.SqlRace.Domain.ConstantParameterDataAccess.html#MESL_SqlRace_Domain_ConstantParameterDataAccess_GetMinimumFrequency_
+  commentId: Overload:MESL.SqlRace.Domain.ConstantParameterDataAccess.GetMinimumFrequency
+  fullName: MESL.SqlRace.Domain.ConstantParameterDataAccess.GetMinimumFrequency
+  nameWithType: ConstantParameterDataAccess.GetMinimumFrequency
 - uid: MESL.SqlRace.Domain.ConstantParameterDataAccess.GetMinimumSampleInterval(System.Int64,System.Boolean)
   name: GetMinimumSampleInterval(Int64, Boolean)
   href: api/MESL.SqlRace.Domain.ConstantParameterDataAccess.html#MESL_SqlRace_Domain_ConstantParameterDataAccess_GetMinimumSampleInterval_System_Int64_System_Boolean_
@@ -10738,6 +10642,12 @@ references:
   commentId: F:MESL.SqlRace.Domain.DbEngine.SQLServer
   fullName: MESL.SqlRace.Domain.DbEngine.SQLServer
   nameWithType: DbEngine.SQLServer
+- uid: MESL.SqlRace.Domain.DbEngine.value__
+  name: value__
+  href: api/MESL.SqlRace.Domain.DbEngine.html#MESL_SqlRace_Domain_DbEngine_value__
+  commentId: F:MESL.SqlRace.Domain.DbEngine.value__
+  fullName: MESL.SqlRace.Domain.DbEngine.value__
+  nameWithType: DbEngine.value__
 - uid: MESL.SqlRace.Domain.EntityBase
   name: EntityBase
   href: api/MESL.SqlRace.Domain.EntityBase.html
@@ -14710,6 +14620,12 @@ references:
   commentId: F:MESL.SqlRace.Domain.Functions.ConstantType.Session
   fullName: MESL.SqlRace.Domain.Functions.ConstantType.Session
   nameWithType: ConstantType.Session
+- uid: MESL.SqlRace.Domain.Functions.ConstantType.value__
+  name: value__
+  href: api/MESL.SqlRace.Domain.Functions.ConstantType.html#MESL_SqlRace_Domain_Functions_ConstantType_value__
+  commentId: F:MESL.SqlRace.Domain.Functions.ConstantType.value__
+  fullName: MESL.SqlRace.Domain.Functions.ConstantType.value__
+  nameWithType: ConstantType.value__
 - uid: MESL.SqlRace.Domain.Functions.ConstantValueType
   name: ConstantValueType
   href: api/MESL.SqlRace.Domain.Functions.ConstantValueType.html
@@ -14728,6 +14644,12 @@ references:
   commentId: F:MESL.SqlRace.Domain.Functions.ConstantValueType.String
   fullName: MESL.SqlRace.Domain.Functions.ConstantValueType.String
   nameWithType: ConstantValueType.String
+- uid: MESL.SqlRace.Domain.Functions.ConstantValueType.value__
+  name: value__
+  href: api/MESL.SqlRace.Domain.Functions.ConstantValueType.html#MESL_SqlRace_Domain_Functions_ConstantValueType_value__
+  commentId: F:MESL.SqlRace.Domain.Functions.ConstantValueType.value__
+  fullName: MESL.SqlRace.Domain.Functions.ConstantValueType.value__
+  nameWithType: ConstantValueType.value__
 - uid: MESL.SqlRace.Domain.Functions.CSharp
   name: MESL.SqlRace.Domain.Functions.CSharp
   href: api/MESL.SqlRace.Domain.Functions.CSharp.html
@@ -16235,6 +16157,18 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.GetLapStatistics
   fullName: MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.GetLapStatistics
   nameWithType: FixedValueParameterDataAccess.GetLapStatistics
+- uid: MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.GetMaximumFrequency
+  name: GetMaximumFrequency()
+  href: api/MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.html#MESL_SqlRace_Domain_Functions_FixedValueParameterDataAccess_GetMaximumFrequency
+  commentId: M:MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.GetMaximumFrequency
+  fullName: MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.GetMaximumFrequency()
+  nameWithType: FixedValueParameterDataAccess.GetMaximumFrequency()
+- uid: MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.GetMaximumFrequency*
+  name: GetMaximumFrequency
+  href: api/MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.html#MESL_SqlRace_Domain_Functions_FixedValueParameterDataAccess_GetMaximumFrequency_
+  commentId: Overload:MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.GetMaximumFrequency
+  fullName: MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.GetMaximumFrequency
+  nameWithType: FixedValueParameterDataAccess.GetMaximumFrequency
 - uid: MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.GetMaximumSampleRate
   name: GetMaximumSampleRate()
   href: api/MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.html#MESL_SqlRace_Domain_Functions_FixedValueParameterDataAccess_GetMaximumSampleRate
@@ -16247,6 +16181,18 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.GetMaximumSampleRate
   fullName: MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.GetMaximumSampleRate
   nameWithType: FixedValueParameterDataAccess.GetMaximumSampleRate
+- uid: MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.GetMinimumFrequency
+  name: GetMinimumFrequency()
+  href: api/MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.html#MESL_SqlRace_Domain_Functions_FixedValueParameterDataAccess_GetMinimumFrequency
+  commentId: M:MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.GetMinimumFrequency
+  fullName: MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.GetMinimumFrequency()
+  nameWithType: FixedValueParameterDataAccess.GetMinimumFrequency()
+- uid: MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.GetMinimumFrequency*
+  name: GetMinimumFrequency
+  href: api/MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.html#MESL_SqlRace_Domain_Functions_FixedValueParameterDataAccess_GetMinimumFrequency_
+  commentId: Overload:MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.GetMinimumFrequency
+  fullName: MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.GetMinimumFrequency
+  nameWithType: FixedValueParameterDataAccess.GetMinimumFrequency
 - uid: MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.GetMinimumSampleInterval(System.Int64,System.Boolean)
   name: GetMinimumSampleInterval(Int64, Boolean)
   href: api/MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.html#MESL_SqlRace_Domain_Functions_FixedValueParameterDataAccess_GetMinimumSampleInterval_System_Int64_System_Boolean_
@@ -21194,6 +21140,18 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.ICompositeParameterDataAccess.GetLapStatistics
   fullName: MESL.SqlRace.Domain.ICompositeParameterDataAccess.GetLapStatistics
   nameWithType: ICompositeParameterDataAccess.GetLapStatistics
+- uid: MESL.SqlRace.Domain.ICompositeParameterDataAccess.GetMaximumFrequency
+  name: GetMaximumFrequency()
+  href: api/MESL.SqlRace.Domain.ICompositeParameterDataAccess.html#MESL_SqlRace_Domain_ICompositeParameterDataAccess_GetMaximumFrequency
+  commentId: M:MESL.SqlRace.Domain.ICompositeParameterDataAccess.GetMaximumFrequency
+  fullName: MESL.SqlRace.Domain.ICompositeParameterDataAccess.GetMaximumFrequency()
+  nameWithType: ICompositeParameterDataAccess.GetMaximumFrequency()
+- uid: MESL.SqlRace.Domain.ICompositeParameterDataAccess.GetMaximumFrequency*
+  name: GetMaximumFrequency
+  href: api/MESL.SqlRace.Domain.ICompositeParameterDataAccess.html#MESL_SqlRace_Domain_ICompositeParameterDataAccess_GetMaximumFrequency_
+  commentId: Overload:MESL.SqlRace.Domain.ICompositeParameterDataAccess.GetMaximumFrequency
+  fullName: MESL.SqlRace.Domain.ICompositeParameterDataAccess.GetMaximumFrequency
+  nameWithType: ICompositeParameterDataAccess.GetMaximumFrequency
 - uid: MESL.SqlRace.Domain.ICompositeParameterDataAccess.GetMaximumSampleRate
   name: GetMaximumSampleRate()
   href: api/MESL.SqlRace.Domain.ICompositeParameterDataAccess.html#MESL_SqlRace_Domain_ICompositeParameterDataAccess_GetMaximumSampleRate
@@ -21206,6 +21164,18 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.ICompositeParameterDataAccess.GetMaximumSampleRate
   fullName: MESL.SqlRace.Domain.ICompositeParameterDataAccess.GetMaximumSampleRate
   nameWithType: ICompositeParameterDataAccess.GetMaximumSampleRate
+- uid: MESL.SqlRace.Domain.ICompositeParameterDataAccess.GetMinimumFrequency
+  name: GetMinimumFrequency()
+  href: api/MESL.SqlRace.Domain.ICompositeParameterDataAccess.html#MESL_SqlRace_Domain_ICompositeParameterDataAccess_GetMinimumFrequency
+  commentId: M:MESL.SqlRace.Domain.ICompositeParameterDataAccess.GetMinimumFrequency
+  fullName: MESL.SqlRace.Domain.ICompositeParameterDataAccess.GetMinimumFrequency()
+  nameWithType: ICompositeParameterDataAccess.GetMinimumFrequency()
+- uid: MESL.SqlRace.Domain.ICompositeParameterDataAccess.GetMinimumFrequency*
+  name: GetMinimumFrequency
+  href: api/MESL.SqlRace.Domain.ICompositeParameterDataAccess.html#MESL_SqlRace_Domain_ICompositeParameterDataAccess_GetMinimumFrequency_
+  commentId: Overload:MESL.SqlRace.Domain.ICompositeParameterDataAccess.GetMinimumFrequency
+  fullName: MESL.SqlRace.Domain.ICompositeParameterDataAccess.GetMinimumFrequency
+  nameWithType: ICompositeParameterDataAccess.GetMinimumFrequency
 - uid: MESL.SqlRace.Domain.ICompositeParameterDataAccess.GetNextData(System.Int32,MESL.SqlRace.Enumerators.SampleModeType,System.Boolean,System.Double[]@,MAT.OCS.Core.DataStatusType[]@)
   name: GetNextData(Int32, SampleModeType, Boolean, ref Double[], ref DataStatusType[])
   href: api/MESL.SqlRace.Domain.ICompositeParameterDataAccess.html#MESL_SqlRace_Domain_ICompositeParameterDataAccess_GetNextData_System_Int32_MESL_SqlRace_Enumerators_SampleModeType_System_Boolean_System_Double____MAT_OCS_Core_DataStatusType____
@@ -24037,6 +24007,12 @@ references:
   commentId: F:MESL.SqlRace.Domain.Infrastructure.DataPipeline.FrequencyUnit.MHz
   fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.FrequencyUnit.MHz
   nameWithType: FrequencyUnit.MHz
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.FrequencyUnit.value__
+  name: value__
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.FrequencyUnit.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_FrequencyUnit_value__
+  commentId: F:MESL.SqlRace.Domain.Infrastructure.DataPipeline.FrequencyUnit.value__
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.FrequencyUnit.value__
+  nameWithType: FrequencyUnit.value__
 - uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.IDataResult
   name: IDataResult
   href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.IDataResult.html
@@ -24595,6 +24571,12 @@ references:
   commentId: F:MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.Start
   fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.Start
   nameWithType: StatisticOption.Start
+- uid: MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.value__
+  name: value__
+  href: api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.html#MESL_SqlRace_Domain_Infrastructure_DataPipeline_StatisticOption_value__
+  commentId: F:MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.value__
+  fullName: MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.value__
+  nameWithType: StatisticOption.value__
 - uid: MESL.SqlRace.Domain.Infrastructure.DataProviders
   name: MESL.SqlRace.Domain.Infrastructure.DataProviders
   href: api/MESL.SqlRace.Domain.Infrastructure.DataProviders.html
@@ -24745,6 +24727,12 @@ references:
   commentId: F:MESL.SqlRace.Domain.Infrastructure.Enumerators.StepDirection.Reverse
   fullName: MESL.SqlRace.Domain.Infrastructure.Enumerators.StepDirection.Reverse
   nameWithType: StepDirection.Reverse
+- uid: MESL.SqlRace.Domain.Infrastructure.Enumerators.StepDirection.value__
+  name: value__
+  href: api/MESL.SqlRace.Domain.Infrastructure.Enumerators.StepDirection.html#MESL_SqlRace_Domain_Infrastructure_Enumerators_StepDirection_value__
+  commentId: F:MESL.SqlRace.Domain.Infrastructure.Enumerators.StepDirection.value__
+  fullName: MESL.SqlRace.Domain.Infrastructure.Enumerators.StepDirection.value__
+  nameWithType: StepDirection.value__
 - uid: MESL.SqlRace.Domain.Infrastructure.Formatting
   name: MESL.SqlRace.Domain.Infrastructure.Formatting
   href: api/MESL.SqlRace.Domain.Infrastructure.Formatting.html
@@ -27156,6 +27144,21 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.Marker.AddLabel
   fullName: MESL.SqlRace.Domain.Marker.AddLabel
   nameWithType: Marker.AddLabel
+- uid: MESL.SqlRace.Domain.Marker.CreateTransientMarker(System.Nullable{System.Int64},System.Nullable{System.Int64},System.String,System.String,System.String,System.String)
+  name: CreateTransientMarker(Nullable<Int64>, Nullable<Int64>, String, String, String, String)
+  href: api/MESL.SqlRace.Domain.Marker.html#MESL_SqlRace_Domain_Marker_CreateTransientMarker_System_Nullable_System_Int64__System_Nullable_System_Int64__System_String_System_String_System_String_System_String_
+  commentId: M:MESL.SqlRace.Domain.Marker.CreateTransientMarker(System.Nullable{System.Int64},System.Nullable{System.Int64},System.String,System.String,System.String,System.String)
+  name.vb: CreateTransientMarker(Nullable(Of Int64), Nullable(Of Int64), String, String, String, String)
+  fullName: MESL.SqlRace.Domain.Marker.CreateTransientMarker(System.Nullable<System.Int64>, System.Nullable<System.Int64>, System.String, System.String, System.String, System.String)
+  fullName.vb: MESL.SqlRace.Domain.Marker.CreateTransientMarker(System.Nullable(Of System.Int64), System.Nullable(Of System.Int64), System.String, System.String, System.String, System.String)
+  nameWithType: Marker.CreateTransientMarker(Nullable<Int64>, Nullable<Int64>, String, String, String, String)
+  nameWithType.vb: Marker.CreateTransientMarker(Nullable(Of Int64), Nullable(Of Int64), String, String, String, String)
+- uid: MESL.SqlRace.Domain.Marker.CreateTransientMarker*
+  name: CreateTransientMarker
+  href: api/MESL.SqlRace.Domain.Marker.html#MESL_SqlRace_Domain_Marker_CreateTransientMarker_
+  commentId: Overload:MESL.SqlRace.Domain.Marker.CreateTransientMarker
+  fullName: MESL.SqlRace.Domain.Marker.CreateTransientMarker
+  nameWithType: Marker.CreateTransientMarker
 - uid: MESL.SqlRace.Domain.Marker.DefaultMarkerType
   name: DefaultMarkerType
   href: api/MESL.SqlRace.Domain.Marker.html#MESL_SqlRace_Domain_Marker_DefaultMarkerType
@@ -27186,6 +27189,18 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.Marker.EndTimestamp
   fullName: MESL.SqlRace.Domain.Marker.EndTimestamp
   nameWithType: Marker.EndTimestamp
+- uid: MESL.SqlRace.Domain.Marker.IsTransient
+  name: IsTransient
+  href: api/MESL.SqlRace.Domain.Marker.html#MESL_SqlRace_Domain_Marker_IsTransient
+  commentId: P:MESL.SqlRace.Domain.Marker.IsTransient
+  fullName: MESL.SqlRace.Domain.Marker.IsTransient
+  nameWithType: Marker.IsTransient
+- uid: MESL.SqlRace.Domain.Marker.IsTransient*
+  name: IsTransient
+  href: api/MESL.SqlRace.Domain.Marker.html#MESL_SqlRace_Domain_Marker_IsTransient_
+  commentId: Overload:MESL.SqlRace.Domain.Marker.IsTransient
+  fullName: MESL.SqlRace.Domain.Marker.IsTransient
+  nameWithType: Marker.IsTransient
 - uid: MESL.SqlRace.Domain.Marker.Label
   name: Label
   href: api/MESL.SqlRace.Domain.Marker.html#MESL_SqlRace_Domain_Marker_Label
@@ -27258,6 +27273,18 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.Marker.ToString
   fullName: MESL.SqlRace.Domain.Marker.ToString
   nameWithType: Marker.ToString
+- uid: MESL.SqlRace.Domain.Marker.ToStringWithTransient
+  name: ToStringWithTransient()
+  href: api/MESL.SqlRace.Domain.Marker.html#MESL_SqlRace_Domain_Marker_ToStringWithTransient
+  commentId: M:MESL.SqlRace.Domain.Marker.ToStringWithTransient
+  fullName: MESL.SqlRace.Domain.Marker.ToStringWithTransient()
+  nameWithType: Marker.ToStringWithTransient()
+- uid: MESL.SqlRace.Domain.Marker.ToStringWithTransient*
+  name: ToStringWithTransient
+  href: api/MESL.SqlRace.Domain.Marker.html#MESL_SqlRace_Domain_Marker_ToStringWithTransient_
+  commentId: Overload:MESL.SqlRace.Domain.Marker.ToStringWithTransient
+  fullName: MESL.SqlRace.Domain.Marker.ToStringWithTransient
+  nameWithType: Marker.ToStringWithTransient
 - uid: MESL.SqlRace.Domain.MarkerLabel
   name: MarkerLabel
   href: api/MESL.SqlRace.Domain.MarkerLabel.html
@@ -29022,6 +29049,12 @@ references:
   commentId: F:MESL.SqlRace.Domain.MountedSessions.MountedSessionState.Unknown
   fullName: MESL.SqlRace.Domain.MountedSessions.MountedSessionState.Unknown
   nameWithType: MountedSessionState.Unknown
+- uid: MESL.SqlRace.Domain.MountedSessions.MountedSessionState.value__
+  name: value__
+  href: api/MESL.SqlRace.Domain.MountedSessions.MountedSessionState.html#MESL_SqlRace_Domain_MountedSessions_MountedSessionState_value__
+  commentId: F:MESL.SqlRace.Domain.MountedSessions.MountedSessionState.value__
+  fullName: MESL.SqlRace.Domain.MountedSessions.MountedSessionState.value__
+  nameWithType: MountedSessionState.value__
 - uid: MESL.SqlRace.Domain.MountedSessions.ReadDirection
   name: ReadDirection
   href: api/MESL.SqlRace.Domain.MountedSessions.ReadDirection.html
@@ -29040,6 +29073,12 @@ references:
   commentId: F:MESL.SqlRace.Domain.MountedSessions.ReadDirection.Forward
   fullName: MESL.SqlRace.Domain.MountedSessions.ReadDirection.Forward
   nameWithType: ReadDirection.Forward
+- uid: MESL.SqlRace.Domain.MountedSessions.ReadDirection.value__
+  name: value__
+  href: api/MESL.SqlRace.Domain.MountedSessions.ReadDirection.html#MESL_SqlRace_Domain_MountedSessions_ReadDirection_value__
+  commentId: F:MESL.SqlRace.Domain.MountedSessions.ReadDirection.value__
+  fullName: MESL.SqlRace.Domain.MountedSessions.ReadDirection.value__
+  nameWithType: ReadDirection.value__
 - uid: MESL.SqlRace.Domain.Parameter
   name: Parameter
   href: api/MESL.SqlRace.Domain.Parameter.html
@@ -29697,6 +29736,18 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.ParameterDataAccess.GetLapStatistics
   fullName: MESL.SqlRace.Domain.ParameterDataAccess.GetLapStatistics
   nameWithType: ParameterDataAccess.GetLapStatistics
+- uid: MESL.SqlRace.Domain.ParameterDataAccess.GetMaximumFrequency
+  name: GetMaximumFrequency()
+  href: api/MESL.SqlRace.Domain.ParameterDataAccess.html#MESL_SqlRace_Domain_ParameterDataAccess_GetMaximumFrequency
+  commentId: M:MESL.SqlRace.Domain.ParameterDataAccess.GetMaximumFrequency
+  fullName: MESL.SqlRace.Domain.ParameterDataAccess.GetMaximumFrequency()
+  nameWithType: ParameterDataAccess.GetMaximumFrequency()
+- uid: MESL.SqlRace.Domain.ParameterDataAccess.GetMaximumFrequency*
+  name: GetMaximumFrequency
+  href: api/MESL.SqlRace.Domain.ParameterDataAccess.html#MESL_SqlRace_Domain_ParameterDataAccess_GetMaximumFrequency_
+  commentId: Overload:MESL.SqlRace.Domain.ParameterDataAccess.GetMaximumFrequency
+  fullName: MESL.SqlRace.Domain.ParameterDataAccess.GetMaximumFrequency
+  nameWithType: ParameterDataAccess.GetMaximumFrequency
 - uid: MESL.SqlRace.Domain.ParameterDataAccess.GetMaximumSampleRate
   name: GetMaximumSampleRate()
   href: api/MESL.SqlRace.Domain.ParameterDataAccess.html#MESL_SqlRace_Domain_ParameterDataAccess_GetMaximumSampleRate
@@ -29709,6 +29760,18 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.ParameterDataAccess.GetMaximumSampleRate
   fullName: MESL.SqlRace.Domain.ParameterDataAccess.GetMaximumSampleRate
   nameWithType: ParameterDataAccess.GetMaximumSampleRate
+- uid: MESL.SqlRace.Domain.ParameterDataAccess.GetMinimumFrequency
+  name: GetMinimumFrequency()
+  href: api/MESL.SqlRace.Domain.ParameterDataAccess.html#MESL_SqlRace_Domain_ParameterDataAccess_GetMinimumFrequency
+  commentId: M:MESL.SqlRace.Domain.ParameterDataAccess.GetMinimumFrequency
+  fullName: MESL.SqlRace.Domain.ParameterDataAccess.GetMinimumFrequency()
+  nameWithType: ParameterDataAccess.GetMinimumFrequency()
+- uid: MESL.SqlRace.Domain.ParameterDataAccess.GetMinimumFrequency*
+  name: GetMinimumFrequency
+  href: api/MESL.SqlRace.Domain.ParameterDataAccess.html#MESL_SqlRace_Domain_ParameterDataAccess_GetMinimumFrequency_
+  commentId: Overload:MESL.SqlRace.Domain.ParameterDataAccess.GetMinimumFrequency
+  fullName: MESL.SqlRace.Domain.ParameterDataAccess.GetMinimumFrequency
+  nameWithType: ParameterDataAccess.GetMinimumFrequency
 - uid: MESL.SqlRace.Domain.ParameterDataAccess.GetMinimumSampleInterval(System.Int64,System.Boolean)
   name: GetMinimumSampleInterval(Int64, Boolean)
   href: api/MESL.SqlRace.Domain.ParameterDataAccess.html#MESL_SqlRace_Domain_ParameterDataAccess_GetMinimumSampleInterval_System_Int64_System_Boolean_
@@ -30096,6 +30159,18 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.ParameterDataAccessBase.GetLapStatistics
   fullName: MESL.SqlRace.Domain.ParameterDataAccessBase.GetLapStatistics
   nameWithType: ParameterDataAccessBase.GetLapStatistics
+- uid: MESL.SqlRace.Domain.ParameterDataAccessBase.GetMaximumFrequency
+  name: GetMaximumFrequency()
+  href: api/MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_GetMaximumFrequency
+  commentId: M:MESL.SqlRace.Domain.ParameterDataAccessBase.GetMaximumFrequency
+  fullName: MESL.SqlRace.Domain.ParameterDataAccessBase.GetMaximumFrequency()
+  nameWithType: ParameterDataAccessBase.GetMaximumFrequency()
+- uid: MESL.SqlRace.Domain.ParameterDataAccessBase.GetMaximumFrequency*
+  name: GetMaximumFrequency
+  href: api/MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_GetMaximumFrequency_
+  commentId: Overload:MESL.SqlRace.Domain.ParameterDataAccessBase.GetMaximumFrequency
+  fullName: MESL.SqlRace.Domain.ParameterDataAccessBase.GetMaximumFrequency
+  nameWithType: ParameterDataAccessBase.GetMaximumFrequency
 - uid: MESL.SqlRace.Domain.ParameterDataAccessBase.GetMaximumSampleRate
   name: GetMaximumSampleRate()
   href: api/MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_GetMaximumSampleRate
@@ -30108,6 +30183,18 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.ParameterDataAccessBase.GetMaximumSampleRate
   fullName: MESL.SqlRace.Domain.ParameterDataAccessBase.GetMaximumSampleRate
   nameWithType: ParameterDataAccessBase.GetMaximumSampleRate
+- uid: MESL.SqlRace.Domain.ParameterDataAccessBase.GetMinimumFrequency
+  name: GetMinimumFrequency()
+  href: api/MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_GetMinimumFrequency
+  commentId: M:MESL.SqlRace.Domain.ParameterDataAccessBase.GetMinimumFrequency
+  fullName: MESL.SqlRace.Domain.ParameterDataAccessBase.GetMinimumFrequency()
+  nameWithType: ParameterDataAccessBase.GetMinimumFrequency()
+- uid: MESL.SqlRace.Domain.ParameterDataAccessBase.GetMinimumFrequency*
+  name: GetMinimumFrequency
+  href: api/MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_GetMinimumFrequency_
+  commentId: Overload:MESL.SqlRace.Domain.ParameterDataAccessBase.GetMinimumFrequency
+  fullName: MESL.SqlRace.Domain.ParameterDataAccessBase.GetMinimumFrequency
+  nameWithType: ParameterDataAccessBase.GetMinimumFrequency
 - uid: MESL.SqlRace.Domain.ParameterDataAccessBase.GetMinimumSampleInterval(System.Int64,System.Boolean)
   name: GetMinimumSampleInterval(Int64, Boolean)
   href: api/MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_GetMinimumSampleInterval_System_Int64_System_Boolean_
@@ -30246,18 +30333,6 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.ParameterDataAccessBase.GuardAgainstInvocationWhenInvalidated
   fullName: MESL.SqlRace.Domain.ParameterDataAccessBase.GuardAgainstInvocationWhenInvalidated
   nameWithType: ParameterDataAccessBase.GuardAgainstInvocationWhenInvalidated
-- uid: MESL.SqlRace.Domain.ParameterDataAccessBase.InitializeLifetimeService
-  name: InitializeLifetimeService()
-  href: api/MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_InitializeLifetimeService
-  commentId: M:MESL.SqlRace.Domain.ParameterDataAccessBase.InitializeLifetimeService
-  fullName: MESL.SqlRace.Domain.ParameterDataAccessBase.InitializeLifetimeService()
-  nameWithType: ParameterDataAccessBase.InitializeLifetimeService()
-- uid: MESL.SqlRace.Domain.ParameterDataAccessBase.InitializeLifetimeService*
-  name: InitializeLifetimeService
-  href: api/MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_InitializeLifetimeService_
-  commentId: Overload:MESL.SqlRace.Domain.ParameterDataAccessBase.InitializeLifetimeService
-  fullName: MESL.SqlRace.Domain.ParameterDataAccessBase.InitializeLifetimeService
-  nameWithType: ParameterDataAccessBase.InitializeLifetimeService
 - uid: MESL.SqlRace.Domain.ParameterDataAccessBase.Invalid
   name: Invalid
   href: api/MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_Invalid
@@ -30732,6 +30807,12 @@ references:
   commentId: F:MESL.SqlRace.Domain.Query.CombineType.OR
   fullName: MESL.SqlRace.Domain.Query.CombineType.OR
   nameWithType: CombineType.OR
+- uid: MESL.SqlRace.Domain.Query.CombineType.value__
+  name: value__
+  href: api/MESL.SqlRace.Domain.Query.CombineType.html#MESL_SqlRace_Domain_Query_CombineType_value__
+  commentId: F:MESL.SqlRace.Domain.Query.CombineType.value__
+  fullName: MESL.SqlRace.Domain.Query.CombineType.value__
+  nameWithType: CombineType.value__
 - uid: MESL.SqlRace.Domain.Query.CompositeFilter
   name: CompositeFilter
   href: api/MESL.SqlRace.Domain.Query.CompositeFilter.html
@@ -31029,6 +31110,12 @@ references:
   commentId: F:MESL.SqlRace.Domain.Query.MatchingRule.RegularExpression
   fullName: MESL.SqlRace.Domain.Query.MatchingRule.RegularExpression
   nameWithType: MatchingRule.RegularExpression
+- uid: MESL.SqlRace.Domain.Query.MatchingRule.value__
+  name: value__
+  href: api/MESL.SqlRace.Domain.Query.MatchingRule.html#MESL_SqlRace_Domain_Query_MatchingRule_value__
+  commentId: F:MESL.SqlRace.Domain.Query.MatchingRule.value__
+  fullName: MESL.SqlRace.Domain.Query.MatchingRule.value__
+  nameWithType: MatchingRule.value__
 - uid: MESL.SqlRace.Domain.Query.ParameterDataFilter
   name: ParameterDataFilter
   href: api/MESL.SqlRace.Domain.Query.ParameterDataFilter.html
@@ -31701,6 +31788,12 @@ references:
   commentId: F:MESL.SqlRace.Domain.Query.SearchOptions.RetrieveSessionDetails
   fullName: MESL.SqlRace.Domain.Query.SearchOptions.RetrieveSessionDetails
   nameWithType: SearchOptions.RetrieveSessionDetails
+- uid: MESL.SqlRace.Domain.Query.SearchOptions.value__
+  name: value__
+  href: api/MESL.SqlRace.Domain.Query.SearchOptions.html#MESL_SqlRace_Domain_Query_SearchOptions_value__
+  commentId: F:MESL.SqlRace.Domain.Query.SearchOptions.value__
+  fullName: MESL.SqlRace.Domain.Query.SearchOptions.value__
+  nameWithType: SearchOptions.value__
 - uid: MESL.SqlRace.Domain.Query.SortCriterion
   name: SortCriterion
   href: api/MESL.SqlRace.Domain.Query.SortCriterion.html
@@ -33531,6 +33624,12 @@ references:
   commentId: F:MESL.SqlRace.Domain.Repositories.Filestream.RootPathType.Ssn
   fullName: MESL.SqlRace.Domain.Repositories.Filestream.RootPathType.Ssn
   nameWithType: RootPathType.Ssn
+- uid: MESL.SqlRace.Domain.Repositories.Filestream.RootPathType.value__
+  name: value__
+  href: api/MESL.SqlRace.Domain.Repositories.Filestream.RootPathType.html#MESL_SqlRace_Domain_Repositories_Filestream_RootPathType_value__
+  commentId: F:MESL.SqlRace.Domain.Repositories.Filestream.RootPathType.value__
+  fullName: MESL.SqlRace.Domain.Repositories.Filestream.RootPathType.value__
+  nameWithType: RootPathType.value__
 - uid: MESL.SqlRace.Domain.Repositories.Laps
   name: MESL.SqlRace.Domain.Repositories.Laps
   href: api/MESL.SqlRace.Domain.Repositories.Laps.html
@@ -36165,18 +36264,6 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.SessionBase.Identifier
   fullName: MESL.SqlRace.Domain.SessionBase.Identifier
   nameWithType: SessionBase.Identifier
-- uid: MESL.SqlRace.Domain.SessionBase.InitializeLifetimeService
-  name: InitializeLifetimeService()
-  href: api/MESL.SqlRace.Domain.SessionBase.html#MESL_SqlRace_Domain_SessionBase_InitializeLifetimeService
-  commentId: M:MESL.SqlRace.Domain.SessionBase.InitializeLifetimeService
-  fullName: MESL.SqlRace.Domain.SessionBase.InitializeLifetimeService()
-  nameWithType: SessionBase.InitializeLifetimeService()
-- uid: MESL.SqlRace.Domain.SessionBase.InitializeLifetimeService*
-  name: InitializeLifetimeService
-  href: api/MESL.SqlRace.Domain.SessionBase.html#MESL_SqlRace_Domain_SessionBase_InitializeLifetimeService_
-  commentId: Overload:MESL.SqlRace.Domain.SessionBase.InitializeLifetimeService
-  fullName: MESL.SqlRace.Domain.SessionBase.InitializeLifetimeService
-  nameWithType: SessionBase.InitializeLifetimeService
 - uid: MESL.SqlRace.Domain.SessionBase.InstanceIdentifier
   name: InstanceIdentifier
   href: api/MESL.SqlRace.Domain.SessionBase.html#MESL_SqlRace_Domain_SessionBase_InstanceIdentifier
@@ -36744,6 +36831,12 @@ references:
   commentId: F:MESL.SqlRace.Domain.SessionChildItemsToLoad.SessionItems
   fullName: MESL.SqlRace.Domain.SessionChildItemsToLoad.SessionItems
   nameWithType: SessionChildItemsToLoad.SessionItems
+- uid: MESL.SqlRace.Domain.SessionChildItemsToLoad.value__
+  name: value__
+  href: api/MESL.SqlRace.Domain.SessionChildItemsToLoad.html#MESL_SqlRace_Domain_SessionChildItemsToLoad_value__
+  commentId: F:MESL.SqlRace.Domain.SessionChildItemsToLoad.value__
+  fullName: MESL.SqlRace.Domain.SessionChildItemsToLoad.value__
+  nameWithType: SessionChildItemsToLoad.value__
 - uid: MESL.SqlRace.Domain.SessionClosedArgs
   name: SessionClosedArgs
   href: api/MESL.SqlRace.Domain.SessionClosedArgs.html
@@ -36798,6 +36891,12 @@ references:
   commentId: F:MESL.SqlRace.Domain.SessionCompareMode.SingleLapRepeat
   fullName: MESL.SqlRace.Domain.SessionCompareMode.SingleLapRepeat
   nameWithType: SessionCompareMode.SingleLapRepeat
+- uid: MESL.SqlRace.Domain.SessionCompareMode.value__
+  name: value__
+  href: api/MESL.SqlRace.Domain.SessionCompareMode.html#MESL_SqlRace_Domain_SessionCompareMode_value__
+  commentId: F:MESL.SqlRace.Domain.SessionCompareMode.value__
+  fullName: MESL.SqlRace.Domain.SessionCompareMode.value__
+  nameWithType: SessionCompareMode.value__
 - uid: MESL.SqlRace.Domain.SessionCompareMode.WholeSession
   name: WholeSession
   href: api/MESL.SqlRace.Domain.SessionCompareMode.html#MESL_SqlRace_Domain_SessionCompareMode_WholeSession
@@ -37311,6 +37410,12 @@ references:
   commentId: F:MESL.SqlRace.Domain.SessionEventType.SessionLoaded
   fullName: MESL.SqlRace.Domain.SessionEventType.SessionLoaded
   nameWithType: SessionEventType.SessionLoaded
+- uid: MESL.SqlRace.Domain.SessionEventType.value__
+  name: value__
+  href: api/MESL.SqlRace.Domain.SessionEventType.html#MESL_SqlRace_Domain_SessionEventType_value__
+  commentId: F:MESL.SqlRace.Domain.SessionEventType.value__
+  fullName: MESL.SqlRace.Domain.SessionEventType.value__
+  nameWithType: SessionEventType.value__
 - uid: MESL.SqlRace.Domain.SessionException
   name: SessionException
   href: api/MESL.SqlRace.Domain.SessionException.html
@@ -37425,6 +37530,12 @@ references:
   commentId: F:MESL.SqlRace.Domain.SessionItemType.String
   fullName: MESL.SqlRace.Domain.SessionItemType.String
   nameWithType: SessionItemType.String
+- uid: MESL.SqlRace.Domain.SessionItemType.value__
+  name: value__
+  href: api/MESL.SqlRace.Domain.SessionItemType.html#MESL_SqlRace_Domain_SessionItemType_value__
+  commentId: F:MESL.SqlRace.Domain.SessionItemType.value__
+  fullName: MESL.SqlRace.Domain.SessionItemType.value__
+  nameWithType: SessionItemType.value__
 - uid: MESL.SqlRace.Domain.SessionLoaderNotExistsException
   name: SessionLoaderNotExistsException
   href: api/MESL.SqlRace.Domain.SessionLoaderNotExistsException.html
@@ -39143,6 +39254,12 @@ references:
   commentId: F:MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatus.RemovingStaleCacheEntries
   fullName: MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatus.RemovingStaleCacheEntries
   nameWithType: SessionProcessingStatus.RemovingStaleCacheEntries
+- uid: MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatus.value__
+  name: value__
+  href: api/MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatus.html#MESL_SqlRace_Domain_SessionProcessing_SessionProcessingStatus_value__
+  commentId: F:MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatus.value__
+  fullName: MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatus.value__
+  nameWithType: SessionProcessingStatus.value__
 - uid: MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatusCachingNewSessions
   name: SessionProcessingStatusCachingNewSessions
   href: api/MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatusCachingNewSessions.html
@@ -39425,6 +39542,12 @@ references:
   commentId: F:MESL.SqlRace.Domain.SessionState.LiveNotInServer
   fullName: MESL.SqlRace.Domain.SessionState.LiveNotInServer
   nameWithType: SessionState.LiveNotInServer
+- uid: MESL.SqlRace.Domain.SessionState.value__
+  name: value__
+  href: api/MESL.SqlRace.Domain.SessionState.html#MESL_SqlRace_Domain_SessionState_value__
+  commentId: F:MESL.SqlRace.Domain.SessionState.value__
+  fullName: MESL.SqlRace.Domain.SessionState.value__
+  nameWithType: SessionState.value__
 - uid: MESL.SqlRace.Domain.SessionStatusChangedEventArgs
   name: SessionStatusChangedEventArgs
   href: api/MESL.SqlRace.Domain.SessionStatusChangedEventArgs.html
@@ -40043,6 +40166,12 @@ references:
   commentId: F:MESL.SqlRace.Domain.SessionType.Type9
   fullName: MESL.SqlRace.Domain.SessionType.Type9
   nameWithType: SessionType.Type9
+- uid: MESL.SqlRace.Domain.SessionType.value__
+  name: value__
+  href: api/MESL.SqlRace.Domain.SessionType.html#MESL_SqlRace_Domain_SessionType_value__
+  commentId: F:MESL.SqlRace.Domain.SessionType.value__
+  fullName: MESL.SqlRace.Domain.SessionType.value__
+  nameWithType: SessionType.value__
 - uid: MESL.SqlRace.Domain.Sort
   name: MESL.SqlRace.Domain.Sort
   href: api/MESL.SqlRace.Domain.Sort.html
@@ -40151,6 +40280,12 @@ references:
   commentId: F:MESL.SqlRace.Domain.SortOrder.Unspecified
   fullName: MESL.SqlRace.Domain.SortOrder.Unspecified
   nameWithType: SortOrder.Unspecified
+- uid: MESL.SqlRace.Domain.SortOrder.value__
+  name: value__
+  href: api/MESL.SqlRace.Domain.SortOrder.html#MESL_SqlRace_Domain_SortOrder_value__
+  commentId: F:MESL.SqlRace.Domain.SortOrder.value__
+  fullName: MESL.SqlRace.Domain.SortOrder.value__
+  nameWithType: SortOrder.value__
 - uid: MESL.SqlRace.Domain.SqliteDatabaseConnection
   name: SqliteDatabaseConnection
   href: api/MESL.SqlRace.Domain.SqliteDatabaseConnection.html
@@ -40358,6 +40493,12 @@ references:
   commentId: F:MESL.SqlRace.Domain.SQLRaceEventType.Info
   fullName: MESL.SqlRace.Domain.SQLRaceEventType.Info
   nameWithType: SQLRaceEventType.Info
+- uid: MESL.SqlRace.Domain.SQLRaceEventType.value__
+  name: value__
+  href: api/MESL.SqlRace.Domain.SQLRaceEventType.html#MESL_SqlRace_Domain_SQLRaceEventType_value__
+  commentId: F:MESL.SqlRace.Domain.SQLRaceEventType.value__
+  fullName: MESL.SqlRace.Domain.SQLRaceEventType.value__
+  nameWithType: SQLRaceEventType.value__
 - uid: MESL.SqlRace.Domain.SqlServerDatabaseConnection
   name: SqlServerDatabaseConnection
   href: api/MESL.SqlRace.Domain.SqlServerDatabaseConnection.html
@@ -41672,6 +41813,12 @@ references:
   commentId: F:MESL.SqlRace.Domain.VirtualParameters.PdaType.Unknown
   fullName: MESL.SqlRace.Domain.VirtualParameters.PdaType.Unknown
   nameWithType: PdaType.Unknown
+- uid: MESL.SqlRace.Domain.VirtualParameters.PdaType.value__
+  name: value__
+  href: api/MESL.SqlRace.Domain.VirtualParameters.PdaType.html#MESL_SqlRace_Domain_VirtualParameters_PdaType_value__
+  commentId: F:MESL.SqlRace.Domain.VirtualParameters.PdaType.value__
+  fullName: MESL.SqlRace.Domain.VirtualParameters.PdaType.value__
+  nameWithType: PdaType.value__
 - uid: MESL.SqlRace.Domain.VirtualParameters.PdaType.Virtual
   name: Virtual
   href: api/MESL.SqlRace.Domain.VirtualParameters.PdaType.html#MESL_SqlRace_Domain_VirtualParameters_PdaType_Virtual

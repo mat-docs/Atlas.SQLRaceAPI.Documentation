@@ -76,12 +76,6 @@
   <div class="markdown level0 summary"><p>Interface describing a CompositeContainerParameterDataAccess</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.IDisposable.Dispose()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.html">MESL.SqlRace.Domain</a></h6>
   <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
   <h5 id="MESL_SqlRace_Domain_ICompositeContainerParameterDataAccess_syntax">Syntax</h5>
@@ -1414,7 +1408,7 @@ the first lap would use these timestamps, the second lap would add 2 mins and us
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Dictionary&lt;CompositeSessionKey, Dictionary&lt;SessionKey, long?&gt;&gt; GetSamplesCount(long startTimeStamp, long endTimeStamp)</code></pre>
+    <pre><code class="lang-csharp hljs">Dictionary&lt;CompositeSessionKey, Dictionary&lt;SessionKey, Nullable&lt;long&gt;&gt;&gt; GetSamplesCount(long startTimeStamp, long endTimeStamp)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1464,7 +1458,7 @@ If the return value is zero means that was impossible to calculate the sample co
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Dictionary&lt;CompositeSessionKey, Dictionary&lt;SessionKey, long?&gt;&gt; GetSamplesCountEstimate(long startTimeStamp, long endTimeStamp)</code></pre>
+    <pre><code class="lang-csharp hljs">Dictionary&lt;CompositeSessionKey, Dictionary&lt;SessionKey, Nullable&lt;long&gt;&gt;&gt; GetSamplesCountEstimate(long startTimeStamp, long endTimeStamp)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

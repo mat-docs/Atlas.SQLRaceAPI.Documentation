@@ -86,35 +86,11 @@ contained on the file system for indexing as SQL Race Sessions.</p>
     <h5>Implements</h5>
     <div><a class="xref" href="MESL.SqlRace.Domain.IFileSessionManager.html">IFileSessionManager</a></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.html">MESL.SqlRace.Domain</a></h6>
   <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
   <h5 id="MESL_SqlRace_Domain_FileSessionManager_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class FileSessionManager : IFileSessionManager</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class FileSessionManager : Object, IFileSessionManager</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
@@ -303,7 +279,7 @@ contained on the file system for indexing as SQL Race Sessions.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerable&lt;ISessionSummary&gt; GetIndexedFileSessionFolder(string connectionString, string path, bool includeSubdirectories, IFilter filter, IEnumerable&lt;SortCriterion&gt; sortCriteria, int? pageNumber, int? pageSize)</code></pre>
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;ISessionSummary&gt; GetIndexedFileSessionFolder(string connectionString, string path, bool includeSubdirectories, IFilter filter, IEnumerable&lt;SortCriterion&gt; sortCriteria, Nullable&lt;int&gt; pageNumber, Nullable&lt;int&gt; pageSize)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -683,7 +659,7 @@ contained on the file system for indexing as SQL Race Sessions.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerable&lt;ISessionSummary&gt; LoadSessionSummariesForPath(string folderPath, bool includeSubdirectories, IFilter filter, IEnumerable&lt;SortCriterion&gt; sortCriteria, int? pageNumber, int? pageSize, CancellationToken token, IProgress&lt;SessionProcessingStatusUpdate&gt; progress)</code></pre>
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;ISessionSummary&gt; LoadSessionSummariesForPath(string folderPath, bool includeSubdirectories, IFilter filter, IEnumerable&lt;SortCriterion&gt; sortCriteria, Nullable&lt;int&gt; pageNumber, Nullable&lt;int&gt; pageSize, CancellationToken token, IProgress&lt;SessionProcessingStatusUpdate&gt; progress)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

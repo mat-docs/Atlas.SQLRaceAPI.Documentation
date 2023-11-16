@@ -79,9 +79,8 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">System.MarshalByRefObject</span></div>
-    <div class="level2"><a class="xref" href="MESL.SqlRace.Domain.SessionBase.html">SessionBase</a></div>
-    <div class="level3"><span class="xref">Session</span></div>
+    <div class="level1"><a class="xref" href="MESL.SqlRace.Domain.SessionBase.html">SessionBase</a></div>
+    <div class="level2"><span class="xref">Session</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
@@ -89,9 +88,6 @@
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="MESL.SqlRace.Domain.SessionBase.html#MESL_SqlRace_Domain_SessionBase_InitializeLifetimeService">SessionBase.InitializeLifetimeService()</a>
-    </div>
     <div>
       <a class="xref" href="MESL.SqlRace.Domain.SessionBase.html#MESL_SqlRace_Domain_SessionBase_CoverageCursor">SessionBase.CoverageCursor</a>
     </div>
@@ -124,33 +120,6 @@
     </div>
     <div>
       <a class="xref" href="MESL.SqlRace.Domain.SessionBase.html#MESL_SqlRace_Domain_SessionBase_VersionUsedToRecord">SessionBase.VersionUsedToRecord</a>
-    </div>
-    <div>
-      <span class="xref">System.MarshalByRefObject.MemberwiseClone(System.Boolean)</span>
-    </div>
-    <div>
-      <span class="xref">System.MarshalByRefObject.GetLifetimeService()</span>
-    </div>
-    <div>
-      <span class="xref">System.MarshalByRefObject.CreateObjRef(System.Type)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.html">MESL.SqlRace.Domain</a></h6>
@@ -387,7 +356,7 @@ available for this Session.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.ConfigurationSet.html">ConfigurationSet</a>&gt;</td>
-        <td><p><span class="xref">System.Collections.Generic.List&lt;T&gt;</span>.</p>
+        <td><p><span class="xref">System.Collections.Generic.List&lt;&gt;</span>.</p>
 </td>
       </tr>
     </tbody>
@@ -734,8 +703,7 @@ available for this Session.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;This property breaks encapsulation and is not immutable. If you capture the instance, it may be replaced by SQL Race at a later stage, and you will have wrong data. Please use LapCollection property instead.&quot;)]
-public override LapCollection Laps { get; protected set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public override LapCollection Laps { get; protected set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2044,7 +2012,7 @@ This method will run synchronously.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.ErrorData.html">ErrorData</a>&gt;</td>
-        <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span></td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable&lt;&gt;</span></td>
       </tr>
     </tbody>
   </table>
@@ -2794,8 +2762,7 @@ that identifier exists.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;LoadParameters(IEnumerable&lt;string&gt;) is not implemented and will be removed in a future version&quot;)]
-public override void LoadParameters(IEnumerable&lt;string&gt; parameterIdentifiers)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void LoadParameters(IEnumerable&lt;string&gt; parameterIdentifiers)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2828,8 +2795,7 @@ Used for Lightweight Session Loading, and for incrementally loading configuratio
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;LoadRemainingParameters() is not implemented and will be removed in a future version&quot;)]
-public override void LoadRemainingParameters()</code></pre>
+    <pre><code class="lang-csharp hljs">public override void LoadRemainingParameters()</code></pre>
   </div>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="MESL.SqlRace.Domain.SessionBase.html#MESL_SqlRace_Domain_SessionBase_LoadRemainingParameters">SessionBase.LoadRemainingParameters()</a></div>
@@ -3219,8 +3185,6 @@ needs to add configuration for a new channel. Each call to this method will resu
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Object.ToString()</span></div>
   <a id="MESL_SqlRace_Domain_Session_TryCreateParameterDataAccess_" data-uid="MESL.SqlRace.Domain.Session.TryCreateParameterDataAccess*"></a>
   <h4 id="MESL_SqlRace_Domain_Session_TryCreateParameterDataAccess_System_String_MESL_SqlRace_Domain_ParameterDataAccessBase__" data-uid="MESL.SqlRace.Domain.Session.TryCreateParameterDataAccess(System.String,MESL.SqlRace.Domain.ParameterDataAccessBase@)">TryCreateParameterDataAccess(String, out ParameterDataAccessBase)</h4>
   <div class="markdown level1 summary"><p>Attempts to create a ParameterDataAccess object that can be used to read merged Channel data from this session.</p>

@@ -147,7 +147,7 @@ contained on the file system for indexing as SQL Race Sessions.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IEnumerable&lt;ISessionSummary&gt; GetIndexedFileSessionFolder(string connectionString, string path, bool includeSubdirectories, IFilter filter, IEnumerable&lt;SortCriterion&gt; sortCriteria, int? pageNumber, int? pageSize)</code></pre>
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;ISessionSummary&gt; GetIndexedFileSessionFolder(string connectionString, string path, bool includeSubdirectories, IFilter filter, IEnumerable&lt;SortCriterion&gt; sortCriteria, Nullable&lt;int&gt; pageNumber, Nullable&lt;int&gt; pageSize)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -465,7 +465,7 @@ contained on the file system for indexing as SQL Race Sessions.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IEnumerable&lt;ISessionSummary&gt; LoadSessionSummariesForPath(string folderPath, bool includeSubdirectories, IFilter filter, IEnumerable&lt;SortCriterion&gt; sortCriteria, int? pageNumber, int? pageSize, CancellationToken token, IProgress&lt;SessionProcessingStatusUpdate&gt; progress)</code></pre>
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;ISessionSummary&gt; LoadSessionSummariesForPath(string folderPath, bool includeSubdirectories, IFilter filter, IEnumerable&lt;SortCriterion&gt; sortCriteria, Nullable&lt;int&gt; pageNumber, Nullable&lt;int&gt; pageSize, CancellationToken token, IProgress&lt;SessionProcessingStatusUpdate&gt; progress)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

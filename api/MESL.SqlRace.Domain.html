@@ -89,6 +89,9 @@
       <h4><a class="xref" href="MESL.SqlRace.Domain.AuditEntry.html">AuditEntry</a></h4>
       <section><p>Contains details of an audit entry</p>
 </section>
+      <h4><a class="xref" href="MESL.SqlRace.Domain.AuditType.html">AuditType</a></h4>
+      <section><p>Audit type</p>
+</section>
       <h4><a class="xref" href="MESL.SqlRace.Domain.AvailabilityChangedEventArgs.html">AvailabilityChangedEventArgs</a></h4>
       <section><p>Event args for availability changing</p>
 </section>
@@ -136,11 +139,17 @@
       <h4><a class="xref" href="MESL.SqlRace.Domain.CompositeSessionEventArgs.html">CompositeSessionEventArgs</a></h4>
       <section><p>CompositeSession Event Args</p>
 </section>
+      <h4><a class="xref" href="MESL.SqlRace.Domain.CompositeSessionEventType.html">CompositeSessionEventType</a></h4>
+      <section><p>CompositeSessionEventType</p>
+</section>
       <h4><a class="xref" href="MESL.SqlRace.Domain.CompositeSessionException.html">CompositeSessionException</a></h4>
       <section><p>CompositeSession Exception</p>
 </section>
       <h4><a class="xref" href="MESL.SqlRace.Domain.CompositeSessionInfo.html">CompositeSessionInfo</a></h4>
       <section><p>Composite Session Info</p>
+</section>
+      <h4><a class="xref" href="MESL.SqlRace.Domain.CompositeSessionMode.html">CompositeSessionMode</a></h4>
+      <section><p>CompositeSession Mode</p>
 </section>
       <h4><a class="xref" href="MESL.SqlRace.Domain.CompositeStatistics.html">CompositeStatistics</a></h4>
       <section><p>Statistics for CompositeSession</p>
@@ -201,6 +210,12 @@ to associate with data for a parameter or event.</p>
 </section>
       <h4><a class="xref" href="MESL.SqlRace.Domain.DataItemReader.html">DataItemReader</a></h4>
       <section><p>Responsible for retrieving data items across all sessions in SQL Race.</p>
+</section>
+      <h4><a class="xref" href="MESL.SqlRace.Domain.DbConfiguration.html">DbConfiguration</a></h4>
+      <section><p>The information for a database configuration</p>
+</section>
+      <h4><a class="xref" href="MESL.SqlRace.Domain.DbEngine.html">DbEngine</a></h4>
+      <section><p>The DbEngine</p>
 </section>
       <h4><a class="xref" href="MESL.SqlRace.Domain.EntityBase.html">EntityBase</a></h4>
       <section><p>Base class for entities associated with a session.</p>
@@ -436,8 +451,14 @@ in the identifier. Otherwise it will be be able to re-use an existing config.</p
       <h4><a class="xref" href="MESL.SqlRace.Domain.SessionBase.html">SessionBase</a></h4>
       <section><p>Provides the abstract base class for a Session which exposes its public interface</p>
 </section>
+      <h4><a class="xref" href="MESL.SqlRace.Domain.SessionChildItemsToLoad.html">SessionChildItemsToLoad</a></h4>
+      <section><p>Defines the session child items to load when loading a session.</p>
+</section>
       <h4><a class="xref" href="MESL.SqlRace.Domain.SessionClosedArgs.html">SessionClosedArgs</a></h4>
       <section><p>Arguments used for session closed event.</p>
+</section>
+      <h4><a class="xref" href="MESL.SqlRace.Domain.SessionCompareMode.html">SessionCompareMode</a></h4>
+      <section><p>Compare mode of the Composite Session</p>
 </section>
       <h4><a class="xref" href="MESL.SqlRace.Domain.SessionDataItem.html">SessionDataItem</a></h4>
       <section><p>This class represents the contents of a data item that can be attached to a session</p>
@@ -451,11 +472,17 @@ in the identifier. Otherwise it will be be able to re-use an existing config.</p
       <h4><a class="xref" href="MESL.SqlRace.Domain.SessionEventArgs.html">SessionEventArgs</a></h4>
       <section><p>Container for information about a session event </p>
 </section>
+      <h4><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></h4>
+      <section><p>Enumeration describing the type of a session event</p>
+</section>
       <h4><a class="xref" href="MESL.SqlRace.Domain.SessionException.html">SessionException</a></h4>
       <section><p>CompositeSession Exception</p>
 </section>
       <h4><a class="xref" href="MESL.SqlRace.Domain.SessionIdentifierChangedEventArgs.html">SessionIdentifierChangedEventArgs</a></h4>
       <section><p>Container for information about a session identifier changed event </p>
+</section>
+      <h4><a class="xref" href="MESL.SqlRace.Domain.SessionItemType.html">SessionItemType</a></h4>
+      <section><p>Session item type</p>
 </section>
       <h4><a class="xref" href="MESL.SqlRace.Domain.SessionLoaderNotExistsException.html">SessionLoaderNotExistsException</a></h4>
       <section><p>A session loader for the specific file session not exists</p>
@@ -475,6 +502,10 @@ in the identifier. Otherwise it will be be able to re-use an existing config.</p
       <h4><a class="xref" href="MESL.SqlRace.Domain.SessionSampleCountSegment.html">SessionSampleCountSegment</a></h4>
       <section><p>Rapresent information regarding a timerange in a session session</p>
 </section>
+      <h4><a class="xref" href="MESL.SqlRace.Domain.SessionState.html">SessionState</a></h4>
+      <section><p>Enumeration used to identify whether a session is currenty live and having data recorded
+to it or historical where data is loaded from the database.</p>
+</section>
       <h4><a class="xref" href="MESL.SqlRace.Domain.SessionStatusChangedEventArgs.html">SessionStatusChangedEventArgs</a></h4>
       <section><p>Class for firing Session status changed event</p>
 </section>
@@ -490,6 +521,13 @@ in the identifier. Otherwise it will be be able to re-use an existing config.</p
       <h4><a class="xref" href="MESL.SqlRace.Domain.SessionTimstampsSegment.html">SessionTimstampsSegment</a></h4>
       <section><p>Rapresent atimestamp request for a particular session</p>
 </section>
+      <h4><a class="xref" href="MESL.SqlRace.Domain.SessionType.html">SessionType</a></h4>
+      <section><p>Enumeration provides a number of possible session types. The type
+has meaning only for the client. Within the API all types are treated equally.</p>
+</section>
+      <h4><a class="xref" href="MESL.SqlRace.Domain.SortOrder.html">SortOrder</a></h4>
+      <section><p>Specifies how sessions are sorted.</p>
+</section>
       <h4><a class="xref" href="MESL.SqlRace.Domain.SqliteDatabaseConnection.html">SqliteDatabaseConnection</a></h4>
       <section><p>Class for handling the sqlite database connections</p>
 </section>
@@ -498,6 +536,9 @@ in the identifier. Otherwise it will be be able to re-use an existing config.</p
 </section>
       <h4><a class="xref" href="MESL.SqlRace.Domain.SQLRaceEvent.html">SQLRaceEvent</a></h4>
       <section><p>The event raised when the core gets initialized</p>
+</section>
+      <h4><a class="xref" href="MESL.SqlRace.Domain.SQLRaceEventType.html">SQLRaceEventType</a></h4>
+      <section><p>An event generated by SQLRace that can be used by the API user</p>
 </section>
       <h4><a class="xref" href="MESL.SqlRace.Domain.SqlServerDatabaseConnection.html">SqlServerDatabaseConnection</a></h4>
       <section><p>Class for handling the database connection</p>
@@ -508,19 +549,14 @@ in the identifier. Otherwise it will be be able to re-use an existing config.</p
       <h4><a class="xref" href="MESL.SqlRace.Domain.TextConversion.html">TextConversion</a></h4>
       <section><p>Defines a text conversion formula.</p>
 </section>
+      <h4><a class="xref" href="MESL.SqlRace.Domain.TimeRange.html">TimeRange</a></h4>
+      <section><p>Structure representing a time range</p>
+</section>
       <h4><a class="xref" href="MESL.SqlRace.Domain.TransientConnectionInformation.html">TransientConnectionInformation</a></h4>
       <section><p>Information about a transient connection</p>
 </section>
       <h4><a class="xref" href="MESL.SqlRace.Domain.VirtualParameter.html">VirtualParameter</a></h4>
       <section><p>Domain entity representing a Virtual Parameter.</p>
-</section>
-    <h3 id="structs">Structs
-  </h3>
-      <h4><a class="xref" href="MESL.SqlRace.Domain.DbConfiguration.html">DbConfiguration</a></h4>
-      <section><p>The information for a database configuration</p>
-</section>
-      <h4><a class="xref" href="MESL.SqlRace.Domain.TimeRange.html">TimeRange</a></h4>
-      <section><p>Structure representing a time range</p>
 </section>
     <h3 id="interfaces">Interfaces
   </h3>
@@ -597,46 +633,6 @@ contained on the file system for indexing as SQL Race Sessions.</p>
 </section>
       <h4><a class="xref" href="MESL.SqlRace.Domain.ISessionSummary.html">ISessionSummary</a></h4>
       <section><p>Exposes declaration related to session summaries</p>
-</section>
-    <h3 id="enums">Enums
-  </h3>
-      <h4><a class="xref" href="MESL.SqlRace.Domain.AuditType.html">AuditType</a></h4>
-      <section><p>Audit type</p>
-</section>
-      <h4><a class="xref" href="MESL.SqlRace.Domain.CompositeSessionEventType.html">CompositeSessionEventType</a></h4>
-      <section><p>CompositeSessionEventType</p>
-</section>
-      <h4><a class="xref" href="MESL.SqlRace.Domain.CompositeSessionMode.html">CompositeSessionMode</a></h4>
-      <section><p>CompositeSession Mode</p>
-</section>
-      <h4><a class="xref" href="MESL.SqlRace.Domain.DbEngine.html">DbEngine</a></h4>
-      <section><p>The DbEngine</p>
-</section>
-      <h4><a class="xref" href="MESL.SqlRace.Domain.SessionChildItemsToLoad.html">SessionChildItemsToLoad</a></h4>
-      <section><p>Defines the session child items to load when loading a session.</p>
-</section>
-      <h4><a class="xref" href="MESL.SqlRace.Domain.SessionCompareMode.html">SessionCompareMode</a></h4>
-      <section><p>Compare mode of the Composite Session</p>
-</section>
-      <h4><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></h4>
-      <section><p>Enumeration describing the type of a session event</p>
-</section>
-      <h4><a class="xref" href="MESL.SqlRace.Domain.SessionItemType.html">SessionItemType</a></h4>
-      <section><p>Session item type</p>
-</section>
-      <h4><a class="xref" href="MESL.SqlRace.Domain.SessionState.html">SessionState</a></h4>
-      <section><p>Enumeration used to identify whether a session is currenty live and having data recorded
-to it or historical where data is loaded from the database.</p>
-</section>
-      <h4><a class="xref" href="MESL.SqlRace.Domain.SessionType.html">SessionType</a></h4>
-      <section><p>Enumeration provides a number of possible session types. The type
-has meaning only for the client. Within the API all types are treated equally.</p>
-</section>
-      <h4><a class="xref" href="MESL.SqlRace.Domain.SortOrder.html">SortOrder</a></h4>
-      <section><p>Specifies how sessions are sorted.</p>
-</section>
-      <h4><a class="xref" href="MESL.SqlRace.Domain.SQLRaceEventType.html">SQLRaceEventType</a></h4>
-      <section><p>An event generated by SQLRace that can be used by the API user</p>
 </section>
 </article>
           </div>

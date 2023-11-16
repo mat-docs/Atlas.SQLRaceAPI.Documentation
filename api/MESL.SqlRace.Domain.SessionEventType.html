@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Enum SessionEventType
+    <title>Class SessionEventType
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Enum SessionEventType
+    <meta name="title" content="Class SessionEventType
    ">
     <meta name="generator" content="docfx 2.56.2.0">
     
@@ -71,216 +71,899 @@
             <article class="content wrap" id="_content" data-uid="MESL.SqlRace.Domain.SessionEventType">
   
   
-  <h1 id="MESL_SqlRace_Domain_SessionEventType" data-uid="MESL.SqlRace.Domain.SessionEventType" class="text-break">Enum SessionEventType
+  <h1 id="MESL_SqlRace_Domain_SessionEventType" data-uid="MESL.SqlRace.Domain.SessionEventType" class="text-break">Class SessionEventType
   </h1>
   <div class="markdown level0 summary"><p>Enumeration describing the type of a session event</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">SessionEventType</span></div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.html">MESL.SqlRace.Domain</a></h6>
   <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
   <h5 id="MESL_SqlRace_Domain_SessionEventType_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public enum SessionEventType</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class SessionEventType : Enum</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_ApplicationGroupsAdded" data-uid="MESL.SqlRace.Domain.SessionEventType.ApplicationGroupsAdded">ApplicationGroupsAdded</h4>
+  <div class="markdown level1 summary"><p>Application group added</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionEventType ApplicationGroupsAdded</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type</th>
         <th>Description</th>
       </tr>
-    <thead>
+    </thead>
     <tbody>
       <tr>
-        <td id="MESL_SqlRace_Domain_SessionEventType_ApplicationGroupsAdded">ApplicationGroupsAdded</td>
-        <td><p>Application group added</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionEventType_AssociateAdded">AssociateAdded</td>
-        <td><p>Associate added</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionEventType_AssociateRemoved">AssociateRemoved</td>
-        <td><p>Associate Removed</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionEventType_CanBusDefinitionAdded">CanBusDefinitionAdded</td>
-        <td><p>Can Bus definition added</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionEventType_ChannelsAdded">ChannelsAdded</td>
-        <td><p>Identifier for event raised when channels are added</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionEventType_ConfigurationProcessed">ConfigurationProcessed</td>
-        <td><p>Aggregate event that fires when the configuration has been processed</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionEventType_ConstantAdded">ConstantAdded</td>
-        <td><p>Constant added to session</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionEventType_ConversionsAdded">ConversionsAdded</td>
-        <td><p>Conversions added</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionEventType_ErrorDataAdded">ErrorDataAdded</td>
-        <td><p>Error data added</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionEventType_ErrorDefinitionAdded">ErrorDefinitionAdded</td>
-        <td><p>Error definition added</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionEventType_ErrorDefinitionRemoved">ErrorDefinitionRemoved</td>
-        <td><p>Error definition removed</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionEventType_EventDataAdded">EventDataAdded</td>
-        <td><p>Event data added</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionEventType_EventDefinitionsAdded">EventDefinitionsAdded</td>
-        <td><p>Event definitions added</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionEventType_FileSessionConfigurationAvailable">FileSessionConfigurationAvailable</td>
-        <td><p>Indicates that configuration for a FileSession is available</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionEventType_FileSessionConfigurationError">FileSessionConfigurationError</td>
-        <td><p>A configuration import error happen</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionEventType_FileSessionConfigurationLoaded">FileSessionConfigurationLoaded</td>
-        <td><p>Indicates that configuration for a FileSession has been Loaded</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionEventType_FileSessionConfigurationProcessingStep">FileSessionConfigurationProcessingStep</td>
-        <td><p>A new step importing the configuration is done</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionEventType_FileSessionDeleted">FileSessionDeleted</td>
-        <td><p>The file session deleted</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionEventType_FileSessionIndexed">FileSessionIndexed</td>
-        <td><p>Indicates that a new FileSession has been indexed</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionEventType_FileSessionLoaded">FileSessionLoaded</td>
-        <td><p>Indicates that a new FileSession has been Loaded</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionEventType_FunctionParametersAdded">FunctionParametersAdded</td>
-        <td><p>Indicates that one or more new function parameters have been added</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionEventType_FunctionParametersRemoved">FunctionParametersRemoved</td>
-        <td><p>Indicates that one or more function parameters have been removed</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionEventType_LapAdded">LapAdded</td>
-        <td><p>Indicates that a lap has been added to the session</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionEventType_LapConstantAdded">LapConstantAdded</td>
-        <td><p>Lap constant added</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionEventType_LapMapAdded">LapMapAdded</td>
-        <td><p>Lap map added</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionEventType_LapStatisticsCalculated">LapStatisticsCalculated</td>
-        <td><p>Event fired when background calculation of lap statistics
-for the currently active pdas has been completed.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionEventType_LapStatisticsPersisted">LapStatisticsPersisted</td>
-        <td><p>Event fired when batch of lap statistics has been persisted 
-to the database.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionEventType_MapAdded">MapAdded</td>
-        <td><p>Map has been added</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionEventType_MarkerAdded">MarkerAdded</td>
-        <td><p>Marker added.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionEventType_NewDataArrived">NewDataArrived</td>
-        <td><p>New data is arrived for a subscribed parameter</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionEventType_ParametersAdded">ParametersAdded</td>
-        <td><p>Parameters added</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionEventType_RdaEventsDefinitionsChanged">RdaEventsDefinitionsChanged</td>
-        <td><p>Rda Events Definitions Changed</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionEventType_RdaParametersAdded">RdaParametersAdded</td>
-        <td><p>Rda Parameters added</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionEventType_RdaParametersRemoved">RdaParametersRemoved</td>
-        <td><p>Rda Parameters removed</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionEventType_SessionClosed">SessionClosed</td>
-        <td><p>Signals closing of a session.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionEventType_SessionCreated">SessionCreated</td>
-        <td><p>Signals creation of a session e.g. at start of recording</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MESL_SqlRace_Domain_SessionEventType_SessionLoaded">SessionLoaded</td>
-        <td><p>Signals loading of a session into the session manager</p>
-</td>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td></td>
       </tr>
     </tbody>
-  </thead></thead></table>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_AssociateAdded" data-uid="MESL.SqlRace.Domain.SessionEventType.AssociateAdded">AssociateAdded</h4>
+  <div class="markdown level1 summary"><p>Associate added</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionEventType AssociateAdded</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_AssociateRemoved" data-uid="MESL.SqlRace.Domain.SessionEventType.AssociateRemoved">AssociateRemoved</h4>
+  <div class="markdown level1 summary"><p>Associate Removed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionEventType AssociateRemoved</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_CanBusDefinitionAdded" data-uid="MESL.SqlRace.Domain.SessionEventType.CanBusDefinitionAdded">CanBusDefinitionAdded</h4>
+  <div class="markdown level1 summary"><p>Can Bus definition added</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionEventType CanBusDefinitionAdded</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_ChannelsAdded" data-uid="MESL.SqlRace.Domain.SessionEventType.ChannelsAdded">ChannelsAdded</h4>
+  <div class="markdown level1 summary"><p>Identifier for event raised when channels are added</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionEventType ChannelsAdded</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_ConfigurationProcessed" data-uid="MESL.SqlRace.Domain.SessionEventType.ConfigurationProcessed">ConfigurationProcessed</h4>
+  <div class="markdown level1 summary"><p>Aggregate event that fires when the configuration has been processed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionEventType ConfigurationProcessed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_ConstantAdded" data-uid="MESL.SqlRace.Domain.SessionEventType.ConstantAdded">ConstantAdded</h4>
+  <div class="markdown level1 summary"><p>Constant added to session</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionEventType ConstantAdded</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_ConversionsAdded" data-uid="MESL.SqlRace.Domain.SessionEventType.ConversionsAdded">ConversionsAdded</h4>
+  <div class="markdown level1 summary"><p>Conversions added</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionEventType ConversionsAdded</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_ErrorDataAdded" data-uid="MESL.SqlRace.Domain.SessionEventType.ErrorDataAdded">ErrorDataAdded</h4>
+  <div class="markdown level1 summary"><p>Error data added</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionEventType ErrorDataAdded</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_ErrorDefinitionAdded" data-uid="MESL.SqlRace.Domain.SessionEventType.ErrorDefinitionAdded">ErrorDefinitionAdded</h4>
+  <div class="markdown level1 summary"><p>Error definition added</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionEventType ErrorDefinitionAdded</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_ErrorDefinitionRemoved" data-uid="MESL.SqlRace.Domain.SessionEventType.ErrorDefinitionRemoved">ErrorDefinitionRemoved</h4>
+  <div class="markdown level1 summary"><p>Error definition removed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionEventType ErrorDefinitionRemoved</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_EventDataAdded" data-uid="MESL.SqlRace.Domain.SessionEventType.EventDataAdded">EventDataAdded</h4>
+  <div class="markdown level1 summary"><p>Event data added</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionEventType EventDataAdded</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_EventDefinitionsAdded" data-uid="MESL.SqlRace.Domain.SessionEventType.EventDefinitionsAdded">EventDefinitionsAdded</h4>
+  <div class="markdown level1 summary"><p>Event definitions added</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionEventType EventDefinitionsAdded</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_FileSessionConfigurationAvailable" data-uid="MESL.SqlRace.Domain.SessionEventType.FileSessionConfigurationAvailable">FileSessionConfigurationAvailable</h4>
+  <div class="markdown level1 summary"><p>Indicates that configuration for a FileSession is available</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionEventType FileSessionConfigurationAvailable</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_FileSessionConfigurationError" data-uid="MESL.SqlRace.Domain.SessionEventType.FileSessionConfigurationError">FileSessionConfigurationError</h4>
+  <div class="markdown level1 summary"><p>A configuration import error happen</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionEventType FileSessionConfigurationError</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_FileSessionConfigurationLoaded" data-uid="MESL.SqlRace.Domain.SessionEventType.FileSessionConfigurationLoaded">FileSessionConfigurationLoaded</h4>
+  <div class="markdown level1 summary"><p>Indicates that configuration for a FileSession has been Loaded</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionEventType FileSessionConfigurationLoaded</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_FileSessionConfigurationProcessingStep" data-uid="MESL.SqlRace.Domain.SessionEventType.FileSessionConfigurationProcessingStep">FileSessionConfigurationProcessingStep</h4>
+  <div class="markdown level1 summary"><p>A new step importing the configuration is done</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionEventType FileSessionConfigurationProcessingStep</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_FileSessionDeleted" data-uid="MESL.SqlRace.Domain.SessionEventType.FileSessionDeleted">FileSessionDeleted</h4>
+  <div class="markdown level1 summary"><p>The file session deleted</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionEventType FileSessionDeleted</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_FileSessionIndexed" data-uid="MESL.SqlRace.Domain.SessionEventType.FileSessionIndexed">FileSessionIndexed</h4>
+  <div class="markdown level1 summary"><p>Indicates that a new FileSession has been indexed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionEventType FileSessionIndexed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_FileSessionLoaded" data-uid="MESL.SqlRace.Domain.SessionEventType.FileSessionLoaded">FileSessionLoaded</h4>
+  <div class="markdown level1 summary"><p>Indicates that a new FileSession has been Loaded</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionEventType FileSessionLoaded</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_FunctionParametersAdded" data-uid="MESL.SqlRace.Domain.SessionEventType.FunctionParametersAdded">FunctionParametersAdded</h4>
+  <div class="markdown level1 summary"><p>Indicates that one or more new function parameters have been added</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionEventType FunctionParametersAdded</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_FunctionParametersRemoved" data-uid="MESL.SqlRace.Domain.SessionEventType.FunctionParametersRemoved">FunctionParametersRemoved</h4>
+  <div class="markdown level1 summary"><p>Indicates that one or more function parameters have been removed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionEventType FunctionParametersRemoved</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_LapAdded" data-uid="MESL.SqlRace.Domain.SessionEventType.LapAdded">LapAdded</h4>
+  <div class="markdown level1 summary"><p>Indicates that a lap has been added to the session</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionEventType LapAdded</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_LapConstantAdded" data-uid="MESL.SqlRace.Domain.SessionEventType.LapConstantAdded">LapConstantAdded</h4>
+  <div class="markdown level1 summary"><p>Lap constant added</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionEventType LapConstantAdded</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_LapMapAdded" data-uid="MESL.SqlRace.Domain.SessionEventType.LapMapAdded">LapMapAdded</h4>
+  <div class="markdown level1 summary"><p>Lap map added</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionEventType LapMapAdded</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_LapStatisticsCalculated" data-uid="MESL.SqlRace.Domain.SessionEventType.LapStatisticsCalculated">LapStatisticsCalculated</h4>
+  <div class="markdown level1 summary"><p>Event fired when background calculation of lap statistics
+for the currently active pdas has been completed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionEventType LapStatisticsCalculated</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_LapStatisticsPersisted" data-uid="MESL.SqlRace.Domain.SessionEventType.LapStatisticsPersisted">LapStatisticsPersisted</h4>
+  <div class="markdown level1 summary"><p>Event fired when batch of lap statistics has been persisted 
+to the database.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionEventType LapStatisticsPersisted</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_MapAdded" data-uid="MESL.SqlRace.Domain.SessionEventType.MapAdded">MapAdded</h4>
+  <div class="markdown level1 summary"><p>Map has been added</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionEventType MapAdded</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_MarkerAdded" data-uid="MESL.SqlRace.Domain.SessionEventType.MarkerAdded">MarkerAdded</h4>
+  <div class="markdown level1 summary"><p>Marker added.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionEventType MarkerAdded</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_NewDataArrived" data-uid="MESL.SqlRace.Domain.SessionEventType.NewDataArrived">NewDataArrived</h4>
+  <div class="markdown level1 summary"><p>New data is arrived for a subscribed parameter</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionEventType NewDataArrived</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_ParametersAdded" data-uid="MESL.SqlRace.Domain.SessionEventType.ParametersAdded">ParametersAdded</h4>
+  <div class="markdown level1 summary"><p>Parameters added</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionEventType ParametersAdded</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_RdaEventsDefinitionsChanged" data-uid="MESL.SqlRace.Domain.SessionEventType.RdaEventsDefinitionsChanged">RdaEventsDefinitionsChanged</h4>
+  <div class="markdown level1 summary"><p>Rda Events Definitions Changed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionEventType RdaEventsDefinitionsChanged</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_RdaParametersAdded" data-uid="MESL.SqlRace.Domain.SessionEventType.RdaParametersAdded">RdaParametersAdded</h4>
+  <div class="markdown level1 summary"><p>Rda Parameters added</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionEventType RdaParametersAdded</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_RdaParametersRemoved" data-uid="MESL.SqlRace.Domain.SessionEventType.RdaParametersRemoved">RdaParametersRemoved</h4>
+  <div class="markdown level1 summary"><p>Rda Parameters removed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionEventType RdaParametersRemoved</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_SessionClosed" data-uid="MESL.SqlRace.Domain.SessionEventType.SessionClosed">SessionClosed</h4>
+  <div class="markdown level1 summary"><p>Signals closing of a session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionEventType SessionClosed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_SessionCreated" data-uid="MESL.SqlRace.Domain.SessionEventType.SessionCreated">SessionCreated</h4>
+  <div class="markdown level1 summary"><p>Signals creation of a session e.g. at start of recording</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionEventType SessionCreated</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_SessionLoaded" data-uid="MESL.SqlRace.Domain.SessionEventType.SessionLoaded">SessionLoaded</h4>
+  <div class="markdown level1 summary"><p>Signals loading of a session into the session manager</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SessionEventType SessionLoaded</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.SessionEventType.html">SessionEventType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_SessionEventType_value__" data-uid="MESL.SqlRace.Domain.SessionEventType.value__">value__</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int value__</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

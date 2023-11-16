@@ -85,29 +85,11 @@
     <h5>Implements</h5>
     <div><span class="xref">System.IEquatable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.CompositeStatistics.html">CompositeStatistics</a>&gt;</div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.html">MESL.SqlRace.Domain</a></h6>
   <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
   <h5 id="MESL_SqlRace_Domain_CompositeStatistics_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CompositeStatistics : IEquatable&lt;CompositeStatistics&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class CompositeStatistics : Object, IEquatable&lt;CompositeStatistics&gt;</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -657,7 +639,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public long? WeightedCount { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Nullable&lt;long&gt; WeightedCount { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -803,8 +785,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Object.Equals(System.Object)</span></div>
   <a id="MESL_SqlRace_Domain_CompositeStatistics_GetHashCode_" data-uid="MESL.SqlRace.Domain.CompositeStatistics.GetHashCode*"></a>
   <h4 id="MESL_SqlRace_Domain_CompositeStatistics_GetHashCode" data-uid="MESL.SqlRace.Domain.CompositeStatistics.GetHashCode">GetHashCode()</h4>
   <div class="markdown level1 summary"><p>A combined hash code of object property values.</p>
@@ -830,8 +810,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Object.GetHashCode()</span></div>
   <h3 id="operators">Operators
   </h3>
   <a id="MESL_SqlRace_Domain_CompositeStatistics_op_Equality_" data-uid="MESL.SqlRace.Domain.CompositeStatistics.op_Equality*"></a>
@@ -928,7 +906,7 @@
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">System.IEquatable&lt;T&gt;</span>
+      <span class="xref">System.IEquatable&lt;&gt;</span>
   </div>
 </article>
           </div>

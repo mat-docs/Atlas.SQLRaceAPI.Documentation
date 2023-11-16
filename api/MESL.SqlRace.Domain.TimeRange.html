@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Struct TimeRange
+    <title>Class TimeRange
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Struct TimeRange
+    <meta name="title" content="Class TimeRange
    ">
     <meta name="generator" content="docfx 2.56.2.0">
     
@@ -71,28 +71,21 @@
             <article class="content wrap" id="_content" data-uid="MESL.SqlRace.Domain.TimeRange">
   
   
-  <h1 id="MESL_SqlRace_Domain_TimeRange" data-uid="MESL.SqlRace.Domain.TimeRange" class="text-break">Struct TimeRange
+  <h1 id="MESL_SqlRace_Domain_TimeRange" data-uid="MESL.SqlRace.Domain.TimeRange" class="text-break">Class TimeRange
   </h1>
   <div class="markdown level0 summary"><p>Structure representing a time range</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">TimeRange</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.html">MESL.SqlRace.Domain</a></h6>
   <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
   <h5 id="MESL_SqlRace_Domain_TimeRange_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public struct TimeRange</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class TimeRange : ValueType</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -292,8 +285,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.ValueType.Equals(System.Object)</span></div>
   <a id="MESL_SqlRace_Domain_TimeRange_GetHashCode_" data-uid="MESL.SqlRace.Domain.TimeRange.GetHashCode*"></a>
   <h4 id="MESL_SqlRace_Domain_TimeRange_GetHashCode" data-uid="MESL.SqlRace.Domain.TimeRange.GetHashCode">GetHashCode()</h4>
   <div class="markdown level1 summary"><p>Returns a hash code for this instance.</p>
@@ -319,8 +310,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.ValueType.GetHashCode()</span></div>
   <a id="MESL_SqlRace_Domain_TimeRange_Matches_" data-uid="MESL.SqlRace.Domain.TimeRange.Matches*"></a>
   <h4 id="MESL_SqlRace_Domain_TimeRange_Matches_System_Nullable_MESL_SqlRace_Domain_TimeRange__" data-uid="MESL.SqlRace.Domain.TimeRange.Matches(System.Nullable{MESL.SqlRace.Domain.TimeRange})">Matches(Nullable&lt;TimeRange&gt;)</h4>
   <div class="markdown level1 summary"><p>Returns true if the time range exactly matches the passed start and end time</p>
@@ -328,7 +317,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Matches(TimeRange? timeRange)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Matches(Nullable&lt;TimeRange&gt; timeRange)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -433,8 +422,6 @@ in time with the current instance.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.ValueType.ToString()</span></div>
 </article>
           </div>
           
