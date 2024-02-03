@@ -26244,6 +26244,24 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.ISessionSummary.VersionUsedToRecord
   fullName: MESL.SqlRace.Domain.ISessionSummary.VersionUsedToRecord
   nameWithType: ISessionSummary.VersionUsedToRecord
+- uid: MESL.SqlRace.Domain.ISessionTransientMarkerService
+  name: ISessionTransientMarkerService
+  href: api/MESL.SqlRace.Domain.ISessionTransientMarkerService.html
+  commentId: T:MESL.SqlRace.Domain.ISessionTransientMarkerService
+  fullName: MESL.SqlRace.Domain.ISessionTransientMarkerService
+  nameWithType: ISessionTransientMarkerService
+- uid: MESL.SqlRace.Domain.ISessionTransientMarkerService.AddTransientMarker(MAT.OCS.Core.SessionKey,System.Int64,System.String,System.String)
+  name: AddTransientMarker(SessionKey, Int64, String, String)
+  href: api/MESL.SqlRace.Domain.ISessionTransientMarkerService.html#MESL_SqlRace_Domain_ISessionTransientMarkerService_AddTransientMarker_MAT_OCS_Core_SessionKey_System_Int64_System_String_System_String_
+  commentId: M:MESL.SqlRace.Domain.ISessionTransientMarkerService.AddTransientMarker(MAT.OCS.Core.SessionKey,System.Int64,System.String,System.String)
+  fullName: MESL.SqlRace.Domain.ISessionTransientMarkerService.AddTransientMarker(MAT.OCS.Core.SessionKey, System.Int64, System.String, System.String)
+  nameWithType: ISessionTransientMarkerService.AddTransientMarker(SessionKey, Int64, String, String)
+- uid: MESL.SqlRace.Domain.ISessionTransientMarkerService.AddTransientMarker*
+  name: AddTransientMarker
+  href: api/MESL.SqlRace.Domain.ISessionTransientMarkerService.html#MESL_SqlRace_Domain_ISessionTransientMarkerService_AddTransientMarker_
+  commentId: Overload:MESL.SqlRace.Domain.ISessionTransientMarkerService.AddTransientMarker
+  fullName: MESL.SqlRace.Domain.ISessionTransientMarkerService.AddTransientMarker
+  nameWithType: ISessionTransientMarkerService.AddTransientMarker
 - uid: MESL.SqlRace.Domain.ItemCanArgs
   name: ItemCanArgs
   href: api/MESL.SqlRace.Domain.ItemCanArgs.html
@@ -35166,6 +35184,12 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.Session.Maps
   fullName: MESL.SqlRace.Domain.Session.Maps
   nameWithType: Session.Maps
+- uid: MESL.SqlRace.Domain.Session.MarkerAdded
+  name: MarkerAdded
+  href: api/MESL.SqlRace.Domain.Session.html#MESL_SqlRace_Domain_Session_MarkerAdded
+  commentId: E:MESL.SqlRace.Domain.Session.MarkerAdded
+  fullName: MESL.SqlRace.Domain.Session.MarkerAdded
+  nameWithType: Session.MarkerAdded
 - uid: MESL.SqlRace.Domain.Session.Markers
   name: Markers
   href: api/MESL.SqlRace.Domain.Session.html#MESL_SqlRace_Domain_Session_Markers
@@ -36423,6 +36447,12 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.SessionBase.Maps
   fullName: MESL.SqlRace.Domain.SessionBase.Maps
   nameWithType: SessionBase.Maps
+- uid: MESL.SqlRace.Domain.SessionBase.MarkerAdded
+  name: MarkerAdded
+  href: api/MESL.SqlRace.Domain.SessionBase.html#MESL_SqlRace_Domain_SessionBase_MarkerAdded
+  commentId: E:MESL.SqlRace.Domain.SessionBase.MarkerAdded
+  fullName: MESL.SqlRace.Domain.SessionBase.MarkerAdded
+  nameWithType: SessionBase.MarkerAdded
 - uid: MESL.SqlRace.Domain.SessionBase.Markers
   name: Markers
   href: api/MESL.SqlRace.Domain.SessionBase.html#MESL_SqlRace_Domain_SessionBase_Markers
@@ -40100,6 +40130,24 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.SessionTimstampsSegment.TimestampsSegment
   fullName: MESL.SqlRace.Domain.SessionTimstampsSegment.TimestampsSegment
   nameWithType: SessionTimstampsSegment.TimestampsSegment
+- uid: MESL.SqlRace.Domain.SessionTransientMarkerServiceProvider
+  name: SessionTransientMarkerServiceProvider
+  href: api/MESL.SqlRace.Domain.SessionTransientMarkerServiceProvider.html
+  commentId: T:MESL.SqlRace.Domain.SessionTransientMarkerServiceProvider
+  fullName: MESL.SqlRace.Domain.SessionTransientMarkerServiceProvider
+  nameWithType: SessionTransientMarkerServiceProvider
+- uid: MESL.SqlRace.Domain.SessionTransientMarkerServiceProvider.SessionTransientMarkerService
+  name: SessionTransientMarkerService()
+  href: api/MESL.SqlRace.Domain.SessionTransientMarkerServiceProvider.html#MESL_SqlRace_Domain_SessionTransientMarkerServiceProvider_SessionTransientMarkerService
+  commentId: M:MESL.SqlRace.Domain.SessionTransientMarkerServiceProvider.SessionTransientMarkerService
+  fullName: MESL.SqlRace.Domain.SessionTransientMarkerServiceProvider.SessionTransientMarkerService()
+  nameWithType: SessionTransientMarkerServiceProvider.SessionTransientMarkerService()
+- uid: MESL.SqlRace.Domain.SessionTransientMarkerServiceProvider.SessionTransientMarkerService*
+  name: SessionTransientMarkerService
+  href: api/MESL.SqlRace.Domain.SessionTransientMarkerServiceProvider.html#MESL_SqlRace_Domain_SessionTransientMarkerServiceProvider_SessionTransientMarkerService_
+  commentId: Overload:MESL.SqlRace.Domain.SessionTransientMarkerServiceProvider.SessionTransientMarkerService
+  fullName: MESL.SqlRace.Domain.SessionTransientMarkerServiceProvider.SessionTransientMarkerService
+  nameWithType: SessionTransientMarkerServiceProvider.SessionTransientMarkerService
 - uid: MESL.SqlRace.Domain.SessionType
   name: SessionType
   href: api/MESL.SqlRace.Domain.SessionType.html

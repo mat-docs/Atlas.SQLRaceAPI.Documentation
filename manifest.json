@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/a/1/s/Mesl.SqlRace.DocFX",
+  "source_base_path": "C:/a/2/s/Mesl.SqlRace.DocFX",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -3148,6 +3148,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.ISessionTransientMarkerService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.ISessionTransientMarkerService.html",
+          "hash": "wnD3S7YL+T1BwYcPIaI5lA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/MESL.SqlRace.Domain.Infrastructure.DataAccess.ColumnMappedDataTable-1.yml",
       "output": {
         ".html": {
@@ -4964,7 +4976,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Session.html",
-          "hash": "fDWI3JeHVwY9exeTwwWGWw=="
+          "hash": "ZDlo6w0h/7YCG51q0mSVEw=="
         }
       },
       "is_incremental": false,
@@ -4976,7 +4988,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.SessionBase.html",
-          "hash": "TtCrPRD7F4bFIY/OhZMf4g=="
+          "hash": "AbS6IYV/B/DvZEx29Bfuiw=="
         }
       },
       "is_incremental": false,
@@ -5373,6 +5385,18 @@
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.SessionTimstampsSegment.html",
           "hash": "mfN/opOfDgxM7FRHWp7eTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SessionTransientMarkerServiceProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SessionTransientMarkerServiceProvider.html",
+          "hash": "Leae5yaeT9POYN5q1vECPQ=="
         }
       },
       "is_incremental": false,
@@ -5876,7 +5900,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.html",
-          "hash": "QSpEtxIBTUjHKQ5xBCC+Qw=="
+          "hash": "GzoJPhIXC6xlN4CHkLG9yQ=="
         }
       },
       "is_incremental": false,
@@ -6200,7 +6224,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "rbm+TIu9gb9qeqPxsnXGoQ=="
+          "hash": "84dFkQAtYJPeR+aXM2yWZw=="
         }
       },
       "is_incremental": false,
@@ -6239,7 +6263,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 511,
+          "total_file_count": 513,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
