@@ -34899,6 +34899,18 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.Session.GetLapsInRange
   fullName: MESL.SqlRace.Domain.Session.GetLapsInRange
   nameWithType: Session.GetLapsInRange
+- uid: MESL.SqlRace.Domain.Session.GetLoadedAssociates
+  name: GetLoadedAssociates()
+  href: api/MESL.SqlRace.Domain.Session.html#MESL_SqlRace_Domain_Session_GetLoadedAssociates
+  commentId: M:MESL.SqlRace.Domain.Session.GetLoadedAssociates
+  fullName: MESL.SqlRace.Domain.Session.GetLoadedAssociates()
+  nameWithType: Session.GetLoadedAssociates()
+- uid: MESL.SqlRace.Domain.Session.GetLoadedAssociates*
+  name: GetLoadedAssociates
+  href: api/MESL.SqlRace.Domain.Session.html#MESL_SqlRace_Domain_Session_GetLoadedAssociates_
+  commentId: Overload:MESL.SqlRace.Domain.Session.GetLoadedAssociates
+  fullName: MESL.SqlRace.Domain.Session.GetLoadedAssociates
+  nameWithType: Session.GetLoadedAssociates
 - uid: MESL.SqlRace.Domain.Session.GetMappedTimestamps(System.String,System.Double[])
   name: GetMappedTimestamps(String, Double[])
   href: api/MESL.SqlRace.Domain.Session.html#MESL_SqlRace_Domain_Session_GetMappedTimestamps_System_String_System_Double___
