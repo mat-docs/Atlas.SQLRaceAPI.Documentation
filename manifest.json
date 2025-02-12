@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/a/1/s/Mesl.SqlRace.DocFX",
+  "source_base_path": "C:/a/2/s/Mesl.SqlRace.DocFX",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -64,186 +64,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/MAT.OCS.Core.CompositeSessionContainerKey.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MAT.OCS.Core.CompositeSessionContainerKey.html",
-          "hash": "UIRwuZn/QzTfsFy8l8UFqg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MAT.OCS.Core.CompositeSessionKey.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MAT.OCS.Core.CompositeSessionKey.html",
-          "hash": "QxROFYD8p8bpoyvN30j7sw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MAT.OCS.Core.DataResultMode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MAT.OCS.Core.DataResultMode.html",
-          "hash": "bVAUnq9czfey6qMXyI8VWQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MAT.OCS.Core.DataStatusType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MAT.OCS.Core.DataStatusType.html",
-          "hash": "peq/VD9aQneGY5pQBmcCqQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MAT.OCS.Core.ErrorStatusType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MAT.OCS.Core.ErrorStatusType.html",
-          "hash": "BUADicBSgrREMen3nHsjeg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MAT.OCS.Core.Extensions.DateTimeExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MAT.OCS.Core.Extensions.DateTimeExtensions.html",
-          "hash": "d/NbWbipzVUShn+9q4qumQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MAT.OCS.Core.Extensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MAT.OCS.Core.Extensions.html",
-          "hash": "6XK8REOPzq0WRdZxJDUT6A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MAT.OCS.Core.FileWatcher.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MAT.OCS.Core.FileWatcher.html",
-          "hash": "BrTQWQjCkV39202M+nUQ5A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MAT.OCS.Core.ParameterValues.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MAT.OCS.Core.ParameterValues.html",
-          "hash": "3LZNi+Q1tOskjFJZWZEirw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MAT.OCS.Core.ParameterValuesBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MAT.OCS.Core.ParameterValuesBase.html",
-          "hash": "2+U1DXdAjL7mxYfv8GchtA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MAT.OCS.Core.ParameterValuesTemplate.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MAT.OCS.Core.ParameterValuesTemplate.html",
-          "hash": "NAyqaU6s/RViORx9p584LA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MAT.OCS.Core.SessionKey.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MAT.OCS.Core.SessionKey.html",
-          "hash": "uQK2Gnn20NTYCBmpsDwRzg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MAT.OCS.Core.StreamExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MAT.OCS.Core.StreamExtensions.html",
-          "hash": "aGdI3JkNCJhGZ67unc/XlA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MAT.OCS.Core.TimestampValuesBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MAT.OCS.Core.TimestampValuesBase.html",
-          "hash": "K8wBESDDaIW7aL/Yk3LvSA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MAT.OCS.Core.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MAT.OCS.Core.html",
-          "hash": "NedIdPjZxOTfwWC1AHd+JQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/api/MAT.SqlRace.FileLoaders.FormatTypeAttribute.yml",
       "output": {
         ".html": {
@@ -272,7 +92,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.AddCanDataErrorEventArgs.html",
-          "hash": "bX8zO8VefQ6reAbPlqvI1Q=="
+          "hash": "IcnJg8gNyBoq+kilfmkWeA=="
         }
       },
       "is_incremental": false,
@@ -308,7 +128,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.AuditEntry.html",
-          "hash": "WUkM49yltVe9akFCA/aX5A=="
+          "hash": "CwE8Q+a29NeKPnmA8ETd3w=="
         }
       },
       "is_incremental": false,
@@ -428,7 +248,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Collections.IAssociateCollection.html",
-          "hash": "y1wEf0TGrXg3MBV9tDx63g=="
+          "hash": "/TTLOgpV+RVsW1v3N7ZDMA=="
         }
       },
       "is_incremental": false,
@@ -476,7 +296,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Collections.ItemEventArgs.html",
-          "hash": "idwhDTCCoh0qvZiDFuj+tw=="
+          "hash": "rCa4DAK4RMplGEBs0+eUPw=="
         }
       },
       "is_incremental": false,
@@ -500,7 +320,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Collections.LapEventArgs.html",
-          "hash": "0k2A/v6UHyaAIeAUNOIsjQ=="
+          "hash": "a8IX+CqTpsZPfPZh3IGy3A=="
         }
       },
       "is_incremental": false,
@@ -596,7 +416,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.CompareSessionMode.html",
-          "hash": "tqu7kkqgvfh/HmbDRKgpiw=="
+          "hash": "AhSe5Q/Mj28YuCEBiR4ZvQ=="
         }
       },
       "is_incremental": false,
@@ -608,7 +428,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.CompositeContainerParameterDataAccess.html",
-          "hash": "OCBp1PoDcT5upAVKfxl1bQ=="
+          "hash": "gToEL+T4wiBwcJYc2DUtBA=="
         }
       },
       "is_incremental": false,
@@ -620,7 +440,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.CompositeMinimumMaximumMeanSample.html",
-          "hash": "lnqco5N7kgupCQ0pIr6l3w=="
+          "hash": "xJlsur9hUuDjcXlRZqXwdQ=="
         }
       },
       "is_incremental": false,
@@ -632,7 +452,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.CompositeMinimumMaximumSample.html",
-          "hash": "FeYBGhTu+xsWe4LQNG9DZA=="
+          "hash": "tZXgZx+TNQaGIMuGJ4Eh0g=="
         }
       },
       "is_incremental": false,
@@ -644,7 +464,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.CompositeParameterDataAccess.html",
-          "hash": "lDeFyLFVitMpzHt7vUXrAg=="
+          "hash": "xtO0PhgtwSc5F/iVL8fEiQ=="
         }
       },
       "is_incremental": false,
@@ -680,7 +500,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.CompositeSample.html",
-          "hash": "vTRqz8VjaKpvYiCY6qXUGw=="
+          "hash": "zp/EqxWFFa9ku8KnGBig1w=="
         }
       },
       "is_incremental": false,
@@ -692,7 +512,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.CompositeSession.html",
-          "hash": "tVhjU7vZ20FnbC+mdoLV2w=="
+          "hash": "Syl4MRy7/W75ML89RkFoJQ=="
         }
       },
       "is_incremental": false,
@@ -704,7 +524,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.CompositeSessionContainer.html",
-          "hash": "PdsSbunpPRiO4CcFJPkPDw=="
+          "hash": "aZ4qF383a2NTVSFdsqqtLw=="
         }
       },
       "is_incremental": false,
@@ -716,7 +536,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.CompositeSessionEventArgs.html",
-          "hash": "FWWV67vDSc3M93Faol6AmQ=="
+          "hash": "rfjJZng75Pf6IY4HFrF8Fw=="
         }
       },
       "is_incremental": false,
@@ -740,7 +560,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.CompositeSessionException.html",
-          "hash": "/oc7XD/a6EwkcGaPRhuIeQ=="
+          "hash": "B83mS2jN+1paW1YGlBeiUQ=="
         }
       },
       "is_incremental": false,
@@ -752,7 +572,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.CompositeSessionInfo.html",
-          "hash": "rInSGJoOO17F+RgPhaA1Jw=="
+          "hash": "CBEsCD5isWVwn+hFuUUSgQ=="
         }
       },
       "is_incremental": false,
@@ -776,7 +596,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.CompositeStatistics.html",
-          "hash": "22klhXgztzLphOL2fe4aRQ=="
+          "hash": "FBFopWtBtTu3p9y7vZJYuw=="
         }
       },
       "is_incremental": false,
@@ -824,7 +644,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.ConfigurationSetManager.html",
-          "hash": "64wEsnpW288YRW3gryeCuQ=="
+          "hash": "6mmtC3yHXgwqVcFhfTsktA=="
         }
       },
       "is_incremental": false,
@@ -896,7 +716,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.ConstantParameterDataAccess.html",
-          "hash": "oIumgjar/GbzJ/QQVmVIgg=="
+          "hash": "RXkuzNJYuigC4HnXXkdh0A=="
         }
       },
       "is_incremental": false,
@@ -1052,7 +872,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.ErrorData.html",
-          "hash": "WKYJgefTDOzH+CVnoyE2EQ=="
+          "hash": "VAc0Z34hHrxg5ERIcIGKxA=="
         }
       },
       "is_incremental": false,
@@ -1112,7 +932,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Events.ISessionEventService.html",
-          "hash": "TNiWw2DBWcJIVP8tfyCdyw=="
+          "hash": "NK9SMT8qvCuMS3uObxD7rw=="
         }
       },
       "is_incremental": false,
@@ -1172,7 +992,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.ExtendedAssociate.html",
-          "hash": "u167nNaun+TQZqpxtKzbdg=="
+          "hash": "TPfV1oGmeQUyoJc6+OyPUw=="
         }
       },
       "is_incremental": false,
@@ -1232,7 +1052,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Extensions.EnumExtensions.html",
-          "hash": "iVlA78deZV/KrSow1HFnMA=="
+          "hash": "uaccnRl05DvV8+Ls/9V0ig=="
         }
       },
       "is_incremental": false,
@@ -1328,7 +1148,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.FdlExpressionAdapter.html",
-          "hash": "qJSqSSOXPi3UtLCSoKXByQ=="
+          "hash": "ts8jz9od6G31mXmMV6/KEw=="
         }
       },
       "is_incremental": false,
@@ -1340,7 +1160,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.FileDrivers.DriverBase.html",
-          "hash": "jjc8W5gFVKxEsIzP/9Q4ww=="
+          "hash": "WZDTZIjO9z6ga5zVRfKmcg=="
         }
       },
       "is_incremental": false,
@@ -1436,7 +1256,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.FileSession.ISessionLoader.html",
-          "hash": "PLQIjjwdUo9CRXq2kswcqQ=="
+          "hash": "0fNZJ1AstjJlJkfH/vk74g=="
         }
       },
       "is_incremental": false,
@@ -1484,7 +1304,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.FileSessionManager.html",
-          "hash": "ulIzA55Ve/7z00K3sXy2YQ=="
+          "hash": "hzjOjpxcCjQiwcAEqdgTEQ=="
         }
       },
       "is_incremental": false,
@@ -1508,7 +1328,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.FileSessionSummary.html",
-          "hash": "MdKLQw7cDgkS7me5fuNB6Q=="
+          "hash": "YoZ67Edkw0BZtEgONERFBA=="
         }
       },
       "is_incremental": false,
@@ -1532,7 +1352,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.FormulaConversion.html",
-          "hash": "7xmmKmGxcOQF97TFp/wP5Q=="
+          "hash": "rjePFds323MR3F854PT64Q=="
         }
       },
       "is_incremental": false,
@@ -1916,7 +1736,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html",
-          "hash": "3Xopi2uK+o/T3uW9KpXiKQ=="
+          "hash": "RM6S/T+aK4GnOWnrwpuJtg=="
         }
       },
       "is_incremental": false,
@@ -2036,7 +1856,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.html",
-          "hash": "+dXDxQF4pgtCzd5OglsbZw=="
+          "hash": "ASRNZwjA0Q41bqM+V3grEA=="
         }
       },
       "is_incremental": false,
@@ -2324,7 +2144,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Functions.IExecutionContext.html",
-          "hash": "YrMKOxT/3IMl5g22XBJZyQ=="
+          "hash": "qJYHqRU4Kx8eDquylZuLMQ=="
         }
       },
       "is_incremental": false,
@@ -2420,7 +2240,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Functions.IFunctionInput.html",
-          "hash": "d63Cb32HT1kgGNaBygHv9w=="
+          "hash": "nFFf95xzPIl4/G6WUqrB0w=="
         }
       },
       "is_incremental": false,
@@ -2900,7 +2720,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.ICompareSessionMode.html",
-          "hash": "xrxJ83zlBnrMhm8k6N1pGg=="
+          "hash": "av7xSkbwu4O1gK7M9zzafw=="
         }
       },
       "is_incremental": false,
@@ -2912,7 +2732,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.ICompositeContainerParameterDataAccess.html",
-          "hash": "70Na0LmbM4AcJUAwF5nl9g=="
+          "hash": "O4/xOPFqO4vy3qgQgjADDg=="
         }
       },
       "is_incremental": false,
@@ -2924,7 +2744,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.ICompositeParameterDataAccess.html",
-          "hash": "3WGaH8X9Qm18rfKRaNtJXA=="
+          "hash": "FTUM4w6uKyQ/EIS05iCM7A=="
         }
       },
       "is_incremental": false,
@@ -2948,7 +2768,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.ICompositeSession.html",
-          "hash": "MI4+ZUXiugc04fBN6ViG/Q=="
+          "hash": "qW5hbUUR2yhpy4CsqwrB6Q=="
         }
       },
       "is_incremental": false,
@@ -2960,7 +2780,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.ICompositeSessionContainer.html",
-          "hash": "a+IbdE9jYUqWFomv+splRQ=="
+          "hash": "rGBB91DZx9khBIC7M45Cdw=="
         }
       },
       "is_incremental": false,
@@ -2972,7 +2792,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.ICompositeSessionInfo.html",
-          "hash": "zo5wcZ3cAbqUPhmiivMuRg=="
+          "hash": "gleL3oTyoSEIM47RBWF3OQ=="
         }
       },
       "is_incremental": false,
@@ -3008,7 +2828,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.IEntityWithSessionKey.html",
-          "hash": "ptUPiH+Sebnvl/hLcPvRWg=="
+          "hash": "o6Ok/zQrfACFo4duopqcJw=="
         }
       },
       "is_incremental": false,
@@ -3020,7 +2840,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.IErrorData.html",
-          "hash": "x7b9t9BL3vDRr1oPE2UaDA=="
+          "hash": "Fu9hDde/ayUA99g4yX+YVw=="
         }
       },
       "is_incremental": false,
@@ -3032,7 +2852,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.IExpressionAdapter.html",
-          "hash": "A12WhpTkELYInK2YVTling=="
+          "hash": "wFKtEYGGIioKmqfq5bxjjg=="
         }
       },
       "is_incremental": false,
@@ -3092,7 +2912,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.IParameterDataAccess.html",
-          "hash": "h1UGTT8nmAEFk7n2P+bZ4A=="
+          "hash": "oLgc567zrR6xGR386rwARA=="
         }
       },
       "is_incremental": false,
@@ -3116,7 +2936,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.ISession.html",
-          "hash": "teoAPoaTXBzQiotVruzMTA=="
+          "hash": "G8UmbG4lV3iGAMbd1LopDg=="
         }
       },
       "is_incremental": false,
@@ -3128,7 +2948,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.ISessionDataService.html",
-          "hash": "HYopTQafW/YzkXgKqntYoA=="
+          "hash": "9H24zbrYsIGU03hb1OUCfQ=="
         }
       },
       "is_incremental": false,
@@ -3140,7 +2960,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.ISessionSummary.html",
-          "hash": "rnpWxGmZ/9D0Fhno31uW+w=="
+          "hash": "4ISa5YXB5vgvmN4JEfwMow=="
         }
       },
       "is_incremental": false,
@@ -3152,7 +2972,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.ISessionTransientMarkerService.html",
-          "hash": "wnD3S7YL+T1BwYcPIaI5lA=="
+          "hash": "gn8RXQz+XuJM6YzKnDMGJg=="
         }
       },
       "is_incremental": false,
@@ -3296,7 +3116,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.html",
-          "hash": "vxTo9/6dRf68rQ+lpZKPqg=="
+          "hash": "oWs4RbjGy69yPNJYiITLiQ=="
         }
       },
       "is_incremental": false,
@@ -3308,7 +3128,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISamplesDataResult.html",
-          "hash": "z8lSRA8UtkRS9LIEX3rVog=="
+          "hash": "jQnHlhNNkE+XhF+lPb+d8Q=="
         }
       },
       "is_incremental": false,
@@ -3320,7 +3140,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.html",
-          "hash": "E7XYsDFsYU7que3O0cfTnw=="
+          "hash": "T4hQyiycTHmS5ppSOGYB2Q=="
         }
       },
       "is_incremental": false,
@@ -3332,7 +3152,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.SamplesDataResult.html",
-          "hash": "05U/3Z/VdV9Qh6zkygxHzQ=="
+          "hash": "6V8FZEjoAMifs39vEmFtUA=="
         }
       },
       "is_incremental": false,
@@ -3368,7 +3188,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.DataProviders.AddChannelDataErrorEventArgs.html",
-          "hash": "FxAQXsQrFtsFb5usi3oKEw=="
+          "hash": "UBrqOwZGsxt0U1dQh6z1cA=="
         }
       },
       "is_incremental": false,
@@ -3476,7 +3296,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.Interfaces.IParameterDataStatistics.html",
-          "hash": "+e5BGPjaP5TuTTyS8qSuBQ=="
+          "hash": "Hb0QEtcpQqCYZeuDgrHxxA=="
         }
       },
       "is_incremental": false,
@@ -3608,7 +3428,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.ItemCanArgs.html",
-          "hash": "Vnppb0tcHcSQyK0ED6y0Ew=="
+          "hash": "PthtOl/4seIdA+Jk2JAomA=="
         }
       },
       "is_incremental": false,
@@ -3620,7 +3440,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.ItemErrorArgs.html",
-          "hash": "VtRuiNqDwgLJR0HrrbihqA=="
+          "hash": "8Dn26ByugXx0SEglbt/bCQ=="
         }
       },
       "is_incremental": false,
@@ -3632,7 +3452,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Lap.html",
-          "hash": "/+MnhQWqZ5H2LgmyooSfUQ=="
+          "hash": "lgiooqcajHChsFFEExdeLQ=="
         }
       },
       "is_incremental": false,
@@ -3704,7 +3524,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.LapStatisticsEventArgs.html",
-          "hash": "w4zb8teShnDxH0II/GYoVQ=="
+          "hash": "EUuC2sWbNSGuT4Y4lgO/1Q=="
         }
       },
       "is_incremental": false,
@@ -3776,7 +3596,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.MinimumMaximumMeanDouble.html",
-          "hash": "4bwqtwiQPcQsopB2v9S+9A=="
+          "hash": "zqR2Fa940dZaNao4Ubc9Pw=="
         }
       },
       "is_incremental": false,
@@ -4112,7 +3932,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.ParameterDataAccess.html",
-          "hash": "AygbpcJn7jhHunTgAHd9lg=="
+          "hash": "BCCR3MAYJ5hMI0FRjE3RDw=="
         }
       },
       "is_incremental": false,
@@ -4124,7 +3944,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.ParameterDataAccessBase.html",
-          "hash": "s8vM+qowp0tjYrPNEuPxWg=="
+          "hash": "lZTglAxHVnM+HHOZLcKZGw=="
         }
       },
       "is_incremental": false,
@@ -4280,7 +4100,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Query.QueryManager.html",
-          "hash": "dF+IpQq5giGT+yTPhTaHQA=="
+          "hash": "pxJSuCv7ihgdl/Skch8IVQ=="
         }
       },
       "is_incremental": false,
@@ -4304,7 +4124,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Query.QuerySample.html",
-          "hash": "SSUYPhG9IJLmKQ2rmzG0/g=="
+          "hash": "/D0WDw85dvCNB2gAddd+Kw=="
         }
       },
       "is_incremental": false,
@@ -4400,7 +4220,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.RemoteSessionEventArgs.html",
-          "hash": "Z5fZpWlBzkvGduAfuD7CtA=="
+          "hash": "Wu2JCU8Gh9mt3wBenZfeMA=="
         }
       },
       "is_incremental": false,
@@ -4412,7 +4232,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Remoting.Messages.CloseFilterPdaMessage.html",
-          "hash": "XM0JD5pg+qtph7d94o8P/Q=="
+          "hash": "Sg3V68CI4lPswgbu2qd2dQ=="
         }
       },
       "is_incremental": false,
@@ -4424,7 +4244,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Remoting.Messages.CreateFilterPdaMessage.html",
-          "hash": "cgZtBI380JW9/kqzILovZw=="
+          "hash": "FlEIjUldEK0x82J7+QsBzg=="
         }
       },
       "is_incremental": false,
@@ -4484,7 +4304,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Remoting.Messages.SessionDetailChangedMessage.html",
-          "hash": "lsqwcqXJRM2zSG6kUdapEw=="
+          "hash": "zICANtGUcSDo4JaNKFoPxw=="
         }
       },
       "is_incremental": false,
@@ -4520,7 +4340,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Remoting.Server.IServerListener.html",
-          "hash": "48fac600iGtIa9gGQ9QtqA=="
+          "hash": "EzA3E4ol0UwqSPm0aBOArQ=="
         }
       },
       "is_incremental": false,
@@ -4544,7 +4364,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Remoting.Server.SessionSubscription.html",
-          "hash": "eh4x51PgNPidxsyM5EuJEg=="
+          "hash": "STSPy85e0gBQJlYyN5rVsw=="
         }
       },
       "is_incremental": false,
@@ -4580,7 +4400,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.RepeatingLapCompareDataProvider.html",
-          "hash": "/Uo/EbiGQtk2p0cOw/lNWw=="
+          "hash": "zghJxI/5KC9JtjKczndpXw=="
         }
       },
       "is_incremental": false,
@@ -4820,7 +4640,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Repositories.Sessions.FileSessionConfigurationCreatedEventArgs.html",
-          "hash": "Tp+jld/23C4e35F+VyFtgw=="
+          "hash": "M8T6Ngmr3bko1E5/dS3P4g=="
         }
       },
       "is_incremental": false,
@@ -4832,7 +4652,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Repositories.Sessions.FileSessionConfigurationProcessingErrorEventArgs.html",
-          "hash": "2Y4LUxvmVwj33+xnVRvwyw=="
+          "hash": "nf+EqRPlb35BYCNHRh0AiQ=="
         }
       },
       "is_incremental": false,
@@ -4844,7 +4664,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Repositories.Sessions.FileSessionConfigurationProcessingStepEventArgs.html",
-          "hash": "rL8aYYaLORKwakxWjsGXKw=="
+          "hash": "cJo2arN/ZImmEIyUKQmx1A=="
         }
       },
       "is_incremental": false,
@@ -4976,7 +4796,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Session.html",
-          "hash": "O0SLOgV/NNCnAaSSF++RlQ=="
+          "hash": "MAB8wRYKp8g7K6wofFR1lQ=="
         }
       },
       "is_incremental": false,
@@ -4988,7 +4808,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.SessionBase.html",
-          "hash": "AbS6IYV/B/DvZEx29Bfuiw=="
+          "hash": "jeE4eB8UCPgIZepNi+HiTg=="
         }
       },
       "is_incremental": false,
@@ -5012,7 +4832,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.SessionClosedArgs.html",
-          "hash": "1AsoV91kIyyu2oxtf5GvZw=="
+          "hash": "H9TgX+VM814vZnFh1RKFsA=="
         }
       },
       "is_incremental": false,
@@ -5060,7 +4880,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.SessionDetailChangedEventArgs.html",
-          "hash": "3Wfl8gYv8TZU7kTZu8DHIA=="
+          "hash": "XR4/7BeN9msLaWxoONs7Rg=="
         }
       },
       "is_incremental": false,
@@ -5072,7 +4892,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.SessionEventArgs.html",
-          "hash": "NO+bksXoNnO3zU/ju+698g=="
+          "hash": "sI9sxKHlI4DfmDUDpY7f5w=="
         }
       },
       "is_incremental": false,
@@ -5096,7 +4916,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.SessionException.html",
-          "hash": "lOeH6ZgCoe9QAT/DYaRGPA=="
+          "hash": "r+5EE5Nu6gHWPgzZ6ui3+A=="
         }
       },
       "is_incremental": false,
@@ -5108,7 +4928,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.SessionIdentifierChangedEventArgs.html",
-          "hash": "yLAhlkJhRVC845vsPUKBXQ=="
+          "hash": "CCm9CFugL8JAHRUdQaAXgA=="
         }
       },
       "is_incremental": false,
@@ -5144,7 +4964,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.SessionManager.html",
-          "hash": "K3JtGfRawq5I2oHquyvbpA=="
+          "hash": "19flf2DTjud3k7JVAufk7Q=="
         }
       },
       "is_incremental": false,
@@ -5156,7 +4976,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.SessionManagerBase.html",
-          "hash": "d5iwz+UgKPVCe9wXfOf3RA=="
+          "hash": "Q2MVELiGrMiGcdZsQUanow=="
         }
       },
       "is_incremental": false,
@@ -5168,7 +4988,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.SessionManagerTestabilityAdapter.html",
-          "hash": "WYChp/CLRePE6oXnOOn2Tw=="
+          "hash": "V0TE+vLd9GVkOVsTkM2dpg=="
         }
       },
       "is_incremental": false,
@@ -5180,7 +5000,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.SessionNotAvailableEventArgs.html",
-          "hash": "W4qSAHviJCVKPhlzWv7Nug=="
+          "hash": "Cr40qq8PH+AWLEY6Hxn5ow=="
         }
       },
       "is_incremental": false,
@@ -5312,7 +5132,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.SessionSampleCountSegment.html",
-          "hash": "f/Lq6FK6lz1kogsfHPjUxw=="
+          "hash": "aB9fG9IKpOrupbaRNp0Ccw=="
         }
       },
       "is_incremental": false,
@@ -5336,7 +5156,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.SessionStatusChangedEventArgs.html",
-          "hash": "l9t6DLFwfZECc06SwQZc7g=="
+          "hash": "qhNTgcs85dbg4cWCvVmoEA=="
         }
       },
       "is_incremental": false,
@@ -5348,7 +5168,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.SessionSummary.html",
-          "hash": "QVlYUVN2dj76fMfOGZQ60w=="
+          "hash": "oZ+1zdZCIvIMBtaMn5gQBA=="
         }
       },
       "is_incremental": false,
@@ -5372,7 +5192,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.SessionTimerange.html",
-          "hash": "MvAIHDT3csOJ4JeAIHM+Rg=="
+          "hash": "UosSOctg4zP8rqdSrdDnxQ=="
         }
       },
       "is_incremental": false,
@@ -5384,7 +5204,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.SessionTimstampsSegment.html",
-          "hash": "mfN/opOfDgxM7FRHWp7eTw=="
+          "hash": "6KhYE5wLWSx/gwIAccxIYw=="
         }
       },
       "is_incremental": false,
@@ -5744,7 +5564,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.VirtualParameters.VirtualParameterHierarchy.SampleData.html",
-          "hash": "XG66UeEzn7khczJdXcO5ig=="
+          "hash": "wNbT6mAgm//J+hhwkvqc2A=="
         }
       },
       "is_incremental": false,
@@ -5780,7 +5600,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.VirtualParameters.VirtualSample.html",
-          "hash": "dttpH9LM9YtpaQmqWROghQ=="
+          "hash": "umuFYBHmVaof/gyCnKLgHQ=="
         }
       },
       "is_incremental": false,
@@ -5804,7 +5624,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.XAxis.DataStoreKey.html",
-          "hash": "8HN+Fv+uSqJyvZnrsaNnyg=="
+          "hash": "Cc/JqTV3mUZd1xUSysa0Rw=="
         }
       },
       "is_incremental": false,
@@ -5828,7 +5648,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.XAxis.XAxisDataManager.html",
-          "hash": "gOSGZPaqQRlMC4Fvkz1/Rg=="
+          "hash": "1S0uSpKEI96xvmF9qUtXxg=="
         }
       },
       "is_incremental": false,
@@ -5876,7 +5696,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.XAxis.XAxisSamples.html",
-          "hash": "+QxPlkQHP0Szlo5Dxzn0Tg=="
+          "hash": "DXgD6/U1ni7c27EWOQRaAQ=="
         }
       },
       "is_incremental": false,
@@ -6020,7 +5840,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Enumerators.DataStatusTypeExtensions.html",
-          "hash": "ce6hGbjMsnFBBTrJE9iQDw=="
+          "hash": "6YY4yMDUgl7TgqSuZTFqgw=="
         }
       },
       "is_incremental": false,
@@ -6224,7 +6044,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "84dFkQAtYJPeR+aXM2yWZw=="
+          "hash": "ARAACk8M14vu304A0fQk3g=="
         }
       },
       "is_incremental": false,
@@ -6263,7 +6083,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 513,
+          "total_file_count": 498,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

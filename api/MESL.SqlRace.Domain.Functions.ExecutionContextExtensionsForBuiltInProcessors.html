@@ -2919,6 +2919,73 @@ This overload is needed by FDL functions.</p>
     </tbody>
   </table>
   <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_MedianFilter_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.MedianFilter*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_MedianFilter_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Double_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.MedianFilter(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Double,System.Int64)">MedianFilter(IExecutionContext, Int32, String, Double, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the median filter value for the given parameter from a double window size</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double MedianFilter(this IExecutionContext executionContext, int processorSlot, string parameterId, double windowSize, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">windowSize</span></td>
+        <td><p>The windowSize.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_MedianFilter_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.MedianFilter*"></a>
   <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_MedianFilter_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int32_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.MedianFilter(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Int32,System.Int64)">MedianFilter(IExecutionContext, Int32, String, Int32, Int64)</h4>
   <div class="markdown level1 summary"><p>Calculates the median filter value for the given parameter.</p>
 </div>
@@ -3169,6 +3236,68 @@ This overload is needed by FDL functions.</p>
     </tbody>
   </table>
   <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_MovingAverage_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.MovingAverage*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_MovingAverage_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Double_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.MovingAverage(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Double,System.Int64)">MovingAverage(IExecutionContext, Int32, String, Double, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates and returns the moving average of the given parameter from a double window size</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double MovingAverage(this IExecutionContext executionContext, int processorSlot, string parameterId, double windowSize, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">windowSize</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The moving average of the given parameter.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_MovingAverage_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.MovingAverage*"></a>
   <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_MovingAverage_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int32_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.MovingAverage(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Int32,System.Int64)">MovingAverage(IExecutionContext, Int32, String, Int32, Int64)</h4>
   <div class="markdown level1 summary"><p>Calculates and returns the moving average of the given parameter.</p>
 </div>
@@ -3292,6 +3421,73 @@ This overload is needed by FDL functions.</p>
     </tbody>
   </table>
   <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SamplesMax_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.SamplesMax*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SamplesMax_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Double_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.SamplesMax(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Double,System.Int64)">SamplesMax(IExecutionContext, Int32, String, Double, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the max value of a parameter. This processor calculates the max value of the given window from a double window size</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double SamplesMax(this IExecutionContext executionContext, int processorSlot, string parameterId, double windowSize, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">windowSize</span></td>
+        <td><p>The windowSize.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The max value in the samples.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SamplesMax_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.SamplesMax*"></a>
   <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SamplesMax_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Int32_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.SamplesMax(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Int32,System.Int64)">SamplesMax(IExecutionContext, Int32, String, Int32, Int64)</h4>
   <div class="markdown level1 summary"><p>Calculates the max value of a parameter. This processor calculates the max value of the given window.</p>
 </div>
@@ -3354,6 +3550,73 @@ This overload is needed by FDL functions.</p>
       <tr>
         <td><span class="xref">System.Double</span></td>
         <td><p>The max value in the samples.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SamplesMin_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.SamplesMin*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_SamplesMin_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Double_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.SamplesMin(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Double,System.Int64)">SamplesMin(IExecutionContext, Int32, String, Double, Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the min value of a parameter. This processor calculates the min value of the given window from a double window size</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double SamplesMin(this IExecutionContext executionContext, int processorSlot, string parameterId, double windowSize, long timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
+        <td><span class="parametername">executionContext</span></td>
+        <td><p>The execution context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">processorSlot</span></td>
+        <td><p>The processor slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterId</span></td>
+        <td><p>The parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">windowSize</span></td>
+        <td><p>The windowSize.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The min value in the samples.</p>
 </td>
       </tr>
     </tbody>

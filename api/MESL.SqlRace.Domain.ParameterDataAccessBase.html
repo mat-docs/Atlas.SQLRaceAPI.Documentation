@@ -733,7 +733,7 @@ Implement IDisposable to allow the PDA to be used within the using statement.</p
   </table>
   <a id="MESL_SqlRace_Domain_ParameterDataAccessBase_GetData_" data-uid="MESL.SqlRace.Domain.ParameterDataAccessBase.GetData*"></a>
   <h4 id="MESL_SqlRace_Domain_ParameterDataAccessBase_GetData_System_Int64___MESL_SqlRace_Enumerators_SampleModeType_System_Boolean_MAT_OCS_Core_ParameterValuesTemplate_" data-uid="MESL.SqlRace.Domain.ParameterDataAccessBase.GetData(System.Int64[],MESL.SqlRace.Enumerators.SampleModeType,System.Boolean,MAT.OCS.Core.ParameterValuesTemplate)">GetData(Int64[], SampleModeType, Boolean, ParameterValuesTemplate)</h4>
-  <div class="markdown level1 summary"><p>Gets the sampled data values and <a class="xref" href="MAT.OCS.Core.DataStatusType.html">DataStatusType</a> from the requested timestamps and sample types.</p>
+  <div class="markdown level1 summary"><p>Gets the sampled data values and <span class="xref">MAT.OCS.Core.DataStatusType</span> from the requested timestamps and sample types.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -771,7 +771,7 @@ If this is set to <code>true</code>, returned data is linearly interpolated, so 
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="MAT.OCS.Core.ParameterValuesTemplate.html">ParameterValuesTemplate</a></td>
+        <td><span class="xref">MAT.OCS.Core.ParameterValuesTemplate</span></td>
         <td><span class="parametername">template</span></td>
         <td><p>Optional template to be populated with samples.  This can be used if the client wants to manage the memory to perform it&apos;s own memory management/buffering. 
 The use of this is discouraged as the SQL Race memory pooling means it is more efficient in the large object heap and reduces fragmentation. 
@@ -791,8 +791,8 @@ When specifing a template you should follow these rules:
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="MAT.OCS.Core.ParameterValues.html">ParameterValues</a></td>
-        <td><p>Returns a <a class="xref" href="MAT.OCS.Core.ParameterValues.html">ParameterValues</a> object containing the resulting data</p>
+        <td><span class="xref">MAT.OCS.Core.ParameterValues</span></td>
+        <td><p>Returns a <span class="xref">MAT.OCS.Core.ParameterValues</span> object containing the resulting data</p>
 </td>
       </tr>
     </tbody>
@@ -1202,7 +1202,7 @@ within the underlying Parameter associated with the PDA.</p>
   </table>
   <a id="MESL_SqlRace_Domain_ParameterDataAccessBase_GetNextData_" data-uid="MESL.SqlRace.Domain.ParameterDataAccessBase.GetNextData*"></a>
   <h4 id="MESL_SqlRace_Domain_ParameterDataAccessBase_GetNextData_System_Int32_MESL_SqlRace_Enumerators_SampleModeType_System_Boolean_MAT_OCS_Core_ParameterValuesTemplate_" data-uid="MESL.SqlRace.Domain.ParameterDataAccessBase.GetNextData(System.Int32,MESL.SqlRace.Enumerators.SampleModeType,System.Boolean,MAT.OCS.Core.ParameterValuesTemplate)">GetNextData(Int32, SampleModeType, Boolean, ParameterValuesTemplate)</h4>
-  <div class="markdown level1 summary"><p>Gets the next sampled data values and <a class="xref" href="MAT.OCS.Core.DataStatusType.html">DataStatusType</a> based on the number of samples requested and the PDA&apos;s current position.</p>
+  <div class="markdown level1 summary"><p>Gets the next sampled data values and <span class="xref">MAT.OCS.Core.DataStatusType</span> based on the number of samples requested and the PDA&apos;s current position.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1240,7 +1240,7 @@ If this is set to <code>true</code>, returned data is linearly interpolated, so 
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="MAT.OCS.Core.ParameterValuesTemplate.html">ParameterValuesTemplate</a></td>
+        <td><span class="xref">MAT.OCS.Core.ParameterValuesTemplate</span></td>
         <td><span class="parametername">template</span></td>
         <td><p>Optional template to be populated with samples.  This can be used if the client wants to manage the memory to perform it&apos;s own memory management/buffering. 
 The use of this is discouraged as the SQL Race memory pooling means it is more efficient in the large object heap and reduces fragmentation. 
@@ -1260,8 +1260,8 @@ When specifing a template you should follow these rules:
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="MAT.OCS.Core.ParameterValues.html">ParameterValues</a></td>
-        <td><p>Returns a <a class="xref" href="MAT.OCS.Core.ParameterValues.html">ParameterValues</a> object containing the resulting data</p>
+        <td><span class="xref">MAT.OCS.Core.ParameterValues</span></td>
+        <td><p>Returns a <span class="xref">MAT.OCS.Core.ParameterValues</span> object containing the resulting data</p>
 </td>
       </tr>
     </tbody>
@@ -1305,7 +1305,7 @@ When specifing a template you should follow these rules:
   </table>
   <a id="MESL_SqlRace_Domain_ParameterDataAccessBase_GetNextSamples_" data-uid="MESL.SqlRace.Domain.ParameterDataAccessBase.GetNextSamples*"></a>
   <h4 id="MESL_SqlRace_Domain_ParameterDataAccessBase_GetNextSamples_System_Int32_MESL_SqlRace_Domain_Infrastructure_Enumerators_StepDirection_MAT_OCS_Core_ParameterValuesTemplate_" data-uid="MESL.SqlRace.Domain.ParameterDataAccessBase.GetNextSamples(System.Int32,MESL.SqlRace.Domain.Infrastructure.Enumerators.StepDirection,MAT.OCS.Core.ParameterValuesTemplate)">GetNextSamples(Int32, StepDirection, ParameterValuesTemplate)</h4>
-  <div class="markdown level1 summary"><p>Returns the next raw data samples, their <a class="xref" href="MAT.OCS.Core.DataStatusType.html">DataStatusType</a> and time based on the number of samples
+  <div class="markdown level1 summary"><p>Returns the next raw data samples, their <span class="xref">MAT.OCS.Core.DataStatusType</span> and time based on the number of samples
 requested.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1336,7 +1336,7 @@ requested.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="MAT.OCS.Core.ParameterValuesTemplate.html">ParameterValuesTemplate</a></td>
+        <td><span class="xref">MAT.OCS.Core.ParameterValuesTemplate</span></td>
         <td><span class="parametername">template</span></td>
         <td><p>Optional template to be populated with samples.  This can be used if the client wants to manage the memory to perform it&apos;s own memory management/buffering. 
 The use of this is discouraged as the SQL Race memory pooling means it is more efficient in the large object heap and reduces fragmentation. 
@@ -1356,8 +1356,8 @@ When specifing a template you should follow these rules:
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="MAT.OCS.Core.ParameterValues.html">ParameterValues</a></td>
-        <td><p>Returns a <a class="xref" href="MAT.OCS.Core.ParameterValues.html">ParameterValues</a> object with the Data, Timestamp and DataStatus arrays populated with the results. 
+        <td><span class="xref">MAT.OCS.Core.ParameterValues</span></td>
+        <td><p>Returns a <span class="xref">MAT.OCS.Core.ParameterValues</span> object with the Data, Timestamp and DataStatus arrays populated with the results. 
 Use the ParameterValues.SampleCount field to determine how much data to read out of the array.  If there are no samples then SampleCount will be 0.<br>The if the template array size is larger than the requested number of samples the extra array space will be left untouched.</p>
 </td>
       </tr>
@@ -1422,7 +1422,7 @@ for (var i = 0; i &lt; pdaSamples.SampleCount; i++)
   </table>
   <a id="MESL_SqlRace_Domain_ParameterDataAccessBase_GetSamplesBetween_" data-uid="MESL.SqlRace.Domain.ParameterDataAccessBase.GetSamplesBetween*"></a>
   <h4 id="MESL_SqlRace_Domain_ParameterDataAccessBase_GetSamplesBetween_System_Int64_System_Int64_System_Int32_" data-uid="MESL.SqlRace.Domain.ParameterDataAccessBase.GetSamplesBetween(System.Int64,System.Int64,System.Int32)">GetSamplesBetween(Int64, Int64, Int32)</h4>
-  <div class="markdown level1 summary"><p>Gets a number of raw data samples, timestamps and <a class="xref" href="MAT.OCS.Core.DataStatusType.html">DataStatusType</a> based on the time range between the current position to the end sample time and sample size cap requested.<br>If the start time is after the end time it will read the data backwards in reverse. The <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_CurrentTime">CurrentTime</a> is not updated by this call.</p>
+  <div class="markdown level1 summary"><p>Gets a number of raw data samples, timestamps and <span class="xref">MAT.OCS.Core.DataStatusType</span> based on the time range between the current position to the end sample time and sample size cap requested.<br>If the start time is after the end time it will read the data backwards in reverse. The <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_CurrentTime">CurrentTime</a> is not updated by this call.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1470,8 +1470,8 @@ in case you query for high resolution data over an extended time.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="MAT.OCS.Core.ParameterValues.html">ParameterValues</a></td>
-        <td><p>Returns a <a class="xref" href="MAT.OCS.Core.ParameterValues.html">ParameterValues</a> object with the Data, Timestamp and DataStatus arrays populated with the results. 
+        <td><span class="xref">MAT.OCS.Core.ParameterValues</span></td>
+        <td><p>Returns a <span class="xref">MAT.OCS.Core.ParameterValues</span> object with the Data, Timestamp and DataStatus arrays populated with the results. 
 Use the ParameterValues.SampleCount field to determine how much data to read out of the array.  If there are no samples then SampleCount will be 0.<br>The array size is allocated by an estimate and then expanded if needed by a factor.  Therefore the array size can be bigger than required and have empty data on the end.<br>Because of this nature, there is no feature to allow a ParameterValuesTemplate field.</p>
 </td>
       </tr>
@@ -1657,8 +1657,8 @@ in case you query for high resolution data over and extended time.  If the cap i
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="MAT.OCS.Core.ParameterValues.html">ParameterValues</a></td>
-        <td><p>Returns a <a class="xref" href="MAT.OCS.Core.ParameterValues.html">ParameterValues</a> object with the Data, Timestamp and DataStatus arrays populated with the results. 
+        <td><span class="xref">MAT.OCS.Core.ParameterValues</span></td>
+        <td><p>Returns a <span class="xref">MAT.OCS.Core.ParameterValues</span> object with the Data, Timestamp and DataStatus arrays populated with the results. 
 Use the ParameterValues.SampleCount field to determine how much data to read out of the array.  If there are no samples then SampleCount will be 0.<br>The array size is allocated by an estimate and then expanded if needed by a factor.  Therefore the array size can be bigger than the required and have empty data on the end.<br>Because of this nature, there is no feature to allow a ParameterValuesTemplate field.</p>
 </td>
       </tr>
