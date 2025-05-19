@@ -3044,6 +3044,18 @@ references:
   commentId: E:MESL.SqlRace.Domain.CompositeContainerParameterDataAccess.Invalidated
   fullName: MESL.SqlRace.Domain.CompositeContainerParameterDataAccess.Invalidated
   nameWithType: CompositeContainerParameterDataAccess.Invalidated
+- uid: MESL.SqlRace.Domain.CompositeContainerParameterDataAccess.IsDifferencePda
+  name: IsDifferencePda
+  href: api/MESL.SqlRace.Domain.CompositeContainerParameterDataAccess.html#MESL_SqlRace_Domain_CompositeContainerParameterDataAccess_IsDifferencePda
+  commentId: P:MESL.SqlRace.Domain.CompositeContainerParameterDataAccess.IsDifferencePda
+  fullName: MESL.SqlRace.Domain.CompositeContainerParameterDataAccess.IsDifferencePda
+  nameWithType: CompositeContainerParameterDataAccess.IsDifferencePda
+- uid: MESL.SqlRace.Domain.CompositeContainerParameterDataAccess.IsDifferencePda*
+  name: IsDifferencePda
+  href: api/MESL.SqlRace.Domain.CompositeContainerParameterDataAccess.html#MESL_SqlRace_Domain_CompositeContainerParameterDataAccess_IsDifferencePda_
+  commentId: Overload:MESL.SqlRace.Domain.CompositeContainerParameterDataAccess.IsDifferencePda
+  fullName: MESL.SqlRace.Domain.CompositeContainerParameterDataAccess.IsDifferencePda
+  nameWithType: CompositeContainerParameterDataAccess.IsDifferencePda
 - uid: MESL.SqlRace.Domain.CompositeContainerParameterDataAccess.IsInitialized
   name: IsInitialized
   href: api/MESL.SqlRace.Domain.CompositeContainerParameterDataAccess.html#MESL_SqlRace_Domain_CompositeContainerParameterDataAccess_IsInitialized
@@ -19070,6 +19082,18 @@ references:
   commentId: E:MESL.SqlRace.Domain.ICompositeContainerParameterDataAccess.Invalidated
   fullName: MESL.SqlRace.Domain.ICompositeContainerParameterDataAccess.Invalidated
   nameWithType: ICompositeContainerParameterDataAccess.Invalidated
+- uid: MESL.SqlRace.Domain.ICompositeContainerParameterDataAccess.IsDifferencePda
+  name: IsDifferencePda
+  href: api/MESL.SqlRace.Domain.ICompositeContainerParameterDataAccess.html#MESL_SqlRace_Domain_ICompositeContainerParameterDataAccess_IsDifferencePda
+  commentId: P:MESL.SqlRace.Domain.ICompositeContainerParameterDataAccess.IsDifferencePda
+  fullName: MESL.SqlRace.Domain.ICompositeContainerParameterDataAccess.IsDifferencePda
+  nameWithType: ICompositeContainerParameterDataAccess.IsDifferencePda
+- uid: MESL.SqlRace.Domain.ICompositeContainerParameterDataAccess.IsDifferencePda*
+  name: IsDifferencePda
+  href: api/MESL.SqlRace.Domain.ICompositeContainerParameterDataAccess.html#MESL_SqlRace_Domain_ICompositeContainerParameterDataAccess_IsDifferencePda_
+  commentId: Overload:MESL.SqlRace.Domain.ICompositeContainerParameterDataAccess.IsDifferencePda
+  fullName: MESL.SqlRace.Domain.ICompositeContainerParameterDataAccess.IsDifferencePda
+  nameWithType: ICompositeContainerParameterDataAccess.IsDifferencePda
 - uid: MESL.SqlRace.Domain.ICompositeContainerParameterDataAccess.IsInitialized
   name: IsInitialized
   href: api/MESL.SqlRace.Domain.ICompositeContainerParameterDataAccess.html#MESL_SqlRace_Domain_ICompositeContainerParameterDataAccess_IsInitialized
