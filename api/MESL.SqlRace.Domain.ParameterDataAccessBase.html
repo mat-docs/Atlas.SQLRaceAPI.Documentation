@@ -211,29 +211,6 @@ across all channels for a parameter:<p>
       </tr>
     </tbody>
   </table>
-  <h4 id="MESL_SqlRace_Domain_ParameterDataAccessBase_DefaultSampleTime" data-uid="MESL.SqlRace.Domain.ParameterDataAccessBase.DefaultSampleTime">DefaultSampleTime</h4>
-  <div class="markdown level1 summary"><p>Default sample time.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected const int DefaultSampleTime = 10000000</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h4 id="MESL_SqlRace_Domain_ParameterDataAccessBase_SampleSizeCap" data-uid="MESL.SqlRace.Domain.ParameterDataAccessBase.SampleSizeCap">SampleSizeCap</h4>
   <div class="markdown level1 summary"><p>The sample size cap</p>
 </div>
@@ -1095,6 +1072,55 @@ a zero numberOfSamples will be returned.</p>
   <h5 id="MESL_SqlRace_Domain_ParameterDataAccessBase_GetMaximumFrequency_remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>If zero, then the frequency could not be determined.</p>
 </div>
+  <a id="MESL_SqlRace_Domain_ParameterDataAccessBase_GetMaximumSampleInterval_" data-uid="MESL.SqlRace.Domain.ParameterDataAccessBase.GetMaximumSampleInterval*"></a>
+  <h4 id="MESL_SqlRace_Domain_ParameterDataAccessBase_GetMaximumSampleInterval_System_Int64_System_Boolean_" data-uid="MESL.SqlRace.Domain.ParameterDataAccessBase.GetMaximumSampleInterval(System.Int64,System.Boolean)">GetMaximumSampleInterval(Int64, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Gets the maximum sample interval in nanoseconds.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract long GetMaximumSampleInterval(long sampleTime, bool useSubSampledChannels)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">sampleTime</span></td>
+        <td><p>The sample time.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">useSubSampledChannels</span></td>
+        <td><p>if set to <code>true</code> [use sub sampled channels].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>The maximum sample interval.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="MESL_SqlRace_Domain_ParameterDataAccessBase_GetMaximumSampleRate_" data-uid="MESL.SqlRace.Domain.ParameterDataAccessBase.GetMaximumSampleRate*"></a>
   <h4 id="MESL_SqlRace_Domain_ParameterDataAccessBase_GetMaximumSampleRate" data-uid="MESL.SqlRace.Domain.ParameterDataAccessBase.GetMaximumSampleRate">GetMaximumSampleRate()</h4>
   <div class="markdown level1 summary"><p>Returns the maximum sample rate available from the channels
@@ -1154,7 +1180,7 @@ within the underlying Parameter associated with the PDA.</p>
 </div>
   <a id="MESL_SqlRace_Domain_ParameterDataAccessBase_GetMinimumSampleInterval_" data-uid="MESL.SqlRace.Domain.ParameterDataAccessBase.GetMinimumSampleInterval*"></a>
   <h4 id="MESL_SqlRace_Domain_ParameterDataAccessBase_GetMinimumSampleInterval_System_Int64_System_Boolean_" data-uid="MESL.SqlRace.Domain.ParameterDataAccessBase.GetMinimumSampleInterval(System.Int64,System.Boolean)">GetMinimumSampleInterval(Int64, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Gets the minimum sample interval.</p>
+  <div class="markdown level1 summary"><p>Gets the minimum sample interval in nanoseconds.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1196,7 +1222,8 @@ within the underlying Parameter associated with the PDA.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Int64</span></td>
-        <td></td>
+        <td><p>The minimum sample interval.</p>
+</td>
       </tr>
     </tbody>
   </table>

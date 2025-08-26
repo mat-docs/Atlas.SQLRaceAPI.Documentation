@@ -90,9 +90,6 @@
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_DefaultSampleTime">ParameterDataAccessBase.DefaultSampleTime</a>
-    </div>
-    <div>
       <a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_SampleSizeCap">ParameterDataAccessBase.SampleSizeCap</a>
     </div>
     <div>
@@ -771,6 +768,57 @@ a zero numberOfSamples will be returned.</p>
   <h5 id="MESL_SqlRace_Domain_ConstantParameterDataAccess_GetMaximumFrequency_remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>If zero, then the frequency could not be determined.</p>
 </div>
+  <a id="MESL_SqlRace_Domain_ConstantParameterDataAccess_GetMaximumSampleInterval_" data-uid="MESL.SqlRace.Domain.ConstantParameterDataAccess.GetMaximumSampleInterval*"></a>
+  <h4 id="MESL_SqlRace_Domain_ConstantParameterDataAccess_GetMaximumSampleInterval_System_Int64_System_Boolean_" data-uid="MESL.SqlRace.Domain.ConstantParameterDataAccess.GetMaximumSampleInterval(System.Int64,System.Boolean)">GetMaximumSampleInterval(Int64, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Gets the maximum sample interval in nanoseconds.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override long GetMaximumSampleInterval(long sampleTime, bool useSubSampledChannels)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">sampleTime</span></td>
+        <td><p>The sample time.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">useSubSampledChannels</span></td>
+        <td><p>if set to <code>true</code> [use sub sampled channels].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>The maximum sample interval.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_GetMaximumSampleInterval_System_Int64_System_Boolean_">ParameterDataAccessBase.GetMaximumSampleInterval(Int64, Boolean)</a></div>
   <a id="MESL_SqlRace_Domain_ConstantParameterDataAccess_GetMaximumSampleRate_" data-uid="MESL.SqlRace.Domain.ConstantParameterDataAccess.GetMaximumSampleRate*"></a>
   <h4 id="MESL_SqlRace_Domain_ConstantParameterDataAccess_GetMaximumSampleRate" data-uid="MESL.SqlRace.Domain.ConstantParameterDataAccess.GetMaximumSampleRate">GetMaximumSampleRate()</h4>
   <div class="markdown level1 summary"><p>Returns the maximum sample rate available from the channels
@@ -834,7 +882,8 @@ within the underlying Parameter associated with the PDA.</p>
 </div>
   <a id="MESL_SqlRace_Domain_ConstantParameterDataAccess_GetMinimumSampleInterval_" data-uid="MESL.SqlRace.Domain.ConstantParameterDataAccess.GetMinimumSampleInterval*"></a>
   <h4 id="MESL_SqlRace_Domain_ConstantParameterDataAccess_GetMinimumSampleInterval_System_Int64_System_Boolean_" data-uid="MESL.SqlRace.Domain.ConstantParameterDataAccess.GetMinimumSampleInterval(System.Int64,System.Boolean)">GetMinimumSampleInterval(Int64, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the minimum sample interval in nanoseconds.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -853,12 +902,14 @@ within the underlying Parameter associated with the PDA.</p>
       <tr>
         <td><span class="xref">System.Int64</span></td>
         <td><span class="parametername">sampleTime</span></td>
-        <td></td>
+        <td><p>The sample time.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">useSubSampledChannels</span></td>
-        <td></td>
+        <td><p>if set to <code>true</code> [use sub sampled channels].</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -873,7 +924,8 @@ within the underlying Parameter associated with the PDA.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Int64</span></td>
-        <td></td>
+        <td><p>The minimum sample interval.</p>
+</td>
       </tr>
     </tbody>
   </table>

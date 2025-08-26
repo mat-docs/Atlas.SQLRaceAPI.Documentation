@@ -7517,6 +7517,18 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.ConstantParameterDataAccess.GetMaximumFrequency
   fullName: MESL.SqlRace.Domain.ConstantParameterDataAccess.GetMaximumFrequency
   nameWithType: ConstantParameterDataAccess.GetMaximumFrequency
+- uid: MESL.SqlRace.Domain.ConstantParameterDataAccess.GetMaximumSampleInterval(System.Int64,System.Boolean)
+  name: GetMaximumSampleInterval(Int64, Boolean)
+  href: api/MESL.SqlRace.Domain.ConstantParameterDataAccess.html#MESL_SqlRace_Domain_ConstantParameterDataAccess_GetMaximumSampleInterval_System_Int64_System_Boolean_
+  commentId: M:MESL.SqlRace.Domain.ConstantParameterDataAccess.GetMaximumSampleInterval(System.Int64,System.Boolean)
+  fullName: MESL.SqlRace.Domain.ConstantParameterDataAccess.GetMaximumSampleInterval(System.Int64, System.Boolean)
+  nameWithType: ConstantParameterDataAccess.GetMaximumSampleInterval(Int64, Boolean)
+- uid: MESL.SqlRace.Domain.ConstantParameterDataAccess.GetMaximumSampleInterval*
+  name: GetMaximumSampleInterval
+  href: api/MESL.SqlRace.Domain.ConstantParameterDataAccess.html#MESL_SqlRace_Domain_ConstantParameterDataAccess_GetMaximumSampleInterval_
+  commentId: Overload:MESL.SqlRace.Domain.ConstantParameterDataAccess.GetMaximumSampleInterval
+  fullName: MESL.SqlRace.Domain.ConstantParameterDataAccess.GetMaximumSampleInterval
+  nameWithType: ConstantParameterDataAccess.GetMaximumSampleInterval
 - uid: MESL.SqlRace.Domain.ConstantParameterDataAccess.GetMaximumSampleRate
   name: GetMaximumSampleRate()
   href: api/MESL.SqlRace.Domain.ConstantParameterDataAccess.html#MESL_SqlRace_Domain_ConstantParameterDataAccess_GetMaximumSampleRate
@@ -14282,6 +14294,18 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.GetMaximumFrequency
   fullName: MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.GetMaximumFrequency
   nameWithType: FixedValueParameterDataAccess.GetMaximumFrequency
+- uid: MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.GetMaximumSampleInterval(System.Int64,System.Boolean)
+  name: GetMaximumSampleInterval(Int64, Boolean)
+  href: api/MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.html#MESL_SqlRace_Domain_Functions_FixedValueParameterDataAccess_GetMaximumSampleInterval_System_Int64_System_Boolean_
+  commentId: M:MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.GetMaximumSampleInterval(System.Int64,System.Boolean)
+  fullName: MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.GetMaximumSampleInterval(System.Int64, System.Boolean)
+  nameWithType: FixedValueParameterDataAccess.GetMaximumSampleInterval(Int64, Boolean)
+- uid: MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.GetMaximumSampleInterval*
+  name: GetMaximumSampleInterval
+  href: api/MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.html#MESL_SqlRace_Domain_Functions_FixedValueParameterDataAccess_GetMaximumSampleInterval_
+  commentId: Overload:MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.GetMaximumSampleInterval
+  fullName: MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.GetMaximumSampleInterval
+  nameWithType: FixedValueParameterDataAccess.GetMaximumSampleInterval
 - uid: MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.GetMaximumSampleRate
   name: GetMaximumSampleRate()
   href: api/MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.html#MESL_SqlRace_Domain_Functions_FixedValueParameterDataAccess_GetMaximumSampleRate
@@ -27903,6 +27927,18 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.ParameterDataAccess.GetMaximumFrequency
   fullName: MESL.SqlRace.Domain.ParameterDataAccess.GetMaximumFrequency
   nameWithType: ParameterDataAccess.GetMaximumFrequency
+- uid: MESL.SqlRace.Domain.ParameterDataAccess.GetMaximumSampleInterval(System.Int64,System.Boolean)
+  name: GetMaximumSampleInterval(Int64, Boolean)
+  href: api/MESL.SqlRace.Domain.ParameterDataAccess.html#MESL_SqlRace_Domain_ParameterDataAccess_GetMaximumSampleInterval_System_Int64_System_Boolean_
+  commentId: M:MESL.SqlRace.Domain.ParameterDataAccess.GetMaximumSampleInterval(System.Int64,System.Boolean)
+  fullName: MESL.SqlRace.Domain.ParameterDataAccess.GetMaximumSampleInterval(System.Int64, System.Boolean)
+  nameWithType: ParameterDataAccess.GetMaximumSampleInterval(Int64, Boolean)
+- uid: MESL.SqlRace.Domain.ParameterDataAccess.GetMaximumSampleInterval*
+  name: GetMaximumSampleInterval
+  href: api/MESL.SqlRace.Domain.ParameterDataAccess.html#MESL_SqlRace_Domain_ParameterDataAccess_GetMaximumSampleInterval_
+  commentId: Overload:MESL.SqlRace.Domain.ParameterDataAccess.GetMaximumSampleInterval
+  fullName: MESL.SqlRace.Domain.ParameterDataAccess.GetMaximumSampleInterval
+  nameWithType: ParameterDataAccess.GetMaximumSampleInterval
 - uid: MESL.SqlRace.Domain.ParameterDataAccess.GetMaximumSampleRate
   name: GetMaximumSampleRate()
   href: api/MESL.SqlRace.Domain.ParameterDataAccess.html#MESL_SqlRace_Domain_ParameterDataAccess_GetMaximumSampleRate
@@ -28215,12 +28251,6 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.ParameterDataAccessBase.DataChangedCounter
   fullName: MESL.SqlRace.Domain.ParameterDataAccessBase.DataChangedCounter
   nameWithType: ParameterDataAccessBase.DataChangedCounter
-- uid: MESL.SqlRace.Domain.ParameterDataAccessBase.DefaultSampleTime
-  name: DefaultSampleTime
-  href: api/MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_DefaultSampleTime
-  commentId: F:MESL.SqlRace.Domain.ParameterDataAccessBase.DefaultSampleTime
-  fullName: MESL.SqlRace.Domain.ParameterDataAccessBase.DefaultSampleTime
-  nameWithType: ParameterDataAccessBase.DefaultSampleTime
 - uid: MESL.SqlRace.Domain.ParameterDataAccessBase.DemandTimerange
   name: DemandTimerange
   href: api/MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_DemandTimerange
@@ -28326,6 +28356,18 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.ParameterDataAccessBase.GetMaximumFrequency
   fullName: MESL.SqlRace.Domain.ParameterDataAccessBase.GetMaximumFrequency
   nameWithType: ParameterDataAccessBase.GetMaximumFrequency
+- uid: MESL.SqlRace.Domain.ParameterDataAccessBase.GetMaximumSampleInterval(System.Int64,System.Boolean)
+  name: GetMaximumSampleInterval(Int64, Boolean)
+  href: api/MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_GetMaximumSampleInterval_System_Int64_System_Boolean_
+  commentId: M:MESL.SqlRace.Domain.ParameterDataAccessBase.GetMaximumSampleInterval(System.Int64,System.Boolean)
+  fullName: MESL.SqlRace.Domain.ParameterDataAccessBase.GetMaximumSampleInterval(System.Int64, System.Boolean)
+  nameWithType: ParameterDataAccessBase.GetMaximumSampleInterval(Int64, Boolean)
+- uid: MESL.SqlRace.Domain.ParameterDataAccessBase.GetMaximumSampleInterval*
+  name: GetMaximumSampleInterval
+  href: api/MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_GetMaximumSampleInterval_
+  commentId: Overload:MESL.SqlRace.Domain.ParameterDataAccessBase.GetMaximumSampleInterval
+  fullName: MESL.SqlRace.Domain.ParameterDataAccessBase.GetMaximumSampleInterval
+  nameWithType: ParameterDataAccessBase.GetMaximumSampleInterval
 - uid: MESL.SqlRace.Domain.ParameterDataAccessBase.GetMaximumSampleRate
   name: GetMaximumSampleRate()
   href: api/MESL.SqlRace.Domain.ParameterDataAccessBase.html#MESL_SqlRace_Domain_ParameterDataAccessBase_GetMaximumSampleRate
