@@ -1,0 +1,397 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IConstantDefinitions
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IConstantDefinitions
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MESL.SqlRace.Domain.Functions.IConstantDefinitions">
+  
+  
+  <h1 id="MESL_SqlRace_Domain_Functions_IConstantDefinitions" data-uid="MESL.SqlRace.Domain.Functions.IConstantDefinitions" class="text-break">Interface IConstantDefinitions
+  </h1>
+  <div class="markdown level0 summary"><p>Container for ConstantDefinitions</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.Functions.html">MESL.SqlRace.Domain.Functions</a></h6>
+  <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
+  <h5 id="MESL_SqlRace_Domain_Functions_IConstantDefinitions_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IConstantDefinitions</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="MESL_SqlRace_Domain_Functions_IConstantDefinitions_Count_" data-uid="MESL.SqlRace.Domain.Functions.IConstantDefinitions.Count*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_IConstantDefinitions_Count" data-uid="MESL.SqlRace.Domain.Functions.IConstantDefinitions.Count">Count</h4>
+  <div class="markdown level1 summary"><p>Gets the number of constants</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int Count { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_IConstantDefinitions_Item_" data-uid="MESL.SqlRace.Domain.Functions.IConstantDefinitions.Item*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_IConstantDefinitions_Item_System_String_" data-uid="MESL.SqlRace.Domain.Functions.IConstantDefinitions.Item(System.String)">Item[String]</h4>
+  <div class="markdown level1 summary"><p>Gets a constant definition by name</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IConstantDefinition this[string name] { get; }</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Name of the constant definition</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IConstantDefinition.html">IConstantDefinition</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_IConstantDefinitions_Values_" data-uid="MESL.SqlRace.Domain.Functions.IConstantDefinitions.Values*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_IConstantDefinitions_Values" data-uid="MESL.SqlRace.Domain.Functions.IConstantDefinitions.Values">Values</h4>
+  <div class="markdown level1 summary"><p>Gets a read-only list of all constant definitions</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IReadOnlyList&lt;IConstantDefinition&gt; Values { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.Functions.IConstantDefinition.html">IConstantDefinition</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="MESL_SqlRace_Domain_Functions_IConstantDefinitions_Add_" data-uid="MESL.SqlRace.Domain.Functions.IConstantDefinitions.Add*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_IConstantDefinitions_Add_MESL_SqlRace_Domain_Functions_IConstantDefinition_" data-uid="MESL.SqlRace.Domain.Functions.IConstantDefinitions.Add(MESL.SqlRace.Domain.Functions.IConstantDefinition)">Add(IConstantDefinition)</h4>
+  <div class="markdown level1 summary"><p>Adds a constant definition</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Add(IConstantDefinition constantDefinition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IConstantDefinition.html">IConstantDefinition</a></td>
+        <td><span class="parametername">constantDefinition</span></td>
+        <td><p>Constant definition to add</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_IConstantDefinitions_AddRange_" data-uid="MESL.SqlRace.Domain.Functions.IConstantDefinitions.AddRange*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_IConstantDefinitions_AddRange_System_Collections_Generic_IEnumerable_MESL_SqlRace_Domain_Functions_IConstantDefinition__" data-uid="MESL.SqlRace.Domain.Functions.IConstantDefinitions.AddRange(System.Collections.Generic.IEnumerable{MESL.SqlRace.Domain.Functions.IConstantDefinition})">AddRange(IEnumerable&lt;IConstantDefinition&gt;)</h4>
+  <div class="markdown level1 summary"><p>Add a range of constant definitions</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddRange(IEnumerable&lt;IConstantDefinition&gt; constantDefs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.Functions.IConstantDefinition.html">IConstantDefinition</a>&gt;</td>
+        <td><span class="parametername">constantDefs</span></td>
+        <td><p>The enumeration of the constant definition to add</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_IConstantDefinitions_Contains_" data-uid="MESL.SqlRace.Domain.Functions.IConstantDefinitions.Contains*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_IConstantDefinitions_Contains_System_String_" data-uid="MESL.SqlRace.Domain.Functions.IConstantDefinitions.Contains(System.String)">Contains(String)</h4>
+  <div class="markdown level1 summary"><p>Checks if there is a constant definition with the specified name</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool Contains(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Name of the constant definition</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_IConstantDefinitions_Remove_" data-uid="MESL.SqlRace.Domain.Functions.IConstantDefinitions.Remove*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_IConstantDefinitions_Remove_System_String_" data-uid="MESL.SqlRace.Domain.Functions.IConstantDefinitions.Remove(System.String)">Remove(String)</h4>
+  <div class="markdown level1 summary"><p>Remove constant definition</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool Remove(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Name of a constant definition</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_IConstantDefinitions_TryGet_" data-uid="MESL.SqlRace.Domain.Functions.IConstantDefinitions.TryGet*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_IConstantDefinitions_TryGet_System_String_MESL_SqlRace_Domain_Functions_IConstantDefinition__" data-uid="MESL.SqlRace.Domain.Functions.IConstantDefinitions.TryGet(System.String,MESL.SqlRace.Domain.Functions.IConstantDefinition@)">TryGet(String, out IConstantDefinition)</h4>
+  <div class="markdown level1 summary"><p>Tries to get a constant definition if one exists</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool TryGet(string name, out IConstantDefinition constantDefinition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Name of the constant definition</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IConstantDefinition.html">IConstantDefinition</a></td>
+        <td><span class="parametername">constantDefinition</span></td>
+        <td><p>A constant definition if one exists, otherwise null</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the constant definition exists, false if it doesn&apos;t</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

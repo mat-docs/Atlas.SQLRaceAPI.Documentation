@@ -1,0 +1,600 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IFunctionManager
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IFunctionManager
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MESL.SqlRace.Domain.Functions.IFunctionManager">
+  
+  
+  <h1 id="MESL_SqlRace_Domain_Functions_IFunctionManager" data-uid="MESL.SqlRace.Domain.Functions.IFunctionManager" class="text-break">Interface IFunctionManager
+  </h1>
+  <div class="markdown level0 summary"><p>An interface to the functions aspect of SQL Race</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.Functions.html">MESL.SqlRace.Domain.Functions</a></h6>
+  <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
+  <h5 id="MESL_SqlRace_Domain_Functions_IFunctionManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IFunctionManager</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="MESL_SqlRace_Domain_Functions_IFunctionManager_ConstantDefinitions_" data-uid="MESL.SqlRace.Domain.Functions.IFunctionManager.ConstantDefinitions*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_IFunctionManager_ConstantDefinitions" data-uid="MESL.SqlRace.Domain.Functions.IFunctionManager.ConstantDefinitions">ConstantDefinitions</h4>
+  <div class="markdown level1 summary"><p>A read-only list of all constant definitions</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IReadOnlyList&lt;IConstantDefinition&gt; ConstantDefinitions { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.Functions.IConstantDefinition.html">IConstantDefinition</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_IFunctionManager_FunctionDefinitions_" data-uid="MESL.SqlRace.Domain.Functions.IFunctionManager.FunctionDefinitions*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_IFunctionManager_FunctionDefinitions" data-uid="MESL.SqlRace.Domain.Functions.IFunctionManager.FunctionDefinitions">FunctionDefinitions</h4>
+  <div class="markdown level1 summary"><p>A read-only list of all function definitions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IReadOnlyList&lt;IFunctionDefinition&gt; FunctionDefinitions { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.Functions.IFunctionDefinition.html">IFunctionDefinition</a>&gt;</td>
+        <td><p>The function definitions.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="MESL_SqlRace_Domain_Functions_IFunctionManager_AddConstantDefinition_" data-uid="MESL.SqlRace.Domain.Functions.IFunctionManager.AddConstantDefinition*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_IFunctionManager_AddConstantDefinition_MESL_SqlRace_Domain_Functions_IConstantDefinition_" data-uid="MESL.SqlRace.Domain.Functions.IFunctionManager.AddConstantDefinition(MESL.SqlRace.Domain.Functions.IConstantDefinition)">AddConstantDefinition(IConstantDefinition)</h4>
+  <div class="markdown level1 summary"><p>Adds a constant definition to the function manager</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddConstantDefinition(IConstantDefinition constantDefinition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IConstantDefinition.html">IConstantDefinition</a></td>
+        <td><span class="parametername">constantDefinition</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_IFunctionManager_Build_" data-uid="MESL.SqlRace.Domain.Functions.IFunctionManager.Build*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_IFunctionManager_Build_MESL_SqlRace_Domain_Functions_IFunctionDefinition_" data-uid="MESL.SqlRace.Domain.Functions.IFunctionManager.Build(MESL.SqlRace.Domain.Functions.IFunctionDefinition)">Build(IFunctionDefinition)</h4>
+  <div class="markdown level1 summary"><p>Builds the given function definition by committing changes to it, building the function
+implementation, and making its output parameters available for use.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">FunctionBuildResults Build(IFunctionDefinition functionDef)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IFunctionDefinition.html">IFunctionDefinition</a></td>
+        <td><span class="parametername">functionDef</span></td>
+        <td><p>The function definition to build.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.FunctionBuildResults.html">FunctionBuildResults</a></td>
+        <td><p>The results of the function build operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_IFunctionManager_CreateFunctionDefinition_" data-uid="MESL.SqlRace.Domain.Functions.IFunctionManager.CreateFunctionDefinition*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_IFunctionManager_CreateFunctionDefinition_System_Guid_" data-uid="MESL.SqlRace.Domain.Functions.IFunctionManager.CreateFunctionDefinition(System.Guid)">CreateFunctionDefinition(Guid)</h4>
+  <div class="markdown level1 summary"><p>Creates a function definition based on the specified function executor.
+Defaults to <span class="xref">MESL.SqlRace.Functions.Interfaces.Enums.FunctionMode.LeadingEdge</span> and <a class="xref" href="MESL.SqlRace.Domain.Functions.CalculationModeInfoDefinition.html#MESL_SqlRace_Domain_Functions_CalculationModeInfoDefinition_Frequency">Frequency</a> of
+10Hz.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IFunctionDefinition CreateFunctionDefinition(Guid functionBuilderId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">functionBuilderId</span></td>
+        <td><p>The unique ID of registered function builder.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IFunctionDefinition.html">IFunctionDefinition</a></td>
+        <td><p>A new function definition.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_IFunctionManager_CreateFunctionDefinition_" data-uid="MESL.SqlRace.Domain.Functions.IFunctionManager.CreateFunctionDefinition*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_IFunctionManager_CreateFunctionDefinition_System_Guid_MESL_SqlRace_Functions_Interfaces_Enums_FunctionMode_MESL_SqlRace_Domain_Functions_CalculationModeInfoDefinition_" data-uid="MESL.SqlRace.Domain.Functions.IFunctionManager.CreateFunctionDefinition(System.Guid,MESL.SqlRace.Functions.Interfaces.Enums.FunctionMode,MESL.SqlRace.Domain.Functions.CalculationModeInfoDefinition)">CreateFunctionDefinition(Guid, FunctionMode, CalculationModeInfoDefinition)</h4>
+  <div class="markdown level1 summary"><p>Creates a function definition based on the specified function executor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IFunctionDefinition CreateFunctionDefinition(Guid functionBuilderId, FunctionMode functionMode, CalculationModeInfoDefinition calculationModeInfoDefinition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">functionBuilderId</span></td>
+        <td><p>The unique ID of registered function builder.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">MESL.SqlRace.Functions.Interfaces.Enums.FunctionMode</span></td>
+        <td><span class="parametername">functionMode</span></td>
+        <td><span class="xref">MESL.SqlRace.Functions.Interfaces.Enums.FunctionMode</span>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.CalculationModeInfoDefinition.html">CalculationModeInfoDefinition</a></td>
+        <td><span class="parametername">calculationModeInfoDefinition</span></td>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.CalculationModeInfoDefinition.html">CalculationModeInfoDefinition</a>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IFunctionDefinition.html">IFunctionDefinition</a></td>
+        <td><p>A new function definition.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_IFunctionManager_GetFunctionDefinition_" data-uid="MESL.SqlRace.Domain.Functions.IFunctionManager.GetFunctionDefinition*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_IFunctionManager_GetFunctionDefinition_System_Guid_" data-uid="MESL.SqlRace.Domain.Functions.IFunctionManager.GetFunctionDefinition(System.Guid)">GetFunctionDefinition(Guid)</h4>
+  <div class="markdown level1 summary"><p>Looks for a function definition by its instance identifier including hidden ones.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IFunctionDefinition GetFunctionDefinition(Guid instanceIdentifier)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">instanceIdentifier</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IFunctionDefinition.html">IFunctionDefinition</a></td>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IFunctionDefinition.html">IFunctionDefinition</a>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_IFunctionManager_Remove_" data-uid="MESL.SqlRace.Domain.Functions.IFunctionManager.Remove*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_IFunctionManager_Remove_MESL_SqlRace_Domain_Functions_IFunctionDefinition_" data-uid="MESL.SqlRace.Domain.Functions.IFunctionManager.Remove(MESL.SqlRace.Domain.Functions.IFunctionDefinition)">Remove(IFunctionDefinition)</h4>
+  <div class="markdown level1 summary"><p>Removes the specified function definition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Remove(IFunctionDefinition functionDef)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IFunctionDefinition.html">IFunctionDefinition</a></td>
+        <td><span class="parametername">functionDef</span></td>
+        <td><p>The function definition.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_IFunctionManager_RemoveConstantDefinition_" data-uid="MESL.SqlRace.Domain.Functions.IFunctionManager.RemoveConstantDefinition*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_IFunctionManager_RemoveConstantDefinition_System_String_" data-uid="MESL.SqlRace.Domain.Functions.IFunctionManager.RemoveConstantDefinition(System.String)">RemoveConstantDefinition(String)</h4>
+  <div class="markdown level1 summary"><p>Removes a constant definition from a constant manager</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RemoveConstantDefinition(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_IFunctionManager_Save_" data-uid="MESL.SqlRace.Domain.Functions.IFunctionManager.Save*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_IFunctionManager_Save_MESL_SqlRace_Domain_Functions_IFunctionDefinition_" data-uid="MESL.SqlRace.Domain.Functions.IFunctionManager.Save(MESL.SqlRace.Domain.Functions.IFunctionDefinition)">Save(IFunctionDefinition)</h4>
+  <div class="markdown level1 summary"><p>Saves the given function definition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Save(IFunctionDefinition functionDef)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IFunctionDefinition.html">IFunctionDefinition</a></td>
+        <td><span class="parametername">functionDef</span></td>
+        <td><p>The function definition to save.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_Functions_IFunctionManager_Validate_" data-uid="MESL.SqlRace.Domain.Functions.IFunctionManager.Validate*"></a>
+  <h4 id="MESL_SqlRace_Domain_Functions_IFunctionManager_Validate_MESL_SqlRace_Domain_Functions_IFunctionDefinition_" data-uid="MESL.SqlRace.Domain.Functions.IFunctionManager.Validate(MESL.SqlRace.Domain.Functions.IFunctionDefinition)">Validate(IFunctionDefinition)</h4>
+  <div class="markdown level1 summary"><p>Validates the specified function definition by evaluating its properties and
+building it to get errors and warnings. Does not persist the function definition,
+and makes no permanent changes to the state of the system.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">FunctionValidationResults Validate(IFunctionDefinition functionDef)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IFunctionDefinition.html">IFunctionDefinition</a></td>
+        <td><span class="parametername">functionDef</span></td>
+        <td><p>The function definition to validate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.FunctionValidationResults.html">FunctionValidationResults</a></td>
+        <td><p>The results of the function build operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  <h4 id="MESL_SqlRace_Domain_Functions_IFunctionManager_FunctionAdded" data-uid="MESL.SqlRace.Domain.Functions.IFunctionManager.FunctionAdded">FunctionAdded</h4>
+  <div class="markdown level1 summary"><p>Occurs when function is added.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;FunctionAddedEventArgs&gt; FunctionAdded</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.Functions.FunctionAddedEventArgs.html">FunctionAddedEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_Functions_IFunctionManager_FunctionModified" data-uid="MESL.SqlRace.Domain.Functions.IFunctionManager.FunctionModified">FunctionModified</h4>
+  <div class="markdown level1 summary"><p>Occurs when function is modified.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;FunctionModifiedEventArgs&gt; FunctionModified</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.Functions.FunctionModifiedEventArgs.html">FunctionModifiedEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_Functions_IFunctionManager_FunctionRemoved" data-uid="MESL.SqlRace.Domain.Functions.IFunctionManager.FunctionRemoved">FunctionRemoved</h4>
+  <div class="markdown level1 summary"><p>Occurs when function is removed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;FunctionRemovedEventArgs&gt; FunctionRemoved</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.Functions.FunctionRemovedEventArgs.html">FunctionRemovedEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MESL_SqlRace_Domain_Functions_IFunctionManager_FunctionRenamed" data-uid="MESL.SqlRace.Domain.Functions.IFunctionManager.FunctionRenamed">FunctionRenamed</h4>
+  <div class="markdown level1 summary"><p>Occurs when function is renamed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;FunctionRenamedEventArgs&gt; FunctionRenamed</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.Functions.FunctionRenamedEventArgs.html">FunctionRenamedEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
