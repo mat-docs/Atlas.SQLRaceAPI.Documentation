@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "+lOyvsSaKY2gY70c3wUgVg=="
+          "hash": "F+DVHqSLOdA4fdvdqY6QOQ=="
         }
       },
       "is_incremental": false,
@@ -63,12 +63,6000 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MAT.SqlRace.FileLoaders.FormatTypeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.SqlRace.FileLoaders.FormatTypeAttribute.html",
+          "hash": "Lu5KtyfMgBYF8/h9uSACag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MAT.SqlRace.FileLoaders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.SqlRace.FileLoaders.html",
+          "hash": "btU2O4UQPXzwA7UIEpMa8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.AddCanDataErrorEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.AddCanDataErrorEventArgs.html",
+          "hash": "IcnJg8gNyBoq+kilfmkWeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.ApplicationGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.ApplicationGroup.html",
+          "hash": "hWhe38HnzAUgXlQBunB0+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.AsyncEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.AsyncEventArgs.html",
+          "hash": "aDjJORFwwQGs2lZy1L6dkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.AuditEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.AuditEntry.html",
+          "hash": "CwE8Q+a29NeKPnmA8ETd3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.AuditType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.AuditType.html",
+          "hash": "ccjyEee7n2jZFMGUwnYlPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.AvailabilityChangedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.AvailabilityChangedEventArgs.html",
+          "hash": "of8zsYHB8sRIduzEuLlnmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.BilinearMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.BilinearMap.html",
+          "hash": "CcgT1KtjGFw0Sec+UFoC8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Channel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Channel.html",
+          "hash": "eEgIdbxUINDc0Ls9CjkYgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.ChannelBasedParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.ChannelBasedParameter.html",
+          "hash": "aaXl4QEqDxAlPj33wC10Ow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.ClientSession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.ClientSession.html",
+          "hash": "6NfZfiEixBlx9cco3UMhSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Collections.CanCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Collections.CanCollection.html",
+          "hash": "AAIXQofsm/gVW+LhrJSfNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Collections.ErrorCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Collections.ErrorCollection.html",
+          "hash": "s6Zqmgts3raOl0o4bpvAUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Collections.EventCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Collections.EventCollection.html",
+          "hash": "RFAbqhrEOL+GOSgj0M0P0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Collections.IAssociateCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Collections.IAssociateCollection.html",
+          "hash": "/TTLOgpV+RVsW1v3N7ZDMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Collections.IExtendedAssociateCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Collections.IExtendedAssociateCollection.html",
+          "hash": "qOydRhRMaEpuL8t/kDePvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Collections.ILapCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Collections.ILapCollection.html",
+          "hash": "6inRMvSSG8JhX2KYGsrDcQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Collections.IPersistableCollection-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Collections.IPersistableCollection-1.html",
+          "hash": "9M2N/WEIlQxJVPuEbkRZoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Collections.ItemEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Collections.ItemEventArgs.html",
+          "hash": "rCa4DAK4RMplGEBs0+eUPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Collections.LapCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Collections.LapCollection.html",
+          "hash": "yLLXdixx+V0mPgp8Gg7+Aw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Collections.LapEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Collections.LapEventArgs.html",
+          "hash": "a8IX+CqTpsZPfPZh3IGy3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Collections.MapCollection-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Collections.MapCollection-1.html",
+          "hash": "DyUTo12uCDtq3/26nhT7Vw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Collections.MergableSubGroups-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Collections.MergableSubGroups-1.html",
+          "hash": "K+PPcQmc1YeY5DvrkBMXVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Collections.PersistableCollection-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Collections.PersistableCollection-1.html",
+          "hash": "KcsLKqMvPRCbfEe0rIschg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Collections.SessionDataItemsCollection-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Collections.SessionDataItemsCollection-1.html",
+          "hash": "DswImn80YPXuXajHiTQykg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Collections.SessionRepositoryExtendedAssociateCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Collections.SessionRepositoryExtendedAssociateCollection.html",
+          "hash": "Q6RFQOy4HlevQAvE1qStSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Collections.SynchronizedList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Collections.SynchronizedList-1.html",
+          "hash": "6Mb1RCHd4qbHSQRfdOBaEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Collections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Collections.html",
+          "hash": "jGaZt/selNzxKNGAK/ToUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.CompareSessionMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.CompareSessionMode.html",
+          "hash": "AhSe5Q/Mj28YuCEBiR4ZvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.CompositeContainerParameterDataAccess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.CompositeContainerParameterDataAccess.html",
+          "hash": "5M0rJy10f53y4S3AhVMLlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.CompositeMinimumMaximumMeanSample.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.CompositeMinimumMaximumMeanSample.html",
+          "hash": "xJlsur9hUuDjcXlRZqXwdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.CompositeMinimumMaximumSample.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.CompositeMinimumMaximumSample.html",
+          "hash": "tZXgZx+TNQaGIMuGJ4Eh0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.CompositeParameterDataAccess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.CompositeParameterDataAccess.html",
+          "hash": "xtO0PhgtwSc5F/iVL8fEiQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.CompositePdaExecutionService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.CompositePdaExecutionService.html",
+          "hash": "Osz7VxREnYRpbA1EoocI0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.CompositePdaParallelExecutionService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.CompositePdaParallelExecutionService.html",
+          "hash": "N63W5Xa/PWYz43N0cH/SGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.CompositeSample.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.CompositeSample.html",
+          "hash": "zp/EqxWFFa9ku8KnGBig1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.CompositeSession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.CompositeSession.html",
+          "hash": "Syl4MRy7/W75ML89RkFoJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.CompositeSessionContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.CompositeSessionContainer.html",
+          "hash": "aZ4qF383a2NTVSFdsqqtLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.CompositeSessionEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.CompositeSessionEventArgs.html",
+          "hash": "rfjJZng75Pf6IY4HFrF8Fw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.CompositeSessionEventType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.CompositeSessionEventType.html",
+          "hash": "YfNfGU5NAD7YTa88ZEjtpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.CompositeSessionException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.CompositeSessionException.html",
+          "hash": "B83mS2jN+1paW1YGlBeiUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.CompositeSessionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.CompositeSessionInfo.html",
+          "hash": "CBEsCD5isWVwn+hFuUUSgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.CompositeSessionMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.CompositeSessionMode.html",
+          "hash": "v4f6CyF8X8OzBvoUG/hV/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.CompositeStatistics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.CompositeStatistics.html",
+          "hash": "FBFopWtBtTu3p9y7vZJYuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.ConfigurationCommittedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.ConfigurationCommittedException.html",
+          "hash": "OAPJY17aSUb88hRHPAJYoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.ConfigurationSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.ConfigurationSet.html",
+          "hash": "7v9Jb/CHod+yzAXMFC8mqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.ConfigurationSetAlreadyExistsException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.ConfigurationSetAlreadyExistsException.html",
+          "hash": "wZriKuEEYEmHSB+s4t/Xog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.ConfigurationSetManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.ConfigurationSetManager.html",
+          "hash": "6mmtC3yHXgwqVcFhfTsktA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.ConnectionBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.ConnectionBase.html",
+          "hash": "MV9dORIghbmykvRjscubLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.ConnectionContextBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.ConnectionContextBase.html",
+          "hash": "X3pDTI6IbCfRQgs4O4I7zw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.ConnectionInformationBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.ConnectionInformationBase.html",
+          "hash": "cDZLjWBmUrV7GDbtsZn9Tg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.ConnectionStringParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.ConnectionStringParser.html",
+          "hash": "Pisk5DMdPyAMiyaCI8IMsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Constant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Constant.html",
+          "hash": "nQc4fk1tkadd0Y8aylEgKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.ConstantParameterDataAccess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.ConstantParameterDataAccess.html",
+          "hash": "YCuPeGqHNZSvyTbUNUpH9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.ConversionBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.ConversionBase.html",
+          "hash": "qcpLenl1L4WGflTg97S9dA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Core.html",
+          "hash": "xqf1TPGZRjDyyufEMs19nQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.CoreInitialisedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.CoreInitialisedEventArgs.html",
+          "hash": "kXcrEriVW9sPN+6xOwehPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.DataItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.DataItem.html",
+          "hash": "psTmnIajPl7omGvPHgYY3Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.DataItemReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.DataItemReader.html",
+          "hash": "MbzjpLlsvfUessxaubnZKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.DatabaseConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.DatabaseConnection.html",
+          "hash": "IWFIS1iFjx0lkIjLFjarrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.DatabaseConnectionInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.DatabaseConnectionInformation.html",
+          "hash": "fyM8uR5pk3qTNfu5G8bl2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.DatabaseConnectionManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.DatabaseConnectionManager.html",
+          "hash": "D3R9JUNSs7nvLPmkSV5h+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.DatabaseManagerFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.DatabaseManagerFactory.html",
+          "hash": "GECuRqtnCVZ053Bd7NwlAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.DbConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.DbConfiguration.html",
+          "hash": "o5dc52l+xEsZC7gejX0KSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.DbEngine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.DbEngine.html",
+          "hash": "sFDHLImlL7mue++S3w9aPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.EntityBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.EntityBase.html",
+          "hash": "BP6Lg2Qf3mIrLwXcCylbmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.ErrorData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.ErrorData.html",
+          "hash": "VAc0Z34hHrxg5ERIcIGKxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.ErrorDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.ErrorDefinition.html",
+          "hash": "EreMEQMThMToEMWq8uRQ7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Event.html",
+          "hash": "BAGRAsin+hjjkAwdl9MHrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.EventDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.EventDefinition.html",
+          "hash": "+A4v5Ul5+c7gWK8s8wrDRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Events.EventsFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Events.EventsFactory.html",
+          "hash": "qdcGWrdJZOqXJCDfMlUg8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Events.ISessionEventService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Events.ISessionEventService.html",
+          "hash": "NK9SMT8qvCuMS3uObxD7rw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Events.html",
+          "hash": "nul+LGD96371Jz7/7tG0mw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Exceptions.CompatibilityException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Exceptions.CompatibilityException.html",
+          "hash": "NT4oL3e5Y0G1IWKX+sYkzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Exceptions.SqlRaceTimeoutException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Exceptions.SqlRaceTimeoutException.html",
+          "hash": "eMCyxepPUGKx64xhtBMeeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Exceptions.html",
+          "hash": "dVetvw04lrV0+5ZKEsBXCw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.ExtendedAssociate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.ExtendedAssociate.html",
+          "hash": "TPfV1oGmeQUyoJc6+OyPUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Extensions.ArrayExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Extensions.ArrayExtension.html",
+          "hash": "Ds99yvgUcczgJcP4/xLeWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Extensions.ChannelExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Extensions.ChannelExtensions.html",
+          "hash": "7f80Mra68q/ACjigfcra0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Extensions.ColumnNameType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Extensions.ColumnNameType.html",
+          "hash": "Jbpz3taKHDJWiF9TRh3jFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Extensions.ConversionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Extensions.ConversionExtensions.html",
+          "hash": "uUpRkeEdBk5EguVDEwFSVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Extensions.EnumExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Extensions.EnumExtensions.html",
+          "hash": "uaccnRl05DvV8+Ls/9V0ig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Extensions.FormulaConversionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Extensions.FormulaConversionExtensions.html",
+          "hash": "fnQagBzS4rwr9UICk7/cQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Extensions.LapExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Extensions.LapExtensions.html",
+          "hash": "8ke+HkIuKwZxN07yuvtWMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Extensions.StringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Extensions.StringExtensions.html",
+          "hash": "yWr27lDTdEVzZACfqgpHPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Extensions.TableConversionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Extensions.TableConversionExtensions.html",
+          "hash": "FLhjEhEsAh/mejAV+h3duw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Extensions.TextConversionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Extensions.TextConversionExtensions.html",
+          "hash": "u9E1qES98tdpATXwP1MHOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Extensions.html",
+          "hash": "2QBDTQ/Rl3zVTgSDSqkTjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.FastConfigurationSetAttributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.FastConfigurationSetAttributes.html",
+          "hash": "cBvQb+d3Ozfhf8dWHl81RA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.FdlExpressionAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.FdlExpressionAdapter.html",
+          "hash": "ts8jz9od6G31mXmMV6/KEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.FileDrivers.DriverBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.FileDrivers.DriverBase.html",
+          "hash": "WZDTZIjO9z6ga5zVRfKmcg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.FileDrivers.IFormatOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.FileDrivers.IFormatOption.html",
+          "hash": "s6TWU0qThN8hlfeXnOejbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.FileDrivers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.FileDrivers.html",
+          "hash": "m34NQu3DpX9k4MnTyVoq+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.FileSession.FileSessionConfigurationAvailableEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.FileSession.FileSessionConfigurationAvailableEventArgs.html",
+          "hash": "bfnLW4DZc9qqg7Y/+AzvDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.FileSession.FileSessionConfigurationLoadedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.FileSession.FileSessionConfigurationLoadedEventArgs.html",
+          "hash": "wdh0ZvQoavoHlQLOEQ0+TQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.FileSession.FileSessionFileLoadedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.FileSession.FileSessionFileLoadedEventArgs.html",
+          "hash": "tX+RN4mmGOc4qPn2nI4Tcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.FileSession.ISessionConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.FileSession.ISessionConfiguration.html",
+          "hash": "S2j0l0KBf4ATB13X+qJzbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.FileSession.ISessionInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.FileSession.ISessionInformation.html",
+          "hash": "VIu/JbK3zMUe56tbagRkhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.FileSession.ISessionLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.FileSession.ISessionLoader.html",
+          "hash": "0fNZJ1AstjJlJkfH/vk74g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.FileSession.SessionConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.FileSession.SessionConfiguration.html",
+          "hash": "ebmnBqtwuEPz9xVpVp4GLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.FileSession.SessionInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.FileSession.SessionInformation.html",
+          "hash": "s90tP6bWkXHUdt4HvpzA6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.FileSession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.FileSession.html",
+          "hash": "+84tm/U/H+sn734X7k0aOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.FileSessionManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.FileSessionManager.html",
+          "hash": "hzjOjpxcCjQiwcAEqdgTEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.FileSessionNotExistsException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.FileSessionNotExistsException.html",
+          "hash": "gbFWwadFdJXMJT7Hedw/lg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.FileSessionSummary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.FileSessionSummary.html",
+          "hash": "YoZ67Edkw0BZtEgONERFBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.FileSessionWatcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.FileSessionWatcher.html",
+          "hash": "OZO8bLrgHtHzyGBIlRJxww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.FormulaConversion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.FormulaConversion.html",
+          "hash": "rjePFds323MR3F854PT64Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.FunctionConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.FunctionConstants.html",
+          "hash": "HqqRh+Dn0WGwyVN/VS8Dew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.FunctionParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.FunctionParameter.html",
+          "hash": "YYrPa9w+0M8CJEtofvtLNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.Behaviours.FunctionExecutionState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.Behaviours.FunctionExecutionState.html",
+          "hash": "cNI71DmDihdR9U+nvdrTVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.Behaviours.IFunctionBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.Behaviours.IFunctionBehaviour.html",
+          "hash": "NAie+8TxaQ64nuPwRYB3XQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.Behaviours.IFunctionExecutionBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.Behaviours.IFunctionExecutionBehaviour.html",
+          "hash": "UYfqVSiwT2VGtf1SnRwvFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.Behaviours.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.Behaviours.html",
+          "hash": "fTWPnxJIJV+9O6qA+8X9Bg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.BuiltInProcessorUniqueIdentifiers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.BuiltInProcessorUniqueIdentifiers.html",
+          "hash": "fE0leZueJEkX8epZ+yFc3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.CSharp.CSharpFunctionConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.CSharp.CSharpFunctionConstants.html",
+          "hash": "AFKV1k3FBXZ7R/9kMFss0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.CSharp.CSharpFunctionImplementationDefinitionDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.CSharp.CSharpFunctionImplementationDefinitionDto.html",
+          "hash": "DP7iJAUEbwA5f1BTpF0GVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.CSharp.ICSharpFunctionBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.CSharp.ICSharpFunctionBuilder.html",
+          "hash": "vDnhXm+MD9jJnXtl5v3yww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.CSharp.ICSharpFunctionImplementationDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.CSharp.ICSharpFunctionImplementationDefinition.html",
+          "hash": "xMYhjS8tnMo46cHuQVGa9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.CSharp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.CSharp.html",
+          "hash": "+U/jB4P3r3/S+rxhMnmKFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.CalculationModeInfoDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.CalculationModeInfoDefinition.html",
+          "hash": "L0E83DIKVJByxcTgZ++H3Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.ConstantAddedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.ConstantAddedEventArgs.html",
+          "hash": "E0KCLsoEKl55xmPv+cNW0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.ConstantDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.ConstantDefinition.html",
+          "hash": "TqPTf2Ek0BMZmxQx180vBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.ConstantEventArgsBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.ConstantEventArgsBase.html",
+          "hash": "YMov3hzxKa5Mw+eVujF6uQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.ConstantObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.ConstantObject.html",
+          "hash": "o9Luq6zoEc6LQXd3maYl5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.ConstantRemovedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.ConstantRemovedEventArgs.html",
+          "hash": "Ngdy4TDQQF5BHg3CrfTYNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.ConstantReplacedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.ConstantReplacedEventArgs.html",
+          "hash": "23i7isywvJznzCVdNkjR+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.ConstantType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.ConstantType.html",
+          "hash": "9Btpzpd/5PScRZGNmJUCUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.ConstantValueType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.ConstantValueType.html",
+          "hash": "54qr7HoZmnrOUHtAugTywQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.DotNet.DotNetFunctionConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.DotNet.DotNetFunctionConstants.html",
+          "hash": "EZ/iYjHtA7Ceqrmq5uUpNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.DotNet.DotNetFunctionImplementationDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.DotNet.DotNetFunctionImplementationDefinition.html",
+          "hash": "H3e6JatYndryWCwzl9Up9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.DotNet.IDotNetFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.DotNet.IDotNetFunction.html",
+          "hash": "6Lpu/Q1Xcyb8N1r3TKIE0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.DotNet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.DotNet.html",
+          "hash": "WZl8RJHyYFaPEzTJfrIFyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.DotNetCompilation.DotNetCompilationError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.DotNetCompilation.DotNetCompilationError.html",
+          "hash": "tgolsIXa+F9NNTuB9WF/0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.DotNetCompilation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.DotNetCompilation.html",
+          "hash": "anStaV/7eSEmAxkC11B8ug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.ExecuteOnEveryDataRequestDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.ExecuteOnEveryDataRequestDefinition.html",
+          "hash": "NEUjAw89OXC5vIHl30ThHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.ExecuteOnEveryDataRequestDefinitionDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.ExecuteOnEveryDataRequestDefinitionDto.html",
+          "hash": "VWgB6aPt1gjsCJrv8JilTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.ExecuteOnSessionEndDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.ExecuteOnSessionEndDefinition.html",
+          "hash": "/gnHgKs0oL7tltOfMSqObg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.ExecuteOnSessionEndDefinitionDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.ExecuteOnSessionEndDefinitionDto.html",
+          "hash": "NXHbdTLse8EHpklif5j41Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html",
+          "hash": "RM6S/T+aK4GnOWnrwpuJtg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.Fdl.FdlBuildError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.Fdl.FdlBuildError.html",
+          "hash": "keIC5bTykrbS9ImJG3s3iQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.Fdl.FdlCLikeBooleanExpressionEvaluator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.Fdl.FdlCLikeBooleanExpressionEvaluator.html",
+          "hash": "y9+1fxpsHGa0TgI9Jb4dBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.Fdl.FdlConditionalExpressionEvaluator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.Fdl.FdlConditionalExpressionEvaluator.html",
+          "hash": "AFDVjULpp9Dxphdt5ztCnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.Fdl.FdlFunctionBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.Fdl.FdlFunctionBase.html",
+          "hash": "oGD7vMewZPutZWWhJWBHIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.Fdl.FdlFunctionConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.Fdl.FdlFunctionConstants.html",
+          "hash": "h1gT0bOmta3gUfEmLzcRzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.Fdl.FdlFunctionImplementationDefinitionDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.Fdl.FdlFunctionImplementationDefinitionDto.html",
+          "hash": "Qxeh17Kypmblwlxr4OC7Tw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.Fdl.IFdlFunctionImplementationDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.Fdl.IFdlFunctionImplementationDefinition.html",
+          "hash": "H/Vm3QaOPlY/SHZboxO+Yg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.Fdl.LazilySizedArray-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.Fdl.LazilySizedArray-1.html",
+          "hash": "JY4m5exaodtp2jhIi0quBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.Fdl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.Fdl.html",
+          "hash": "++2bOU4ZY9Bfn/oVM7Z5rg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.html",
+          "hash": "LOv2talNXMZyiq3sczX2UQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.FunctionAddedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.FunctionAddedEventArgs.html",
+          "hash": "QR08LUgT+BD9yBRfPorOEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.FunctionBuildError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.FunctionBuildError.html",
+          "hash": "cKLvPJC8pZS1mLlya/iI0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.FunctionBuildResults.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.FunctionBuildResults.html",
+          "hash": "9fjjyHGzvoo+VwrFx6GxoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.FunctionBuilderCatalog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.FunctionBuilderCatalog.html",
+          "hash": "GKcJ6tACp7fCh/bmHt5TCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.FunctionBuiltEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.FunctionBuiltEventArgs.html",
+          "hash": "yCgTL4uoMAsCd7/NaxuXpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.FunctionEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.FunctionEventArgs.html",
+          "hash": "agmlTTtFWYOl/GYFxFAeqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.FunctionExecutionStrategyDefinitionDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.FunctionExecutionStrategyDefinitionDto.html",
+          "hash": "sD8L6XW/uKv1uDhnHHZUlg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.FunctionImplementationDefinitionDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.FunctionImplementationDefinitionDto.html",
+          "hash": "QbOJ61K4bwvcZAIDmxuDQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.FunctionManagerFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.FunctionManagerFactory.html",
+          "hash": "fDs8oBo1GDCAgtuNn6zAKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.FunctionModifiedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.FunctionModifiedEventArgs.html",
+          "hash": "wumZs8nxel5kOZ8Wet0V1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.FunctionOutputParameterDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.FunctionOutputParameterDefinition.html",
+          "hash": "icPHqR/KA7yoSkZJHW+bnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.FunctionOutputParameterDefinitionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.FunctionOutputParameterDefinitionExtensions.html",
+          "hash": "iYBBjM4OUj2/xPkQCKWHXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.FunctionOutputSession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.FunctionOutputSession.html",
+          "hash": "j7i3uK0DPhZsUC03anU0dg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.FunctionRemovedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.FunctionRemovedEventArgs.html",
+          "hash": "vuwEbUTCQ1FStwfznqRWtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.FunctionRenamedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.FunctionRenamedEventArgs.html",
+          "hash": "aF1t8WduPAf9QVTfQMxQ0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.FunctionValidationError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.FunctionValidationError.html",
+          "hash": "2iU6tKxvohzb892C0R+ygQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.FunctionValidationErrors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.FunctionValidationErrors.html",
+          "hash": "BTKIk+mf/Neh72bDqY29VA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.FunctionValidationResults.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.FunctionValidationResults.html",
+          "hash": "BCVmVC2FTudHaBXNnekVAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.FunctionsFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.FunctionsFactory.html",
+          "hash": "PGrUIktDfjgJg0o5uMMXLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.ICalculationModeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.ICalculationModeInfo.html",
+          "hash": "F1baLaNLNV2szUVg/7DaUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.IConstantDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.IConstantDefinition.html",
+          "hash": "JgFiReVZtBHaosyuWQ9DIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.IConstantDefinitions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.IConstantDefinitions.html",
+          "hash": "BKLSOGagrUr/2CeM51m/Ew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.ICustomFunctionBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.ICustomFunctionBuilder.html",
+          "hash": "+Ad5PoDCJhmxurt3Ep1m7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.IExecutionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.IExecutionContext.html",
+          "hash": "qJYHqRU4Kx8eDquylZuLMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.IFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.IFunction.html",
+          "hash": "RRzPBSten5lCUn5P85bgkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.IFunctionBuildError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.IFunctionBuildError.html",
+          "hash": "lbsmb1VFI+IYb1s3za4sUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.IFunctionBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.IFunctionBuilder.html",
+          "hash": "NQf0oXXrrmo364ppHmDdcQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.IFunctionBuilderOutput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.IFunctionBuilderOutput.html",
+          "hash": "kajtzLMXuZlPqHkABgq84Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.IFunctionDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.IFunctionDefinition.html",
+          "hash": "5u7u7in9MgFwCJbNHCSOeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.IFunctionExecutionStrategyDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.IFunctionExecutionStrategyDefinition.html",
+          "hash": "Zju4GOj/qBOo+JkjBTEO3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.IFunctionImplementationDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.IFunctionImplementationDefinition.html",
+          "hash": "XgcHxEP++x08SjxSujrbdw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.IFunctionInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.IFunctionInput.html",
+          "hash": "nFFf95xzPIl4/G6WUqrB0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.IFunctionManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.IFunctionManager.html",
+          "hash": "VBmVr3cgTqtl1IU3+4AVUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.IFunctionOutput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.IFunctionOutput.html",
+          "hash": "mahBpNXQWsongbTKEDQZ7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.IFunctionValidationError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.IFunctionValidationError.html",
+          "hash": "gKN+KIJmPNK0Mn159YIH9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.IOutputData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.IOutputData.html",
+          "hash": "PMczkXxneB8ql9yCIHdqdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.IProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.IProcessor.html",
+          "hash": "PHNmn9W9grK/PcGHt0im2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.IProcessorInstanceDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.IProcessorInstanceDefinition.html",
+          "hash": "2N/V0mkiv4RHsW8CiibJ5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.IProcessorReferenceProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.IProcessorReferenceProvider.html",
+          "hash": "VCIQSb7/aa6zu1vU3deRoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.IProcessorRegistration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.IProcessorRegistration.html",
+          "hash": "CUyuPbM9eHW5OfJKG0PeWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.Matlab.IMatlabFunctionImplementationDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.Matlab.IMatlabFunctionImplementationDefinition.html",
+          "hash": "NMG+7jnbnAX5xz9Va3wtDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.Matlab.MappingDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.Matlab.MappingDto.html",
+          "hash": "7JUujeJL0BOmzAUZByy/CQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.Matlab.MappingDtoList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.Matlab.MappingDtoList.html",
+          "hash": "Z98HoOdy/6BpBkuJO4GSSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.Matlab.MatlabFunctionConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.Matlab.MatlabFunctionConstants.html",
+          "hash": "ikdteVnYrv3aD1NsxJmFGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.Matlab.MatlabFunctionImplementationDefinitionDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.Matlab.MatlabFunctionImplementationDefinitionDto.html",
+          "hash": "m3XwLpCXgE5N/tL0TW9oqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.Matlab.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.Matlab.html",
+          "hash": "8JgwCQfT16itB9CBozN9FQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.Persistence.CalculationModeInfoDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.Persistence.CalculationModeInfoDto.html",
+          "hash": "rbFa7c1C5Qt1ORwdfbNFlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.Persistence.CodedFunctionImplementationDefinitionDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.Persistence.CodedFunctionImplementationDefinitionDto.html",
+          "hash": "tl3iw4scII0NjS5i7BWwkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.Persistence.ImplementationDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.Persistence.ImplementationDto.html",
+          "hash": "8RIrnzppb7ob6Lsn9dNr7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.Persistence.TriggerDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.Persistence.TriggerDto.html",
+          "hash": "+39A5AXRhg8tr/p1LFEvDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.Persistence.Xfn1FunctionDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.Persistence.Xfn1FunctionDto.html",
+          "hash": "dnqLT2KiEfQkPonFMyyztQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.Persistence.Xfn2FunctionDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.Persistence.Xfn2FunctionDto.html",
+          "hash": "TFwqKCLG3TVD4Is/kbradg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.Persistence.Xfn2OutputParameterDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.Persistence.Xfn2OutputParameterDto.html",
+          "hash": "/dPz4tQ+oYIq9SqeuWJhzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.Persistence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.Persistence.html",
+          "hash": "SJkusAuJWw8zv6vH3mawJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.ProcessorInstanceDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.ProcessorInstanceDefinition.html",
+          "hash": "Moffx5O8yaisLBYE7ZK7Zg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.ProcessorReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.ProcessorReference.html",
+          "hash": "tqH9VWCOs96By12d2vXi1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.ProcessorRegistration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.ProcessorRegistration.html",
+          "hash": "YDrOUQaPBdxZmYKy/Eo9MA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.Processors.BestFit.BestFitProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.Processors.BestFit.BestFitProcessor.html",
+          "hash": "WkqMqzMDYS6OvphS4L+mYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.Processors.BestFit.Point.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.Processors.BestFit.Point.html",
+          "hash": "nQXX+3CIdKL1tUZt0AJ4Eg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.Processors.BestFit.PolyfitResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.Processors.BestFit.PolyfitResult.html",
+          "hash": "I8+WaPaFJBYBvYkhoGYwlA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.Processors.BestFit.SampleSetExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.Processors.BestFit.SampleSetExtensions.html",
+          "hash": "SjUEd6uJJo+Ee3o2PTTUSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.Processors.BestFit.SingleVarFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.Processors.BestFit.SingleVarFunction.html",
+          "hash": "k7UpVkjm3TpRFyT3eY0J6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.Processors.BestFit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.Processors.BestFit.html",
+          "hash": "BmiGdIT8005VJidjXVueaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.Processors.IContextAwareProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.Processors.IContextAwareProcessor.html",
+          "hash": "kqCuxFGY7y1dadChdQzKzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.Processors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.Processors.html",
+          "hash": "7ZGYeKSiOFMHz2iTQGZg2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.StaticProcessors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.StaticProcessors.html",
+          "hash": "LofRvZVchEJipaOvaQ+BmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.html",
+          "hash": "zr/AQHjgG9m9i+uEpOj44g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.IApplicationInformationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.IApplicationInformationService.html",
+          "hash": "WTJB3MYNx23EIysmNrl0cg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.IAuditManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.IAuditManager.html",
+          "hash": "lJPoooANbLh6tJZVJ1fo8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.IChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.IChannel.html",
+          "hash": "doCaS08+55KY2ixWWQasWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.IClientSession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.IClientSession.html",
+          "hash": "FWoj5gYkT6jEDSUjZ/3szw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.ICompareSessionMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.ICompareSessionMode.html",
+          "hash": "av7xSkbwu4O1gK7M9zzafw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.ICompositeContainerParameterDataAccess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.ICompositeContainerParameterDataAccess.html",
+          "hash": "T85YLnhAvE6U4A6eVJRz/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.ICompositeParameterDataAccess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.ICompositeParameterDataAccess.html",
+          "hash": "FTUM4w6uKyQ/EIS05iCM7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.ICompositePdaExecutionService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.ICompositePdaExecutionService.html",
+          "hash": "1ms99kVcpfBYY82kkqMMyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.ICompositeSession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.ICompositeSession.html",
+          "hash": "qW5hbUUR2yhpy4CsqwrB6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.ICompositeSessionContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.ICompositeSessionContainer.html",
+          "hash": "rGBB91DZx9khBIC7M45Cdw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.ICompositeSessionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.ICompositeSessionInfo.html",
+          "hash": "gleL3oTyoSEIM47RBWF3OQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.IConnectionManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.IConnectionManager.html",
+          "hash": "nHj3kIqu8WKItov4ZnV7YQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.IDatabaseManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.IDatabaseManager.html",
+          "hash": "f+ZjNQDyEtt5oo0h4R6fcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.IEntityWithSessionKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.IEntityWithSessionKey.html",
+          "hash": "o6Ok/zQrfACFo4duopqcJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.IErrorData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.IErrorData.html",
+          "hash": "Fu9hDde/ayUA99g4yX+YVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.IExpressionAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.IExpressionAdapter.html",
+          "hash": "wFKtEYGGIioKmqfq5bxjjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.IFileSessionManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.IFileSessionManager.html",
+          "hash": "+p40T6dMhIy54fhfUmQ9vA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.IFunctionParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.IFunctionParameter.html",
+          "hash": "7P37tXGx/rCWRwrcM7bFyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.ILap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.ILap.html",
+          "hash": "SCoMVnLhlRJQ4dGHJs4eWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.IParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.IParameter.html",
+          "hash": "MjyJXe4v2n/M3tJCEDGw1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.IParameterDataAccess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.IParameterDataAccess.html",
+          "hash": "oLgc567zrR6xGR386rwARA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.IRecordersConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.IRecordersConfiguration.html",
+          "hash": "af4OANLFyH6HNMUu3Lkhqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.ISession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.ISession.html",
+          "hash": "G8UmbG4lV3iGAMbd1LopDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.ISessionDataService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.ISessionDataService.html",
+          "hash": "9H24zbrYsIGU03hb1OUCfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.ISessionSummary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.ISessionSummary.html",
+          "hash": "4ISa5YXB5vgvmN4JEfwMow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.ISessionTransientMarkerService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.ISessionTransientMarkerService.html",
+          "hash": "gn8RXQz+XuJM6YzKnDMGJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Infrastructure.DataAccess.ColumnMappedDataTable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.DataAccess.ColumnMappedDataTable-1.html",
+          "hash": "hOHPevJPWHl6ulLofG1HOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Infrastructure.DataAccess.IDataHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.DataAccess.IDataHelper.html",
+          "hash": "Fb+kyLFToi/D728DiQjwGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Infrastructure.DataAccess.TypedDataTableBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.DataAccess.TypedDataTableBase-1.html",
+          "hash": "MbTXZGykrXWALnBtSznJYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Infrastructure.DataAccess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.DataAccess.html",
+          "hash": "P0CBfAO2lB+8MHkWjCII7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.DataResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.DataResult.html",
+          "hash": "C63FQDhYXPFrmzI8x+ttlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.DeferredDataResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.DeferredDataResult.html",
+          "hash": "0a7D0Sx6NERGKFkCsKpfjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.Frequency.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.Frequency.html",
+          "hash": "EF2QicvEHPIPJAfYWVG0FQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.FrequencyExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.FrequencyExtensions.html",
+          "hash": "GEjRaRWO6Pe9CJ6akR0anA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.FrequencyUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.FrequencyUnit.html",
+          "hash": "rleE4tsob0my9Ofq5uww9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.IDataResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.IDataResult.html",
+          "hash": "nn5toGsCuluD13Oi+thltg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.IDeferredDataResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.IDeferredDataResult.html",
+          "hash": "cSijky0JB2g+uQnaN9xGAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISampleCollection.html",
+          "hash": "oWs4RbjGy69yPNJYiITLiQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISamplesDataResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.ISamplesDataResult.html",
+          "hash": "jQnHlhNNkE+XhF+lPb+d8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.Sample.html",
+          "hash": "T4hQyiycTHmS5ppSOGYB2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.SamplesDataResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.SamplesDataResult.html",
+          "hash": "6V8FZEjoAMifs39vEmFtUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.StatisticOption.html",
+          "hash": "CF2KcnSuJGPqhF7l3D5d1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.DataPipeline.html",
+          "hash": "ir3YKfuYql9tJdeVYK68sQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Infrastructure.DataProviders.AddChannelDataErrorEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.DataProviders.AddChannelDataErrorEventArgs.html",
+          "hash": "UBrqOwZGsxt0U1dQh6z1cA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Infrastructure.DataProviders.SessionStartTimeChangedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.DataProviders.SessionStartTimeChangedEventArgs.html",
+          "hash": "pYgr12DnTzlirzN+IA66uQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Infrastructure.DataProviders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.DataProviders.html",
+          "hash": "1R+sz7/m/bV0c1rrsMIFvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Infrastructure.DistinctionTracking.IDistinguishable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.DistinctionTracking.IDistinguishable.html",
+          "hash": "jEaBadcEpjJk1T64brA1NA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Infrastructure.DistinctionTracking.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.DistinctionTracking.html",
+          "hash": "ZiL3peBc0F41xW950Ou1Rw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Infrastructure.Enumerators.StepDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.Enumerators.StepDirection.html",
+          "hash": "IKxZoy4B8eJKdYKpd8CxUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Infrastructure.Enumerators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.Enumerators.html",
+          "hash": "/qNgkk/VvOPwrcldVyl2hw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Infrastructure.Formatting.CStyleStringFormatting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.Formatting.CStyleStringFormatting.html",
+          "hash": "Ut4i3p1NaJ/cxi5MpdxLFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Infrastructure.Formatting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.Formatting.html",
+          "hash": "RscCgydg8bsXZTj6Q/zGyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Infrastructure.Interfaces.IParameterDataStatistics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.Interfaces.IParameterDataStatistics.html",
+          "hash": "Hb0QEtcpQqCYZeuDgrHxxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Infrastructure.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.Interfaces.html",
+          "hash": "+7RwzBs6mNxdBazJYK+JPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Infrastructure.Mappers.IMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.Mappers.IMapper.html",
+          "hash": "WtfzKQnHzgZ2aeefxMsrIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Infrastructure.Mappers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.Mappers.html",
+          "hash": "oMVFh8eSf2MH3qLKjebqig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Infrastructure.Publish.IGenericObjectPool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.Publish.IGenericObjectPool-1.html",
+          "hash": "Q+cd7+EY+MrlsTTMSPQyMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Infrastructure.Publish.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Infrastructure.Publish.html",
+          "hash": "ePzaYshb2PbQ3UGl1oBDBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Interfaces.IConnectionManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Interfaces.IConnectionManager.html",
+          "hash": "pAfipNNid3CluywgN6UZ1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Interfaces.IDatabaseConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Interfaces.IDatabaseConnection.html",
+          "hash": "jHIZfnI02jKq4epE8z5BsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Interfaces.IFunctionsSettingsStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Interfaces.IFunctionsSettingsStore.html",
+          "hash": "zKc9Gh11saYPOVuk7hOs+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Interfaces.ISs2SessionExporter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Interfaces.ISs2SessionExporter.html",
+          "hash": "wHDep1iY5FQurbsZBXj0lg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Interfaces.html",
+          "hash": "rfyHZ9y+EUs6nxu6o4H9zQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.ItemCanArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.ItemCanArgs.html",
+          "hash": "PthtOl/4seIdA+Jk2JAomA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.ItemErrorArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.ItemErrorArgs.html",
+          "hash": "8Dn26ByugXx0SEglbt/bCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Lap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Lap.html",
+          "hash": "lgiooqcajHChsFFEExdeLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.LapBilinearMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.LapBilinearMap.html",
+          "hash": "mtaxTH0S3FQsRisyXCibtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.LapConstant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.LapConstant.html",
+          "hash": "aRkpQkX/JOk85pnBxHGW8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.LapDataItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.LapDataItem.html",
+          "hash": "9aioqvWtIAog+/LW1uZVig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.LapLinearMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.LapLinearMap.html",
+          "hash": "64ZLg0KkUv4v5+3uiW9Weg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.LapMapBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.LapMapBase.html",
+          "hash": "LgT91E4XaChhjyzk2uQsfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.LapStatisticsEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.LapStatisticsEventArgs.html",
+          "hash": "EUuC2sWbNSGuT4Y4lgO/1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.LinearMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.LinearMap.html",
+          "hash": "bH726R+yRvP9jVLJO78jWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.MapBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.MapBase.html",
+          "hash": "6bRTMmUrHCIqE8TPIEMsqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Marker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Marker.html",
+          "hash": "NMiky34HAgApuAnvf3jxlw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.MarkerLabel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.MarkerLabel.html",
+          "hash": "6zUMidSuzPSGJqr+KpcwAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.MidnightNotifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.MidnightNotifier.html",
+          "hash": "tV70pgz+pfEW1HqyVEKgpA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.MinimumMaximumMeanDouble.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.MinimumMaximumMeanDouble.html",
+          "hash": "zqR2Fa940dZaNao4Ubc9Pw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Monitoring.FileMonitorBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Monitoring.FileMonitorBase.html",
+          "hash": "0plIZlvdYznyx3K8nu8wRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Monitoring.IFileMonitor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Monitoring.IFileMonitor.html",
+          "hash": "6qLEXx8lrYysrS3cBuMhjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Monitoring.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Monitoring.html",
+          "hash": "pOaS3tEbV7Q5I8n1rJTD4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.MountedSessions.IMountedConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.MountedSessions.IMountedConfiguration.html",
+          "hash": "V42HE0drIbvvOzALRkX5/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.MountedSessions.IMountedDataPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.MountedSessions.IMountedDataPage.html",
+          "hash": "vhXCNQ8AfPFovxJHUs4KnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.MountedSessions.IMountedDataPageReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.MountedSessions.IMountedDataPageReader.html",
+          "hash": "9PEQ87vX9r+9QCYJxicEtg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.MountedSessions.IMountedDataPageSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.MountedSessions.IMountedDataPageSource.html",
+          "hash": "2VUeXUUbuOQ0BIngMBokwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.MountedSessions.IMountedEventsPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.MountedSessions.IMountedEventsPage.html",
+          "hash": "H4vlE87cdZ73JjNpdYYdfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.MountedSessions.IMountedEventsPageSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.MountedSessions.IMountedEventsPageSource.html",
+          "hash": "uUbUHw9HSJ5GfftphzZ7bQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.MountedSessions.MountedConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.MountedSessions.MountedConfiguration.html",
+          "hash": "aj+jBs2DHX6drpz/feaI4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.MountedSessions.MountedLap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.MountedSessions.MountedLap.html",
+          "hash": "Xy6IPXYHN8iWirbAttPpgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.MountedSessions.MountedSession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.MountedSessions.MountedSession.html",
+          "hash": "QCvXX+k64iRxGCtijcHZ3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.MountedSessions.MountedSessionCapabilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.MountedSessions.MountedSessionCapabilities.html",
+          "hash": "ewQbs2nAywdd43WZCEovQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.ConfigurationAvailable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.ConfigurationAvailable.html",
+          "hash": "dujN80TOatbMxg2ufD+6Rg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.ConfigurationBound.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.ConfigurationBound.html",
+          "hash": "yn9juuRy/FJyYf8IxCHMiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.DataAdded.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.DataAdded.html",
+          "hash": "uvwvwgfKotfzG/JOLxMqdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.EventsAdded.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.EventsAdded.html",
+          "hash": "Wu9G9ph7J0feQrRoz0/YTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.LapAdded.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.LapAdded.html",
+          "hash": "pJkXsVz5zCuft7nlBtd8lg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.SessionUpdated.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.SessionUpdated.html",
+          "hash": "lBgjl0UtuwD/qL4dJaJxqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.StateChanged.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.StateChanged.html",
+          "hash": "fu14JjnmmgFfXtC00IOUsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.TimeRangeChanged.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.TimeRangeChanged.html",
+          "hash": "MZR0eH9hPG5ZDlurlFqJDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.MountedSessions.MountedSessionEvents.html",
+          "hash": "iP5UtOpoPyQ8VPB8NSeZQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.MountedSessions.MountedSessionState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.MountedSessions.MountedSessionState.html",
+          "hash": "4UOGIEHTB9OaGpzG7qL2Gw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.MountedSessions.ReadDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.MountedSessions.ReadDirection.html",
+          "hash": "B7bvzpRXHodnGz/DpWFiZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.MountedSessions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.MountedSessions.html",
+          "hash": "8dcrWVFxdQPq4YnvNSO0AQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Parameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Parameter.html",
+          "hash": "ur/mxAeFHjYjMu9El5qR2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.ParameterBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.ParameterBase.html",
+          "hash": "bky4a49IDLJaQHcZ0hwNTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.ParameterDataAccess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.ParameterDataAccess.html",
+          "hash": "V1WgzFD4RH9rQQgq9Lu8hw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.ParameterDataAccessBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.ParameterDataAccessBase.html",
+          "hash": "0jPc2P2E4jHcsowwBjD3nQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.ParameterGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.ParameterGroup.html",
+          "hash": "BH0gWD5Ml0peu/LghCgsew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.PdaCurrentPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.PdaCurrentPosition.html",
+          "hash": "p/LrjNKfbOBm7FpyubwDPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.PersistableHashCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.PersistableHashCode.html",
+          "hash": "cqNcxCeC1dbWW03+21G0hg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Query.CombineType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Query.CombineType.html",
+          "hash": "cSDHA6ZPxlK0LpepKPLHsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Query.CompositeFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Query.CompositeFilter.html",
+          "hash": "EK13W1KMhg/baNDo2yxPfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Query.FilesFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Query.FilesFilter.html",
+          "hash": "SyEBgzyEhN/P836/D9Mj1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Query.FolderFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Query.FolderFilter.html",
+          "hash": "lWRCHr74+tcRA3GyoUkHhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Query.IFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Query.IFilter.html",
+          "hash": "S2BVDgMZm3uWMTxwse3iOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Query.IQueryManagerController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Query.IQueryManagerController.html",
+          "hash": "aKnHnx0OF6D7EY2xhBgTrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Query.MatchingRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Query.MatchingRule.html",
+          "hash": "u+uQTd4Jq7kWMZ0HqyxhNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Query.ParameterDataFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Query.ParameterDataFilter.html",
+          "hash": "pJPHOb4RG2YUtbv7xwsDog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Query.ParameterDataFilterValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Query.ParameterDataFilterValue.html",
+          "hash": "W+TRNkFQsK/54dlsjBSitw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Query.QueryManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Query.QueryManager.html",
+          "hash": "pxJSuCv7ihgdl/Skch8IVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Query.QueryManagerController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Query.QueryManagerController.html",
+          "hash": "AToCgHSRPPQr+vR/vKjEuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Query.QuerySample.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Query.QuerySample.html",
+          "hash": "/D0WDw85dvCNB2gAddd+Kw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Query.ScalarFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Query.ScalarFilter.html",
+          "hash": "3L2V8a/eakAqGyCJt8YqeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Query.SearchOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Query.SearchOptions.html",
+          "hash": "8bM/PXD3pOMvVgkaYPL53g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Query.SortCriterion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Query.SortCriterion.html",
+          "hash": "G/1vyh8wH2KzM72zvx2T3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Query.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Query.html",
+          "hash": "pROnCG+YGZSaVW7nRw042g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.RationalConversion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.RationalConversion.html",
+          "hash": "12ajNSwNSDAppbTHzTzpWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.RecordersConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.RecordersConfiguration.html",
+          "hash": "So/ky3x6qR+N4BjVgAeVgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.RemoteConnectionInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.RemoteConnectionInformation.html",
+          "hash": "qzxveHQq9E3FjfkYayazaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.RemoteSessionEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.RemoteSessionEventArgs.html",
+          "hash": "Wu2JCU8Gh9mt3wBenZfeMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Remoting.Messages.CloseFilterPdaMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Remoting.Messages.CloseFilterPdaMessage.html",
+          "hash": "Sg3V68CI4lPswgbu2qd2dQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Remoting.Messages.CreateFilterPdaMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Remoting.Messages.CreateFilterPdaMessage.html",
+          "hash": "FlEIjUldEK0x82J7+QsBzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Remoting.Messages.FunctionManagerGetFunctionMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Remoting.Messages.FunctionManagerGetFunctionMessage.html",
+          "hash": "zObqjtNuva9tlqFbbpWlqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Remoting.Messages.FunctionManagerGetFunctionMessageResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Remoting.Messages.FunctionManagerGetFunctionMessageResponse.html",
+          "hash": "RYlrF48S9YS3gmq4iKk0ng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Remoting.Messages.FunctionManagerGetFunctionsMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Remoting.Messages.FunctionManagerGetFunctionsMessage.html",
+          "hash": "SclQ/hjdawrj94pcnpyiJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Remoting.Messages.FunctionManagerGetFunctionsResponseMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Remoting.Messages.FunctionManagerGetFunctionsResponseMessage.html",
+          "hash": "knqvxinAno+f6oCbvBZiFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Remoting.Messages.SessionDetailChangedMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Remoting.Messages.SessionDetailChangedMessage.html",
+          "hash": "zICANtGUcSDo4JaNKFoPxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Remoting.Messages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Remoting.Messages.html",
+          "hash": "XoB53Ah4R4dyRikCwmSxgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Remoting.Server.ClientSubscription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Remoting.Server.ClientSubscription.html",
+          "hash": "HfpjZ4v8gNtxqdt0e+Qtug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Remoting.Server.IServerListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Remoting.Server.IServerListener.html",
+          "hash": "EzA3E4ol0UwqSPm0aBOArQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Remoting.Server.IServerManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Remoting.Server.IServerManager.html",
+          "hash": "5gd1QDtwIrqb0zYUdewvfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Remoting.Server.SessionSubscription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Remoting.Server.SessionSubscription.html",
+          "hash": "STSPy85e0gBQJlYyN5rVsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Remoting.Server.SqlRaceInitializationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Remoting.Server.SqlRaceInitializationException.html",
+          "hash": "ei+jWHqW6u/duKbyhsR24w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Remoting.Server.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Remoting.Server.html",
+          "hash": "nOvkCx1CAQcX5sM0znaI+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.RepeatingLapCompareDataProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.RepeatingLapCompareDataProvider.html",
+          "hash": "zghJxI/5KC9JtjKczndpXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Repositories.CAN.CanInstance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Repositories.CAN.CanInstance.html",
+          "hash": "sZauCdtZ3y+75JDBNLY5MA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Repositories.CAN.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Repositories.CAN.html",
+          "hash": "CEdEBWj4AsUzAAaxUedIiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Repositories.Configuration.ConfigurationSetMetaData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Repositories.Configuration.ConfigurationSetMetaData.html",
+          "hash": "OnICgA0PK4xrjdoiK3Zw4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Repositories.Configuration.ParameterChannelGroupMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Repositories.Configuration.ParameterChannelGroupMapper.html",
+          "hash": "E+Kq4wkFNoV0fiGixwe9jw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Repositories.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Repositories.Configuration.html",
+          "hash": "0eBP53QLseUhG9ZLl1MnwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Repositories.Database.ILocalSessionCacheMigrationsProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Repositories.Database.ILocalSessionCacheMigrationsProvider.html",
+          "hash": "NrHxIVvwgFYUSnPghLJQKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Repositories.Database.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Repositories.Database.html",
+          "hash": "JJzbZP4Rq7qiPMdUXh3Y8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Repositories.FileSessions.FileSessionIndexedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Repositories.FileSessions.FileSessionIndexedEventArgs.html",
+          "hash": "zK8r7MAHdbB88CGpcGuoVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Repositories.FileSessions.SessionSummaryDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Repositories.FileSessions.SessionSummaryDetails.html",
+          "hash": "+SxWW1hbyamYzdlSEvZmXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Repositories.FileSessions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Repositories.FileSessions.html",
+          "hash": "CcK+NCilLFPOjliQpi2nEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Repositories.Filestream.FilestreamRootPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Repositories.Filestream.FilestreamRootPath.html",
+          "hash": "cur6Rs30vPfk3JOkqz9exQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Repositories.Filestream.FilestreamRootPathRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Repositories.Filestream.FilestreamRootPathRepository.html",
+          "hash": "ySQYH+/3JGEl8ZxWwdzIJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Repositories.Filestream.IRootPathFolderMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Repositories.Filestream.IRootPathFolderMapper.html",
+          "hash": "8UJQzAX4vcy4LDWNdHnrgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Repositories.Filestream.RootPathFolderMapperFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Repositories.Filestream.RootPathFolderMapperFactory.html",
+          "hash": "7JHlju+PsOVeM/lUH5lWtg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Repositories.Filestream.RootPathType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Repositories.Filestream.RootPathType.html",
+          "hash": "eBtcZr2c66rvXex8cU2nNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Repositories.Filestream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Repositories.Filestream.html",
+          "hash": "pRU4w2+YvmndOesZaEcJHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Repositories.Laps.LapMergeController.LapMergeCollector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Repositories.Laps.LapMergeController.LapMergeCollector.html",
+          "hash": "6TRMJjusRhDSkgtk0Ud44g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Repositories.Laps.LapMergeController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Repositories.Laps.LapMergeController.html",
+          "hash": "dXD8BXGkZKseUPs8rdLqCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Repositories.Laps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Repositories.Laps.html",
+          "hash": "7tc+ydfcqnRDFe9IRS11HQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Repositories.Sessions.FileSessionConfigurationCreatedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Repositories.Sessions.FileSessionConfigurationCreatedEventArgs.html",
+          "hash": "M8T6Ngmr3bko1E5/dS3P4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Repositories.Sessions.FileSessionConfigurationProcessingErrorEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Repositories.Sessions.FileSessionConfigurationProcessingErrorEventArgs.html",
+          "hash": "nf+EqRPlb35BYCNHRh0AiQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Repositories.Sessions.FileSessionConfigurationProcessingStepEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Repositories.Sessions.FileSessionConfigurationProcessingStepEventArgs.html",
+          "hash": "cJo2arN/ZImmEIyUKQmx1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Repositories.Sessions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Repositories.Sessions.html",
+          "hash": "d5jqLcqAAMDHf0c0Wi0SrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SQLRaceEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SQLRaceEvent.html",
+          "hash": "AAaDm0gHdqXy+4WAbSDtNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SQLRaceEventType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SQLRaceEventType.html",
+          "hash": "Blp/G2123+InbQetQQhn8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SaveConfigurationSetException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SaveConfigurationSetException.html",
+          "hash": "tfFlqou3pDjL0k1PONjNkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.ScalarParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.ScalarParameter.html",
+          "hash": "85gRrKAcJTFd+NnSVK9Cnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Services.DbRootPathService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Services.DbRootPathService.html",
+          "hash": "SG1gQxzas+vqCIPKkqWtTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Services.IDistanceModeSettingService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Services.IDistanceModeSettingService.html",
+          "hash": "YlTdq4EcsnaQumqiiAoOdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Services.IRootPathService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Services.IRootPathService.html",
+          "hash": "L4jgQ14ccls7zWLS7pynKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Services.ServicesFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Services.ServicesFactory.html",
+          "hash": "wkO6Q6gzmvQEvynXNB1FGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Services.html",
+          "hash": "XGKU/3XoiiqEiLhuPmZoPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Session.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Session.html",
+          "hash": "MAB8wRYKp8g7K6wofFR1lQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SessionBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SessionBase.html",
+          "hash": "jeE4eB8UCPgIZepNi+HiTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SessionChildItemsToLoad.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SessionChildItemsToLoad.html",
+          "hash": "iu0SfzkWFb9eDJR0H6Akqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SessionClosedArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SessionClosedArgs.html",
+          "hash": "H9TgX+VM814vZnFh1RKFsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SessionCompareMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SessionCompareMode.html",
+          "hash": "qKmrDfrAkM5Sq4tNAttvLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SessionDataItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SessionDataItem.html",
+          "hash": "gZBqVGhkBF3i82KPspZaGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SessionDataItemDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SessionDataItemDefinition.html",
+          "hash": "gdpYDUNfqFwbN9SYfY1/KA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SessionDetailChangedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SessionDetailChangedEventArgs.html",
+          "hash": "XR4/7BeN9msLaWxoONs7Rg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SessionEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SessionEventArgs.html",
+          "hash": "sI9sxKHlI4DfmDUDpY7f5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SessionEventType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SessionEventType.html",
+          "hash": "RS/mEhB+aisRQfqN0VCtUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SessionException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SessionException.html",
+          "hash": "r+5EE5Nu6gHWPgzZ6ui3+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SessionIdentifierChangedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SessionIdentifierChangedEventArgs.html",
+          "hash": "CCm9CFugL8JAHRUdQaAXgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SessionItemType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SessionItemType.html",
+          "hash": "ArZ3x6BlZENsyp7mPRzC/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SessionLoaderNotExistsException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SessionLoaderNotExistsException.html",
+          "hash": "/W9PeDXw4H5m1IWEdhq9Hg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SessionManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SessionManager.html",
+          "hash": "19flf2DTjud3k7JVAufk7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SessionManagerBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SessionManagerBase.html",
+          "hash": "Q2MVELiGrMiGcdZsQUanow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SessionManagerTestabilityAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SessionManagerTestabilityAdapter.html",
+          "hash": "V0TE+vLd9GVkOVsTkM2dpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SessionNotAvailableEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SessionNotAvailableEventArgs.html",
+          "hash": "Cr40qq8PH+AWLEY6Hxn5ow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatus.html",
+          "hash": "pbY1PQKsL+5VRS31Uu7Xug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatusCachingNewSessions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatusCachingNewSessions.html",
+          "hash": "Kg1xpnGeZh8NRm1bKjxEJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatusCalculatingSessionKeys.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatusCalculatingSessionKeys.html",
+          "hash": "0XvaVmS3eT+VYdW5MgjRdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatusLoadingFromCache.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatusLoadingFromCache.html",
+          "hash": "GhTwlWtrDBWL7KZNDX7P5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatusLoadingUnprocessedSessions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatusLoadingUnprocessedSessions.html",
+          "hash": "QYf/gCRTYnZcyBDGSzGifg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatusProcessingAssociations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatusProcessingAssociations.html",
+          "hash": "QdAyXuF76m3PQ6pLYvAfiw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatusProgressUpdate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatusProgressUpdate.html",
+          "hash": "AFYzGODKlFdppOY0znImtw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatusRemovingStaleCacheEntries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatusRemovingStaleCacheEntries.html",
+          "hash": "rWJd8ZkvyP/L/Ie7PYzS5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatusUpdate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SessionProcessing.SessionProcessingStatusUpdate.html",
+          "hash": "GaFysep9ymfQAHWYbpeMNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SessionProcessing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SessionProcessing.html",
+          "hash": "fnZAoERH2LaRTCtQo8L/6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SessionSampleCountSegment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SessionSampleCountSegment.html",
+          "hash": "aB9fG9IKpOrupbaRNp0Ccw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SessionState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SessionState.html",
+          "hash": "XdPA1/RMn01KYuSmgKGcMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SessionStatusChangedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SessionStatusChangedEventArgs.html",
+          "hash": "qhNTgcs85dbg4cWCvVmoEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SessionSummary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SessionSummary.html",
+          "hash": "oZ+1zdZCIvIMBtaMn5gQBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SessionSummaryInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SessionSummaryInformation.html",
+          "hash": "p+e6dsMeSkZ0lNuWAfNkeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SessionTimerange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SessionTimerange.html",
+          "hash": "UosSOctg4zP8rqdSrdDnxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SessionTimstampsSegment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SessionTimstampsSegment.html",
+          "hash": "6KhYE5wLWSx/gwIAccxIYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SessionTransientMarkerServiceProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SessionTransientMarkerServiceProvider.html",
+          "hash": "Leae5yaeT9POYN5q1vECPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SessionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SessionType.html",
+          "hash": "PZurpDY7QAHAmG0TNYSzEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Sort.SessionFieldIdentifiers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Sort.SessionFieldIdentifiers.html",
+          "hash": "gIulGaVR63mPTBCfUToNLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Sort.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Sort.html",
+          "hash": "JENDVl+jKrPsBFOX1MepzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SortOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SortOrder.html",
+          "hash": "9xC7BP/1U6Ro4Uy3LwBXzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SqlServerDatabaseConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SqlServerDatabaseConnection.html",
+          "hash": "UvyW8QWAItZ3ppgEX3ldqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SqliteDatabaseConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SqliteDatabaseConnection.html",
+          "hash": "ezJxCUCpGRyiTqqqEXb/lw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.SqliteDatabaseManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.SqliteDatabaseManager.html",
+          "hash": "y0FwuTxHYi3AacoRdiLprg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.TableConversion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.TableConversion.html",
+          "hash": "FUu6uNXLG4wEXVzVuB5dfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.TextConversion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.TextConversion.html",
+          "hash": "OiIXiVJivD1jZ39h7T9iEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.TimeRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.TimeRange.html",
+          "hash": "NbfdymsQErxmJiJn65T7Qg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.TransientConnectionInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.TransientConnectionInformation.html",
+          "hash": "8c0Qor2krR6ceyC27uo3bA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.VirtualParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.VirtualParameter.html",
+          "hash": "X9pUXXUc7+AbaUyhYB8yCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.html",
+          "hash": "p0w3hwci8/rldZoaA1a97Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.html",
+          "hash": "uxNyf+9DXuootpCW+CdXYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html",
+          "hash": "TwaVe0HlH0QeNj6VAl807Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.html",
+          "hash": "uajtoEUKCihoqHyWiw0rbQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.VirtualParameters.IFindTokens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.VirtualParameters.IFindTokens.html",
+          "hash": "yEuRmkAbnAW82xoKgJTEKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.VirtualParameters.IProvideHierarchy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.VirtualParameters.IProvideHierarchy.html",
+          "hash": "xZhCnDNW08PEuUkj08MZCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.VirtualParameters.ITokenTransformer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.VirtualParameters.ITokenTransformer.html",
+          "hash": "/uHAPHQIL/uSJvMz7myvwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.VirtualParameters.IVirtualInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.VirtualParameters.IVirtualInput.html",
+          "hash": "fYCMwEOc+3DuHdsFIFyUXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.VirtualParameters.IVirtualParameterCompiler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.VirtualParameters.IVirtualParameterCompiler.html",
+          "hash": "pvdh8pihsBZQJT3QI2ssNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.VirtualParameters.IVirtualTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.VirtualParameters.IVirtualTemplate.html",
+          "hash": "aAV69NmTh3EsaaFUxkuPGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.VirtualParameters.NumberFinder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.VirtualParameters.NumberFinder.html",
+          "hash": "XtvDWNUKkNhB/DSOoVRmlg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.VirtualParameters.PdaType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.VirtualParameters.PdaType.html",
+          "hash": "3ENPEkczZ1sbCsAnyPIkkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.VirtualParameters.VirtualInputParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.VirtualParameters.VirtualInputParameter.html",
+          "hash": "+VeexmyshAcnFLk++75AYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.VirtualParameters.VirtualParameterContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.VirtualParameters.VirtualParameterContext.html",
+          "hash": "dCbtwsO9zNjHWwYbB8C2DQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.VirtualParameters.VirtualParameterException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.VirtualParameters.VirtualParameterException.html",
+          "hash": "OtKfAT+YQd9M5jF5hf8wag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.VirtualParameters.VirtualParameterHierarchy.ExecutionResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.VirtualParameters.VirtualParameterHierarchy.ExecutionResult.html",
+          "hash": "SkgcHJItL6fkdy383D+a0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.VirtualParameters.VirtualParameterHierarchy.SampleData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.VirtualParameters.VirtualParameterHierarchy.SampleData.html",
+          "hash": "wNbT6mAgm//J+hhwkvqc2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.VirtualParameters.VirtualParameterHierarchy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.VirtualParameters.VirtualParameterHierarchy.html",
+          "hash": "JvF/RCPMUobUzNMo8qNcGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.VirtualParameters.VirtualParameterRunner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.VirtualParameters.VirtualParameterRunner.html",
+          "hash": "UUfA9Ivd/FqPTUwhKFu/9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.VirtualParameters.VirtualSample.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.VirtualParameters.VirtualSample.html",
+          "hash": "umuFYBHmVaof/gyCnKLgHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.VirtualParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.VirtualParameters.html",
+          "hash": "okcfV5PmEQQ6hOIZhALIww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.XAxis.DataStoreKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.XAxis.DataStoreKey.html",
+          "hash": "Cc/JqTV3mUZd1xUSysa0Rw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.XAxis.IProvideXAxisParameterData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.XAxis.IProvideXAxisParameterData.html",
+          "hash": "fgd/+5jhDIhGt786iLLuPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.XAxis.XAxisDataManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.XAxis.XAxisDataManager.html",
+          "hash": "1S0uSpKEI96xvmF9qUtXxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.XAxis.XAxisDataStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.XAxis.XAxisDataStore.html",
+          "hash": "W+73u1j4xbdneN30RM06Hw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.XAxis.XAxisLookupTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.XAxis.XAxisLookupTable.html",
+          "hash": "qb2QUOVdjk4/K/fYPx7BwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.XAxis.XAxisParameterDataProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.XAxis.XAxisParameterDataProvider.html",
+          "hash": "RQVREigUr8f3SE/5Sp8XHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.XAxis.XAxisSamples.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.XAxis.XAxisSamples.html",
+          "hash": "DXgD6/U1ni7c27EWOQRaAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.XAxis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.XAxis.html",
+          "hash": "hLh4VpV+3RQnR8w2jQH8Hw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.html",
+          "hash": "GzoJPhIXC6xlN4CHkLG9yQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Enumerators.ByteOrderType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Enumerators.ByteOrderType.html",
+          "hash": "y3v9sxUugmHLGVlueULp7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Enumerators.CalculationMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Enumerators.CalculationMode.html",
+          "hash": "yeC+BTo+9RFPZDtiyPIQOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Enumerators.ChannelDataSourceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Enumerators.ChannelDataSourceType.html",
+          "hash": "6Hz0hQeng2ecZ9nnIh4XcA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Enumerators.ChannelDataStorage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Enumerators.ChannelDataStorage.html",
+          "hash": "yYSrAvPPK5Nu3UAYgA17cw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Enumerators.ConfigResolutionStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Enumerators.ConfigResolutionStatus.html",
+          "hash": "utGl2oLrUyuNYWKzyV4TtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Enumerators.ConfigurationSetProcessingStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Enumerators.ConfigurationSetProcessingStatus.html",
+          "hash": "ANPe4/3svMug45KfpQQsog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Enumerators.ConfigurationSetStorage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Enumerators.ConfigurationSetStorage.html",
+          "hash": "AHWrKvd+W/vjBKna5430RA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Enumerators.ConnectionStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Enumerators.ConnectionStatus.html",
+          "hash": "Q5w+5uPeD5txIPoC+UBr0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Enumerators.ConversionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Enumerators.ConversionType.html",
+          "hash": "g3DfVyxX+TEgLWi9rlB7kA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Enumerators.DataStatusTypeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Enumerators.DataStatusTypeExtensions.html",
+          "hash": "6YY4yMDUgl7TgqSuZTFqgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Enumerators.DataType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Enumerators.DataType.html",
+          "hash": "p6i9jtRMrYz+J7+G2q+G+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Enumerators.EventPriorityType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Enumerators.EventPriorityType.html",
+          "hash": "4AudotXsnmdakdNq91wzRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Enumerators.FileStreamType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Enumerators.FileStreamType.html",
+          "hash": "qDGxmFitQzXeEpmCe2Id4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Enumerators.FileStreamTypeHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Enumerators.FileStreamTypeHelper.html",
+          "hash": "pUcBhbfW/XjQI8k+8jHJvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Enumerators.FunctionTimerExecution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Enumerators.FunctionTimerExecution.html",
+          "hash": "uiZccz0kj96FX9oBZsS43w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Enumerators.LanguageType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Enumerators.LanguageType.html",
+          "hash": "GUxzgz3hdVn7JnXro2rqaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Enumerators.MapType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Enumerators.MapType.html",
+          "hash": "nfoFeauR5NP47yP59PtJtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Enumerators.ParameterType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Enumerators.ParameterType.html",
+          "hash": "6FuqMKPbrxeNdPbeD+X9mw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Enumerators.ParameterUsageType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Enumerators.ParameterUsageType.html",
+          "hash": "6Di77inUkrAH8KQZ57GV1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Enumerators.PgvConfigurationSetStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Enumerators.PgvConfigurationSetStatus.html",
+          "hash": "0KhOtWlz92JOhdl2pHE9HA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Enumerators.ProfileKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Enumerators.ProfileKind.html",
+          "hash": "3ti9lSlxjtQpO6umH38jPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Enumerators.RequestType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Enumerators.RequestType.html",
+          "hash": "3eHjfDwbFi3pkaqJBTwUEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Enumerators.SampleModeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Enumerators.SampleModeType.html",
+          "hash": "V1IF9dvNKvY+fIsDccPb2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Enumerators.ScalingUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Enumerators.ScalingUnit.html",
+          "hash": "9Hy+0TW4Tdab8fotS3d10w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Enumerators.SessionEntities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Enumerators.SessionEntities.html",
+          "hash": "lB4UhoPJcWlSqAtLdOHY+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Enumerators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Enumerators.html",
+          "hash": "4/pBng8woKEGdfG9AAgjug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "ARAACk8M14vu304A0fQk3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "YCY7d956fPDGM3OEyoa23w=="
+          "hash": "p4Y1WE0GO/V+clSLSajBHw=="
         }
       },
       "is_incremental": false,
@@ -90,6 +6078,12 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 498,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

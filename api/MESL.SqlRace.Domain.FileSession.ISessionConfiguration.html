@@ -1,0 +1,411 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface ISessionConfiguration
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface ISessionConfiguration
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MESL.SqlRace.Domain.FileSession.ISessionConfiguration">
+  
+  
+  <h1 id="MESL_SqlRace_Domain_FileSession_ISessionConfiguration" data-uid="MESL.SqlRace.Domain.FileSession.ISessionConfiguration" class="text-break">Interface ISessionConfiguration
+  </h1>
+  <div class="markdown level0 summary"><p>Interface for Session configuration to be returned
+from the external file-based Session assembly.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.FileSession.html">MESL.SqlRace.Domain.FileSession</a></h6>
+  <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
+  <h5 id="MESL_SqlRace_Domain_FileSession_ISessionConfiguration_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ISessionConfiguration</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="MESL_SqlRace_Domain_FileSession_ISessionConfiguration_ApplicationGroups_" data-uid="MESL.SqlRace.Domain.FileSession.ISessionConfiguration.ApplicationGroups*"></a>
+  <h4 id="MESL_SqlRace_Domain_FileSession_ISessionConfiguration_ApplicationGroups" data-uid="MESL.SqlRace.Domain.FileSession.ISessionConfiguration.ApplicationGroups">ApplicationGroups</h4>
+  <div class="markdown level1 summary"><p>Gets the application groups within the configuration.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;ApplicationGroup&gt; ApplicationGroups { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.ApplicationGroup.html">ApplicationGroup</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_FileSession_ISessionConfiguration_Channels_" data-uid="MESL.SqlRace.Domain.FileSession.ISessionConfiguration.Channels*"></a>
+  <h4 id="MESL_SqlRace_Domain_FileSession_ISessionConfiguration_Channels" data-uid="MESL.SqlRace.Domain.FileSession.ISessionConfiguration.Channels">Channels</h4>
+  <div class="markdown level1 summary"><p>Gets the channels within the configuration set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;IChannel&gt; Channels { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.IChannel.html">IChannel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_FileSession_ISessionConfiguration_Checksums_" data-uid="MESL.SqlRace.Domain.FileSession.ISessionConfiguration.Checksums*"></a>
+  <h4 id="MESL_SqlRace_Domain_FileSession_ISessionConfiguration_Checksums" data-uid="MESL.SqlRace.Domain.FileSession.ISessionConfiguration.Checksums">Checksums</h4>
+  <div class="markdown level1 summary"><p>Gets the checksum for each application</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDictionary&lt;uint, string&gt; Checksums { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.UInt32</span>, <span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_FileSession_ISessionConfiguration_Conversions_" data-uid="MESL.SqlRace.Domain.FileSession.ISessionConfiguration.Conversions*"></a>
+  <h4 id="MESL_SqlRace_Domain_FileSession_ISessionConfiguration_Conversions" data-uid="MESL.SqlRace.Domain.FileSession.ISessionConfiguration.Conversions">Conversions</h4>
+  <div class="markdown level1 summary"><p>Gets the conversions within the configuration set.
+<remarks>
+Conversions can be of types <a class="xref" href="MESL.SqlRace.Domain.FormulaConversion.html">FormulaConversion</a>, <a class="xref" href="MESL.SqlRace.Domain.RationalConversion.html">RationalConversion</a>,
+<a class="xref" href="MESL.SqlRace.Domain.TableConversion.html">TableConversion</a> or <a class="xref" href="MESL.SqlRace.Domain.TextConversion.html">TextConversion</a>.
+</remarks></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;ConversionBase&gt; Conversions { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.ConversionBase.html">ConversionBase</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_FileSession_ISessionConfiguration_ErrorDefinitions_" data-uid="MESL.SqlRace.Domain.FileSession.ISessionConfiguration.ErrorDefinitions*"></a>
+  <h4 id="MESL_SqlRace_Domain_FileSession_ISessionConfiguration_ErrorDefinitions" data-uid="MESL.SqlRace.Domain.FileSession.ISessionConfiguration.ErrorDefinitions">ErrorDefinitions</h4>
+  <div class="markdown level1 summary"><p>Gets the error definitions within the configuration set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;ErrorDefinition&gt; ErrorDefinitions { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.ErrorDefinition.html">ErrorDefinition</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_FileSession_ISessionConfiguration_EventDefinitions_" data-uid="MESL.SqlRace.Domain.FileSession.ISessionConfiguration.EventDefinitions*"></a>
+  <h4 id="MESL_SqlRace_Domain_FileSession_ISessionConfiguration_EventDefinitions" data-uid="MESL.SqlRace.Domain.FileSession.ISessionConfiguration.EventDefinitions">EventDefinitions</h4>
+  <div class="markdown level1 summary"><p>Gets the event definitions within the configuration set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;EventDefinition&gt; EventDefinitions { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.EventDefinition.html">EventDefinition</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_FileSession_ISessionConfiguration_Events_" data-uid="MESL.SqlRace.Domain.FileSession.ISessionConfiguration.Events*"></a>
+  <h4 id="MESL_SqlRace_Domain_FileSession_ISessionConfiguration_Events" data-uid="MESL.SqlRace.Domain.FileSession.ISessionConfiguration.Events">Events</h4>
+  <div class="markdown level1 summary"><p>Gets the Events within the configuration</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;Event&gt; Events { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.Event.html">Event</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_FileSession_ISessionConfiguration_Identifier_" data-uid="MESL.SqlRace.Domain.FileSession.ISessionConfiguration.Identifier*"></a>
+  <h4 id="MESL_SqlRace_Domain_FileSession_ISessionConfiguration_Identifier" data-uid="MESL.SqlRace.Domain.FileSession.ISessionConfiguration.Identifier">Identifier</h4>
+  <div class="markdown level1 summary"><p>Gets the identifier of the configuration.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string Identifier { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_FileSession_ISessionConfiguration_OwnerId_" data-uid="MESL.SqlRace.Domain.FileSession.ISessionConfiguration.OwnerId*"></a>
+  <h4 id="MESL_SqlRace_Domain_FileSession_ISessionConfiguration_OwnerId" data-uid="MESL.SqlRace.Domain.FileSession.ISessionConfiguration.OwnerId">OwnerId</h4>
+  <div class="markdown level1 summary"><p>Gets the owner for the configuration</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">uint OwnerId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_FileSession_ISessionConfiguration_ParameterGroups_" data-uid="MESL.SqlRace.Domain.FileSession.ISessionConfiguration.ParameterGroups*"></a>
+  <h4 id="MESL_SqlRace_Domain_FileSession_ISessionConfiguration_ParameterGroups" data-uid="MESL.SqlRace.Domain.FileSession.ISessionConfiguration.ParameterGroups">ParameterGroups</h4>
+  <div class="markdown level1 summary"><p>Gets the parameter groups within the configuration.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;ParameterGroup&gt; ParameterGroups { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.ParameterGroup.html">ParameterGroup</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_FileSession_ISessionConfiguration_Parameters_" data-uid="MESL.SqlRace.Domain.FileSession.ISessionConfiguration.Parameters*"></a>
+  <h4 id="MESL_SqlRace_Domain_FileSession_ISessionConfiguration_Parameters" data-uid="MESL.SqlRace.Domain.FileSession.ISessionConfiguration.Parameters">Parameters</h4>
+  <div class="markdown level1 summary"><p>Gets the parameters within the configuration.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;ParameterBase&gt; Parameters { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.ParameterBase.html">ParameterBase</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_FileSession_ISessionConfiguration_UnlockLists_" data-uid="MESL.SqlRace.Domain.FileSession.ISessionConfiguration.UnlockLists*"></a>
+  <h4 id="MESL_SqlRace_Domain_FileSession_ISessionConfiguration_UnlockLists" data-uid="MESL.SqlRace.Domain.FileSession.ISessionConfiguration.UnlockLists">UnlockLists</h4>
+  <div class="markdown level1 summary"><p>Gets the unlock list for each application</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDictionary&lt;uint, ParameterUnlockList&gt; UnlockLists { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.UInt32</span>, <span class="xref">MAT.OCS.RDA.Serialization.PulDeserialization.ParameterUnlockList</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

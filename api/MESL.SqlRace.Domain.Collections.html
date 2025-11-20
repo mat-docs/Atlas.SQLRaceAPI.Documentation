@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Namespace MESL.SqlRace.Domain.Collections
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Namespace MESL.SqlRace.Domain.Collections
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MESL.SqlRace.Domain.Collections">
+  
+  <h1 id="MESL_SqlRace_Domain_Collections" data-uid="MESL.SqlRace.Domain.Collections" class="text-break">Namespace MESL.SqlRace.Domain.Collections
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+  </h3>
+      <h4><a class="xref" href="MESL.SqlRace.Domain.Collections.CanCollection.html">CanCollection</a></h4>
+      <section><p>Class provides capability to read/write CAN data associated with a session.</p>
+</section>
+      <h4><a class="xref" href="MESL.SqlRace.Domain.Collections.ErrorCollection.html">ErrorCollection</a></h4>
+      <section><p>Holds the calculated errors data in the memory.</p>
+</section>
+      <h4><a class="xref" href="MESL.SqlRace.Domain.Collections.EventCollection.html">EventCollection</a></h4>
+      <section><p>Class provides capability to read/write event data associated with a session.</p>
+</section>
+      <h4><a class="xref" href="MESL.SqlRace.Domain.Collections.ItemEventArgs.html">ItemEventArgs</a></h4>
+      <section><p>Contains information relating to the adding of an item to the session</p>
+</section>
+      <h4><a class="xref" href="MESL.SqlRace.Domain.Collections.LapCollection.html">LapCollection</a></h4>
+      <section><p>The lap collection is responsible for managing the collection of laps for a session i.e. modifying end times
+for laps as they are added, and for ensuring that changes get persisted.</p>
+</section>
+      <h4><a class="xref" href="MESL.SqlRace.Domain.Collections.LapEventArgs.html">LapEventArgs</a></h4>
+      <section><p>Event arguments associated with the <a class="xref" href="MESL.SqlRace.Domain.Session.html#MESL_SqlRace_Domain_Session_LapCompleted">LapCompleted</a> and
+<a class="xref" href="MESL.SqlRace.Domain.Session.html#MESL_SqlRace_Domain_Session_LapStarted">LapStarted</a> events.
+Contains a reference to the lap that completed.</p>
+</section>
+      <h4><a class="xref" href="MESL.SqlRace.Domain.Collections.MapCollection-1.html">MapCollection&lt;T&gt;</a></h4>
+      <section><p>Collection of <a class="xref" href="MESL.SqlRace.Domain.LinearMap.html">LinearMap</a> or <a class="xref" href="MESL.SqlRace.Domain.BilinearMap.html">BilinearMap</a> objects that can be attached to a session</p>
+</section>
+      <h4><a class="xref" href="MESL.SqlRace.Domain.Collections.MergableSubGroups-1.html">MergableSubGroups&lt;T&gt;</a></h4>
+      <section><p>Allows group merge code to support setting the internal subgroup collection.</p>
+</section>
+      <h4><a class="xref" href="MESL.SqlRace.Domain.Collections.PersistableCollection-1.html">PersistableCollection&lt;T&gt;</a></h4>
+      <section><p>This collection class supports persistence of generic items.</p>
+</section>
+      <h4><a class="xref" href="MESL.SqlRace.Domain.Collections.SessionDataItemsCollection-1.html">SessionDataItemsCollection&lt;T&gt;</a></h4>
+      <section><p>This collection class supports persistence of data items associated with a session 
+(i.e. session items and lap items). Includes separate api for loading of binary data 
+associated with a data item (explicit call is required for binary data)</p>
+</section>
+      <h4><a class="xref" href="MESL.SqlRace.Domain.Collections.SessionRepositoryExtendedAssociateCollection.html">SessionRepositoryExtendedAssociateCollection</a></h4>
+      <section><p>The extended associate collection.</p>
+</section>
+      <h4><a class="xref" href="MESL.SqlRace.Domain.Collections.SynchronizedList-1.html">SynchronizedList&lt;T&gt;</a></h4>
+      <section></section>
+    <h3 id="interfaces">Interfaces
+  </h3>
+      <h4><a class="xref" href="MESL.SqlRace.Domain.Collections.IAssociateCollection.html">IAssociateCollection</a></h4>
+      <section></section>
+      <h4><a class="xref" href="MESL.SqlRace.Domain.Collections.IExtendedAssociateCollection.html">IExtendedAssociateCollection</a></h4>
+      <section></section>
+      <h4><a class="xref" href="MESL.SqlRace.Domain.Collections.ILapCollection.html">ILapCollection</a></h4>
+      <section><p>The lap collection is responsible for managing the collection of laps for a session i.e. modifying end times
+for laps as they are added, and for ensuring that changes get persisted.</p>
+</section>
+      <h4><a class="xref" href="MESL.SqlRace.Domain.Collections.IPersistableCollection-1.html">IPersistableCollection&lt;T&gt;</a></h4>
+      <section><p>A collection that can be persisted to and underlying data store.</p>
+</section>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

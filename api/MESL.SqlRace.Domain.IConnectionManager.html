@@ -1,0 +1,411 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IConnectionManager
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IConnectionManager
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MESL.SqlRace.Domain.IConnectionManager">
+  
+  
+  <h1 id="MESL_SqlRace_Domain_IConnectionManager" data-uid="MESL.SqlRace.Domain.IConnectionManager" class="text-break">Interface IConnectionManager
+  </h1>
+  <div class="markdown level0 summary"><p>Interface to eConnectionManager</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.html">MESL.SqlRace.Domain</a></h6>
+  <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
+  <h5 id="MESL_SqlRace_Domain_IConnectionManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IConnectionManager</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="MESL_SqlRace_Domain_IConnectionManager_GetConnectionContext_" data-uid="MESL.SqlRace.Domain.IConnectionManager.GetConnectionContext*"></a>
+  <h4 id="MESL_SqlRace_Domain_IConnectionManager_GetConnectionContext_MESL_SqlRace_Domain_ConnectionInformationBase_" data-uid="MESL.SqlRace.Domain.IConnectionManager.GetConnectionContext(MESL.SqlRace.Domain.ConnectionInformationBase)">GetConnectionContext(ConnectionInformationBase)</h4>
+  <div class="markdown level1 summary"><p>Gets the connection context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ConnectionContextBase GetConnectionContext(ConnectionInformationBase connectionInformation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConnectionInformationBase.html">ConnectionInformationBase</a></td>
+        <td><span class="parametername">connectionInformation</span></td>
+        <td><p>The connection information.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConnectionContextBase.html">ConnectionContextBase</a></td>
+        <td><p>Returns connection context</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_IConnectionManager_GetDatabaseConnections_" data-uid="MESL.SqlRace.Domain.IConnectionManager.GetDatabaseConnections*"></a>
+  <h4 id="MESL_SqlRace_Domain_IConnectionManager_GetDatabaseConnections_System_Boolean_" data-uid="MESL.SqlRace.Domain.IConnectionManager.GetDatabaseConnections(System.Boolean)">GetDatabaseConnections(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Gets the database connections</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;DatabaseConnection&gt; GetDatabaseConnections(bool forceReloadFromFile = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">forceReloadFromFile</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.DatabaseConnection.html">DatabaseConnection</a>&gt;</td>
+        <td><p>List of Database connections</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_IConnectionManager_GetDataSource_" data-uid="MESL.SqlRace.Domain.IConnectionManager.GetDataSource*"></a>
+  <h4 id="MESL_SqlRace_Domain_IConnectionManager_GetDataSource_System_String_" data-uid="MESL.SqlRace.Domain.IConnectionManager.GetDataSource(System.String)">GetDataSource(String)</h4>
+  <div class="markdown level1 summary"><p>Get the data source</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string GetDataSource(string connectionString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_IConnectionManager_GetDbEngine_" data-uid="MESL.SqlRace.Domain.IConnectionManager.GetDbEngine*"></a>
+  <h4 id="MESL_SqlRace_Domain_IConnectionManager_GetDbEngine_System_String_" data-uid="MESL.SqlRace.Domain.IConnectionManager.GetDbEngine(System.String)">GetDbEngine(String)</h4>
+  <div class="markdown level1 summary"><p>Get the DbEngine</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DbEngine GetDbEngine(string connectionString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.DbEngine.html">DbEngine</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_IConnectionManager_GetRootPathForConnectionString_" data-uid="MESL.SqlRace.Domain.IConnectionManager.GetRootPathForConnectionString*"></a>
+  <h4 id="MESL_SqlRace_Domain_IConnectionManager_GetRootPathForConnectionString_System_String_" data-uid="MESL.SqlRace.Domain.IConnectionManager.GetRootPathForConnectionString(System.String)">GetRootPathForConnectionString(String)</h4>
+  <div class="markdown level1 summary"><p>Gets the root path.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string GetRootPathForConnectionString(string connectionString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_IConnectionManager_GetSqliteSessionIndexingCacheConnection_" data-uid="MESL.SqlRace.Domain.IConnectionManager.GetSqliteSessionIndexingCacheConnection*"></a>
+  <h4 id="MESL_SqlRace_Domain_IConnectionManager_GetSqliteSessionIndexingCacheConnection" data-uid="MESL.SqlRace.Domain.IConnectionManager.GetSqliteSessionIndexingCacheConnection">GetSqliteSessionIndexingCacheConnection()</h4>
+  <div class="markdown level1 summary"><p>Gets the sqlite session indexing cache connection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DatabaseConnection GetSqliteSessionIndexingCacheConnection()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.DatabaseConnection.html">DatabaseConnection</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_IConnectionManager_LoadSqlRaceConnections_" data-uid="MESL.SqlRace.Domain.IConnectionManager.LoadSqlRaceConnections*"></a>
+  <h4 id="MESL_SqlRace_Domain_IConnectionManager_LoadSqlRaceConnections" data-uid="MESL.SqlRace.Domain.IConnectionManager.LoadSqlRaceConnections">LoadSqlRaceConnections()</h4>
+  <div class="markdown level1 summary"><p>Loads the SQL race connections.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;ConnectionBase&gt; LoadSqlRaceConnections()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.ConnectionBase.html">ConnectionBase</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_IConnectionManager_SaveConnections_" data-uid="MESL.SqlRace.Domain.IConnectionManager.SaveConnections*"></a>
+  <h4 id="MESL_SqlRace_Domain_IConnectionManager_SaveConnections" data-uid="MESL.SqlRace.Domain.IConnectionManager.SaveConnections">SaveConnections()</h4>
+  <div class="markdown level1 summary"><p>Saves the DB Connections.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SaveConnections()</code></pre>
+  </div>
+  <a id="MESL_SqlRace_Domain_IConnectionManager_UpdateConnectionsList_" data-uid="MESL.SqlRace.Domain.IConnectionManager.UpdateConnectionsList*"></a>
+  <h4 id="MESL_SqlRace_Domain_IConnectionManager_UpdateConnectionsList_System_Collections_Generic_IList_MESL_SqlRace_Domain_DatabaseConnection__" data-uid="MESL.SqlRace.Domain.IConnectionManager.UpdateConnectionsList(System.Collections.Generic.IList{MESL.SqlRace.Domain.DatabaseConnection})">UpdateConnectionsList(IList&lt;DatabaseConnection&gt;)</h4>
+  <div class="markdown level1 summary"><p>Updates the connections list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void UpdateConnectionsList(IList&lt;DatabaseConnection&gt; loadedConnections)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="MESL.SqlRace.Domain.DatabaseConnection.html">DatabaseConnection</a>&gt;</td>
+        <td><span class="parametername">loadedConnections</span></td>
+        <td><p>The loaded connections.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
