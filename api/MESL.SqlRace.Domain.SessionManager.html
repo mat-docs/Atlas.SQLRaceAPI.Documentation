@@ -123,7 +123,8 @@
   <a id="MESL_SqlRace_Domain_SessionManager_Append_" data-uid="MESL.SqlRace.Domain.SessionManager.Append*"></a>
   <h4 id="MESL_SqlRace_Domain_SessionManager_Append_MESL_SqlRace_Domain_ConnectionInformationBase_MAT_OCS_Core_SessionKey_System_String_System_DateTime_System_String_" data-uid="MESL.SqlRace.Domain.SessionManager.Append(MESL.SqlRace.Domain.ConnectionInformationBase,MAT.OCS.Core.SessionKey,System.String,System.DateTime,System.String)">Append(ConnectionInformationBase, SessionKey, String, DateTime, String)</h4>
   <div class="markdown level1 summary"><p>Opens an existing session in a state allowing more data to be added to the session. If
-the specified session does not yet exist, then a new session is created.</p>
+the specified session does not yet exist, then a new session is created.
+<br><strong>OBSOLETE: This method will be removed mid-2026. Use LoadCompositeSession(...) and <a class="xref" href="MESL.SqlRace.Domain.ICompositeSession.html">ICompositeSession</a>.Add(...) instead.</strong></br></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -193,7 +194,8 @@ the specified session does not yet exist, then a new session is created.</p>
   <a id="MESL_SqlRace_Domain_SessionManager_Append_" data-uid="MESL.SqlRace.Domain.SessionManager.Append*"></a>
   <h4 id="MESL_SqlRace_Domain_SessionManager_Append_MESL_SqlRace_Domain_ConnectionInformationBase_MAT_OCS_Core_SessionKey_System_String_System_DateTime_System_String_System_UInt32_" data-uid="MESL.SqlRace.Domain.SessionManager.Append(MESL.SqlRace.Domain.ConnectionInformationBase,MAT.OCS.Core.SessionKey,System.String,System.DateTime,System.String,System.UInt32)">Append(ConnectionInformationBase, SessionKey, String, DateTime, String, UInt32)</h4>
   <div class="markdown level1 summary"><p>Opens an existing session in a state allowing more data to be added to the session. If
-the specified session does not yet exist, then a new session is created.</p>
+the specified session does not yet exist, then a new session is created.
+<br><strong>OBSOLETE: This method will be removed mid-2026. Use <a class="xref" href="MESL.SqlRace.Domain.ICompositeSession.html">ICompositeSession</a>.Add(...) instead.</strong></br></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1442,6 +1444,145 @@ until it is removed).</p>
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="MESL.SqlRace.Domain.SessionManagerBase.html#MESL_SqlRace_Domain_SessionManagerBase_ExportSessionWithCustomTime_System_String_MAT_OCS_Core_SessionKey_System_String_System_Collections_Generic_IReadOnlyList_System_String__System_Collections_Generic_IReadOnlyList_System_Int32__System_Nullable_System_Int64__System_Nullable_System_Int64__System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_String_">SessionManagerBase.ExportSessionWithCustomTime(String, SessionKey, String, IReadOnlyList&lt;String&gt;, IReadOnlyList&lt;Int32&gt;, Nullable&lt;Int64&gt;, Nullable&lt;Int64&gt;, Boolean, Boolean, Boolean, Boolean, Boolean, String)</a></div>
+  <a id="MESL_SqlRace_Domain_SessionManager_ExportSessionWithCustomTime_" data-uid="MESL.SqlRace.Domain.SessionManager.ExportSessionWithCustomTime*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManager_ExportSessionWithCustomTime_System_String_MAT_OCS_Core_SessionKey_System_String_System_Collections_Generic_IReadOnlyList_System_String__System_Collections_Generic_IReadOnlyList_System_Int32__System_Nullable_System_Int64__System_Nullable_System_Int64__System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_UInt32_System_String_System_Action_System_Int32__" data-uid="MESL.SqlRace.Domain.SessionManager.ExportSessionWithCustomTime(System.String,MAT.OCS.Core.SessionKey,System.String,System.Collections.Generic.IReadOnlyList{System.String},System.Collections.Generic.IReadOnlyList{System.Int32},System.Nullable{System.Int64},System.Nullable{System.Int64},System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.UInt32,System.String,System.Action{System.Int32})">ExportSessionWithCustomTime(String, SessionKey, String, IReadOnlyList&lt;String&gt;, IReadOnlyList&lt;Int32&gt;, Nullable&lt;Int64&gt;, Nullable&lt;Int64&gt;, Boolean, Boolean, Boolean, Boolean, UInt32, String, Action&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Exports a session with a list of specific parameter identifiers</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override FragmentedMemoryStream ExportSessionWithCustomTime(string connectionString, SessionKey sessionKey, string filePath, IReadOnlyList&lt;string&gt; parametersToExport, IReadOnlyList&lt;int&gt; lapsToExport, Nullable&lt;long&gt; customStartTime, Nullable&lt;long&gt; customEndTime, bool exportEvents, bool exportErrors, bool exportMarkers, bool exportSessionConstants, uint consortiumId, string sessionIdentifier, Action&lt;int&gt; progress)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string for the database with the session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">MAT.OCS.Core.SessionKey</span></td>
+        <td><span class="parametername">sessionKey</span></td>
+        <td><p>The session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">filePath</span></td>
+        <td><p>The file path to export to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">parametersToExport</span></td>
+        <td><p>List of parameter identifiers to export.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">lapsToExport</span></td>
+        <td><p>List of laps to export.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int64</span>&gt;</td>
+        <td><span class="parametername">customStartTime</span></td>
+        <td><p>List of laps to export.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int64</span>&gt;</td>
+        <td><span class="parametername">customEndTime</span></td>
+        <td><p>List of laps to export.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">exportEvents</span></td>
+        <td><p>Export Events.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">exportErrors</span></td>
+        <td><p>Export Errors.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">exportMarkers</span></td>
+        <td><p>Export Markers.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">exportSessionConstants</span></td>
+        <td><p>Export Session Constants.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">consortiumId</span></td>
+        <td><p>ConsortiumId for export, 0 for no change.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sessionIdentifier</span></td>
+        <td><p>The identifier for the session</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">progress</span></td>
+        <td><p>Progress update</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">MESL.SqlRace.Common.FragmentedMemoryStream</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.SessionManagerBase.html#MESL_SqlRace_Domain_SessionManagerBase_ExportSessionWithCustomTime_System_String_MAT_OCS_Core_SessionKey_System_String_System_Collections_Generic_IReadOnlyList_System_String__System_Collections_Generic_IReadOnlyList_System_Int32__System_Nullable_System_Int64__System_Nullable_System_Int64__System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_UInt32_System_String_System_Action_System_Int32__">SessionManagerBase.ExportSessionWithCustomTime(String, SessionKey, String, IReadOnlyList&lt;String&gt;, IReadOnlyList&lt;Int32&gt;, Nullable&lt;Int64&gt;, Nullable&lt;Int64&gt;, Boolean, Boolean, Boolean, Boolean, UInt32, String, Action&lt;Int32&gt;)</a></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Authentication.AuthenticationException</span></td>
+        <td><p>Thrown if the SQL Race licence does not allow session export or there is an issue with the licence (expired, not
+configured etc).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="MESL_SqlRace_Domain_SessionManager_ExportSessionWithNullTeamId_" data-uid="MESL.SqlRace.Domain.SessionManager.ExportSessionWithNullTeamId*"></a>
   <h4 id="MESL_SqlRace_Domain_SessionManager_ExportSessionWithNullTeamId_System_String_MAT_OCS_Core_SessionKey_" data-uid="MESL.SqlRace.Domain.SessionManager.ExportSessionWithNullTeamId(System.String,MAT.OCS.Core.SessionKey)">ExportSessionWithNullTeamId(String, SessionKey)</h4>
   <div class="markdown level1 summary"><p>The export session with null team id.</p>
@@ -2527,6 +2668,67 @@ Sessions that have no data are excluded by default, set <code data-dev-comment-t
     </tbody>
   </table>
   <a id="MESL_SqlRace_Domain_SessionManager_ImportSession_" data-uid="MESL.SqlRace.Domain.SessionManager.ImportSession*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManager_ImportSession_System_String_System_IO_Stream_MAT_OCS_Core_SessionKey_System_Action_System_Int32__" data-uid="MESL.SqlRace.Domain.SessionManager.ImportSession(System.String,System.IO.Stream,MAT.OCS.Core.SessionKey,System.Action{System.Int32})">ImportSession(String, Stream, SessionKey, Action&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>The import session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SessionKey ImportSession(string connectionString, Stream importStream, SessionKey key, Action&lt;int&gt; progress)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">importStream</span></td>
+        <td><p>The import stream.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">MAT.OCS.Core.SessionKey</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">progress</span></td>
+        <td><p>Progress update</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">MAT.OCS.Core.SessionKey</span></td>
+        <td><p>The session key.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_SessionManager_ImportSession_" data-uid="MESL.SqlRace.Domain.SessionManager.ImportSession*"></a>
   <h4 id="MESL_SqlRace_Domain_SessionManager_ImportSession_System_String_System_String_" data-uid="MESL.SqlRace.Domain.SessionManager.ImportSession(System.String,System.String)">ImportSession(String, String)</h4>
   <div class="markdown level1 summary"><p>Imports a session to the database defined by the passed connection string
 from the specified file.</p>
@@ -3357,7 +3559,8 @@ configured etc).</p>
   <a id="MESL_SqlRace_Domain_SessionManager_Load_" data-uid="MESL.SqlRace.Domain.SessionManager.Load*"></a>
   <h4 id="MESL_SqlRace_Domain_SessionManager_Load_MAT_OCS_Core_SessionKey_System_String_System_Collections_Generic_IReadOnlyDictionary_MAT_OCS_Core_SessionKey_System_String__" data-uid="MESL.SqlRace.Domain.SessionManager.Load(MAT.OCS.Core.SessionKey,System.String,System.Collections.Generic.IReadOnlyDictionary{MAT.OCS.Core.SessionKey,System.String})">Load(SessionKey, String, IReadOnlyDictionary&lt;SessionKey, String&gt;)</h4>
   <div class="markdown level1 summary"><p>Loads a primary session and its associated sessions. The associated sessions will be
-loaded and their contents exposed through the primary session.</p>
+loaded and their contents exposed through the primary session.
+<br><strong>OBSOLETE: This method will be removed mid-2026 use the LoadCompositeSession(...) helper method instead.</strong></br></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -3531,6 +3734,243 @@ issue with the licence (expired, not configured etc).</p>
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="MESL.SqlRace.Domain.SessionManagerBase.html#MESL_SqlRace_Domain_SessionManagerBase_LoadAssociatesForSession_MAT_OCS_Core_SessionKey_System_String_">SessionManagerBase.LoadAssociatesForSession(SessionKey, String)</a></div>
+  <a id="MESL_SqlRace_Domain_SessionManager_LoadCompositeSession_" data-uid="MESL.SqlRace.Domain.SessionManager.LoadCompositeSession*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManager_LoadCompositeSession_MAT_OCS_Core_SessionKey_MESL_SqlRace_Domain_ConnectionInformationBase_System_Collections_Generic_IEnumerable_MAT_OCS_Core_SessionKey__System_String_" data-uid="MESL.SqlRace.Domain.SessionManager.LoadCompositeSession(MAT.OCS.Core.SessionKey,MESL.SqlRace.Domain.ConnectionInformationBase,System.Collections.Generic.IEnumerable{MAT.OCS.Core.SessionKey},System.String)">LoadCompositeSession(SessionKey, ConnectionInformationBase, IEnumerable&lt;SessionKey&gt;, String)</h4>
+  <div class="markdown level1 summary"><p>Loads an existing session from the system, but without loading any of the session&apos;s child items.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override ICompositeSession LoadCompositeSession(SessionKey key, ConnectionInformationBase connectionInformation, IEnumerable&lt;SessionKey&gt; additionalSessionKeys, string compositesessionidentifier = &quot;&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">MAT.OCS.Core.SessionKey</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Session key. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ConnectionInformationBase.html">ConnectionInformationBase</a></td>
+        <td><span class="parametername">connectionInformation</span></td>
+        <td><p>The connection information. </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">MAT.OCS.Core.SessionKey</span>&gt;</td>
+        <td><span class="parametername">additionalSessionKeys</span></td>
+        <td><p>Associated sessions to load. </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">compositesessionidentifier</span></td>
+        <td><p>The Composite session identifier for the new composite session. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ICompositeSession.html">ICompositeSession</a></td>
+        <td><p>Session that was loaded. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.SessionManagerBase.html#MESL_SqlRace_Domain_SessionManagerBase_LoadCompositeSession_MAT_OCS_Core_SessionKey_MESL_SqlRace_Domain_ConnectionInformationBase_System_Collections_Generic_IEnumerable_MAT_OCS_Core_SessionKey__System_String_">SessionManagerBase.LoadCompositeSession(SessionKey, ConnectionInformationBase, IEnumerable&lt;SessionKey&gt;, String)</a></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Authentication.AuthenticationException</span></td>
+        <td><p>Thrown if the SQL Race licence does not allow session loading or there is an issue with the licence (expired, not configured etc). </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_SessionManager_LoadCompositeSession_" data-uid="MESL.SqlRace.Domain.SessionManager.LoadCompositeSession*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManager_LoadCompositeSession_MAT_OCS_Core_SessionKey_System_String_System_Collections_Generic_IEnumerable_MAT_OCS_Core_SessionKey__System_String_" data-uid="MESL.SqlRace.Domain.SessionManager.LoadCompositeSession(MAT.OCS.Core.SessionKey,System.String,System.Collections.Generic.IEnumerable{MAT.OCS.Core.SessionKey},System.String)">LoadCompositeSession(SessionKey, String, IEnumerable&lt;SessionKey&gt;, String)</h4>
+  <div class="markdown level1 summary"><p>Loads an existing session from the system, but without loading any of the session&apos;s child items.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override ICompositeSession LoadCompositeSession(SessionKey key, string connectionString, IEnumerable&lt;SessionKey&gt; additionalSessionKeys, string compositesessionidentifier = &quot;&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">MAT.OCS.Core.SessionKey</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Session key. </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>Connection string to the SQL Race database. </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">MAT.OCS.Core.SessionKey</span>&gt;</td>
+        <td><span class="parametername">additionalSessionKeys</span></td>
+        <td><p>Associated sessions to load. </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">compositesessionidentifier</span></td>
+        <td><p>The Composite session identifier for the new composite session. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ICompositeSession.html">ICompositeSession</a></td>
+        <td><p>Session that was loaded. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.SessionManagerBase.html#MESL_SqlRace_Domain_SessionManagerBase_LoadCompositeSession_MAT_OCS_Core_SessionKey_System_String_System_Collections_Generic_IEnumerable_MAT_OCS_Core_SessionKey__System_String_">SessionManagerBase.LoadCompositeSession(SessionKey, String, IEnumerable&lt;SessionKey&gt;, String)</a></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Authentication.AuthenticationException</span></td>
+        <td><p>Thrown if the SQL Race licence does not allow session loading or there is an issue with the licence (expired, not configured etc). </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_SessionManager_LoadCompositeSession_" data-uid="MESL.SqlRace.Domain.SessionManager.LoadCompositeSession*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManager_LoadCompositeSession_MAT_OCS_Core_SessionKey_System_String_System_Collections_Generic_IReadOnlyDictionary_MAT_OCS_Core_SessionKey_System_String__System_String_" data-uid="MESL.SqlRace.Domain.SessionManager.LoadCompositeSession(MAT.OCS.Core.SessionKey,System.String,System.Collections.Generic.IReadOnlyDictionary{MAT.OCS.Core.SessionKey,System.String},System.String)">LoadCompositeSession(SessionKey, String, IReadOnlyDictionary&lt;SessionKey, String&gt;, String)</h4>
+  <div class="markdown level1 summary"><p>Loads a composite session from the specified database, including associated sessions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override ICompositeSession LoadCompositeSession(SessionKey key, string connectionString, IReadOnlyDictionary&lt;SessionKey, string&gt; additionalSessions, string compositesessionidentifier = &quot;&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">MAT.OCS.Core.SessionKey</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The primary session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string to the SQL Race database.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyDictionary</span>&lt;<span class="xref">MAT.OCS.Core.SessionKey</span>, <span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">additionalSessions</span></td>
+        <td><p>A dictionary of associated session keys and their identifiers.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">compositesessionidentifier</span></td>
+        <td><p>The identifier for the composite session.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.ICompositeSession.html">ICompositeSession</a></td>
+        <td><p>The loaded composite session.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MESL.SqlRace.Domain.SessionManagerBase.html#MESL_SqlRace_Domain_SessionManagerBase_LoadCompositeSession_MAT_OCS_Core_SessionKey_System_String_System_Collections_Generic_IReadOnlyDictionary_MAT_OCS_Core_SessionKey_System_String__System_String_">SessionManagerBase.LoadCompositeSession(SessionKey, String, IReadOnlyDictionary&lt;SessionKey, String&gt;, String)</a></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Authentication.AuthenticationException</span></td>
+        <td><p>Thrown if the SQL Race license does not allow session loading or there is a license issue.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="MESL_SqlRace_Domain_SessionManager_LoadLightweight_" data-uid="MESL.SqlRace.Domain.SessionManager.LoadLightweight*"></a>
   <h4 id="MESL_SqlRace_Domain_SessionManager_LoadLightweight_MAT_OCS_Core_SessionKey_MESL_SqlRace_Domain_ConnectionInformationBase_" data-uid="MESL.SqlRace.Domain.SessionManager.LoadLightweight(MAT.OCS.Core.SessionKey,MESL.SqlRace.Domain.ConnectionInformationBase)">LoadLightweight(SessionKey, ConnectionInformationBase)</h4>
   <div class="markdown level1 summary"><p>Loads an existing session from the system, but without loading any of the session&apos;s child items.</p>
@@ -3655,9 +4095,13 @@ configured etc).</p>
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="MESL.SqlRace.Domain.SessionManagerBase.html#MESL_SqlRace_Domain_SessionManagerBase_LoadLightweight_MAT_OCS_Core_SessionKey_MESL_SqlRace_Domain_ConnectionInformationBase_System_Collections_Generic_IEnumerable_MAT_OCS_Core_SessionKey__">SessionManagerBase.LoadLightweight(SessionKey, ConnectionInformationBase, IEnumerable&lt;SessionKey&gt;)</a></div>
+  <h5 id="MESL_SqlRace_Domain_SessionManager_LoadLightweight_MAT_OCS_Core_SessionKey_MESL_SqlRace_Domain_ConnectionInformationBase_System_Collections_Generic_IEnumerable_MAT_OCS_Core_SessionKey___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><strong>OBSOLETE: This method will be removed mid-2026 use the LoadCompositeSession(...) helper method instead.</strong></p>
+</div>
   <a id="MESL_SqlRace_Domain_SessionManager_LoadLightweight_" data-uid="MESL.SqlRace.Domain.SessionManager.LoadLightweight*"></a>
   <h4 id="MESL_SqlRace_Domain_SessionManager_LoadLightweight_MAT_OCS_Core_SessionKey_MESL_SqlRace_Domain_ConnectionInformationBase_System_Collections_Generic_IEnumerable_System_String__" data-uid="MESL.SqlRace.Domain.SessionManager.LoadLightweight(MAT.OCS.Core.SessionKey,MESL.SqlRace.Domain.ConnectionInformationBase,System.Collections.Generic.IEnumerable{System.String})">LoadLightweight(SessionKey, ConnectionInformationBase, IEnumerable&lt;String&gt;)</h4>
-  <div class="markdown level1 summary"><p>Loads an existing session from the system, but without loading any of the session&apos;s child items.</p>
+  <div class="markdown level1 summary"><p>Loads an existing session from the system, but without loading any of the session&apos;s child items.
+<br><strong>OBSOLETE: This method will be removed mid-2026 use the LoadCompositeSession(...) helper method instead.</strong></br></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -3731,7 +4175,8 @@ configured etc).</p>
   </table>
   <a id="MESL_SqlRace_Domain_SessionManager_LoadLightweight_" data-uid="MESL.SqlRace.Domain.SessionManager.LoadLightweight*"></a>
   <h4 id="MESL_SqlRace_Domain_SessionManager_LoadLightweight_MAT_OCS_Core_SessionKey_MESL_SqlRace_Domain_ConnectionInformationBase_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_MAT_OCS_Core_SessionKey__" data-uid="MESL.SqlRace.Domain.SessionManager.LoadLightweight(MAT.OCS.Core.SessionKey,MESL.SqlRace.Domain.ConnectionInformationBase,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{MAT.OCS.Core.SessionKey})">LoadLightweight(SessionKey, ConnectionInformationBase, IEnumerable&lt;String&gt;, IEnumerable&lt;SessionKey&gt;)</h4>
-  <div class="markdown level1 summary"><p>Loads an existing session from the system, but without loading any of the session&apos;s child items.</p>
+  <div class="markdown level1 summary"><p>Loads an existing session from the system, but without loading any of the session&apos;s child items.
+<br><strong>OBSOLETE: This method will be removed mid-2026. </strong></br></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -3861,7 +4306,8 @@ configured etc).</p>
   </table>
   <a id="MESL_SqlRace_Domain_SessionManager_LoadLightweight_" data-uid="MESL.SqlRace.Domain.SessionManager.LoadLightweight*"></a>
   <h4 id="MESL_SqlRace_Domain_SessionManager_LoadLightweight_MAT_OCS_Core_SessionKey_System_String_System_Collections_Generic_IEnumerable_MAT_OCS_Core_SessionKey__" data-uid="MESL.SqlRace.Domain.SessionManager.LoadLightweight(MAT.OCS.Core.SessionKey,System.String,System.Collections.Generic.IEnumerable{MAT.OCS.Core.SessionKey})">LoadLightweight(SessionKey, String, IEnumerable&lt;SessionKey&gt;)</h4>
-  <div class="markdown level1 summary"><p>Loads an existing session from the system, but without loading any of the session&apos;s child items.</p>
+  <div class="markdown level1 summary"><p>Loads an existing session from the system, but without loading any of the session&apos;s child items.
+<br><strong>OBSOLETE: This method will be removed mid-2026 use the LoadCompositeSession(...) helper method instead.</strong></br></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -3992,7 +4438,8 @@ configured etc).</p>
   </table>
   <a id="MESL_SqlRace_Domain_SessionManager_LoadLightweight_" data-uid="MESL.SqlRace.Domain.SessionManager.LoadLightweight*"></a>
   <h4 id="MESL_SqlRace_Domain_SessionManager_LoadLightweight_MAT_OCS_Core_SessionKey_System_String_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_MAT_OCS_Core_SessionKey__" data-uid="MESL.SqlRace.Domain.SessionManager.LoadLightweight(MAT.OCS.Core.SessionKey,System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{MAT.OCS.Core.SessionKey})">LoadLightweight(SessionKey, String, IEnumerable&lt;String&gt;, IEnumerable&lt;SessionKey&gt;)</h4>
-  <div class="markdown level1 summary"><p>Loads an existing session from the system, but without loading any of the session&apos;s child items.</p>
+  <div class="markdown level1 summary"><p>Loads an existing session from the system, but without loading any of the session&apos;s child items.
+<br><strong>OBSOLETE: This method will be removed mid-2026 use the LoadCompositeSession(...) helper method instead.</strong></br></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

@@ -7877,6 +7877,18 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.Core.CreateOrUpdateRDASetting
   fullName: MESL.SqlRace.Domain.Core.CreateOrUpdateRDASetting
   nameWithType: Core.CreateOrUpdateRDASetting
+- uid: MESL.SqlRace.Domain.Core.GetLicenceConsortiiums
+  name: GetLicenceConsortiiums()
+  href: api/MESL.SqlRace.Domain.Core.html#MESL_SqlRace_Domain_Core_GetLicenceConsortiiums
+  commentId: M:MESL.SqlRace.Domain.Core.GetLicenceConsortiiums
+  fullName: MESL.SqlRace.Domain.Core.GetLicenceConsortiiums()
+  nameWithType: Core.GetLicenceConsortiiums()
+- uid: MESL.SqlRace.Domain.Core.GetLicenceConsortiiums*
+  name: GetLicenceConsortiiums
+  href: api/MESL.SqlRace.Domain.Core.html#MESL_SqlRace_Domain_Core_GetLicenceConsortiiums_
+  commentId: Overload:MESL.SqlRace.Domain.Core.GetLicenceConsortiiums
+  fullName: MESL.SqlRace.Domain.Core.GetLicenceConsortiiums
+  nameWithType: Core.GetLicenceConsortiiums
 - uid: MESL.SqlRace.Domain.Core.Initialize
   name: Initialize()
   href: api/MESL.SqlRace.Domain.Core.html#MESL_SqlRace_Domain_Core_Initialize
@@ -9316,12 +9328,6 @@ references:
   commentId: M:MESL.SqlRace.Domain.Exceptions.CompatibilityException.#ctor
   fullName: MESL.SqlRace.Domain.Exceptions.CompatibilityException.CompatibilityException()
   nameWithType: CompatibilityException.CompatibilityException()
-- uid: MESL.SqlRace.Domain.Exceptions.CompatibilityException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  name: CompatibilityException(SerializationInfo, StreamingContext)
-  href: api/MESL.SqlRace.Domain.Exceptions.CompatibilityException.html#MESL_SqlRace_Domain_Exceptions_CompatibilityException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
-  commentId: M:MESL.SqlRace.Domain.Exceptions.CompatibilityException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  fullName: MESL.SqlRace.Domain.Exceptions.CompatibilityException.CompatibilityException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType: CompatibilityException.CompatibilityException(SerializationInfo, StreamingContext)
 - uid: MESL.SqlRace.Domain.Exceptions.CompatibilityException.#ctor(System.String)
   name: CompatibilityException(String)
   href: api/MESL.SqlRace.Domain.Exceptions.CompatibilityException.html#MESL_SqlRace_Domain_Exceptions_CompatibilityException__ctor_System_String_
@@ -9394,12 +9400,6 @@ references:
   commentId: T:MESL.SqlRace.Domain.Exceptions.SqlRaceTimeoutException
   fullName: MESL.SqlRace.Domain.Exceptions.SqlRaceTimeoutException
   nameWithType: SqlRaceTimeoutException
-- uid: MESL.SqlRace.Domain.Exceptions.SqlRaceTimeoutException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  name: SqlRaceTimeoutException(SerializationInfo, StreamingContext)
-  href: api/MESL.SqlRace.Domain.Exceptions.SqlRaceTimeoutException.html#MESL_SqlRace_Domain_Exceptions_SqlRaceTimeoutException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
-  commentId: M:MESL.SqlRace.Domain.Exceptions.SqlRaceTimeoutException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  fullName: MESL.SqlRace.Domain.Exceptions.SqlRaceTimeoutException.SqlRaceTimeoutException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType: SqlRaceTimeoutException.SqlRaceTimeoutException(SerializationInfo, StreamingContext)
 - uid: MESL.SqlRace.Domain.Exceptions.SqlRaceTimeoutException.#ctor(System.String,System.Exception)
   name: SqlRaceTimeoutException(String, Exception)
   href: api/MESL.SqlRace.Domain.Exceptions.SqlRaceTimeoutException.html#MESL_SqlRace_Domain_Exceptions_SqlRaceTimeoutException__ctor_System_String_System_Exception_
@@ -36003,6 +36003,15 @@ references:
   fullName.vb: MESL.SqlRace.Domain.SessionManager.ExportSessionWithCustomTime(System.String, MAT.OCS.Core.SessionKey, System.String, System.Collections.Generic.IReadOnlyList(Of System.String), System.Collections.Generic.IReadOnlyList(Of System.Int32), System.Nullable(Of System.Int64), System.Nullable(Of System.Int64), System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.String)
   nameWithType: SessionManager.ExportSessionWithCustomTime(String, SessionKey, String, IReadOnlyList<String>, IReadOnlyList<Int32>, Nullable<Int64>, Nullable<Int64>, Boolean, Boolean, Boolean, Boolean, Boolean, String)
   nameWithType.vb: SessionManager.ExportSessionWithCustomTime(String, SessionKey, String, IReadOnlyList(Of String), IReadOnlyList(Of Int32), Nullable(Of Int64), Nullable(Of Int64), Boolean, Boolean, Boolean, Boolean, Boolean, String)
+- uid: MESL.SqlRace.Domain.SessionManager.ExportSessionWithCustomTime(System.String,MAT.OCS.Core.SessionKey,System.String,System.Collections.Generic.IReadOnlyList{System.String},System.Collections.Generic.IReadOnlyList{System.Int32},System.Nullable{System.Int64},System.Nullable{System.Int64},System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.UInt32,System.String,System.Action{System.Int32})
+  name: ExportSessionWithCustomTime(String, SessionKey, String, IReadOnlyList<String>, IReadOnlyList<Int32>, Nullable<Int64>, Nullable<Int64>, Boolean, Boolean, Boolean, Boolean, UInt32, String, Action<Int32>)
+  href: api/MESL.SqlRace.Domain.SessionManager.html#MESL_SqlRace_Domain_SessionManager_ExportSessionWithCustomTime_System_String_MAT_OCS_Core_SessionKey_System_String_System_Collections_Generic_IReadOnlyList_System_String__System_Collections_Generic_IReadOnlyList_System_Int32__System_Nullable_System_Int64__System_Nullable_System_Int64__System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_UInt32_System_String_System_Action_System_Int32__
+  commentId: M:MESL.SqlRace.Domain.SessionManager.ExportSessionWithCustomTime(System.String,MAT.OCS.Core.SessionKey,System.String,System.Collections.Generic.IReadOnlyList{System.String},System.Collections.Generic.IReadOnlyList{System.Int32},System.Nullable{System.Int64},System.Nullable{System.Int64},System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.UInt32,System.String,System.Action{System.Int32})
+  name.vb: ExportSessionWithCustomTime(String, SessionKey, String, IReadOnlyList(Of String), IReadOnlyList(Of Int32), Nullable(Of Int64), Nullable(Of Int64), Boolean, Boolean, Boolean, Boolean, UInt32, String, Action(Of Int32))
+  fullName: MESL.SqlRace.Domain.SessionManager.ExportSessionWithCustomTime(System.String, MAT.OCS.Core.SessionKey, System.String, System.Collections.Generic.IReadOnlyList<System.String>, System.Collections.Generic.IReadOnlyList<System.Int32>, System.Nullable<System.Int64>, System.Nullable<System.Int64>, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.UInt32, System.String, System.Action<System.Int32>)
+  fullName.vb: MESL.SqlRace.Domain.SessionManager.ExportSessionWithCustomTime(System.String, MAT.OCS.Core.SessionKey, System.String, System.Collections.Generic.IReadOnlyList(Of System.String), System.Collections.Generic.IReadOnlyList(Of System.Int32), System.Nullable(Of System.Int64), System.Nullable(Of System.Int64), System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.UInt32, System.String, System.Action(Of System.Int32))
+  nameWithType: SessionManager.ExportSessionWithCustomTime(String, SessionKey, String, IReadOnlyList<String>, IReadOnlyList<Int32>, Nullable<Int64>, Nullable<Int64>, Boolean, Boolean, Boolean, Boolean, UInt32, String, Action<Int32>)
+  nameWithType.vb: SessionManager.ExportSessionWithCustomTime(String, SessionKey, String, IReadOnlyList(Of String), IReadOnlyList(Of Int32), Nullable(Of Int64), Nullable(Of Int64), Boolean, Boolean, Boolean, Boolean, UInt32, String, Action(Of Int32))
 - uid: MESL.SqlRace.Domain.SessionManager.ExportSessionWithCustomTime*
   name: ExportSessionWithCustomTime
   href: api/MESL.SqlRace.Domain.SessionManager.html#MESL_SqlRace_Domain_SessionManager_ExportSessionWithCustomTime_
@@ -36243,6 +36252,15 @@ references:
   commentId: M:MESL.SqlRace.Domain.SessionManager.ImportSession(System.String,System.IO.Stream,MAT.OCS.Core.SessionKey)
   fullName: MESL.SqlRace.Domain.SessionManager.ImportSession(System.String, System.IO.Stream, MAT.OCS.Core.SessionKey)
   nameWithType: SessionManager.ImportSession(String, Stream, SessionKey)
+- uid: MESL.SqlRace.Domain.SessionManager.ImportSession(System.String,System.IO.Stream,MAT.OCS.Core.SessionKey,System.Action{System.Int32})
+  name: ImportSession(String, Stream, SessionKey, Action<Int32>)
+  href: api/MESL.SqlRace.Domain.SessionManager.html#MESL_SqlRace_Domain_SessionManager_ImportSession_System_String_System_IO_Stream_MAT_OCS_Core_SessionKey_System_Action_System_Int32__
+  commentId: M:MESL.SqlRace.Domain.SessionManager.ImportSession(System.String,System.IO.Stream,MAT.OCS.Core.SessionKey,System.Action{System.Int32})
+  name.vb: ImportSession(String, Stream, SessionKey, Action(Of Int32))
+  fullName: MESL.SqlRace.Domain.SessionManager.ImportSession(System.String, System.IO.Stream, MAT.OCS.Core.SessionKey, System.Action<System.Int32>)
+  fullName.vb: MESL.SqlRace.Domain.SessionManager.ImportSession(System.String, System.IO.Stream, MAT.OCS.Core.SessionKey, System.Action(Of System.Int32))
+  nameWithType: SessionManager.ImportSession(String, Stream, SessionKey, Action<Int32>)
+  nameWithType.vb: SessionManager.ImportSession(String, Stream, SessionKey, Action(Of Int32))
 - uid: MESL.SqlRace.Domain.SessionManager.ImportSession(System.String,System.String)
   name: ImportSession(String, String)
   href: api/MESL.SqlRace.Domain.SessionManager.html#MESL_SqlRace_Domain_SessionManager_ImportSession_System_String_System_String_
@@ -36390,6 +36408,39 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.SessionManager.LoadAssociatesForSession
   fullName: MESL.SqlRace.Domain.SessionManager.LoadAssociatesForSession
   nameWithType: SessionManager.LoadAssociatesForSession
+- uid: MESL.SqlRace.Domain.SessionManager.LoadCompositeSession(MAT.OCS.Core.SessionKey,MESL.SqlRace.Domain.ConnectionInformationBase,System.Collections.Generic.IEnumerable{MAT.OCS.Core.SessionKey},System.String)
+  name: LoadCompositeSession(SessionKey, ConnectionInformationBase, IEnumerable<SessionKey>, String)
+  href: api/MESL.SqlRace.Domain.SessionManager.html#MESL_SqlRace_Domain_SessionManager_LoadCompositeSession_MAT_OCS_Core_SessionKey_MESL_SqlRace_Domain_ConnectionInformationBase_System_Collections_Generic_IEnumerable_MAT_OCS_Core_SessionKey__System_String_
+  commentId: M:MESL.SqlRace.Domain.SessionManager.LoadCompositeSession(MAT.OCS.Core.SessionKey,MESL.SqlRace.Domain.ConnectionInformationBase,System.Collections.Generic.IEnumerable{MAT.OCS.Core.SessionKey},System.String)
+  name.vb: LoadCompositeSession(SessionKey, ConnectionInformationBase, IEnumerable(Of SessionKey), String)
+  fullName: MESL.SqlRace.Domain.SessionManager.LoadCompositeSession(MAT.OCS.Core.SessionKey, MESL.SqlRace.Domain.ConnectionInformationBase, System.Collections.Generic.IEnumerable<MAT.OCS.Core.SessionKey>, System.String)
+  fullName.vb: MESL.SqlRace.Domain.SessionManager.LoadCompositeSession(MAT.OCS.Core.SessionKey, MESL.SqlRace.Domain.ConnectionInformationBase, System.Collections.Generic.IEnumerable(Of MAT.OCS.Core.SessionKey), System.String)
+  nameWithType: SessionManager.LoadCompositeSession(SessionKey, ConnectionInformationBase, IEnumerable<SessionKey>, String)
+  nameWithType.vb: SessionManager.LoadCompositeSession(SessionKey, ConnectionInformationBase, IEnumerable(Of SessionKey), String)
+- uid: MESL.SqlRace.Domain.SessionManager.LoadCompositeSession(MAT.OCS.Core.SessionKey,System.String,System.Collections.Generic.IEnumerable{MAT.OCS.Core.SessionKey},System.String)
+  name: LoadCompositeSession(SessionKey, String, IEnumerable<SessionKey>, String)
+  href: api/MESL.SqlRace.Domain.SessionManager.html#MESL_SqlRace_Domain_SessionManager_LoadCompositeSession_MAT_OCS_Core_SessionKey_System_String_System_Collections_Generic_IEnumerable_MAT_OCS_Core_SessionKey__System_String_
+  commentId: M:MESL.SqlRace.Domain.SessionManager.LoadCompositeSession(MAT.OCS.Core.SessionKey,System.String,System.Collections.Generic.IEnumerable{MAT.OCS.Core.SessionKey},System.String)
+  name.vb: LoadCompositeSession(SessionKey, String, IEnumerable(Of SessionKey), String)
+  fullName: MESL.SqlRace.Domain.SessionManager.LoadCompositeSession(MAT.OCS.Core.SessionKey, System.String, System.Collections.Generic.IEnumerable<MAT.OCS.Core.SessionKey>, System.String)
+  fullName.vb: MESL.SqlRace.Domain.SessionManager.LoadCompositeSession(MAT.OCS.Core.SessionKey, System.String, System.Collections.Generic.IEnumerable(Of MAT.OCS.Core.SessionKey), System.String)
+  nameWithType: SessionManager.LoadCompositeSession(SessionKey, String, IEnumerable<SessionKey>, String)
+  nameWithType.vb: SessionManager.LoadCompositeSession(SessionKey, String, IEnumerable(Of SessionKey), String)
+- uid: MESL.SqlRace.Domain.SessionManager.LoadCompositeSession(MAT.OCS.Core.SessionKey,System.String,System.Collections.Generic.IReadOnlyDictionary{MAT.OCS.Core.SessionKey,System.String},System.String)
+  name: LoadCompositeSession(SessionKey, String, IReadOnlyDictionary<SessionKey, String>, String)
+  href: api/MESL.SqlRace.Domain.SessionManager.html#MESL_SqlRace_Domain_SessionManager_LoadCompositeSession_MAT_OCS_Core_SessionKey_System_String_System_Collections_Generic_IReadOnlyDictionary_MAT_OCS_Core_SessionKey_System_String__System_String_
+  commentId: M:MESL.SqlRace.Domain.SessionManager.LoadCompositeSession(MAT.OCS.Core.SessionKey,System.String,System.Collections.Generic.IReadOnlyDictionary{MAT.OCS.Core.SessionKey,System.String},System.String)
+  name.vb: LoadCompositeSession(SessionKey, String, IReadOnlyDictionary(Of SessionKey, String), String)
+  fullName: MESL.SqlRace.Domain.SessionManager.LoadCompositeSession(MAT.OCS.Core.SessionKey, System.String, System.Collections.Generic.IReadOnlyDictionary<MAT.OCS.Core.SessionKey, System.String>, System.String)
+  fullName.vb: MESL.SqlRace.Domain.SessionManager.LoadCompositeSession(MAT.OCS.Core.SessionKey, System.String, System.Collections.Generic.IReadOnlyDictionary(Of MAT.OCS.Core.SessionKey, System.String), System.String)
+  nameWithType: SessionManager.LoadCompositeSession(SessionKey, String, IReadOnlyDictionary<SessionKey, String>, String)
+  nameWithType.vb: SessionManager.LoadCompositeSession(SessionKey, String, IReadOnlyDictionary(Of SessionKey, String), String)
+- uid: MESL.SqlRace.Domain.SessionManager.LoadCompositeSession*
+  name: LoadCompositeSession
+  href: api/MESL.SqlRace.Domain.SessionManager.html#MESL_SqlRace_Domain_SessionManager_LoadCompositeSession_
+  commentId: Overload:MESL.SqlRace.Domain.SessionManager.LoadCompositeSession
+  fullName: MESL.SqlRace.Domain.SessionManager.LoadCompositeSession
+  nameWithType: SessionManager.LoadCompositeSession
 - uid: MESL.SqlRace.Domain.SessionManager.LoadLightweight(MAT.OCS.Core.SessionKey,MESL.SqlRace.Domain.ConnectionInformationBase)
   name: LoadLightweight(SessionKey, ConnectionInformationBase)
   href: api/MESL.SqlRace.Domain.SessionManager.html#MESL_SqlRace_Domain_SessionManager_LoadLightweight_MAT_OCS_Core_SessionKey_MESL_SqlRace_Domain_ConnectionInformationBase_
@@ -36797,6 +36848,15 @@ references:
   fullName.vb: MESL.SqlRace.Domain.SessionManagerBase.ExportSessionWithCustomTime(System.String, MAT.OCS.Core.SessionKey, System.String, System.Collections.Generic.IReadOnlyList(Of System.String), System.Collections.Generic.IReadOnlyList(Of System.Int32), System.Nullable(Of System.Int64), System.Nullable(Of System.Int64), System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.String)
   nameWithType: SessionManagerBase.ExportSessionWithCustomTime(String, SessionKey, String, IReadOnlyList<String>, IReadOnlyList<Int32>, Nullable<Int64>, Nullable<Int64>, Boolean, Boolean, Boolean, Boolean, Boolean, String)
   nameWithType.vb: SessionManagerBase.ExportSessionWithCustomTime(String, SessionKey, String, IReadOnlyList(Of String), IReadOnlyList(Of Int32), Nullable(Of Int64), Nullable(Of Int64), Boolean, Boolean, Boolean, Boolean, Boolean, String)
+- uid: MESL.SqlRace.Domain.SessionManagerBase.ExportSessionWithCustomTime(System.String,MAT.OCS.Core.SessionKey,System.String,System.Collections.Generic.IReadOnlyList{System.String},System.Collections.Generic.IReadOnlyList{System.Int32},System.Nullable{System.Int64},System.Nullable{System.Int64},System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.UInt32,System.String,System.Action{System.Int32})
+  name: ExportSessionWithCustomTime(String, SessionKey, String, IReadOnlyList<String>, IReadOnlyList<Int32>, Nullable<Int64>, Nullable<Int64>, Boolean, Boolean, Boolean, Boolean, UInt32, String, Action<Int32>)
+  href: api/MESL.SqlRace.Domain.SessionManagerBase.html#MESL_SqlRace_Domain_SessionManagerBase_ExportSessionWithCustomTime_System_String_MAT_OCS_Core_SessionKey_System_String_System_Collections_Generic_IReadOnlyList_System_String__System_Collections_Generic_IReadOnlyList_System_Int32__System_Nullable_System_Int64__System_Nullable_System_Int64__System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_UInt32_System_String_System_Action_System_Int32__
+  commentId: M:MESL.SqlRace.Domain.SessionManagerBase.ExportSessionWithCustomTime(System.String,MAT.OCS.Core.SessionKey,System.String,System.Collections.Generic.IReadOnlyList{System.String},System.Collections.Generic.IReadOnlyList{System.Int32},System.Nullable{System.Int64},System.Nullable{System.Int64},System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.UInt32,System.String,System.Action{System.Int32})
+  name.vb: ExportSessionWithCustomTime(String, SessionKey, String, IReadOnlyList(Of String), IReadOnlyList(Of Int32), Nullable(Of Int64), Nullable(Of Int64), Boolean, Boolean, Boolean, Boolean, UInt32, String, Action(Of Int32))
+  fullName: MESL.SqlRace.Domain.SessionManagerBase.ExportSessionWithCustomTime(System.String, MAT.OCS.Core.SessionKey, System.String, System.Collections.Generic.IReadOnlyList<System.String>, System.Collections.Generic.IReadOnlyList<System.Int32>, System.Nullable<System.Int64>, System.Nullable<System.Int64>, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.UInt32, System.String, System.Action<System.Int32>)
+  fullName.vb: MESL.SqlRace.Domain.SessionManagerBase.ExportSessionWithCustomTime(System.String, MAT.OCS.Core.SessionKey, System.String, System.Collections.Generic.IReadOnlyList(Of System.String), System.Collections.Generic.IReadOnlyList(Of System.Int32), System.Nullable(Of System.Int64), System.Nullable(Of System.Int64), System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.UInt32, System.String, System.Action(Of System.Int32))
+  nameWithType: SessionManagerBase.ExportSessionWithCustomTime(String, SessionKey, String, IReadOnlyList<String>, IReadOnlyList<Int32>, Nullable<Int64>, Nullable<Int64>, Boolean, Boolean, Boolean, Boolean, UInt32, String, Action<Int32>)
+  nameWithType.vb: SessionManagerBase.ExportSessionWithCustomTime(String, SessionKey, String, IReadOnlyList(Of String), IReadOnlyList(Of Int32), Nullable(Of Int64), Nullable(Of Int64), Boolean, Boolean, Boolean, Boolean, UInt32, String, Action(Of Int32))
 - uid: MESL.SqlRace.Domain.SessionManagerBase.ExportSessionWithCustomTime*
   name: ExportSessionWithCustomTime
   href: api/MESL.SqlRace.Domain.SessionManagerBase.html#MESL_SqlRace_Domain_SessionManagerBase_ExportSessionWithCustomTime_
@@ -37070,6 +37130,39 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.SessionManagerBase.LoadAssociatesForSession
   fullName: MESL.SqlRace.Domain.SessionManagerBase.LoadAssociatesForSession
   nameWithType: SessionManagerBase.LoadAssociatesForSession
+- uid: MESL.SqlRace.Domain.SessionManagerBase.LoadCompositeSession(MAT.OCS.Core.SessionKey,MESL.SqlRace.Domain.ConnectionInformationBase,System.Collections.Generic.IEnumerable{MAT.OCS.Core.SessionKey},System.String)
+  name: LoadCompositeSession(SessionKey, ConnectionInformationBase, IEnumerable<SessionKey>, String)
+  href: api/MESL.SqlRace.Domain.SessionManagerBase.html#MESL_SqlRace_Domain_SessionManagerBase_LoadCompositeSession_MAT_OCS_Core_SessionKey_MESL_SqlRace_Domain_ConnectionInformationBase_System_Collections_Generic_IEnumerable_MAT_OCS_Core_SessionKey__System_String_
+  commentId: M:MESL.SqlRace.Domain.SessionManagerBase.LoadCompositeSession(MAT.OCS.Core.SessionKey,MESL.SqlRace.Domain.ConnectionInformationBase,System.Collections.Generic.IEnumerable{MAT.OCS.Core.SessionKey},System.String)
+  name.vb: LoadCompositeSession(SessionKey, ConnectionInformationBase, IEnumerable(Of SessionKey), String)
+  fullName: MESL.SqlRace.Domain.SessionManagerBase.LoadCompositeSession(MAT.OCS.Core.SessionKey, MESL.SqlRace.Domain.ConnectionInformationBase, System.Collections.Generic.IEnumerable<MAT.OCS.Core.SessionKey>, System.String)
+  fullName.vb: MESL.SqlRace.Domain.SessionManagerBase.LoadCompositeSession(MAT.OCS.Core.SessionKey, MESL.SqlRace.Domain.ConnectionInformationBase, System.Collections.Generic.IEnumerable(Of MAT.OCS.Core.SessionKey), System.String)
+  nameWithType: SessionManagerBase.LoadCompositeSession(SessionKey, ConnectionInformationBase, IEnumerable<SessionKey>, String)
+  nameWithType.vb: SessionManagerBase.LoadCompositeSession(SessionKey, ConnectionInformationBase, IEnumerable(Of SessionKey), String)
+- uid: MESL.SqlRace.Domain.SessionManagerBase.LoadCompositeSession(MAT.OCS.Core.SessionKey,System.String,System.Collections.Generic.IEnumerable{MAT.OCS.Core.SessionKey},System.String)
+  name: LoadCompositeSession(SessionKey, String, IEnumerable<SessionKey>, String)
+  href: api/MESL.SqlRace.Domain.SessionManagerBase.html#MESL_SqlRace_Domain_SessionManagerBase_LoadCompositeSession_MAT_OCS_Core_SessionKey_System_String_System_Collections_Generic_IEnumerable_MAT_OCS_Core_SessionKey__System_String_
+  commentId: M:MESL.SqlRace.Domain.SessionManagerBase.LoadCompositeSession(MAT.OCS.Core.SessionKey,System.String,System.Collections.Generic.IEnumerable{MAT.OCS.Core.SessionKey},System.String)
+  name.vb: LoadCompositeSession(SessionKey, String, IEnumerable(Of SessionKey), String)
+  fullName: MESL.SqlRace.Domain.SessionManagerBase.LoadCompositeSession(MAT.OCS.Core.SessionKey, System.String, System.Collections.Generic.IEnumerable<MAT.OCS.Core.SessionKey>, System.String)
+  fullName.vb: MESL.SqlRace.Domain.SessionManagerBase.LoadCompositeSession(MAT.OCS.Core.SessionKey, System.String, System.Collections.Generic.IEnumerable(Of MAT.OCS.Core.SessionKey), System.String)
+  nameWithType: SessionManagerBase.LoadCompositeSession(SessionKey, String, IEnumerable<SessionKey>, String)
+  nameWithType.vb: SessionManagerBase.LoadCompositeSession(SessionKey, String, IEnumerable(Of SessionKey), String)
+- uid: MESL.SqlRace.Domain.SessionManagerBase.LoadCompositeSession(MAT.OCS.Core.SessionKey,System.String,System.Collections.Generic.IReadOnlyDictionary{MAT.OCS.Core.SessionKey,System.String},System.String)
+  name: LoadCompositeSession(SessionKey, String, IReadOnlyDictionary<SessionKey, String>, String)
+  href: api/MESL.SqlRace.Domain.SessionManagerBase.html#MESL_SqlRace_Domain_SessionManagerBase_LoadCompositeSession_MAT_OCS_Core_SessionKey_System_String_System_Collections_Generic_IReadOnlyDictionary_MAT_OCS_Core_SessionKey_System_String__System_String_
+  commentId: M:MESL.SqlRace.Domain.SessionManagerBase.LoadCompositeSession(MAT.OCS.Core.SessionKey,System.String,System.Collections.Generic.IReadOnlyDictionary{MAT.OCS.Core.SessionKey,System.String},System.String)
+  name.vb: LoadCompositeSession(SessionKey, String, IReadOnlyDictionary(Of SessionKey, String), String)
+  fullName: MESL.SqlRace.Domain.SessionManagerBase.LoadCompositeSession(MAT.OCS.Core.SessionKey, System.String, System.Collections.Generic.IReadOnlyDictionary<MAT.OCS.Core.SessionKey, System.String>, System.String)
+  fullName.vb: MESL.SqlRace.Domain.SessionManagerBase.LoadCompositeSession(MAT.OCS.Core.SessionKey, System.String, System.Collections.Generic.IReadOnlyDictionary(Of MAT.OCS.Core.SessionKey, System.String), System.String)
+  nameWithType: SessionManagerBase.LoadCompositeSession(SessionKey, String, IReadOnlyDictionary<SessionKey, String>, String)
+  nameWithType.vb: SessionManagerBase.LoadCompositeSession(SessionKey, String, IReadOnlyDictionary(Of SessionKey, String), String)
+- uid: MESL.SqlRace.Domain.SessionManagerBase.LoadCompositeSession*
+  name: LoadCompositeSession
+  href: api/MESL.SqlRace.Domain.SessionManagerBase.html#MESL_SqlRace_Domain_SessionManagerBase_LoadCompositeSession_
+  commentId: Overload:MESL.SqlRace.Domain.SessionManagerBase.LoadCompositeSession
+  fullName: MESL.SqlRace.Domain.SessionManagerBase.LoadCompositeSession
+  nameWithType: SessionManagerBase.LoadCompositeSession
 - uid: MESL.SqlRace.Domain.SessionManagerBase.LoadLightweight(MAT.OCS.Core.SessionKey,MESL.SqlRace.Domain.ConnectionInformationBase)
   name: LoadLightweight(SessionKey, ConnectionInformationBase)
   href: api/MESL.SqlRace.Domain.SessionManagerBase.html#MESL_SqlRace_Domain_SessionManagerBase_LoadLightweight_MAT_OCS_Core_SessionKey_MESL_SqlRace_Domain_ConnectionInformationBase_
@@ -39341,12 +39434,6 @@ references:
   commentId: M:MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.#ctor
   fullName: MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.FdlSharpSyntaxErrorException()
   nameWithType: FdlSharpSyntaxErrorException.FdlSharpSyntaxErrorException()
-- uid: MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  name: FdlSharpSyntaxErrorException(SerializationInfo, StreamingContext)
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.html#MESL_SqlRace_Domain_VirtualParameters_FDLLanguageConverter_FdlSharpSyntaxErrorException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.FdlSharpSyntaxErrorException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType: FdlSharpSyntaxErrorException.FdlSharpSyntaxErrorException(SerializationInfo, StreamingContext)
 - uid: MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.#ctor(System.String)
   name: FdlSharpSyntaxErrorException(String)
   href: api/MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.html#MESL_SqlRace_Domain_VirtualParameters_FDLLanguageConverter_FdlSharpSyntaxErrorException__ctor_System_String_
@@ -40250,12 +40337,6 @@ references:
   commentId: T:MESL.SqlRace.Domain.VirtualParameters.VirtualParameterException
   fullName: MESL.SqlRace.Domain.VirtualParameters.VirtualParameterException
   nameWithType: VirtualParameterException
-- uid: MESL.SqlRace.Domain.VirtualParameters.VirtualParameterException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  name: VirtualParameterException(SerializationInfo, StreamingContext)
-  href: api/MESL.SqlRace.Domain.VirtualParameters.VirtualParameterException.html#MESL_SqlRace_Domain_VirtualParameters_VirtualParameterException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.VirtualParameterException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  fullName: MESL.SqlRace.Domain.VirtualParameters.VirtualParameterException.VirtualParameterException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType: VirtualParameterException.VirtualParameterException(SerializationInfo, StreamingContext)
 - uid: MESL.SqlRace.Domain.VirtualParameters.VirtualParameterException.#ctor(System.String)
   name: VirtualParameterException(String)
   href: api/MESL.SqlRace.Domain.VirtualParameters.VirtualParameterException.html#MESL_SqlRace_Domain_VirtualParameters_VirtualParameterException__ctor_System_String_

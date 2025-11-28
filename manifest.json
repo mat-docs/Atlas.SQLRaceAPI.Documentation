@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/a/1/s/Mesl.SqlRace.DocFX",
+  "source_base_path": "C:/a/2/s/Mesl.SqlRace.DocFX",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -740,7 +740,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Core.html",
-          "hash": "xqf1TPGZRjDyyufEMs19nQ=="
+          "hash": "5TYkETY8UU1iwxv137qnjw=="
         }
       },
       "is_incremental": false,
@@ -956,7 +956,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Exceptions.CompatibilityException.html",
-          "hash": "NT4oL3e5Y0G1IWKX+sYkzA=="
+          "hash": "aS5cS3gejUV5uUGUyNI46w=="
         }
       },
       "is_incremental": false,
@@ -968,7 +968,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Exceptions.SqlRaceTimeoutException.html",
-          "hash": "eMCyxepPUGKx64xhtBMeeg=="
+          "hash": "c4KGMStAeimQz/1BqFga3Q=="
         }
       },
       "is_incremental": false,
@@ -4820,7 +4820,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.SessionChildItemsToLoad.html",
-          "hash": "iu0SfzkWFb9eDJR0H6Akqw=="
+          "hash": "+Jl0h+4iyuzHdVBIdXC3/A=="
         }
       },
       "is_incremental": false,
@@ -4964,7 +4964,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.SessionManager.html",
-          "hash": "19flf2DTjud3k7JVAufk7Q=="
+          "hash": "zK8UuJhLxK8T5AdLhOdCcQ=="
         }
       },
       "is_incremental": false,
@@ -4976,7 +4976,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.SessionManagerBase.html",
-          "hash": "Q2MVELiGrMiGcdZsQUanow=="
+          "hash": "myIyzbNaTNEbZJvHlB0TDw=="
         }
       },
       "is_incremental": false,
@@ -5372,7 +5372,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.html",
-          "hash": "p0w3hwci8/rldZoaA1a97Q=="
+          "hash": "j9eboB/3Iogie/RDzZPn2A=="
         }
       },
       "is_incremental": false,
@@ -5540,7 +5540,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.VirtualParameters.VirtualParameterException.html",
-          "hash": "OtKfAT+YQd9M5jF5hf8wag=="
+          "hash": "7WtmVnGR8CyltVBjco1QQg=="
         }
       },
       "is_incremental": false,
