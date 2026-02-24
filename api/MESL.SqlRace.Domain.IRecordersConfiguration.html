@@ -85,13 +85,13 @@
   <h3 id="methods">Methods
   </h3>
   <a id="MESL_SqlRace_Domain_IRecordersConfiguration_AddConfiguration_" data-uid="MESL.SqlRace.Domain.IRecordersConfiguration.AddConfiguration*"></a>
-  <h4 id="MESL_SqlRace_Domain_IRecordersConfiguration_AddConfiguration_System_Guid_System_String_System_String_System_String_System_String_System_Boolean_" data-uid="MESL.SqlRace.Domain.IRecordersConfiguration.AddConfiguration(System.Guid,System.String,System.String,System.String,System.String,System.Boolean)">AddConfiguration(Guid, String, String, String, String, Boolean)</h4>
+  <h4 id="MESL_SqlRace_Domain_IRecordersConfiguration_AddConfiguration_System_Guid_System_String_System_String_System_String_System_String_MESL_SqlRace_Enumerators_DeleteSessionOption_" data-uid="MESL.SqlRace.Domain.IRecordersConfiguration.AddConfiguration(System.Guid,System.String,System.String,System.String,System.String,MESL.SqlRace.Enumerators.DeleteSessionOption)">AddConfiguration(Guid, String, String, String, String, DeleteSessionOption)</h4>
   <div class="markdown level1 summary"><p>Adds the configuration for the specific recorder.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void AddConfiguration(Guid recorderId, string dbEngine, string dataSource, string connectionIdentifier, string connectionString, bool deleteSessionOnClose)</code></pre>
+    <pre><code class="lang-csharp hljs">void AddConfiguration(Guid recorderId, string dbEngine, string dataSource, string connectionIdentifier, string connectionString, DeleteSessionOption deleteSessionOnClose)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -134,9 +134,9 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><a class="xref" href="MESL.SqlRace.Enumerators.DeleteSessionOption.html">DeleteSessionOption</a></td>
         <td><span class="parametername">deleteSessionOnClose</span></td>
-        <td><p>if set to <code>true</code> [delete session on close].</p>
+        <td><p>delete database on close option.</p>
 </td>
       </tr>
     </tbody>
