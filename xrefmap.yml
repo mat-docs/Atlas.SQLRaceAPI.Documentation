@@ -1937,22 +1937,6 @@ references:
   fullName.vb: MESL.SqlRace.Domain.Collections.PersistableCollection(Of T).InsertItem
   nameWithType: PersistableCollection<T>.InsertItem
   nameWithType.vb: PersistableCollection(Of T).InsertItem
-- uid: MESL.SqlRace.Domain.Collections.PersistableCollection`1.InsertNoRepository(System.Int32,`0)
-  name: InsertNoRepository(Int32, T)
-  href: api/MESL.SqlRace.Domain.Collections.PersistableCollection-1.html#MESL_SqlRace_Domain_Collections_PersistableCollection_1_InsertNoRepository_System_Int32__0_
-  commentId: M:MESL.SqlRace.Domain.Collections.PersistableCollection`1.InsertNoRepository(System.Int32,`0)
-  fullName: MESL.SqlRace.Domain.Collections.PersistableCollection<T>.InsertNoRepository(System.Int32, T)
-  fullName.vb: MESL.SqlRace.Domain.Collections.PersistableCollection(Of T).InsertNoRepository(System.Int32, T)
-  nameWithType: PersistableCollection<T>.InsertNoRepository(Int32, T)
-  nameWithType.vb: PersistableCollection(Of T).InsertNoRepository(Int32, T)
-- uid: MESL.SqlRace.Domain.Collections.PersistableCollection`1.InsertNoRepository*
-  name: InsertNoRepository
-  href: api/MESL.SqlRace.Domain.Collections.PersistableCollection-1.html#MESL_SqlRace_Domain_Collections_PersistableCollection_1_InsertNoRepository_
-  commentId: Overload:MESL.SqlRace.Domain.Collections.PersistableCollection`1.InsertNoRepository
-  fullName: MESL.SqlRace.Domain.Collections.PersistableCollection<T>.InsertNoRepository
-  fullName.vb: MESL.SqlRace.Domain.Collections.PersistableCollection(Of T).InsertNoRepository
-  nameWithType: PersistableCollection<T>.InsertNoRepository
-  nameWithType.vb: PersistableCollection(Of T).InsertNoRepository
 - uid: MESL.SqlRace.Domain.Collections.PersistableCollection`1.ItemAdded
   name: ItemAdded
   href: api/MESL.SqlRace.Domain.Collections.PersistableCollection-1.html#MESL_SqlRace_Domain_Collections_PersistableCollection_1_ItemAdded
@@ -21498,18 +21482,6 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.ILap.EndTimeUnbounded
   fullName: MESL.SqlRace.Domain.ILap.EndTimeUnbounded
   nameWithType: ILap.EndTimeUnbounded
-- uid: MESL.SqlRace.Domain.ILap.InstanceIdentifier
-  name: InstanceIdentifier
-  href: api/MESL.SqlRace.Domain.ILap.html#MESL_SqlRace_Domain_ILap_InstanceIdentifier
-  commentId: P:MESL.SqlRace.Domain.ILap.InstanceIdentifier
-  fullName: MESL.SqlRace.Domain.ILap.InstanceIdentifier
-  nameWithType: ILap.InstanceIdentifier
-- uid: MESL.SqlRace.Domain.ILap.InstanceIdentifier*
-  name: InstanceIdentifier
-  href: api/MESL.SqlRace.Domain.ILap.html#MESL_SqlRace_Domain_ILap_InstanceIdentifier_
-  commentId: Overload:MESL.SqlRace.Domain.ILap.InstanceIdentifier
-  fullName: MESL.SqlRace.Domain.ILap.InstanceIdentifier
-  nameWithType: ILap.InstanceIdentifier
 - uid: MESL.SqlRace.Domain.ILap.LapId
   name: LapId
   href: api/MESL.SqlRace.Domain.ILap.html#MESL_SqlRace_Domain_ILap_LapId
@@ -24622,18 +24594,6 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.Lap.EndTimeUnbounded
   fullName: MESL.SqlRace.Domain.Lap.EndTimeUnbounded
   nameWithType: Lap.EndTimeUnbounded
-- uid: MESL.SqlRace.Domain.Lap.InstanceIdentifier
-  name: InstanceIdentifier
-  href: api/MESL.SqlRace.Domain.Lap.html#MESL_SqlRace_Domain_Lap_InstanceIdentifier
-  commentId: P:MESL.SqlRace.Domain.Lap.InstanceIdentifier
-  fullName: MESL.SqlRace.Domain.Lap.InstanceIdentifier
-  nameWithType: Lap.InstanceIdentifier
-- uid: MESL.SqlRace.Domain.Lap.InstanceIdentifier*
-  name: InstanceIdentifier
-  href: api/MESL.SqlRace.Domain.Lap.html#MESL_SqlRace_Domain_Lap_InstanceIdentifier_
-  commentId: Overload:MESL.SqlRace.Domain.Lap.InstanceIdentifier
-  fullName: MESL.SqlRace.Domain.Lap.InstanceIdentifier
-  nameWithType: Lap.InstanceIdentifier
 - uid: MESL.SqlRace.Domain.Lap.LapId
   name: LapId
   href: api/MESL.SqlRace.Domain.Lap.html#MESL_SqlRace_Domain_Lap_LapId
