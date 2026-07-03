@@ -714,6 +714,250 @@ issue with the licence (expired, not configured etc).</p>
       </tr>
     </tbody>
   </table>
+  <a id="MESL_SqlRace_Domain_SessionManager_CreateSessionWithGeneratedTeamId_" data-uid="MESL.SqlRace.Domain.SessionManager.CreateSessionWithGeneratedTeamId*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManager_CreateSessionWithGeneratedTeamId_System_String_MAT_OCS_Core_SessionKey_System_String_System_DateTime_System_String_System_String_System_String_" data-uid="MESL.SqlRace.Domain.SessionManager.CreateSessionWithGeneratedTeamId(System.String,MAT.OCS.Core.SessionKey,System.String,System.DateTime,System.String,System.String,System.String)">CreateSessionWithGeneratedTeamId(String, SessionKey, String, DateTime, String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Creates a session generating a team id based on licence owner.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IClientSession CreateSessionWithGeneratedTeamId(string connectionString, SessionKey key, string identifier, DateTime dateRecorded, string sessionType, string timeZoneUtc, string recorderFriendlyName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">MAT.OCS.Core.SessionKey</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>The identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">dateRecorded</span></td>
+        <td><p>The date recorded.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sessionType</span></td>
+        <td><p>Type of the session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">timeZoneUtc</span></td>
+        <td><p>Time zone shown in UTC format.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">recorderFriendlyName</span></td>
+        <td><p>Friendly name of the recorder.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.IClientSession.html">IClientSession</a></td>
+        <td><p>The created session.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_SessionManager_CreateSessionWithGivenTeamId_" data-uid="MESL.SqlRace.Domain.SessionManager.CreateSessionWithGivenTeamId*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManager_CreateSessionWithGivenTeamId_System_String_MAT_OCS_Core_SessionKey_System_String_System_DateTime_System_UInt32_System_String_System_String_" data-uid="MESL.SqlRace.Domain.SessionManager.CreateSessionWithGivenTeamId(System.String,MAT.OCS.Core.SessionKey,System.String,System.DateTime,System.UInt32,System.String,System.String)">CreateSessionWithGivenTeamId(String, SessionKey, String, DateTime, UInt32, String, String)</h4>
+  <div class="markdown level1 summary"><p>Creates the session with team id create session with team id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IClientSession CreateSessionWithGivenTeamId(string connectionString, SessionKey key, string identifier, DateTime dateRecorded, uint teamId, string sessionType, string timeZoneUtc)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">MAT.OCS.Core.SessionKey</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>The identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">dateRecorded</span></td>
+        <td><p>The date recorded.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">teamId</span></td>
+        <td><p>The team id.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sessionType</span></td>
+        <td><p>Type of the session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">timeZoneUtc</span></td>
+        <td><blockquote><p>Time zone shown in UTC format.</p>
+</blockquote>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.IClientSession.html">IClientSession</a></td>
+        <td><p>The created session.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_SessionManager_CreateSessionWithGivenTeamId_" data-uid="MESL.SqlRace.Domain.SessionManager.CreateSessionWithGivenTeamId*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionManager_CreateSessionWithGivenTeamId_System_String_MAT_OCS_Core_SessionKey_System_String_System_DateTime_System_UInt32_System_String_System_String_System_String_" data-uid="MESL.SqlRace.Domain.SessionManager.CreateSessionWithGivenTeamId(System.String,MAT.OCS.Core.SessionKey,System.String,System.DateTime,System.UInt32,System.String,System.String,System.String)">CreateSessionWithGivenTeamId(String, SessionKey, String, DateTime, UInt32, String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Creates the session with team id create session with team id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IClientSession CreateSessionWithGivenTeamId(string connectionString, SessionKey key, string identifier, DateTime dateRecorded, uint teamId, string sessionType, string timeZoneUtc, string recorderFriendlyName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">MAT.OCS.Core.SessionKey</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>The identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">dateRecorded</span></td>
+        <td><p>The date recorded.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">teamId</span></td>
+        <td><p>The team id.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sessionType</span></td>
+        <td><p>Type of the session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">timeZoneUtc</span></td>
+        <td><p>Time zone shown in UTC format.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">recorderFriendlyName</span></td>
+        <td><p>Friendly name of the recorder.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Domain.IClientSession.html">IClientSession</a></td>
+        <td><p>The created session.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="MESL_SqlRace_Domain_SessionManager_CreateSessionWithTeamId_" data-uid="MESL.SqlRace.Domain.SessionManager.CreateSessionWithTeamId*"></a>
   <h4 id="MESL_SqlRace_Domain_SessionManager_CreateSessionWithTeamId_MESL_SqlRace_Domain_ConnectionInformationBase_MAT_OCS_Core_SessionKey_System_String_System_DateTime_System_UInt32_System_String_" data-uid="MESL.SqlRace.Domain.SessionManager.CreateSessionWithTeamId(MESL.SqlRace.Domain.ConnectionInformationBase,MAT.OCS.Core.SessionKey,System.String,System.DateTime,System.UInt32,System.String)">CreateSessionWithTeamId(ConnectionInformationBase, SessionKey, String, DateTime, UInt32, String)</h4>
   <div class="markdown level1 summary"><p>Create a session with a teamId.</p>

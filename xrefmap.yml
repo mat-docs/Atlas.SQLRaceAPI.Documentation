@@ -35943,6 +35943,36 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.SessionManager.CreateSessionManager
   fullName: MESL.SqlRace.Domain.SessionManager.CreateSessionManager
   nameWithType: SessionManager.CreateSessionManager
+- uid: MESL.SqlRace.Domain.SessionManager.CreateSessionWithGeneratedTeamId(System.String,MAT.OCS.Core.SessionKey,System.String,System.DateTime,System.String,System.String,System.String)
+  name: CreateSessionWithGeneratedTeamId(String, SessionKey, String, DateTime, String, String, String)
+  href: api/MESL.SqlRace.Domain.SessionManager.html#MESL_SqlRace_Domain_SessionManager_CreateSessionWithGeneratedTeamId_System_String_MAT_OCS_Core_SessionKey_System_String_System_DateTime_System_String_System_String_System_String_
+  commentId: M:MESL.SqlRace.Domain.SessionManager.CreateSessionWithGeneratedTeamId(System.String,MAT.OCS.Core.SessionKey,System.String,System.DateTime,System.String,System.String,System.String)
+  fullName: MESL.SqlRace.Domain.SessionManager.CreateSessionWithGeneratedTeamId(System.String, MAT.OCS.Core.SessionKey, System.String, System.DateTime, System.String, System.String, System.String)
+  nameWithType: SessionManager.CreateSessionWithGeneratedTeamId(String, SessionKey, String, DateTime, String, String, String)
+- uid: MESL.SqlRace.Domain.SessionManager.CreateSessionWithGeneratedTeamId*
+  name: CreateSessionWithGeneratedTeamId
+  href: api/MESL.SqlRace.Domain.SessionManager.html#MESL_SqlRace_Domain_SessionManager_CreateSessionWithGeneratedTeamId_
+  commentId: Overload:MESL.SqlRace.Domain.SessionManager.CreateSessionWithGeneratedTeamId
+  fullName: MESL.SqlRace.Domain.SessionManager.CreateSessionWithGeneratedTeamId
+  nameWithType: SessionManager.CreateSessionWithGeneratedTeamId
+- uid: MESL.SqlRace.Domain.SessionManager.CreateSessionWithGivenTeamId(System.String,MAT.OCS.Core.SessionKey,System.String,System.DateTime,System.UInt32,System.String,System.String)
+  name: CreateSessionWithGivenTeamId(String, SessionKey, String, DateTime, UInt32, String, String)
+  href: api/MESL.SqlRace.Domain.SessionManager.html#MESL_SqlRace_Domain_SessionManager_CreateSessionWithGivenTeamId_System_String_MAT_OCS_Core_SessionKey_System_String_System_DateTime_System_UInt32_System_String_System_String_
+  commentId: M:MESL.SqlRace.Domain.SessionManager.CreateSessionWithGivenTeamId(System.String,MAT.OCS.Core.SessionKey,System.String,System.DateTime,System.UInt32,System.String,System.String)
+  fullName: MESL.SqlRace.Domain.SessionManager.CreateSessionWithGivenTeamId(System.String, MAT.OCS.Core.SessionKey, System.String, System.DateTime, System.UInt32, System.String, System.String)
+  nameWithType: SessionManager.CreateSessionWithGivenTeamId(String, SessionKey, String, DateTime, UInt32, String, String)
+- uid: MESL.SqlRace.Domain.SessionManager.CreateSessionWithGivenTeamId(System.String,MAT.OCS.Core.SessionKey,System.String,System.DateTime,System.UInt32,System.String,System.String,System.String)
+  name: CreateSessionWithGivenTeamId(String, SessionKey, String, DateTime, UInt32, String, String, String)
+  href: api/MESL.SqlRace.Domain.SessionManager.html#MESL_SqlRace_Domain_SessionManager_CreateSessionWithGivenTeamId_System_String_MAT_OCS_Core_SessionKey_System_String_System_DateTime_System_UInt32_System_String_System_String_System_String_
+  commentId: M:MESL.SqlRace.Domain.SessionManager.CreateSessionWithGivenTeamId(System.String,MAT.OCS.Core.SessionKey,System.String,System.DateTime,System.UInt32,System.String,System.String,System.String)
+  fullName: MESL.SqlRace.Domain.SessionManager.CreateSessionWithGivenTeamId(System.String, MAT.OCS.Core.SessionKey, System.String, System.DateTime, System.UInt32, System.String, System.String, System.String)
+  nameWithType: SessionManager.CreateSessionWithGivenTeamId(String, SessionKey, String, DateTime, UInt32, String, String, String)
+- uid: MESL.SqlRace.Domain.SessionManager.CreateSessionWithGivenTeamId*
+  name: CreateSessionWithGivenTeamId
+  href: api/MESL.SqlRace.Domain.SessionManager.html#MESL_SqlRace_Domain_SessionManager_CreateSessionWithGivenTeamId_
+  commentId: Overload:MESL.SqlRace.Domain.SessionManager.CreateSessionWithGivenTeamId
+  fullName: MESL.SqlRace.Domain.SessionManager.CreateSessionWithGivenTeamId
+  nameWithType: SessionManager.CreateSessionWithGivenTeamId
 - uid: MESL.SqlRace.Domain.SessionManager.CreateSessionWithTeamId(MESL.SqlRace.Domain.ConnectionInformationBase,MAT.OCS.Core.SessionKey,System.String,System.DateTime,System.UInt32,System.String)
   name: CreateSessionWithTeamId(ConnectionInformationBase, SessionKey, String, DateTime, UInt32, String)
   href: api/MESL.SqlRace.Domain.SessionManager.html#MESL_SqlRace_Domain_SessionManager_CreateSessionWithTeamId_MESL_SqlRace_Domain_ConnectionInformationBase_MAT_OCS_Core_SessionKey_System_String_System_DateTime_System_UInt32_System_String_
@@ -38612,6 +38642,12 @@ references:
   commentId: F:MESL.SqlRace.Domain.Sort.SessionFieldIdentifiers.StartTime
   fullName: MESL.SqlRace.Domain.Sort.SessionFieldIdentifiers.StartTime
   nameWithType: SessionFieldIdentifiers.StartTime
+- uid: MESL.SqlRace.Domain.Sort.SessionFieldIdentifiers.TimeZone
+  name: TimeZone
+  href: api/MESL.SqlRace.Domain.Sort.SessionFieldIdentifiers.html#MESL_SqlRace_Domain_Sort_SessionFieldIdentifiers_TimeZone
+  commentId: F:MESL.SqlRace.Domain.Sort.SessionFieldIdentifiers.TimeZone
+  fullName: MESL.SqlRace.Domain.Sort.SessionFieldIdentifiers.TimeZone
+  nameWithType: SessionFieldIdentifiers.TimeZone
 - uid: MESL.SqlRace.Domain.SortOrder
   name: SortOrder
   href: api/MESL.SqlRace.Domain.SortOrder.html
