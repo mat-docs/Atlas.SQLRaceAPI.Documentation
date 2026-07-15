@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/a/4/s/Mesl.SqlRace.DocFX",
+  "source_base_path": "C:/a/1/s/Mesl.SqlRace.DocFX",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -1840,11 +1840,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.Fdl.ParseTreeTraversalException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.Functions.Fdl.ParseTreeTraversalException.html",
+          "hash": "BAPvh0g5jJj5lSDD5NSLIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/MESL.SqlRace.Domain.Functions.Fdl.yml",
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.Functions.Fdl.html",
-          "hash": "++2bOU4ZY9Bfn/oVM7Z5rg=="
+          "hash": "QMRgSBrm2E6p00xqB/4uQw=="
         }
       },
       "is_incremental": false,
@@ -3441,6 +3453,18 @@
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.ItemErrorArgs.html",
           "hash": "8Dn26ByugXx0SEglbt/bCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Domain.LanguageTypeMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Domain.LanguageTypeMapper.html",
+          "hash": "nKW9b9MGfPWLTvVDZYWerQ=="
         }
       },
       "is_incremental": false,
@@ -5192,7 +5216,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.SessionTimerange.html",
-          "hash": "UosSOctg4zP8rqdSrdDnxQ=="
+          "hash": "Ew9bYdSpZQ0YY7GixPhPug=="
         }
       },
       "is_incremental": false,
@@ -5368,66 +5392,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.html",
-          "hash": "j9eboB/3Iogie/RDzZPn2A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.html",
-          "hash": "uxNyf+9DXuootpCW+CdXYQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html",
-          "hash": "TwaVe0HlH0QeNj6VAl807Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.html",
-          "hash": "uajtoEUKCihoqHyWiw0rbQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MESL.SqlRace.Domain.VirtualParameters.IFindTokens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MESL.SqlRace.Domain.VirtualParameters.IFindTokens.html",
-          "hash": "yEuRmkAbnAW82xoKgJTEKw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/api/MESL.SqlRace.Domain.VirtualParameters.IProvideHierarchy.yml",
       "output": {
         ".html": {
@@ -5464,42 +5428,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/MESL.SqlRace.Domain.VirtualParameters.IVirtualParameterCompiler.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MESL.SqlRace.Domain.VirtualParameters.IVirtualParameterCompiler.html",
-          "hash": "pvdh8pihsBZQJT3QI2ssNQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MESL.SqlRace.Domain.VirtualParameters.IVirtualTemplate.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MESL.SqlRace.Domain.VirtualParameters.IVirtualTemplate.html",
-          "hash": "aAV69NmTh3EsaaFUxkuPGQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MESL.SqlRace.Domain.VirtualParameters.NumberFinder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MESL.SqlRace.Domain.VirtualParameters.NumberFinder.html",
-          "hash": "XtvDWNUKkNhB/DSOoVRmlg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/api/MESL.SqlRace.Domain.VirtualParameters.PdaType.yml",
       "output": {
         ".html": {
@@ -5517,18 +5445,6 @@
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.VirtualParameters.VirtualInputParameter.html",
           "hash": "+VeexmyshAcnFLk++75AYg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MESL.SqlRace.Domain.VirtualParameters.VirtualParameterContext.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MESL.SqlRace.Domain.VirtualParameters.VirtualParameterContext.html",
-          "hash": "dCbtwsO9zNjHWwYbB8C2DQ=="
         }
       },
       "is_incremental": false,
@@ -5584,18 +5500,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/MESL.SqlRace.Domain.VirtualParameters.VirtualParameterRunner.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MESL.SqlRace.Domain.VirtualParameters.VirtualParameterRunner.html",
-          "hash": "UUfA9Ivd/FqPTUwhKFu/9g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/api/MESL.SqlRace.Domain.VirtualParameters.VirtualSample.yml",
       "output": {
         ".html": {
@@ -5612,7 +5516,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.VirtualParameters.html",
-          "hash": "okcfV5PmEQQ6hOIZhALIww=="
+          "hash": "upAHDIfL5T4P5bsiEYBFRg=="
         }
       },
       "is_incremental": false,
@@ -5720,7 +5624,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Domain.html",
-          "hash": "GzoJPhIXC6xlN4CHkLG9yQ=="
+          "hash": "pIJCX+RN6nvj3Y7Orj3AIg=="
         }
       },
       "is_incremental": false,
@@ -5924,7 +5828,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Enumerators.LanguageType.html",
-          "hash": "GUxzgz3hdVn7JnXro2rqaw=="
+          "hash": "VfuSEQxmm4hKEpC4CTHuWA=="
         }
       },
       "is_incremental": false,
@@ -6056,7 +5960,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "c0EKP8FDSfdKegwOFUd8Iw=="
+          "hash": "huSf9KYkzI6GCuLWHcwgZQ=="
         }
       },
       "is_incremental": false,
@@ -6095,7 +5999,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 499,
+          "total_file_count": 491,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

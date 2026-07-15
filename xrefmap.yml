@@ -14177,6 +14177,24 @@ references:
   fullName.vb: MESL.SqlRace.Domain.Functions.Fdl.LazilySizedArray(Of T).Length
   nameWithType: LazilySizedArray<T>.Length
   nameWithType.vb: LazilySizedArray(Of T).Length
+- uid: MESL.SqlRace.Domain.Functions.Fdl.ParseTreeTraversalException
+  name: ParseTreeTraversalException
+  href: api/MESL.SqlRace.Domain.Functions.Fdl.ParseTreeTraversalException.html
+  commentId: T:MESL.SqlRace.Domain.Functions.Fdl.ParseTreeTraversalException
+  fullName: MESL.SqlRace.Domain.Functions.Fdl.ParseTreeTraversalException
+  nameWithType: ParseTreeTraversalException
+- uid: MESL.SqlRace.Domain.Functions.Fdl.ParseTreeTraversalException.#ctor(System.String)
+  name: ParseTreeTraversalException(String)
+  href: api/MESL.SqlRace.Domain.Functions.Fdl.ParseTreeTraversalException.html#MESL_SqlRace_Domain_Functions_Fdl_ParseTreeTraversalException__ctor_System_String_
+  commentId: M:MESL.SqlRace.Domain.Functions.Fdl.ParseTreeTraversalException.#ctor(System.String)
+  fullName: MESL.SqlRace.Domain.Functions.Fdl.ParseTreeTraversalException.ParseTreeTraversalException(System.String)
+  nameWithType: ParseTreeTraversalException.ParseTreeTraversalException(String)
+- uid: MESL.SqlRace.Domain.Functions.Fdl.ParseTreeTraversalException.#ctor*
+  name: ParseTreeTraversalException
+  href: api/MESL.SqlRace.Domain.Functions.Fdl.ParseTreeTraversalException.html#MESL_SqlRace_Domain_Functions_Fdl_ParseTreeTraversalException__ctor_
+  commentId: Overload:MESL.SqlRace.Domain.Functions.Fdl.ParseTreeTraversalException.#ctor
+  fullName: MESL.SqlRace.Domain.Functions.Fdl.ParseTreeTraversalException.ParseTreeTraversalException
+  nameWithType: ParseTreeTraversalException.ParseTreeTraversalException
 - uid: MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess
   name: FixedValueParameterDataAccess
   href: api/MESL.SqlRace.Domain.Functions.FixedValueParameterDataAccess.html
@@ -24534,6 +24552,36 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.ItemErrorArgs.SessionKey
   fullName: MESL.SqlRace.Domain.ItemErrorArgs.SessionKey
   nameWithType: ItemErrorArgs.SessionKey
+- uid: MESL.SqlRace.Domain.LanguageTypeMapper
+  name: LanguageTypeMapper
+  href: api/MESL.SqlRace.Domain.LanguageTypeMapper.html
+  commentId: T:MESL.SqlRace.Domain.LanguageTypeMapper
+  fullName: MESL.SqlRace.Domain.LanguageTypeMapper
+  nameWithType: LanguageTypeMapper
+- uid: MESL.SqlRace.Domain.LanguageTypeMapper.ToMa(MESL.SqlRace.Enumerators.LanguageType)
+  name: ToMa(LanguageType)
+  href: api/MESL.SqlRace.Domain.LanguageTypeMapper.html#MESL_SqlRace_Domain_LanguageTypeMapper_ToMa_MESL_SqlRace_Enumerators_LanguageType_
+  commentId: M:MESL.SqlRace.Domain.LanguageTypeMapper.ToMa(MESL.SqlRace.Enumerators.LanguageType)
+  fullName: MESL.SqlRace.Domain.LanguageTypeMapper.ToMa(MESL.SqlRace.Enumerators.LanguageType)
+  nameWithType: LanguageTypeMapper.ToMa(LanguageType)
+- uid: MESL.SqlRace.Domain.LanguageTypeMapper.ToMa*
+  name: ToMa
+  href: api/MESL.SqlRace.Domain.LanguageTypeMapper.html#MESL_SqlRace_Domain_LanguageTypeMapper_ToMa_
+  commentId: Overload:MESL.SqlRace.Domain.LanguageTypeMapper.ToMa
+  fullName: MESL.SqlRace.Domain.LanguageTypeMapper.ToMa
+  nameWithType: LanguageTypeMapper.ToMa
+- uid: MESL.SqlRace.Domain.LanguageTypeMapper.ToMesl(MA.DataPlatforms.Functions.Common.LanguageType)
+  name: ToMesl(LanguageType)
+  href: api/MESL.SqlRace.Domain.LanguageTypeMapper.html#MESL_SqlRace_Domain_LanguageTypeMapper_ToMesl_MA_DataPlatforms_Functions_Common_LanguageType_
+  commentId: M:MESL.SqlRace.Domain.LanguageTypeMapper.ToMesl(MA.DataPlatforms.Functions.Common.LanguageType)
+  fullName: MESL.SqlRace.Domain.LanguageTypeMapper.ToMesl(MA.DataPlatforms.Functions.Common.LanguageType)
+  nameWithType: LanguageTypeMapper.ToMesl(LanguageType)
+- uid: MESL.SqlRace.Domain.LanguageTypeMapper.ToMesl*
+  name: ToMesl
+  href: api/MESL.SqlRace.Domain.LanguageTypeMapper.html#MESL_SqlRace_Domain_LanguageTypeMapper_ToMesl_
+  commentId: Overload:MESL.SqlRace.Domain.LanguageTypeMapper.ToMesl
+  fullName: MESL.SqlRace.Domain.LanguageTypeMapper.ToMesl
+  nameWithType: LanguageTypeMapper.ToMesl
 - uid: MESL.SqlRace.Domain.Lap
   name: Lap
   href: api/MESL.SqlRace.Domain.Lap.html
@@ -38375,12 +38423,12 @@ references:
   commentId: T:MESL.SqlRace.Domain.SessionTimerange
   fullName: MESL.SqlRace.Domain.SessionTimerange
   nameWithType: SessionTimerange
-- uid: MESL.SqlRace.Domain.SessionTimerange.#ctor(MAT.OCS.Core.SessionKey,System.Int64,System.Int64)
-  name: SessionTimerange(SessionKey, Int64, Int64)
-  href: api/MESL.SqlRace.Domain.SessionTimerange.html#MESL_SqlRace_Domain_SessionTimerange__ctor_MAT_OCS_Core_SessionKey_System_Int64_System_Int64_
-  commentId: M:MESL.SqlRace.Domain.SessionTimerange.#ctor(MAT.OCS.Core.SessionKey,System.Int64,System.Int64)
-  fullName: MESL.SqlRace.Domain.SessionTimerange.SessionTimerange(MAT.OCS.Core.SessionKey, System.Int64, System.Int64)
-  nameWithType: SessionTimerange.SessionTimerange(SessionKey, Int64, Int64)
+- uid: MESL.SqlRace.Domain.SessionTimerange.#ctor(MAT.OCS.Core.SessionKey,System.Int64,System.Int64,System.Double)
+  name: SessionTimerange(SessionKey, Int64, Int64, Double)
+  href: api/MESL.SqlRace.Domain.SessionTimerange.html#MESL_SqlRace_Domain_SessionTimerange__ctor_MAT_OCS_Core_SessionKey_System_Int64_System_Int64_System_Double_
+  commentId: M:MESL.SqlRace.Domain.SessionTimerange.#ctor(MAT.OCS.Core.SessionKey,System.Int64,System.Int64,System.Double)
+  fullName: MESL.SqlRace.Domain.SessionTimerange.SessionTimerange(MAT.OCS.Core.SessionKey, System.Int64, System.Int64, System.Double)
+  nameWithType: SessionTimerange.SessionTimerange(SessionKey, Int64, Int64, Double)
 - uid: MESL.SqlRace.Domain.SessionTimerange.#ctor*
   name: SessionTimerange
   href: api/MESL.SqlRace.Domain.SessionTimerange.html#MESL_SqlRace_Domain_SessionTimerange__ctor_
@@ -38399,6 +38447,18 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.SessionTimerange.EndTime
   fullName: MESL.SqlRace.Domain.SessionTimerange.EndTime
   nameWithType: SessionTimerange.EndTime
+- uid: MESL.SqlRace.Domain.SessionTimerange.MaximumFrequency
+  name: MaximumFrequency
+  href: api/MESL.SqlRace.Domain.SessionTimerange.html#MESL_SqlRace_Domain_SessionTimerange_MaximumFrequency
+  commentId: P:MESL.SqlRace.Domain.SessionTimerange.MaximumFrequency
+  fullName: MESL.SqlRace.Domain.SessionTimerange.MaximumFrequency
+  nameWithType: SessionTimerange.MaximumFrequency
+- uid: MESL.SqlRace.Domain.SessionTimerange.MaximumFrequency*
+  name: MaximumFrequency
+  href: api/MESL.SqlRace.Domain.SessionTimerange.html#MESL_SqlRace_Domain_SessionTimerange_MaximumFrequency_
+  commentId: Overload:MESL.SqlRace.Domain.SessionTimerange.MaximumFrequency
+  fullName: MESL.SqlRace.Domain.SessionTimerange.MaximumFrequency
+  nameWithType: SessionTimerange.MaximumFrequency
 - uid: MESL.SqlRace.Domain.SessionTimerange.SessionKey
   name: SessionKey
   href: api/MESL.SqlRace.Domain.SessionTimerange.html#MESL_SqlRace_Domain_SessionTimerange_SessionKey
@@ -39476,420 +39536,6 @@ references:
   commentId: N:MESL.SqlRace.Domain.VirtualParameters
   fullName: MESL.SqlRace.Domain.VirtualParameters
   nameWithType: MESL.SqlRace.Domain.VirtualParameters
-- uid: MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter
-  name: MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.html
-  commentId: N:MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter
-  nameWithType: MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter
-- uid: MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException
-  name: FdlSharpSyntaxErrorException
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.html
-  commentId: T:MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException
-  nameWithType: FdlSharpSyntaxErrorException
-- uid: MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.#ctor
-  name: FdlSharpSyntaxErrorException()
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.html#MESL_SqlRace_Domain_VirtualParameters_FDLLanguageConverter_FdlSharpSyntaxErrorException__ctor
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.#ctor
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.FdlSharpSyntaxErrorException()
-  nameWithType: FdlSharpSyntaxErrorException.FdlSharpSyntaxErrorException()
-- uid: MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.#ctor(System.String)
-  name: FdlSharpSyntaxErrorException(String)
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.html#MESL_SqlRace_Domain_VirtualParameters_FDLLanguageConverter_FdlSharpSyntaxErrorException__ctor_System_String_
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.#ctor(System.String)
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.FdlSharpSyntaxErrorException(System.String)
-  nameWithType: FdlSharpSyntaxErrorException.FdlSharpSyntaxErrorException(String)
-- uid: MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.#ctor(System.String,System.Exception)
-  name: FdlSharpSyntaxErrorException(String, Exception)
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.html#MESL_SqlRace_Domain_VirtualParameters_FDLLanguageConverter_FdlSharpSyntaxErrorException__ctor_System_String_System_Exception_
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.#ctor(System.String,System.Exception)
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.FdlSharpSyntaxErrorException(System.String, System.Exception)
-  nameWithType: FdlSharpSyntaxErrorException.FdlSharpSyntaxErrorException(String, Exception)
-- uid: MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.#ctor*
-  name: FdlSharpSyntaxErrorException
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.html#MESL_SqlRace_Domain_VirtualParameters_FDLLanguageConverter_FdlSharpSyntaxErrorException__ctor_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.#ctor
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.FdlSharpSyntaxErrorException
-  nameWithType: FdlSharpSyntaxErrorException.FdlSharpSyntaxErrorException
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp
-  name: MESL.SqlRace.Domain.VirtualParameters.FdlSharp
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.html
-  commentId: N:MESL.SqlRace.Domain.VirtualParameters.FdlSharp
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp
-  nameWithType: MESL.SqlRace.Domain.VirtualParameters.FdlSharp
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors
-  name: SfdlProcessors
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html
-  commentId: T:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors
-  nameWithType: SfdlProcessors
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.#ctor
-  name: SfdlProcessors()
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors__ctor
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.#ctor
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.SfdlProcessors()
-  nameWithType: SfdlProcessors.SfdlProcessors()
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.#ctor*
-  name: SfdlProcessors
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors__ctor_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.#ctor
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.SfdlProcessors
-  nameWithType: SfdlProcessors.SfdlProcessors
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.abs(System.Double)
-  name: abs(Double)
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_abs_System_Double_
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.abs(System.Double)
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.abs(System.Double)
-  nameWithType: SfdlProcessors.abs(Double)
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.abs*
-  name: abs
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_abs_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.abs
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.abs
-  nameWithType: SfdlProcessors.abs
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.acos(System.Double)
-  name: acos(Double)
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_acos_System_Double_
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.acos(System.Double)
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.acos(System.Double)
-  nameWithType: SfdlProcessors.acos(Double)
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.acos*
-  name: acos
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_acos_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.acos
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.acos
-  nameWithType: SfdlProcessors.acos
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.asin(System.Double)
-  name: asin(Double)
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_asin_System_Double_
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.asin(System.Double)
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.asin(System.Double)
-  nameWithType: SfdlProcessors.asin(Double)
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.asin*
-  name: asin
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_asin_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.asin
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.asin
-  nameWithType: SfdlProcessors.asin
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.atan(System.Double)
-  name: atan(Double)
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_atan_System_Double_
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.atan(System.Double)
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.atan(System.Double)
-  nameWithType: SfdlProcessors.atan(Double)
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.atan*
-  name: atan
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_atan_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.atan
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.atan
-  nameWithType: SfdlProcessors.atan
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.atan2(System.Double,System.Double)
-  name: atan2(Double, Double)
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_atan2_System_Double_System_Double_
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.atan2(System.Double,System.Double)
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.atan2(System.Double, System.Double)
-  nameWithType: SfdlProcessors.atan2(Double, Double)
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.atan2*
-  name: atan2
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_atan2_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.atan2
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.atan2
-  nameWithType: SfdlProcessors.atan2
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.BitOfWord(System.Double,System.Double)
-  name: BitOfWord(Double, Double)
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_BitOfWord_System_Double_System_Double_
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.BitOfWord(System.Double,System.Double)
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.BitOfWord(System.Double, System.Double)
-  nameWithType: SfdlProcessors.BitOfWord(Double, Double)
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.BitOfWord(System.Double,System.Int32)
-  name: BitOfWord(Double, Int32)
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_BitOfWord_System_Double_System_Int32_
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.BitOfWord(System.Double,System.Int32)
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.BitOfWord(System.Double, System.Int32)
-  nameWithType: SfdlProcessors.BitOfWord(Double, Int32)
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.BitOfWord*
-  name: BitOfWord
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_BitOfWord_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.BitOfWord
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.BitOfWord
-  nameWithType: SfdlProcessors.BitOfWord
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.cos(System.Double)
-  name: cos(Double)
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_cos_System_Double_
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.cos(System.Double)
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.cos(System.Double)
-  nameWithType: SfdlProcessors.cos(Double)
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.cos*
-  name: cos
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_cos_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.cos
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.cos
-  nameWithType: SfdlProcessors.cos
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.cosh(System.Double)
-  name: cosh(Double)
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_cosh_System_Double_
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.cosh(System.Double)
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.cosh(System.Double)
-  nameWithType: SfdlProcessors.cosh(Double)
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.cosh*
-  name: cosh
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_cosh_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.cosh
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.cosh
-  nameWithType: SfdlProcessors.cosh
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.div(System.Double,System.Double)
-  name: div(Double, Double)
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_div_System_Double_System_Double_
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.div(System.Double,System.Double)
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.div(System.Double, System.Double)
-  nameWithType: SfdlProcessors.div(Double, Double)
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.div*
-  name: div
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_div_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.div
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.div
-  nameWithType: SfdlProcessors.div
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.eps
-  name: eps()
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_eps
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.eps
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.eps()
-  nameWithType: SfdlProcessors.eps()
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.eps*
-  name: eps
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_eps_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.eps
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.eps
-  nameWithType: SfdlProcessors.eps
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.exp(System.Double)
-  name: exp(Double)
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_exp_System_Double_
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.exp(System.Double)
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.exp(System.Double)
-  nameWithType: SfdlProcessors.exp(Double)
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.exp*
-  name: exp
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_exp_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.exp
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.exp
-  nameWithType: SfdlProcessors.exp
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.floor(System.Double)
-  name: floor(Double)
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_floor_System_Double_
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.floor(System.Double)
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.floor(System.Double)
-  nameWithType: SfdlProcessors.floor(Double)
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.floor*
-  name: floor
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_floor_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.floor
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.floor
-  nameWithType: SfdlProcessors.floor
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.fmod(System.Double,System.Double)
-  name: fmod(Double, Double)
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_fmod_System_Double_System_Double_
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.fmod(System.Double,System.Double)
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.fmod(System.Double, System.Double)
-  nameWithType: SfdlProcessors.fmod(Double, Double)
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.fmod*
-  name: fmod
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_fmod_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.fmod
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.fmod
-  nameWithType: SfdlProcessors.fmod
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.ln(System.Double)
-  name: ln(Double)
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_ln_System_Double_
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.ln(System.Double)
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.ln(System.Double)
-  nameWithType: SfdlProcessors.ln(Double)
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.ln*
-  name: ln
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_ln_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.ln
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.ln
-  nameWithType: SfdlProcessors.ln
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.log(System.Double)
-  name: log(Double)
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_log_System_Double_
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.log(System.Double)
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.log(System.Double)
-  nameWithType: SfdlProcessors.log(Double)
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.log*
-  name: log
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_log_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.log
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.log
-  nameWithType: SfdlProcessors.log
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.max(System.Double,System.Double)
-  name: max(Double, Double)
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_max_System_Double_System_Double_
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.max(System.Double,System.Double)
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.max(System.Double, System.Double)
-  nameWithType: SfdlProcessors.max(Double, Double)
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.max*
-  name: max
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_max_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.max
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.max
-  nameWithType: SfdlProcessors.max
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.min(System.Double,System.Double)
-  name: min(Double, Double)
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_min_System_Double_System_Double_
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.min(System.Double,System.Double)
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.min(System.Double, System.Double)
-  nameWithType: SfdlProcessors.min(Double, Double)
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.min*
-  name: min
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_min_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.min
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.min
-  nameWithType: SfdlProcessors.min
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.mod(System.Double,System.Double)
-  name: mod(Double, Double)
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_mod_System_Double_System_Double_
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.mod(System.Double,System.Double)
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.mod(System.Double, System.Double)
-  nameWithType: SfdlProcessors.mod(Double, Double)
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.mod*
-  name: mod
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_mod_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.mod
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.mod
-  nameWithType: SfdlProcessors.mod
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.NoLog(System.Double)
-  name: NoLog(Double)
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_NoLog_System_Double_
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.NoLog(System.Double)
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.NoLog(System.Double)
-  nameWithType: SfdlProcessors.NoLog(Double)
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.NoLog*
-  name: NoLog
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_NoLog_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.NoLog
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.NoLog
-  nameWithType: SfdlProcessors.NoLog
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.not(System.Boolean)
-  name: not(Boolean)
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_not_System_Boolean_
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.not(System.Boolean)
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.not(System.Boolean)
-  nameWithType: SfdlProcessors.not(Boolean)
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.not(System.Double)
-  name: not(Double)
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_not_System_Double_
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.not(System.Double)
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.not(System.Double)
-  nameWithType: SfdlProcessors.not(Double)
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.not*
-  name: not
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_not_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.not
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.not
-  nameWithType: SfdlProcessors.not
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.pi
-  name: pi
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_pi
-  commentId: P:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.pi
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.pi
-  nameWithType: SfdlProcessors.pi
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.pi*
-  name: pi
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_pi_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.pi
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.pi
-  nameWithType: SfdlProcessors.pi
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.pow(System.Double,System.Double)
-  name: pow(Double, Double)
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_pow_System_Double_System_Double_
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.pow(System.Double,System.Double)
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.pow(System.Double, System.Double)
-  nameWithType: SfdlProcessors.pow(Double, Double)
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.pow*
-  name: pow
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_pow_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.pow
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.pow
-  nameWithType: SfdlProcessors.pow
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.sin(System.Double)
-  name: sin(Double)
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_sin_System_Double_
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.sin(System.Double)
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.sin(System.Double)
-  nameWithType: SfdlProcessors.sin(Double)
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.sin*
-  name: sin
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_sin_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.sin
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.sin
-  nameWithType: SfdlProcessors.sin
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.sinh(System.Double)
-  name: sinh(Double)
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_sinh_System_Double_
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.sinh(System.Double)
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.sinh(System.Double)
-  nameWithType: SfdlProcessors.sinh(Double)
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.sinh*
-  name: sinh
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_sinh_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.sinh
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.sinh
-  nameWithType: SfdlProcessors.sinh
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.sqrt(System.Double)
-  name: sqrt(Double)
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_sqrt_System_Double_
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.sqrt(System.Double)
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.sqrt(System.Double)
-  nameWithType: SfdlProcessors.sqrt(Double)
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.sqrt*
-  name: sqrt
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_sqrt_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.sqrt
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.sqrt
-  nameWithType: SfdlProcessors.sqrt
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.tan(System.Double)
-  name: tan(Double)
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_tan_System_Double_
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.tan(System.Double)
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.tan(System.Double)
-  nameWithType: SfdlProcessors.tan(Double)
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.tan*
-  name: tan
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_tan_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.tan
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.tan
-  nameWithType: SfdlProcessors.tan
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.tanh(System.Double)
-  name: tanh(Double)
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_tanh_System_Double_
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.tanh(System.Double)
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.tanh(System.Double)
-  nameWithType: SfdlProcessors.tanh(Double)
-- uid: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.tanh*
-  name: tanh
-  href: api/MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.html#MESL_SqlRace_Domain_VirtualParameters_FdlSharp_SfdlProcessors_tanh_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.tanh
-  fullName: MESL.SqlRace.Domain.VirtualParameters.FdlSharp.SfdlProcessors.tanh
-  nameWithType: SfdlProcessors.tanh
-- uid: MESL.SqlRace.Domain.VirtualParameters.IFindTokens
-  name: IFindTokens
-  href: api/MESL.SqlRace.Domain.VirtualParameters.IFindTokens.html
-  commentId: T:MESL.SqlRace.Domain.VirtualParameters.IFindTokens
-  fullName: MESL.SqlRace.Domain.VirtualParameters.IFindTokens
-  nameWithType: IFindTokens
-- uid: MESL.SqlRace.Domain.VirtualParameters.IFindTokens.Find(System.Boolean,System.String)
-  name: Find(Boolean, String)
-  href: api/MESL.SqlRace.Domain.VirtualParameters.IFindTokens.html#MESL_SqlRace_Domain_VirtualParameters_IFindTokens_Find_System_Boolean_System_String_
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.IFindTokens.Find(System.Boolean,System.String)
-  fullName: MESL.SqlRace.Domain.VirtualParameters.IFindTokens.Find(System.Boolean, System.String)
-  nameWithType: IFindTokens.Find(Boolean, String)
-- uid: MESL.SqlRace.Domain.VirtualParameters.IFindTokens.Find*
-  name: Find
-  href: api/MESL.SqlRace.Domain.VirtualParameters.IFindTokens.html#MESL_SqlRace_Domain_VirtualParameters_IFindTokens_Find_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.IFindTokens.Find
-  fullName: MESL.SqlRace.Domain.VirtualParameters.IFindTokens.Find
-  nameWithType: IFindTokens.Find
 - uid: MESL.SqlRace.Domain.VirtualParameters.IProvideHierarchy
   name: IProvideHierarchy
   href: api/MESL.SqlRace.Domain.VirtualParameters.IProvideHierarchy.html
@@ -40100,87 +39746,6 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.IVirtualInput.Value
   fullName: MESL.SqlRace.Domain.VirtualParameters.IVirtualInput.Value
   nameWithType: IVirtualInput.Value
-- uid: MESL.SqlRace.Domain.VirtualParameters.IVirtualParameterCompiler
-  name: IVirtualParameterCompiler
-  href: api/MESL.SqlRace.Domain.VirtualParameters.IVirtualParameterCompiler.html
-  commentId: T:MESL.SqlRace.Domain.VirtualParameters.IVirtualParameterCompiler
-  fullName: MESL.SqlRace.Domain.VirtualParameters.IVirtualParameterCompiler
-  nameWithType: IVirtualParameterCompiler
-- uid: MESL.SqlRace.Domain.VirtualParameters.IVirtualParameterCompiler.GetExecutingFunction(System.String)
-  name: GetExecutingFunction(String)
-  href: api/MESL.SqlRace.Domain.VirtualParameters.IVirtualParameterCompiler.html#MESL_SqlRace_Domain_VirtualParameters_IVirtualParameterCompiler_GetExecutingFunction_System_String_
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.IVirtualParameterCompiler.GetExecutingFunction(System.String)
-  fullName: MESL.SqlRace.Domain.VirtualParameters.IVirtualParameterCompiler.GetExecutingFunction(System.String)
-  nameWithType: IVirtualParameterCompiler.GetExecutingFunction(String)
-- uid: MESL.SqlRace.Domain.VirtualParameters.IVirtualParameterCompiler.GetExecutingFunction*
-  name: GetExecutingFunction
-  href: api/MESL.SqlRace.Domain.VirtualParameters.IVirtualParameterCompiler.html#MESL_SqlRace_Domain_VirtualParameters_IVirtualParameterCompiler_GetExecutingFunction_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.IVirtualParameterCompiler.GetExecutingFunction
-  fullName: MESL.SqlRace.Domain.VirtualParameters.IVirtualParameterCompiler.GetExecutingFunction
-  nameWithType: IVirtualParameterCompiler.GetExecutingFunction
-- uid: MESL.SqlRace.Domain.VirtualParameters.IVirtualTemplate
-  name: IVirtualTemplate
-  href: api/MESL.SqlRace.Domain.VirtualParameters.IVirtualTemplate.html
-  commentId: T:MESL.SqlRace.Domain.VirtualParameters.IVirtualTemplate
-  fullName: MESL.SqlRace.Domain.VirtualParameters.IVirtualTemplate
-  nameWithType: IVirtualTemplate
-- uid: MESL.SqlRace.Domain.VirtualParameters.IVirtualTemplate.GetValue(System.Int64,System.Double[])
-  name: GetValue(Int64, Double[])
-  href: api/MESL.SqlRace.Domain.VirtualParameters.IVirtualTemplate.html#MESL_SqlRace_Domain_VirtualParameters_IVirtualTemplate_GetValue_System_Int64_System_Double___
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.IVirtualTemplate.GetValue(System.Int64,System.Double[])
-  name.vb: GetValue(Int64, Double())
-  fullName: MESL.SqlRace.Domain.VirtualParameters.IVirtualTemplate.GetValue(System.Int64, System.Double[])
-  fullName.vb: MESL.SqlRace.Domain.VirtualParameters.IVirtualTemplate.GetValue(System.Int64, System.Double())
-  nameWithType: IVirtualTemplate.GetValue(Int64, Double[])
-  nameWithType.vb: IVirtualTemplate.GetValue(Int64, Double())
-- uid: MESL.SqlRace.Domain.VirtualParameters.IVirtualTemplate.GetValue*
-  name: GetValue
-  href: api/MESL.SqlRace.Domain.VirtualParameters.IVirtualTemplate.html#MESL_SqlRace_Domain_VirtualParameters_IVirtualTemplate_GetValue_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.IVirtualTemplate.GetValue
-  fullName: MESL.SqlRace.Domain.VirtualParameters.IVirtualTemplate.GetValue
-  nameWithType: IVirtualTemplate.GetValue
-- uid: MESL.SqlRace.Domain.VirtualParameters.IVirtualTemplate.Inputs
-  name: Inputs
-  href: api/MESL.SqlRace.Domain.VirtualParameters.IVirtualTemplate.html#MESL_SqlRace_Domain_VirtualParameters_IVirtualTemplate_Inputs
-  commentId: P:MESL.SqlRace.Domain.VirtualParameters.IVirtualTemplate.Inputs
-  fullName: MESL.SqlRace.Domain.VirtualParameters.IVirtualTemplate.Inputs
-  nameWithType: IVirtualTemplate.Inputs
-- uid: MESL.SqlRace.Domain.VirtualParameters.IVirtualTemplate.Inputs*
-  name: Inputs
-  href: api/MESL.SqlRace.Domain.VirtualParameters.IVirtualTemplate.html#MESL_SqlRace_Domain_VirtualParameters_IVirtualTemplate_Inputs_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.IVirtualTemplate.Inputs
-  fullName: MESL.SqlRace.Domain.VirtualParameters.IVirtualTemplate.Inputs
-  nameWithType: IVirtualTemplate.Inputs
-- uid: MESL.SqlRace.Domain.VirtualParameters.NumberFinder
-  name: NumberFinder
-  href: api/MESL.SqlRace.Domain.VirtualParameters.NumberFinder.html
-  commentId: T:MESL.SqlRace.Domain.VirtualParameters.NumberFinder
-  fullName: MESL.SqlRace.Domain.VirtualParameters.NumberFinder
-  nameWithType: NumberFinder
-- uid: MESL.SqlRace.Domain.VirtualParameters.NumberFinder.#ctor
-  name: NumberFinder()
-  href: api/MESL.SqlRace.Domain.VirtualParameters.NumberFinder.html#MESL_SqlRace_Domain_VirtualParameters_NumberFinder__ctor
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.NumberFinder.#ctor
-  fullName: MESL.SqlRace.Domain.VirtualParameters.NumberFinder.NumberFinder()
-  nameWithType: NumberFinder.NumberFinder()
-- uid: MESL.SqlRace.Domain.VirtualParameters.NumberFinder.#ctor*
-  name: NumberFinder
-  href: api/MESL.SqlRace.Domain.VirtualParameters.NumberFinder.html#MESL_SqlRace_Domain_VirtualParameters_NumberFinder__ctor_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.NumberFinder.#ctor
-  fullName: MESL.SqlRace.Domain.VirtualParameters.NumberFinder.NumberFinder
-  nameWithType: NumberFinder.NumberFinder
-- uid: MESL.SqlRace.Domain.VirtualParameters.NumberFinder.Find(System.Boolean,System.String)
-  name: Find(Boolean, String)
-  href: api/MESL.SqlRace.Domain.VirtualParameters.NumberFinder.html#MESL_SqlRace_Domain_VirtualParameters_NumberFinder_Find_System_Boolean_System_String_
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.NumberFinder.Find(System.Boolean,System.String)
-  fullName: MESL.SqlRace.Domain.VirtualParameters.NumberFinder.Find(System.Boolean, System.String)
-  nameWithType: NumberFinder.Find(Boolean, String)
-- uid: MESL.SqlRace.Domain.VirtualParameters.NumberFinder.Find*
-  name: Find
-  href: api/MESL.SqlRace.Domain.VirtualParameters.NumberFinder.html#MESL_SqlRace_Domain_VirtualParameters_NumberFinder_Find_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.NumberFinder.Find
-  fullName: MESL.SqlRace.Domain.VirtualParameters.NumberFinder.Find
-  nameWithType: NumberFinder.Find
 - uid: MESL.SqlRace.Domain.VirtualParameters.PdaType
   name: PdaType
   href: api/MESL.SqlRace.Domain.VirtualParameters.PdaType.html
@@ -40349,48 +39914,6 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.VirtualInputParameter.Value
   fullName: MESL.SqlRace.Domain.VirtualParameters.VirtualInputParameter.Value
   nameWithType: VirtualInputParameter.Value
-- uid: MESL.SqlRace.Domain.VirtualParameters.VirtualParameterContext
-  name: VirtualParameterContext
-  href: api/MESL.SqlRace.Domain.VirtualParameters.VirtualParameterContext.html
-  commentId: T:MESL.SqlRace.Domain.VirtualParameters.VirtualParameterContext
-  fullName: MESL.SqlRace.Domain.VirtualParameters.VirtualParameterContext
-  nameWithType: VirtualParameterContext
-- uid: MESL.SqlRace.Domain.VirtualParameters.VirtualParameterContext.#ctor(System.String,MESL.SqlRace.Domain.VirtualParameters.ITokenTransformer,MESL.SqlRace.Domain.VirtualParameters.ITokenTransformer,MESL.SqlRace.Domain.VirtualParameters.ITokenTransformer,MESL.SqlRace.Domain.VirtualParameters.ITokenTransformer)
-  name: VirtualParameterContext(String, ITokenTransformer, ITokenTransformer, ITokenTransformer, ITokenTransformer)
-  href: api/MESL.SqlRace.Domain.VirtualParameters.VirtualParameterContext.html#MESL_SqlRace_Domain_VirtualParameters_VirtualParameterContext__ctor_System_String_MESL_SqlRace_Domain_VirtualParameters_ITokenTransformer_MESL_SqlRace_Domain_VirtualParameters_ITokenTransformer_MESL_SqlRace_Domain_VirtualParameters_ITokenTransformer_MESL_SqlRace_Domain_VirtualParameters_ITokenTransformer_
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.VirtualParameterContext.#ctor(System.String,MESL.SqlRace.Domain.VirtualParameters.ITokenTransformer,MESL.SqlRace.Domain.VirtualParameters.ITokenTransformer,MESL.SqlRace.Domain.VirtualParameters.ITokenTransformer,MESL.SqlRace.Domain.VirtualParameters.ITokenTransformer)
-  fullName: MESL.SqlRace.Domain.VirtualParameters.VirtualParameterContext.VirtualParameterContext(System.String, MESL.SqlRace.Domain.VirtualParameters.ITokenTransformer, MESL.SqlRace.Domain.VirtualParameters.ITokenTransformer, MESL.SqlRace.Domain.VirtualParameters.ITokenTransformer, MESL.SqlRace.Domain.VirtualParameters.ITokenTransformer)
-  nameWithType: VirtualParameterContext.VirtualParameterContext(String, ITokenTransformer, ITokenTransformer, ITokenTransformer, ITokenTransformer)
-- uid: MESL.SqlRace.Domain.VirtualParameters.VirtualParameterContext.#ctor*
-  name: VirtualParameterContext
-  href: api/MESL.SqlRace.Domain.VirtualParameters.VirtualParameterContext.html#MESL_SqlRace_Domain_VirtualParameters_VirtualParameterContext__ctor_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.VirtualParameterContext.#ctor
-  fullName: MESL.SqlRace.Domain.VirtualParameters.VirtualParameterContext.VirtualParameterContext
-  nameWithType: VirtualParameterContext.VirtualParameterContext
-- uid: MESL.SqlRace.Domain.VirtualParameters.VirtualParameterContext.FunctionText
-  name: FunctionText
-  href: api/MESL.SqlRace.Domain.VirtualParameters.VirtualParameterContext.html#MESL_SqlRace_Domain_VirtualParameters_VirtualParameterContext_FunctionText
-  commentId: P:MESL.SqlRace.Domain.VirtualParameters.VirtualParameterContext.FunctionText
-  fullName: MESL.SqlRace.Domain.VirtualParameters.VirtualParameterContext.FunctionText
-  nameWithType: VirtualParameterContext.FunctionText
-- uid: MESL.SqlRace.Domain.VirtualParameters.VirtualParameterContext.FunctionText*
-  name: FunctionText
-  href: api/MESL.SqlRace.Domain.VirtualParameters.VirtualParameterContext.html#MESL_SqlRace_Domain_VirtualParameters_VirtualParameterContext_FunctionText_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.VirtualParameterContext.FunctionText
-  fullName: MESL.SqlRace.Domain.VirtualParameters.VirtualParameterContext.FunctionText
-  nameWithType: VirtualParameterContext.FunctionText
-- uid: MESL.SqlRace.Domain.VirtualParameters.VirtualParameterContext.SourceIdentifiers
-  name: SourceIdentifiers
-  href: api/MESL.SqlRace.Domain.VirtualParameters.VirtualParameterContext.html#MESL_SqlRace_Domain_VirtualParameters_VirtualParameterContext_SourceIdentifiers
-  commentId: P:MESL.SqlRace.Domain.VirtualParameters.VirtualParameterContext.SourceIdentifiers
-  fullName: MESL.SqlRace.Domain.VirtualParameters.VirtualParameterContext.SourceIdentifiers
-  nameWithType: VirtualParameterContext.SourceIdentifiers
-- uid: MESL.SqlRace.Domain.VirtualParameters.VirtualParameterContext.SourceIdentifiers*
-  name: SourceIdentifiers
-  href: api/MESL.SqlRace.Domain.VirtualParameters.VirtualParameterContext.html#MESL_SqlRace_Domain_VirtualParameters_VirtualParameterContext_SourceIdentifiers_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.VirtualParameterContext.SourceIdentifiers
-  fullName: MESL.SqlRace.Domain.VirtualParameters.VirtualParameterContext.SourceIdentifiers
-  nameWithType: VirtualParameterContext.SourceIdentifiers
 - uid: MESL.SqlRace.Domain.VirtualParameters.VirtualParameterException
   name: VirtualParameterException
   href: api/MESL.SqlRace.Domain.VirtualParameters.VirtualParameterException.html
@@ -40679,36 +40202,6 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.VirtualParameterHierarchy.ToString
   fullName: MESL.SqlRace.Domain.VirtualParameters.VirtualParameterHierarchy.ToString
   nameWithType: VirtualParameterHierarchy.ToString
-- uid: MESL.SqlRace.Domain.VirtualParameters.VirtualParameterRunner
-  name: VirtualParameterRunner
-  href: api/MESL.SqlRace.Domain.VirtualParameters.VirtualParameterRunner.html
-  commentId: T:MESL.SqlRace.Domain.VirtualParameters.VirtualParameterRunner
-  fullName: MESL.SqlRace.Domain.VirtualParameters.VirtualParameterRunner
-  nameWithType: VirtualParameterRunner
-- uid: MESL.SqlRace.Domain.VirtualParameters.VirtualParameterRunner.#ctor
-  name: VirtualParameterRunner()
-  href: api/MESL.SqlRace.Domain.VirtualParameters.VirtualParameterRunner.html#MESL_SqlRace_Domain_VirtualParameters_VirtualParameterRunner__ctor
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.VirtualParameterRunner.#ctor
-  fullName: MESL.SqlRace.Domain.VirtualParameters.VirtualParameterRunner.VirtualParameterRunner()
-  nameWithType: VirtualParameterRunner.VirtualParameterRunner()
-- uid: MESL.SqlRace.Domain.VirtualParameters.VirtualParameterRunner.#ctor*
-  name: VirtualParameterRunner
-  href: api/MESL.SqlRace.Domain.VirtualParameters.VirtualParameterRunner.html#MESL_SqlRace_Domain_VirtualParameters_VirtualParameterRunner__ctor_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.VirtualParameterRunner.#ctor
-  fullName: MESL.SqlRace.Domain.VirtualParameters.VirtualParameterRunner.VirtualParameterRunner
-  nameWithType: VirtualParameterRunner.VirtualParameterRunner
-- uid: MESL.SqlRace.Domain.VirtualParameters.VirtualParameterRunner.GetFunctionInstance(System.Reflection.Assembly)
-  name: GetFunctionInstance(Assembly)
-  href: api/MESL.SqlRace.Domain.VirtualParameters.VirtualParameterRunner.html#MESL_SqlRace_Domain_VirtualParameters_VirtualParameterRunner_GetFunctionInstance_System_Reflection_Assembly_
-  commentId: M:MESL.SqlRace.Domain.VirtualParameters.VirtualParameterRunner.GetFunctionInstance(System.Reflection.Assembly)
-  fullName: MESL.SqlRace.Domain.VirtualParameters.VirtualParameterRunner.GetFunctionInstance(System.Reflection.Assembly)
-  nameWithType: VirtualParameterRunner.GetFunctionInstance(Assembly)
-- uid: MESL.SqlRace.Domain.VirtualParameters.VirtualParameterRunner.GetFunctionInstance*
-  name: GetFunctionInstance
-  href: api/MESL.SqlRace.Domain.VirtualParameters.VirtualParameterRunner.html#MESL_SqlRace_Domain_VirtualParameters_VirtualParameterRunner_GetFunctionInstance_
-  commentId: Overload:MESL.SqlRace.Domain.VirtualParameters.VirtualParameterRunner.GetFunctionInstance
-  fullName: MESL.SqlRace.Domain.VirtualParameters.VirtualParameterRunner.GetFunctionInstance
-  nameWithType: VirtualParameterRunner.GetFunctionInstance
 - uid: MESL.SqlRace.Domain.VirtualParameters.VirtualSample
   name: VirtualSample
   href: api/MESL.SqlRace.Domain.VirtualParameters.VirtualSample.html

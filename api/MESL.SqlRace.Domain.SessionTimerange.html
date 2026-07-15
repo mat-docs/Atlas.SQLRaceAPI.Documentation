@@ -90,13 +90,13 @@
   <h3 id="constructors">Constructors
   </h3>
   <a id="MESL_SqlRace_Domain_SessionTimerange__ctor_" data-uid="MESL.SqlRace.Domain.SessionTimerange.#ctor*"></a>
-  <h4 id="MESL_SqlRace_Domain_SessionTimerange__ctor_MAT_OCS_Core_SessionKey_System_Int64_System_Int64_" data-uid="MESL.SqlRace.Domain.SessionTimerange.#ctor(MAT.OCS.Core.SessionKey,System.Int64,System.Int64)">SessionTimerange(SessionKey, Int64, Int64)</h4>
+  <h4 id="MESL_SqlRace_Domain_SessionTimerange__ctor_MAT_OCS_Core_SessionKey_System_Int64_System_Int64_System_Double_" data-uid="MESL.SqlRace.Domain.SessionTimerange.#ctor(MAT.OCS.Core.SessionKey,System.Int64,System.Int64,System.Double)">SessionTimerange(SessionKey, Int64, Int64, Double)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="MESL.SqlRace.Domain.SessionTimerange.html">SessionTimerange</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SessionTimerange(SessionKey sessionKey, long startTime, long endTime)</code></pre>
+    <pre><code class="lang-csharp hljs">public SessionTimerange(SessionKey sessionKey, long startTime, long endTime, double maximumFrequency)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -126,6 +126,12 @@
         <td><p>The end time.</p>
 </td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">maximumFrequency</span></td>
+        <td><p>The maximum frequency across all channels</p>
+</td>
+      </tr>
     </tbody>
   </table>
   <h3 id="properties">Properties
@@ -150,6 +156,30 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_SessionTimerange_MaximumFrequency_" data-uid="MESL.SqlRace.Domain.SessionTimerange.MaximumFrequency*"></a>
+  <h4 id="MESL_SqlRace_Domain_SessionTimerange_MaximumFrequency" data-uid="MESL.SqlRace.Domain.SessionTimerange.MaximumFrequency">MaximumFrequency</h4>
+  <div class="markdown level1 summary"><p>The maximum frequency across all channels</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double MaximumFrequency { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
         <td></td>
       </tr>
     </tbody>

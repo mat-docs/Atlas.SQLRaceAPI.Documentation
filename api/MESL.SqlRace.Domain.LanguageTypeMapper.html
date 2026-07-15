@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class FdlSharpSyntaxErrorException
+    <title>Class LanguageTypeMapper
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class FdlSharpSyntaxErrorException
+    <meta name="title" content="Class LanguageTypeMapper
    ">
     <meta name="generator" content="docfx 2.56.2.0">
     
@@ -68,44 +68,35 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException">
+            <article class="content wrap" id="_content" data-uid="MESL.SqlRace.Domain.LanguageTypeMapper">
   
   
-  <h1 id="MESL_SqlRace_Domain_VirtualParameters_FDLLanguageConverter_FdlSharpSyntaxErrorException" data-uid="MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException" class="text-break">Class FdlSharpSyntaxErrorException
+  <h1 id="MESL_SqlRace_Domain_LanguageTypeMapper" data-uid="MESL.SqlRace.Domain.LanguageTypeMapper" class="text-break">Class LanguageTypeMapper
   </h1>
-  <div class="markdown level0 summary"><p>This exception is specifically defined for FDL syntax error.</p>
+  <div class="markdown level0 summary"><p>Provides methods to map between <a class="xref" href="MESL.SqlRace.Enumerators.LanguageType.html">LanguageType</a> and <span class="xref">MA.DataPlatforms.Functions.Common.LanguageType</span>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">FdlSharpSyntaxErrorException</span></div>
+    <div class="level1"><span class="xref">LanguageTypeMapper</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.html">MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MESL.SqlRace.Domain.html">MESL.SqlRace.Domain</a></h6>
   <h6><strong>Assembly</strong>: MESL.SqlRace.Domain.dll</h6>
-  <h5 id="MESL_SqlRace_Domain_VirtualParameters_FDLLanguageConverter_FdlSharpSyntaxErrorException_syntax">Syntax</h5>
+  <h5 id="MESL_SqlRace_Domain_LanguageTypeMapper_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class FdlSharpSyntaxErrorException : Exception</code></pre>
+    <pre><code class="lang-csharp hljs">public static class LanguageTypeMapper : Object</code></pre>
   </div>
-  <h3 id="constructors">Constructors
+  <h3 id="methods">Methods
   </h3>
-  <a id="MESL_SqlRace_Domain_VirtualParameters_FDLLanguageConverter_FdlSharpSyntaxErrorException__ctor_" data-uid="MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.#ctor*"></a>
-  <h4 id="MESL_SqlRace_Domain_VirtualParameters_FDLLanguageConverter_FdlSharpSyntaxErrorException__ctor" data-uid="MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.#ctor">FdlSharpSyntaxErrorException()</h4>
-  <div class="markdown level1 summary"><p>Initialises a new instance of the <a class="xref" href="MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.html">FdlSharpSyntaxErrorException</a> class. </p>
+  <a id="MESL_SqlRace_Domain_LanguageTypeMapper_ToMa_" data-uid="MESL.SqlRace.Domain.LanguageTypeMapper.ToMa*"></a>
+  <h4 id="MESL_SqlRace_Domain_LanguageTypeMapper_ToMa_MESL_SqlRace_Enumerators_LanguageType_" data-uid="MESL.SqlRace.Domain.LanguageTypeMapper.ToMa(MESL.SqlRace.Enumerators.LanguageType)">ToMa(LanguageType)</h4>
+  <div class="markdown level1 summary"><p>Converts a <a class="xref" href="MESL.SqlRace.Enumerators.LanguageType.html">LanguageType</a> to a <span class="xref">MA.DataPlatforms.Functions.Common.LanguageType</span>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public FdlSharpSyntaxErrorException()</code></pre>
-  </div>
-  <a id="MESL_SqlRace_Domain_VirtualParameters_FDLLanguageConverter_FdlSharpSyntaxErrorException__ctor_" data-uid="MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.#ctor*"></a>
-  <h4 id="MESL_SqlRace_Domain_VirtualParameters_FDLLanguageConverter_FdlSharpSyntaxErrorException__ctor_System_String_" data-uid="MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.#ctor(System.String)">FdlSharpSyntaxErrorException(String)</h4>
-  <div class="markdown level1 summary"><p>Initialises a new instance of the <a class="xref" href="MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.html">FdlSharpSyntaxErrorException</a> class. </p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public FdlSharpSyntaxErrorException(string message)</code></pre>
+    <pre><code class="lang-csharp hljs">public static LanguageType ToMa(this LanguageType meslLanguageType)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -118,21 +109,53 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">message</span></td>
-        <td><p>The message that describes the error.</p>
+        <td><a class="xref" href="MESL.SqlRace.Enumerators.LanguageType.html">LanguageType</a></td>
+        <td><span class="parametername">meslLanguageType</span></td>
+        <td><p>The <a class="xref" href="MESL.SqlRace.Enumerators.LanguageType.html">LanguageType</a> to convert.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <a id="MESL_SqlRace_Domain_VirtualParameters_FDLLanguageConverter_FdlSharpSyntaxErrorException__ctor_" data-uid="MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.#ctor*"></a>
-  <h4 id="MESL_SqlRace_Domain_VirtualParameters_FDLLanguageConverter_FdlSharpSyntaxErrorException__ctor_System_String_System_Exception_" data-uid="MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.#ctor(System.String,System.Exception)">FdlSharpSyntaxErrorException(String, Exception)</h4>
-  <div class="markdown level1 summary"><p>Initialises a new instance of the <a class="xref" href="MESL.SqlRace.Domain.VirtualParameters.FDLLanguageConverter.FdlSharpSyntaxErrorException.html">FdlSharpSyntaxErrorException</a> class. </p>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">MA.DataPlatforms.Functions.Common.LanguageType</span></td>
+        <td><p>The corresponding <span class="xref">MA.DataPlatforms.Functions.Common.LanguageType</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>Thrown when the <a class="xref" href="MESL.SqlRace.Enumerators.LanguageType.html">LanguageType</a> is not recognized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MESL_SqlRace_Domain_LanguageTypeMapper_ToMesl_" data-uid="MESL.SqlRace.Domain.LanguageTypeMapper.ToMesl*"></a>
+  <h4 id="MESL_SqlRace_Domain_LanguageTypeMapper_ToMesl_MA_DataPlatforms_Functions_Common_LanguageType_" data-uid="MESL.SqlRace.Domain.LanguageTypeMapper.ToMesl(MA.DataPlatforms.Functions.Common.LanguageType)">ToMesl(LanguageType)</h4>
+  <div class="markdown level1 summary"><p>Converts a <span class="xref">MA.DataPlatforms.Functions.Common.LanguageType</span> to a <a class="xref" href="MESL.SqlRace.Enumerators.LanguageType.html">LanguageType</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public FdlSharpSyntaxErrorException(string message, Exception inner)</code></pre>
+    <pre><code class="lang-csharp hljs">public static LanguageType ToMesl(this LanguageType maLanguageType)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -145,15 +168,41 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">message</span></td>
-        <td><p>The message.</p>
+        <td><span class="xref">MA.DataPlatforms.Functions.Common.LanguageType</span></td>
+        <td><span class="parametername">maLanguageType</span></td>
+        <td><p>The <span class="xref">MA.DataPlatforms.Functions.Common.LanguageType</span> to convert.</p>
 </td>
       </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
       <tr>
-        <td><span class="xref">System.Exception</span></td>
-        <td><span class="parametername">inner</span></td>
-        <td><p>The inner.</p>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MESL.SqlRace.Enumerators.LanguageType.html">LanguageType</a></td>
+        <td><p>The corresponding <a class="xref" href="MESL.SqlRace.Enumerators.LanguageType.html">LanguageType</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>Thrown when the <span class="xref">MA.DataPlatforms.Functions.Common.LanguageType</span> is not recognized.</p>
 </td>
       </tr>
     </tbody>
