@@ -3360,13 +3360,13 @@ This overload is needed by FDL functions.</p>
     </tbody>
   </table>
   <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_PhaseCompFilter_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.PhaseCompFilter*"></a>
-  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_PhaseCompFilter_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Double_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.PhaseCompFilter(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Double)">PhaseCompFilter(IExecutionContext, Int32, String, Double)</h4>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_PhaseCompFilter_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_String_System_Double_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.PhaseCompFilter(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.String,System.Double,System.Int64)">PhaseCompFilter(IExecutionContext, Int32, String, Double, Int64)</h4>
   <div class="markdown level1 summary"><p>Calculates the phase comp filter value for the given parameter.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static double PhaseCompFilter(this IExecutionContext executionContext, int processorSlot, string parameterId, double frequency)</code></pre>
+    <pre><code class="lang-csharp hljs">public static double PhaseCompFilter(this IExecutionContext executionContext, int processorSlot, string parameterId, double frequency, long timestamp)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3402,6 +3402,12 @@ This overload is needed by FDL functions.</p>
         <td><p>The frequency.</p>
 </td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
+</td>
+      </tr>
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
@@ -3415,7 +3421,7 @@ This overload is needed by FDL functions.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Double</span></td>
-        <td><p>The min value in the lap.</p>
+        <td><p>The phase compensated filtered value.</p>
 </td>
       </tr>
     </tbody>
