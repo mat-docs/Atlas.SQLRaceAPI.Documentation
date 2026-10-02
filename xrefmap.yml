@@ -13549,18 +13549,12 @@ references:
   commentId: Overload:MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LapStdDev
   fullName: MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LapStdDev
   nameWithType: ExecutionContextExtensionsForBuiltInProcessors.LapStdDev
-- uid: MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LapTime(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.Double)
-  name: LapTime(IExecutionContext, Int32, Double)
-  href: api/MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LapTime_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_Double_
-  commentId: M:MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LapTime(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.Double)
-  fullName: MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LapTime(MESL.SqlRace.Domain.Functions.IExecutionContext, System.Int32, System.Double)
-  nameWithType: ExecutionContextExtensionsForBuiltInProcessors.LapTime(IExecutionContext, Int32, Double)
-- uid: MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LapTime(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.Int32)
-  name: LapTime(IExecutionContext, Int32, Int32)
-  href: api/MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LapTime_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_Int32_
-  commentId: M:MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LapTime(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.Int32)
-  fullName: MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LapTime(MESL.SqlRace.Domain.Functions.IExecutionContext, System.Int32, System.Int32)
-  nameWithType: ExecutionContextExtensionsForBuiltInProcessors.LapTime(IExecutionContext, Int32, Int32)
+- uid: MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LapTime(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.Double,System.Int64)
+  name: LapTime(IExecutionContext, Int32, Double, Int64)
+  href: api/MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LapTime_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_Double_System_Int64_
+  commentId: M:MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LapTime(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.Double,System.Int64)
+  fullName: MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LapTime(MESL.SqlRace.Domain.Functions.IExecutionContext, System.Int32, System.Double, System.Int64)
+  nameWithType: ExecutionContextExtensionsForBuiltInProcessors.LapTime(IExecutionContext, Int32, Double, Int64)
 - uid: MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LapTime*
   name: LapTime
   href: api/MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.html#MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LapTime_

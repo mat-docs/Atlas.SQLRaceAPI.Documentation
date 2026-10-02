@@ -2476,13 +2476,13 @@ This overload is needed by FDL functions.</p>
     </tbody>
   </table>
   <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LapTime_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LapTime*"></a>
-  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LapTime_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_Double_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LapTime(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.Double)">LapTime(IExecutionContext, Int32, Double)</h4>
+  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LapTime_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_Double_System_Int64_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LapTime(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.Double,System.Int64)">LapTime(IExecutionContext, Int32, Double, Int64)</h4>
   <div class="markdown level1 summary"><p>Calculates lap time in seconds.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static double LapTime(this IExecutionContext executionContext, int processorSlot, double lapNumber)</code></pre>
+    <pre><code class="lang-csharp hljs">public static double LapTime(this IExecutionContext executionContext, int processorSlot, double lapNumber, long timestamp)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2511,59 +2511,11 @@ This overload is needed by FDL functions.</p>
         <td><span class="parametername">lapNumber</span></td>
         <td></td>
       </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Double</span></td>
-        <td><p>The min value in the lap.</p>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LapTime_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LapTime*"></a>
-  <h4 id="MESL_SqlRace_Domain_Functions_ExecutionContextExtensionsForBuiltInProcessors_LapTime_MESL_SqlRace_Domain_Functions_IExecutionContext_System_Int32_System_Int32_" data-uid="MESL.SqlRace.Domain.Functions.ExecutionContextExtensionsForBuiltInProcessors.LapTime(MESL.SqlRace.Domain.Functions.IExecutionContext,System.Int32,System.Int32)">LapTime(IExecutionContext, Int32, Int32)</h4>
-  <div class="markdown level1 summary"><p>Calculates lap time in seconds.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static double LapTime(this IExecutionContext executionContext, int processorSlot, int lapNumber)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="MESL.SqlRace.Domain.Functions.IExecutionContext.html">IExecutionContext</a></td>
-        <td><span class="parametername">executionContext</span></td>
-        <td><p>The execution context.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">processorSlot</span></td>
-        <td><p>The processor slot.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">lapNumber</span></td>
-        <td></td>
       </tr>
     </tbody>
   </table>
