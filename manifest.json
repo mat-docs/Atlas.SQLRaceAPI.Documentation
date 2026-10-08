@@ -5900,7 +5900,19 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Enumerators.RequestType.html",
-          "hash": "3eHjfDwbFi3pkaqJBTwUEA=="
+          "hash": "Jzp4sXolzww+GJo5erBsQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MESL.SqlRace.Enumerators.RequestTypeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MESL.SqlRace.Enumerators.RequestTypeExtensions.html",
+          "hash": "6xik1Q57A6qA1SxI6jnRFQ=="
         }
       },
       "is_incremental": false,
@@ -5948,7 +5960,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MESL.SqlRace.Enumerators.html",
-          "hash": "9ZyMx36GphWZgGx5NEfydw=="
+          "hash": "w2mmViA7PDBPE2B/d55jYw=="
         }
       },
       "is_incremental": false,
@@ -5960,7 +5972,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "huSf9KYkzI6GCuLWHcwgZQ=="
+          "hash": "utja3O8DaJgImmvfOBLS9g=="
         }
       },
       "is_incremental": false,
@@ -5999,7 +6011,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 491,
+          "total_file_count": 492,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

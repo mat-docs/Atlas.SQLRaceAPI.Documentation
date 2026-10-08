@@ -41837,6 +41837,24 @@ references:
   commentId: F:MESL.SqlRace.Enumerators.RequestType.value__
   fullName: MESL.SqlRace.Enumerators.RequestType.value__
   nameWithType: RequestType.value__
+- uid: MESL.SqlRace.Enumerators.RequestTypeExtensions
+  name: RequestTypeExtensions
+  href: api/MESL.SqlRace.Enumerators.RequestTypeExtensions.html
+  commentId: T:MESL.SqlRace.Enumerators.RequestTypeExtensions
+  fullName: MESL.SqlRace.Enumerators.RequestTypeExtensions
+  nameWithType: RequestTypeExtensions
+- uid: MESL.SqlRace.Enumerators.RequestTypeExtensions.IsSamplesRequest(MESL.SqlRace.Enumerators.RequestType)
+  name: IsSamplesRequest(RequestType)
+  href: api/MESL.SqlRace.Enumerators.RequestTypeExtensions.html#MESL_SqlRace_Enumerators_RequestTypeExtensions_IsSamplesRequest_MESL_SqlRace_Enumerators_RequestType_
+  commentId: M:MESL.SqlRace.Enumerators.RequestTypeExtensions.IsSamplesRequest(MESL.SqlRace.Enumerators.RequestType)
+  fullName: MESL.SqlRace.Enumerators.RequestTypeExtensions.IsSamplesRequest(MESL.SqlRace.Enumerators.RequestType)
+  nameWithType: RequestTypeExtensions.IsSamplesRequest(RequestType)
+- uid: MESL.SqlRace.Enumerators.RequestTypeExtensions.IsSamplesRequest*
+  name: IsSamplesRequest
+  href: api/MESL.SqlRace.Enumerators.RequestTypeExtensions.html#MESL_SqlRace_Enumerators_RequestTypeExtensions_IsSamplesRequest_
+  commentId: Overload:MESL.SqlRace.Enumerators.RequestTypeExtensions.IsSamplesRequest
+  fullName: MESL.SqlRace.Enumerators.RequestTypeExtensions.IsSamplesRequest
+  nameWithType: RequestTypeExtensions.IsSamplesRequest
 - uid: MESL.SqlRace.Enumerators.SampleModeType
   name: SampleModeType
   href: api/MESL.SqlRace.Enumerators.SampleModeType.html
